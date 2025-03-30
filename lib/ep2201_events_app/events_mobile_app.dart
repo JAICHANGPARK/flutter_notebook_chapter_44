@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'ui/events_app_home_page.dart';
+
 class EventsMobileApp extends StatelessWidget {
   const EventsMobileApp({super.key});
 
@@ -9,6 +11,7 @@ class EventsMobileApp extends StatelessWidget {
       theme: ThemeData.light().copyWith(
         scaffoldBackgroundColor: Color.fromRGBO(245, 244, 249, 1),
       ),
+      home: EventsAppHomePage(),
     );
   }
 }
