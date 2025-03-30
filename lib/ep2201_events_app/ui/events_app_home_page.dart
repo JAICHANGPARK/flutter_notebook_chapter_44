@@ -15,9 +15,15 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
       backgroundColor: Colors.white,
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        spacing: 12,
+        // spacing: 12,
         children: [
-          Expanded(child: Placeholder()),
+          Expanded(child: Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(24),
+              )
+            ),
+          )),
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Row(
