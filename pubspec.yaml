@@ -13,8 +13,9 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-  gap:
-  percent_indicator: 
+  gap: ^3.0.1
+  percent_indicator: ^4.2.4
+
 
 dev_dependencies:
   flutter_test:
