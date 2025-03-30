@@ -18,13 +18,21 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
         spacing: 12,
         children: [
           Expanded(child: Placeholder()),
-          Row(
-            children: [
-              Column(
-                spacing: 6,
-                children: [Icon(HugeIcons.strokeRoundedHome01), Text("Home")],
-              ),
-            ],
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Row(
+              children: [
+                Column(
+                  spacing: 6,
+                  children: [
+                    Icon(HugeIcons.strokeRoundedHome01),
+                    Text("Home", style: TextStyle(
+                      fontSize: 12,
+                    )),
+                  ],
+                ),
+              ],
+            ),
           ),
         ],
       ),
