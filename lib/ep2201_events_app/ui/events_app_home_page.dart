@@ -13,9 +13,9 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(
-        children: [
-          
-        ],
+        crossAxisAlignment: CrossAxisAlignment.start,
+        spacing: 12,
+        children: [Expanded(child: Placeholder())],
       ),
     );
   }
