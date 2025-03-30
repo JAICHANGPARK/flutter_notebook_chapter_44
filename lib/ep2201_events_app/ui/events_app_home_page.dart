@@ -31,6 +31,33 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                     )),
                   ],
                 ),
+                Column(
+                  spacing: 6,
+                  children: [
+                    Icon(HugeIcons.strokeRoundedHome01),
+                    Text("Home", style: TextStyle(
+                      fontSize: 12,
+                    )),
+                  ],
+                ),
+                Column(
+                  spacing: 6,
+                  children: [
+                    Icon(HugeIcons.strokeRoundedHome01),
+                    Text("Home", style: TextStyle(
+                      fontSize: 12,
+                    )),
+                  ],
+                ),
+                Column(
+                  spacing: 6,
+                  children: [
+                    Icon(HugeIcons.strokeRoundedHome01),
+                    Text("Home", style: TextStyle(
+                      fontSize: 12,
+                    )),
+                  ],
+                ),
               ],
             ),
           ),
