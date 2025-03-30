@@ -5,6 +5,10 @@ class EventsMobileApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(theme: ThemeData.light().copyWith(scaffoldBackgroundColor: Color.fromRGBO(245, 244, 249, 1)));
+    return MaterialApp(
+      theme: ThemeData.light().copyWith(
+        scaffoldBackgroundColor: Color.fromRGBO(245, 244, 249, 1),
+      ),
+    );
   }
 }
