@@ -15,13 +15,10 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         spacing: 12,
-        children: [Expanded(child: Placeholder()), Row(children: [
-          Column(
-            children: [
-              
-            ],
-          )
-        ],)],
+        children: [
+          Expanded(child: Placeholder()),
+          Row(children: [Column(children: [])]),
+        ],
       ),
     );
   }
