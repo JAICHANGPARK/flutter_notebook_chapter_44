@@ -9,7 +9,7 @@ class EventsMobileApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.light().copyWith(
-        scaffoldBackgroundColor: Color.fromRGBO(245, 244, 249, 1),
+        // scaffoldBackgroundColor: Color.fromRGBO(245, 244, 249, 1),
       ),
       home: EventsAppHomePage(),
     );
