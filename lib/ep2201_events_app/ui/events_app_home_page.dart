@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class EventsAppHomePage extends StatefulWidget {
   const EventsAppHomePage({super.key});
@@ -17,7 +18,14 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
         spacing: 12,
         children: [
           Expanded(child: Placeholder()),
-          Row(children: [Column(children: [])]),
+          Row(
+            children: [
+              Column(
+                spacing: 6,
+                children: [Icon(HugeIcons.strokeRoundedHome01), Text("Home")],
+              ),
+            ],
+          ),
         ],
       ),
     );
