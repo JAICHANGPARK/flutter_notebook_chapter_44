@@ -21,6 +21,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Column(
                   spacing: 6,
