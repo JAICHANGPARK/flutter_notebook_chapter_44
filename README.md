@@ -4,6 +4,9 @@ A new Flutter project.
 
 ## EP2201 
 
+- Events Mobile App
+- 
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
