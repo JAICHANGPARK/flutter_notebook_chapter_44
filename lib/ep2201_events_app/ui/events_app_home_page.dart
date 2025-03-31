@@ -45,8 +45,12 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                           ],
                         ),
                       ),
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                      )
                     ],
                   ),
+
                 ],
               ),
             ),
