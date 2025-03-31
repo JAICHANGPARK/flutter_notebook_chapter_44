@@ -26,33 +26,40 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                 ),
                 color: Color.fromRGBO(245, 244, 249, 1),
               ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: Row(
-                      children: [
-                        CircleAvatar(),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text('Your Location'),
-                              Row(
-                                children: [
-                                  Text("Metropolis, DC"),
-                                  Icon(Icons.keyboard_arrow_down_outlined),
-                                ],
-                              ),
-                            ],
+              child: SafeArea(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Row(
+                        spacing: 12,
+                        children: [
+                          CircleAvatar(),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text('Your Location'),
+                                Row(
+                                  children: [
+                                    Text("Metropolis, DC"),
+                                    Icon(Icons.keyboard_arrow_down_outlined),
+                                  ],
+                                ),
+                              ],
+                            ),
                           ),
-                        ),
-                        CircleAvatar(backgroundColor: Colors.white),
-                      ],
+                          CircleAvatar(
+                            backgroundColor: Colors.white,
+
+                            child: Icon(HugeIcons.strokeRoundedNotification02),
+                          ),
+                        ],
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
           ),
