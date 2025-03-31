@@ -57,6 +57,11 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                         ],
                       ),
                     ),
+                    Expanded(child: SingleChildScrollView(child: Column(
+                      children: [
+
+                      ],
+                    ),)),
                     Container(
                       height: 400,
                       child: Stack(
