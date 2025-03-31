@@ -57,20 +57,25 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                         ],
                       ),
                     ),
-                    Expanded(child: SingleChildScrollView(child: Column(
-                      children: [
-
-                      ],
-                    ),)),
-                    Container(
-                      height: 400,
-                      child: Stack(
-                        children: [
-
-                        ],
-                      )
+                    Expanded(
+                      child: SingleChildScrollView(
+                        child: Column(
+                          children: [
+                            Container(height: 400, child: Stack(children: [])),
+                            SizedBox(
+                              height: 100,
+                              child: ListView.builder(
+                                scrollDirection: Axis.horizontal,
+                                itemCount: 10,
+                                itemBuilder: (context, index) {
+                                  return Column(children: []);
+                                },
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
                     ),
-
                   ],
                 ),
               ),
