@@ -29,10 +29,9 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
               child: SafeArea(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-
                   children: [
                     Padding(
-                      padding: const EdgeInsets.all(16.0),
+                      padding: const EdgeInsets.fromLTRB(16.0, 24, 16, 16),
                       child: Row(
                         spacing: 12,
                         children: [
@@ -90,9 +89,12 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                               ),
                             ),
                             Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 16),
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 16,
+                              ),
                               child: Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text("Find Events in Your Area"),
                                   TextButton(
@@ -102,10 +104,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                 ],
                               ),
                             ),
-                            Container(
-                              height: 300,
-                              child: Placeholder(),
-                            )
+                            Container(height: 300, child: Placeholder()),
                           ],
                         ),
                       ),
