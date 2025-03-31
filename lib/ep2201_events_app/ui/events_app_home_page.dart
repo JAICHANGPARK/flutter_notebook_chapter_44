@@ -26,6 +26,11 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                 ),
                 color: Color.fromRGBO(245, 244, 249, 1),
               ),
+              child: Column(
+                children: [
+                  
+                ],
+              ),
             ),
           ),
           Padding(
