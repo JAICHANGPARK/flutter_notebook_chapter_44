@@ -29,11 +29,12 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                    Row(
-                      children: [
-                        
-                      ],
-                    )
+                  Row(
+                    children: [
+                      CircleAvatar(),
+                      Expanded(child: Column(children: [],)),
+                    ],
+                  ),
                 ],
               ),
             ),
