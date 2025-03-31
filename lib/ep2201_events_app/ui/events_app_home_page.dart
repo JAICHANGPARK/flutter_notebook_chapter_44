@@ -61,7 +61,10 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                       child: SingleChildScrollView(
                         child: Column(
                           children: [
-                            Container(height: 400, child: Stack(children: [])),
+                            Container(
+                              height: 400,
+                              child: Stack(children: [Placeholder()]),
+                            ),
                             SizedBox(
                               height: 100,
                               child: ListView.builder(
@@ -80,9 +83,18 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                               margin: EdgeInsets.symmetric(horizontal: 16),
                               decoration: BoxDecoration(
                                 color: Colors.white,
-                                border: Border.all(color: Colors.grey[100]!),
+                                border: Border.all(color: Colors.grey[200]!),
                                 borderRadius: BorderRadius.circular(12),
                               ),
+                            ),
+                            Row(
+                              children: [
+                                Text("Find Events in Your Area"),
+                                TextButton(
+                                  onPressed: () {},
+                                  child: Text("Explore More"),
+                                ),
+                              ],
                             ),
                           ],
                         ),
