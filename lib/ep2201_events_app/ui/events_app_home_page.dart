@@ -52,12 +52,20 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                           ),
                           CircleAvatar(
                             backgroundColor: Colors.white,
-
                             child: Icon(HugeIcons.strokeRoundedNotification02),
                           ),
                         ],
                       ),
                     ),
+                    Container(
+                      height: 400,
+                      child: Stack(
+                        children: [
+
+                        ],
+                      )
+                    ),
+
                   ],
                 ),
               ),
