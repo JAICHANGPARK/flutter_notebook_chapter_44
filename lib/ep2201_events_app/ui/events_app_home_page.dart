@@ -29,28 +29,29 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    children: [
-                      CircleAvatar(),
-                      Expanded(
-                        child: Column(
-                          children: [
-                            Text('Your Location'),
-                            Row(
-                              children: [
-                                Text("Metropolis, DC"),
-                                Icon(Icons.keyboard_arrow_down_outlined),
-                              ],
-                            ),
-                          ],
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      children: [
+                        CircleAvatar(),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text('Your Location'),
+                              Row(
+                                children: [
+                                  Text("Metropolis, DC"),
+                                  Icon(Icons.keyboard_arrow_down_outlined),
+                                ],
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                      )
-                    ],
+                        CircleAvatar(backgroundColor: Colors.white),
+                      ],
+                    ),
                   ),
-
                 ],
               ),
             ),
