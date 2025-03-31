@@ -31,7 +31,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: const EdgeInsets.fromLTRB(16.0, 24, 16, 16),
+                      padding: const EdgeInsets.fromLTRB(16.0, 42, 16, 16),
                       child: Row(
                         spacing: 12,
                         children: [
