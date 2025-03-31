@@ -29,6 +29,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
               child: SafeArea(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
+
                   children: [
                     Padding(
                       padding: const EdgeInsets.all(16.0),
@@ -60,6 +61,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                     Expanded(
                       child: SingleChildScrollView(
                         child: Column(
+                          spacing: 16,
                           children: [
                             Container(
                               height: 400,
@@ -87,15 +89,23 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                 borderRadius: BorderRadius.circular(12),
                               ),
                             ),
-                            Row(
-                              children: [
-                                Text("Find Events in Your Area"),
-                                TextButton(
-                                  onPressed: () {},
-                                  child: Text("Explore More"),
-                                ),
-                              ],
+                            Padding(
+                              padding: const EdgeInsets.symmetric(horizontal: 16),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text("Find Events in Your Area"),
+                                  TextButton(
+                                    onPressed: () {},
+                                    child: Text("Explore More"),
+                                  ),
+                                ],
+                              ),
                             ),
+                            Container(
+                              height: 300,
+                              child: Placeholder(),
+                            )
                           ],
                         ),
                       ),
