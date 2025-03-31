@@ -32,7 +32,19 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                   Row(
                     children: [
                       CircleAvatar(),
-                      Expanded(child: Column(children: [],)),
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Text('Your Location'),
+                            Row(
+                              children: [
+                                Text("Metropolis, DC"),
+                                Icon(Icons.keyboard_arrow_down_outlined),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                 ],
