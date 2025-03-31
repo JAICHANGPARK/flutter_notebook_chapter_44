@@ -68,8 +68,20 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                 scrollDirection: Axis.horizontal,
                                 itemCount: 10,
                                 itemBuilder: (context, index) {
-                                  return Column(children: []);
+                                  return Column(
+                                    children: [Container(), Text("")],
+                                  );
                                 },
+                              ),
+                            ),
+
+                            Container(
+                              height: 48,
+                              margin: EdgeInsets.symmetric(horizontal: 16),
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                border: Border.all(color: Colors.grey[100]!),
+                                borderRadius: BorderRadius.circular(12),
                               ),
                             ),
                           ],
