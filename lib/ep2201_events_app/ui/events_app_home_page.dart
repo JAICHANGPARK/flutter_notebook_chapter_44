@@ -102,6 +102,24 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                       ),
                                     ),
                                   ),
+                                  Positioned.fill(
+                                    left: 24,
+                                    right: 24,
+                                    bottom: 24,
+                                    top: 24,
+                                    child: Transform.rotate(
+                                      angle: 0,
+                                      child: Container(
+                                        margin: EdgeInsets.all(12),
+                                        decoration: BoxDecoration(
+                                          color: Colors.lightGreenAccent,
+                                          borderRadius: BorderRadius.circular(
+                                            16,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
                                 ],
                               ),
                             ),
