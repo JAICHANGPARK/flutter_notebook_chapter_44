@@ -131,7 +131,6 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                             Container(
                                               decoration: ShapeDecoration(
                                                 shape: StadiumBorder(),
-
                                                 color: Colors.white,
                                               ),
                                               padding: EdgeInsets.symmetric(
@@ -141,6 +140,13 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                               child: Text("Traditional"),
                                             ),
                                             Spacer(),
+                                            Text(
+                                              "Dreamwalker Ceremony",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 20,
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
