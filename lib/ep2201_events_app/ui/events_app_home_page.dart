@@ -156,19 +156,41 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                                   color: Colors.white,
                                                   size: 16,
                                                 ),
-                                                Text("Seoul City"),
+                                                Text(
+                                                  "Seoul City",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                    fontSize: 12,
+                                                  ),
+                                                ),
                                                 Icon(
                                                   Icons.calendar_month,
                                                   color: Colors.white,
+                                                  size: 16,
                                                 ),
-                                                Text("12 jan 2025"),
+                                                Text(
+                                                  "12 jan 2025",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                    fontSize: 12,
+                                                  ),
+                                                ),
                                                 Icon(
                                                   Icons.timelapse,
                                                   color: Colors.white,
+                                                  size: 16,
                                                 ),
-                                                Text("12:00 AM"),
+                                                Text(
+                                                  "12:00 AM",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                    fontSize: 12,
+                                                  ),
+                                                ),
                                               ],
                                             ),
+                                            Divider(),
+                                            Row(children: []),
                                           ],
                                         ),
                                       ),
@@ -184,7 +206,17 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                 itemCount: 10,
                                 itemBuilder: (context, index) {
                                   return Column(
-                                    children: [Container(), Text("")],
+                                    children: [
+                                      Container(
+                                        decoration: BoxDecoration(
+                                          shape: BoxShape.circle,
+                                          color: Colors.deepPurple,
+                                        ),
+                                        padding: EdgeInsets.all(2),
+                                        child: CircleAvatar(radius: 26,),
+                                      ),
+                                      Text(""),
+                                    ],
                                   );
                                 },
                               ),
