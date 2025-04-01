@@ -125,6 +125,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                         ),
                                         padding: EdgeInsets.all(8),
                                         child: Column(
+                                          spacing: 8,
                                           crossAxisAlignment:
                                               CrossAxisAlignment.start,
                                           children: [
@@ -148,6 +149,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                               ),
                                             ),
                                             Row(
+                                              spacing: 8
                                               children: [
                                                 Icon(
                                                   Icons.location_on_outlined,
