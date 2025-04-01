@@ -225,6 +225,9 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                             "Dream Walker",
                                             maxLines: 1,
                                             overflow: TextOverflow.ellipsis,
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                            ),
                                           ),
                                         ],
                                       ),
