@@ -65,7 +65,11 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                             Container(
                               height: 400,
                               child: Stack(
-                                children: [Positioned.fill(child: Container())],
+                                children: [Positioned.fill(child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey[200]!
+                                  ),
+                                ))],
                               ),
                             ),
                             SizedBox(
