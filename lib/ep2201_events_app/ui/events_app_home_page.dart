@@ -147,6 +147,22 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                                 fontSize: 20,
                                               ),
                                             ),
+                                            Row(
+                                              children: [
+                                                Icon(
+                                                  Icons.location_on_outlined,
+                                                ),
+                                                Text("Seoul City"),
+                                                Icon(
+                                                  Icons.calendar_month,
+                                                ),
+                                                Text("12 jan 2025"),
+                                                Icon(
+                                                  Icons.location_on_outlined,
+                                                ),
+                                                Text("Seoul City"),
+                                              ],
+                                            ),
                                           ],
                                         ),
                                       ),
