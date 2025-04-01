@@ -72,7 +72,25 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                     bottom: 24,
                                     top: 24,
                                     child: Transform.rotate(
-                                      angle: .04,
+                                      angle: -.05,
+                                      child: Container(
+                                        margin: EdgeInsets.all(12),
+                                        decoration: BoxDecoration(
+                                          color: Colors.deepPurple,
+                                          borderRadius: BorderRadius.circular(
+                                            16,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned.fill(
+                                    left: 24,
+                                    right: 24,
+                                    bottom: 24,
+                                    top: 24,
+                                    child: Transform.rotate(
+                                      angle: .05,
                                       child: Container(
                                         margin: EdgeInsets.all(12),
                                         decoration: BoxDecoration(
