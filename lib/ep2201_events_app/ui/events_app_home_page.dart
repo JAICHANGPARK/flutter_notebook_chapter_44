@@ -206,18 +206,24 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                 scrollDirection: Axis.horizontal,
                                 itemCount: 10,
                                 itemBuilder: (context, index) {
-                                  return Column(
-                                    children: [
-                                      Container(
-                                        decoration: BoxDecoration(
-                                          shape: BoxShape.circle,
-                                          color: Colors.deepPurple,
-                                        ),
-                                        padding: EdgeInsets.all(2),
-                                        child: CircleAvatar(radius: 26,),
+                                  return Padding(
+                                    padding: const EdgeInsets.only(left: 12),
+                                    child: SizedBox(
+                                      width: 62,
+                                      child: Column(
+                                        children: [
+                                          Container(
+                                            decoration: BoxDecoration(
+                                              shape: BoxShape.circle,
+                                              color: Colors.deepPurple,
+                                            ),
+                                            padding: EdgeInsets.all(2),
+                                            child: CircleAvatar(radius: 26),
+                                          ),
+                                          Text("Dream Walker", maxLines: 1),
+                                        ],
                                       ),
-                                      Text(""),
-                                    ],
+                                    ),
                                   );
                                 },
                               ),
