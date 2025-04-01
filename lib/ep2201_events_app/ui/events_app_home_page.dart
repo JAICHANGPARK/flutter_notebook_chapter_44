@@ -123,6 +123,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                             fit: BoxFit.cover,
                                           ),
                                         ),
+                                        padding: EdgeInsets.all(8),
                                         child: Column(
                                           crossAxisAlignment:
                                               CrossAxisAlignment.start,
