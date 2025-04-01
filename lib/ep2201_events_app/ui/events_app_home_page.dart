@@ -80,7 +80,6 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                           borderRadius: BorderRadius.circular(
                                             16,
                                           ),
-
                                         ),
                                       ),
                                     ),
@@ -125,10 +124,13 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                           ),
                                         ),
                                         child: Column(
-                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
                                           children: [
                                             Container(
-                                              decoration: BoxDecoration(),
+                                              decoration: ShapeDecoration(
+                                                shape: StadiumBorder(),
+                                              ),
                                             ),
                                             Spacer(),
                                           ],
