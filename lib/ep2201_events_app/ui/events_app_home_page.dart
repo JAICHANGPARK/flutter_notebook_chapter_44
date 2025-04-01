@@ -211,7 +211,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                     child: SizedBox(
                                       width: 62,
                                       child: Column(
-                                        spacing: 12,
+                                        spacing: 8,
                                         children: [
                                           Container(
                                             decoration: BoxDecoration(
@@ -219,7 +219,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                               color: Colors.deepPurple,
                                             ),
                                             padding: EdgeInsets.all(1.5),
-                                            child: CircleAvatar(radius: 26),
+                                            child: CircleAvatar(radius: 28),
                                           ),
                                           Text(
                                             "Dream Walker",
