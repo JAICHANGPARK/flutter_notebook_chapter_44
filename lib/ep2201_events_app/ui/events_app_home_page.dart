@@ -149,18 +149,21 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                               ),
                                             ),
                                             Row(
-                                              spacing: 8
+                                              spacing: 4,
                                               children: [
                                                 Icon(
                                                   Icons.location_on_outlined,
+                                                  color: Colors.white,
                                                 ),
                                                 Text("Seoul City"),
                                                 Icon(
                                                   Icons.calendar_month,
+                                                  color: Colors.white,
                                                 ),
                                                 Text("12 jan 2025"),
                                                 Icon(
                                                   Icons.timelapse,
+                                                  color: Colors.white,
                                                 ),
                                                 Text("12:00 AM"),
                                               ],
