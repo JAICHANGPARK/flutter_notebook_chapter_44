@@ -66,9 +66,12 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                               height: 400,
                               child: Stack(
                                 children: [Positioned.fill(
-                                    
+                                    left: 24,
+                                    right: 24,
+                                    bottom: 24,
+                                    top: 24,
                                     child: Transform.rotate(
-                                  angle: .1,
+                                  angle: .05,
                                   child: Container(
                                     margin: EdgeInsets.all(12),
                                     decoration: BoxDecoration(
