@@ -199,8 +199,9 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                 ],
                               ),
                             ),
-                            SizedBox(
+                            Container(
                               height: 100,
+                              padding: EdgeInsets.only(left: 16),
                               child: ListView.builder(
                                 scrollDirection: Axis.horizontal,
                                 itemCount: 10,
