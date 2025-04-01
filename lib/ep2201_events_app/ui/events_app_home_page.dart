@@ -129,8 +129,12 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                           children: [
                                             Container(
                                               decoration: ShapeDecoration(
-                                                shape: StadiumBorder(),
+                                                shape: StadiumBorder(
+
+                                                ),
+                                                color: Colors.white
                                               ),
+                                              child: Text("Traditional"),
                                             ),
                                             Spacer(),
                                           ],
