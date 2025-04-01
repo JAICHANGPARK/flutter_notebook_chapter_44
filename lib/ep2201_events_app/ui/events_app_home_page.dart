@@ -154,6 +154,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                                 Icon(
                                                   Icons.location_on_outlined,
                                                   color: Colors.white,
+                                                  size: 16,
                                                 ),
                                                 Text("Seoul City"),
                                                 Icon(
