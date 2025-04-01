@@ -158,9 +158,9 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                                 ),
                                                 Text("12 jan 2025"),
                                                 Icon(
-                                                  Icons.location_on_outlined,
+                                                  Icons.timelapse,
                                                 ),
-                                                Text("Seoul City"),
+                                                Text("12:00 AM"),
                                               ],
                                             ),
                                           ],
