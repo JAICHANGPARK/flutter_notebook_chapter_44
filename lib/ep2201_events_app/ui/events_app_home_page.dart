@@ -80,11 +80,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                           borderRadius: BorderRadius.circular(
                                             16,
                                           ),
-                                          image: DecorationImage(
-                                            image: NetworkImage(
-                                              "https://cdn.pixabay.com/photo/2020/02/03/08/59/escalator-4815107_1280.jpg",
-                                            ),
-                                          ),
+
                                         ),
                                       ),
                                     ),
@@ -121,6 +117,21 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                           borderRadius: BorderRadius.circular(
                                             16,
                                           ),
+                                          image: DecorationImage(
+                                            image: NetworkImage(
+                                              "https://cdn.pixabay.com/photo/2020/02/03/08/59/escalator-4815107_1280.jpg",
+                                            ),
+                                            fit: BoxFit.cover,
+                                          ),
+                                        ),
+                                        child: Column(
+                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          children: [
+                                            Container(
+                                              decoration: BoxDecoration(),
+                                            ),
+                                            Spacer(),
+                                          ],
                                         ),
                                       ),
                                     ),
