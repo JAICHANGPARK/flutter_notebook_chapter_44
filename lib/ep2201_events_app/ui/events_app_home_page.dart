@@ -253,6 +253,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                     child: TextField(
                                       decoration: InputDecoration(
                                         hintText: "Find Event...",
+                                        border: InputBorder.none,
                                       ),
                                     ),
                                   ),
