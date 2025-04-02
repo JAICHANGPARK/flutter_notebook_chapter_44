@@ -217,8 +217,8 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                                 Spacer(),
                                                 Container(
                                                   padding: EdgeInsets.symmetric(
-                                                    horizontal: 4,
-                                                    vertical: 2,
+                                                    horizontal: 12,
+                                                    vertical: 4,
                                                   ),
                                                   decoration: ShapeDecoration(
                                                     shape: StadiumBorder(),
