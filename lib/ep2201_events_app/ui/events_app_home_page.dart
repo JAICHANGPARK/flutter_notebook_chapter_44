@@ -249,7 +249,11 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                               child: Row(
                                 children: [
                                   Icon(Icons.search_outlined),
-                                  Expanded(child: TextField()),
+                                  Expanded(child: TextField(
+                                    decoration: InputDecoration(
+                                      
+                                    ),
+                                  )),
                                 ],
                               ),
                             ),
