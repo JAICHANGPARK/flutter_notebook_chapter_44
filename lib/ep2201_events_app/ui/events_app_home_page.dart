@@ -190,26 +190,23 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                               ],
                                             ),
                                             Divider(),
-                                            Row(children: [
-                                              Container(
-                                                child: Row(
-                                                  children: [
-                                                    CircleAvatar(
-                                                      radius: 12,
-                                                    ),
-                                                    CircleAvatar(
-                                                      radius: 12,
-                                                    ),
-                                                    CircleAvatar(
-                                                      radius: 12,
-                                                    ),
-                                                    CircleAvatar(
-                                                      radius: 12,
-                                                    )
-                                                  ],
+                                            Row(
+                                              children: [
+                                                Container(
+                                                  decoration: ShapeDecoration(
+                                                    shape: StadiumBorder(),
+                                                  ),
+                                                  child: Row(
+                                                    children: [
+                                                      CircleAvatar(radius: 12),
+                                                      CircleAvatar(radius: 12),
+                                                      CircleAvatar(radius: 12),
+                                                      CircleAvatar(radius: 12),
+                                                    ],
+                                                  ),
                                                 ),
-                                              )
-                                            ]),
+                                              ],
+                                            ),
                                           ],
                                         ),
                                       ),
