@@ -290,7 +290,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                   return Container(
                                     width: 320,
                                     decoration: BoxDecoration(
-
+                                      color: Colors.blue,
                                     ),
                                   );
                                 },
