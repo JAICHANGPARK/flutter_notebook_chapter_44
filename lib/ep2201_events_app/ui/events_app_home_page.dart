@@ -207,6 +207,12 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                                     ],
                                                   ),
                                                 ),
+                                                CircleAvatar(
+                                                  radius: 14,
+                                                ),
+                                                CircleAvatar(
+                                                  radius: 14,
+                                                )
                                               ],
                                             ),
                                           ],
