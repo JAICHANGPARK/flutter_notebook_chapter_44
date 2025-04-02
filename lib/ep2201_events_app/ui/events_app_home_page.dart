@@ -245,6 +245,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                 border: Border.all(color: Colors.grey[200]!),
                                 borderRadius: BorderRadius.circular(12),
                               ),
+                              padding: EdgeInsets.symmetric(horizontal: 12),
                               child: Row(
                                 children: [
                                   Icon(Icons.search_outlined),
