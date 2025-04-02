@@ -247,6 +247,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                               ),
                               padding: EdgeInsets.symmetric(horizontal: 12),
                               child: Row(
+                                spacing: 6,
                                 children: [
                                   Icon(Icons.search_outlined),
                                   Expanded(
