@@ -194,10 +194,14 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                               spacing: 16,
                                               children: [
                                                 Container(
-                                                  padding: EdgeInsets.symmetric(horizontal: 4,vertical: 2),
+                                                  padding: EdgeInsets.symmetric(
+                                                    horizontal: 4,
+                                                    vertical: 2,
+                                                  ),
                                                   decoration: ShapeDecoration(
                                                     shape: StadiumBorder(),
-                                                    color: Colors.white.withValues(alpha: .4),
+                                                    color: Colors.white
+                                                        .withValues(alpha: .4),
                                                   ),
                                                   child: Row(
                                                     children: [
@@ -208,12 +212,25 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                                     ],
                                                   ),
                                                 ),
-                                                CircleAvatar(
-                                                  radius: 14,
+                                                CircleAvatar(radius: 14),
+                                                CircleAvatar(radius: 14),
+                                                Spacer(),
+                                                Container(
+                                                  padding: EdgeInsets.symmetric(
+                                                    horizontal: 4,
+                                                    vertical: 2,
+                                                  ),
+                                                  decoration: ShapeDecoration(
+                                                    shape: StadiumBorder(),
+                                                    color: Colors.purple,
+                                                  ),
+                                                  child: Text(
+                                                    "Join",
+                                                    style: TextStyle(
+                                                      color: Colors.white,
+                                                    ),
+                                                  ),
                                                 ),
-                                                CircleAvatar(
-                                                  radius: 14,
-                                                )
                                               ],
                                             ),
                                           ],
