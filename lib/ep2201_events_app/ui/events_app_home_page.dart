@@ -191,6 +191,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                             ),
                                             Divider(),
                                             Row(
+                                              spacing: 16,
                                               children: [
                                                 Container(
                                                   padding: EdgeInsets.symmetric(horizontal: 4,vertical: 2),
