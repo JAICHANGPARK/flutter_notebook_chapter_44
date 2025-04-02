@@ -286,12 +286,14 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                             Container(
                               height: 300,
                               child: ListView.builder(
+                                scrollDirection: Axis.horizontal,
                                 itemBuilder: (context, index) {
                                   return Container(
                                     width: 320,
                                     decoration: BoxDecoration(
                                       color: Colors.blue,
                                     ),
+
                                   );
                                 },
                               ),
