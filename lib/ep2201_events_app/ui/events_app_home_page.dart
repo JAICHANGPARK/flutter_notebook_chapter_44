@@ -190,7 +190,26 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                               ],
                                             ),
                                             Divider(),
-                                            Row(children: []),
+                                            Row(children: [
+                                              Container(
+                                                child: Row(
+                                                  children: [
+                                                    CircleAvatar(
+                                                      radius: 12,
+                                                    ),
+                                                    CircleAvatar(
+                                                      radius: 12,
+                                                    ),
+                                                    CircleAvatar(
+                                                      radius: 12,
+                                                    ),
+                                                    CircleAvatar(
+                                                      radius: 12,
+                                                    )
+                                                  ],
+                                                ),
+                                              )
+                                            ]),
                                           ],
                                         ),
                                       ),
