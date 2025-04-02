@@ -269,7 +269,13 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
                                 children: [
-                                  Text("Find Events in Your Area"),
+                                  Text(
+                                    "Find Events in Your Area",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 16,
+                                    ),
+                                  ),
                                   TextButton(
                                     onPressed: () {},
                                     child: Text("Explore More"),
@@ -277,7 +283,19 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                 ],
                               ),
                             ),
-                            Container(height: 300, child: Placeholder()),
+                            Container(
+                              height: 300,
+                              child: ListView.builder(
+                                itemBuilder: (context, index) {
+                                  return Container(
+                                    width: 320,
+                                    decoration: BoxDecoration(
+
+                                    ),
+                                  );
+                                },
+                              ),
+                            ),
                           ],
                         ),
                       ),
