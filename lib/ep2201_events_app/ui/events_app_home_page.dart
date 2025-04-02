@@ -63,7 +63,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                           spacing: 16,
                           children: [
                             Container(
-                              height: 400,
+                              height: 420,
                               child: Stack(
                                 children: [
                                   Positioned.fill(
