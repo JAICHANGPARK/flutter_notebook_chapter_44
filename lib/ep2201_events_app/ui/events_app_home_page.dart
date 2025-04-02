@@ -193,8 +193,10 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                                             Row(
                                               children: [
                                                 Container(
+                                                  padding: EdgeInsets.symmetric(horizontal: 4,vertical: 2),
                                                   decoration: ShapeDecoration(
                                                     shape: StadiumBorder(),
+                                                    color: Colors.white.withValues(alpha: .4),
                                                   ),
                                                   child: Row(
                                                     children: [
