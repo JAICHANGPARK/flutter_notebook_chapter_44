@@ -21,8 +21,8 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(
-                  bottomLeft: Radius.circular(24),
-                  bottomRight: Radius.circular(24),
+                  bottomLeft: Radius.circular(32),
+                  bottomRight: Radius.circular(32),
                 ),
                 color: Color.fromRGBO(245, 244, 249, 1),
               ),
