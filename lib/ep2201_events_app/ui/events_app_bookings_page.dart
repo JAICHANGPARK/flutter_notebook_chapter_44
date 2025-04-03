@@ -11,6 +11,12 @@ class EventsAppBookingsPage extends StatefulWidget {
 class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(
+        children: [
+
+        ],
+      ),
+    );
   }
 }
