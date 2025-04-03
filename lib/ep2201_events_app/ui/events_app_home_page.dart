@@ -369,7 +369,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                   spacing: 6,
                   children: [
                     Icon(HugeIcons.strokeRoundedDiscoverCircle),
-                    Text("History", style: TextStyle(fontSize: 12)),
+                    Text("Bookings", style: TextStyle(fontSize: 12)),
                   ],
                 ),
                 Column(
