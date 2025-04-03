@@ -365,12 +365,14 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                     Text("Home", style: TextStyle(fontSize: 12)),
                   ],
                 ),
-                Column(
-                  spacing: 6,
-                  children: [
-                    Icon(HugeIcons.strokeRoundedDiscoverCircle),
-                    Text("Bookings", style: TextStyle(fontSize: 12)),
-                  ],
+                GestureDetector(
+                  child: Column(
+                    spacing: 6,
+                    children: [
+                      Icon(HugeIcons.strokeRoundedDiscoverCircle),
+                      Text("Bookings", style: TextStyle(fontSize: 12)),
+                    ],
+                  ),
                 ),
                 Column(
                   spacing: 6,
