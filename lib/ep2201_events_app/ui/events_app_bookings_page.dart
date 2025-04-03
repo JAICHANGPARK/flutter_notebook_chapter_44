@@ -131,6 +131,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: List.generate(5, (index) {
                       return Container(
+                        padding: EdgeInsets.all(8),
                         decoration: BoxDecoration(color: Colors.white),
                         child: Column(
 
