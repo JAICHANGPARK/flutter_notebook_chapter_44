@@ -56,92 +56,98 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                 ],
               ),
             ),
-            Expanded(child: SingleChildScrollView(child: Column(
-              children: [],
-            ),),),
-            Container(
-              height: 100,
-              padding: EdgeInsets.only(left: 16),
-              child: ListView.builder(
-                scrollDirection: Axis.horizontal,
-                itemCount: 10,
-                itemBuilder: (context, index) {
-                  return Padding(
-                    padding: const EdgeInsets.only(right: 12),
-                    child: SizedBox(
-                      width: 62,
-                      child: Column(
-                        spacing: 8,
-                        children: [
-                          Container(
-                            decoration: BoxDecoration(
-                              shape: BoxShape.circle,
-                              color: Colors.deepPurple,
-                            ),
-                            padding: EdgeInsets.all(1.5),
-                            child: CircleAvatar(radius: 28),
+            Expanded(child: SingleChildScrollView(
+
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+              spacing: 16,
+              children: [
+                Container(
+                  height: 100,
+                  padding: EdgeInsets.only(left: 16),
+                  child: ListView.builder(
+                    scrollDirection: Axis.horizontal,
+                    itemCount: 10,
+                    itemBuilder: (context, index) {
+                      return Padding(
+                        padding: const EdgeInsets.only(right: 12),
+                        child: SizedBox(
+                          width: 62,
+                          child: Column(
+                            spacing: 8,
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: Colors.deepPurple,
+                                ),
+                                padding: EdgeInsets.all(1.5),
+                                child: CircleAvatar(radius: 28),
+                              ),
+                              Text(
+                                "Dream Walker",
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(
+                                  // fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
                           ),
-                          Text(
-                            "Dream Walker",
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                            style: TextStyle(
-                              // fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  );
-                },
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: Text(
-                "Discover Events You'll Love",
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-              ),
-            ),
-            Container(
-              padding: EdgeInsets.only(left: 16),
-              height: 180,
-              child: Placeholder(),
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    "Catch the Trending Events",
+                        ),
+                      );
+                    },
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  child: Text(
+                    "Discover Events You'll Love",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
                   ),
-                  TextButton(onPressed: () {}, child: Text("Explore More")),
-                ],
-              ),
-            ),
-            Column(
-              children: List.generate(5, (index) {
-                return Container(
-                  decoration: BoxDecoration(color: Colors.white),
-                  child: Column(
+                ),
+                Container(
+                  padding: EdgeInsets.only(left: 16),
+                  height: 180,
+                  child: Placeholder(),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Row(
-                        children: [
-                          Container(
-                            height: 64,
-                            width: 64,
-                            child: Placeholder(),
-                          ),
-                          Expanded(child: Column(children: [])),
-                        ],
+                      Text(
+                        "Catch the Trending Events",
+                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
                       ),
+                      TextButton(onPressed: () {}, child: Text("Explore More")),
                     ],
                   ),
-                );
-              }),
-            ),
+                ),
+                Column(
+                  children: List.generate(5, (index) {
+                    return Container(
+                      decoration: BoxDecoration(color: Colors.white),
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+                              Container(
+                                height: 64,
+                                width: 64,
+                                child: Placeholder(),
+                              ),
+                              Expanded(child: Column(children: [])),
+                            ],
+                          ),
+                        ],
+                      ),
+                    );
+                  }),
+                ),
+              ],
+            ),),),
+
           ],
         ),
       ),
