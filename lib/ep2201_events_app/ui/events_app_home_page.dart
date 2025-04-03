@@ -366,6 +366,11 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                   ],
                 ),
                 GestureDetector(
+                  onTap: (){
+                    setState(() {
+                      pageNum = 1;
+                    });
+                  },
                   child: Column(
                     spacing: 6,
                     children: [
