@@ -17,7 +17,30 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
         children: [
           Row(
             children: [
-
+              Container(
+                height: 48,
+                margin: EdgeInsets.symmetric(horizontal: 16),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border.all(color: Colors.grey[200]!),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                padding: EdgeInsets.symmetric(horizontal: 12),
+                child: Row(
+                  spacing: 6,
+                  children: [
+                    Icon(Icons.search_outlined),
+                    Expanded(
+                      child: TextField(
+                        decoration: InputDecoration(
+                          hintText: "Find Event...",
+                          border: InputBorder.none,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           )
 
