@@ -358,12 +358,19 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                Column(
-                  spacing: 6,
-                  children: [
-                    Icon(HugeIcons.strokeRoundedHome01),
-                    Text("Home", style: TextStyle(fontSize: 12)),
-                  ],
+                GestureDetector(
+                  onTap: (){
+                    setState(() {
+                      pageNum = 0;
+                    });
+                  },
+                  child: Column(
+                    spacing: 6,
+                    children: [
+                      Icon(HugeIcons.strokeRoundedHome01),
+                      Text("Home", style: TextStyle(fontSize: 12)),
+                    ],
+                  ),
                 ),
                 GestureDetector(
                   onTap: (){
