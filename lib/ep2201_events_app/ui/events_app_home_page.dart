@@ -9,6 +9,7 @@ class EventsAppHomePage extends StatefulWidget {
 }
 
 class _EventsAppHomePageState extends State<EventsAppHomePage> {
+  int pageNum = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
