@@ -118,7 +118,18 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                 ],
               ),
             ),
-            Column(children: List.generate(5, (index) {})),
+            Column(children: List.generate(5, (index) {
+              return Container(
+                decoration: BoxDecoration(
+                  color: Colors.white
+                ),
+                child: Column(
+                  children: [
+                    
+                  ],
+                ),
+              );
+            })),
           ],
         ),
       ),
