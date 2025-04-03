@@ -14,7 +14,13 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Row(
+              children: [
+
+              ],
+            )
 
           ],
         ),
