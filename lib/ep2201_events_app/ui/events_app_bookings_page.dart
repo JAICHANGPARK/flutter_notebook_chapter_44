@@ -56,6 +56,9 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                 ],
               ),
             ),
+            Expanded(child: SingleChildScrollView(child: Column(
+              children: [],
+            ),),),
             Container(
               height: 100,
               padding: EdgeInsets.only(left: 16),
