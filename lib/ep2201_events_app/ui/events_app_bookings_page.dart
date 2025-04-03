@@ -24,7 +24,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                   Expanded(
                     child: Container(
                       height: 48,
-                      margin: EdgeInsets.symmetric(horizontal: 16),
+                      // margin: EdgeInsets.symmetric(horizontal: 16),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         border: Border.all(color: Colors.grey[200]!),
@@ -63,7 +63,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                 itemCount: 10,
                 itemBuilder: (context, index) {
                   return Padding(
-                    padding: const EdgeInsets.only(left: 12),
+                    padding: const EdgeInsets.only(right: 12),
                     child: SizedBox(
                       width: 62,
                       child: Column(
@@ -82,7 +82,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: TextStyle(
-                              fontWeight: FontWeight.bold,
+                              // fontWeight: FontWeight.bold,
                             ),
                           ),
                         ],
