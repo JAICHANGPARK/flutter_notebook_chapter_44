@@ -97,7 +97,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Text(
                 "Discover Events You'll Love",
-                style: TextStyle(fontWeight: FontWeight.bold),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
               ),
             ),
             Container(
@@ -118,6 +118,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                 ],
               ),
             ),
+            Column(children: List.generate(5, (index) {})),
           ],
         ),
       ),
