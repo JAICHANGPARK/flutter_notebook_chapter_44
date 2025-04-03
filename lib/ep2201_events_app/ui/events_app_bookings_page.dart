@@ -20,6 +20,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Row(
+                spacing: 12,
                 children: [
                   Expanded(
                     child: Container(
