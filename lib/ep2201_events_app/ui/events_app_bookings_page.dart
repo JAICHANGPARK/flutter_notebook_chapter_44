@@ -93,33 +93,28 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                 },
               ),
             ),
-            Text(
-              "Discover Events You'll Love",
-              style: TextStyle(fontWeight: FontWeight.bold),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Text(
+                "Discover Events You'll Love",
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
             ),
             Container(
-              height: 150,
+              padding: EdgeInsets.only(left: 16),
+              height: 180,
               child: Placeholder(),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(
-                horizontal: 16,
-              ),
+              padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Row(
-                mainAxisAlignment:
-                MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
                     "Catch the Trending Events",
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 16,
-                    ),
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
                   ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Text("Explore More"),
-                  ),
+                  TextButton(onPressed: () {}, child: Text("Explore More")),
                 ],
               ),
             ),
