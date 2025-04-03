@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_44/ep2201_events_app/ui/events_app_bookings_page.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class EventsAppHomePage extends StatefulWidget {
@@ -28,7 +29,8 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                 color: Color.fromRGBO(245, 244, 249, 1),
               ),
               child: SafeArea(
-                child: Column(
+                child: IndexedStack(
+                  index: pageNum,
                   children: [
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -352,6 +354,7 @@ class _EventsAppHomePageState extends State<EventsAppHomePage> {
                         ),
                       ],
                     ),
+                    EventsAppBookingsPage(),
                   ],
                 ),
               ),
