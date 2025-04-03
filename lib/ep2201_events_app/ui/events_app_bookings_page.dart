@@ -11,6 +11,6 @@ class EventsAppBookingsPage extends StatefulWidget {
 class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
