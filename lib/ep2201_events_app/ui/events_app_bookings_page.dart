@@ -226,6 +226,8 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                   ),
                                   padding: EdgeInsets.symmetric(horizontal: 8, vertical: 3),
                                   child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+
                                     children: [
                                       Icon(Icons.location_on_outlined,
                                       size: 18,),
