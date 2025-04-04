@@ -17,6 +17,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
         child: Padding(
           padding: const EdgeInsets.fromLTRB(16, 32, 16, 0),
           child: Column(
+            spacing: 24,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
@@ -52,8 +53,8 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                     Container(height: 100, child: Placeholder()),
                     Text("Recent Activity"),
                     Container(height: 42, child: Placeholder()),
-                    Container(height: 200, child: Placeholder()),
-                    Container(height: 200, child: Placeholder()),
+                    Container(height: 260, child: Placeholder()),
+                    Container(height: 260, child: Placeholder()),
                   ],
                 ),
               )),
