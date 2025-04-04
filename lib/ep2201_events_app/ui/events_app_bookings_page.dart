@@ -82,7 +82,12 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                       color: Colors.deepPurple,
                                     ),
                                     padding: EdgeInsets.all(1.5),
-                                    child: CircleAvatar(radius: 28),
+                                    child: CircleAvatar(
+                                      radius: 28,
+                                      backgroundImage: NetworkImage(
+                                        "https://cdn.pixabay.com/photo/2025/03/17/14/43/bird-9476034_1280.png",
+                                      ),
+                                    ),
                                   ),
                                   Text(
                                     "Dream Walker",
