@@ -41,7 +41,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                     radius: 26,
                     backgroundColor: Colors.white,
                     child: Badge(
-                      child: Icon(HugeIcons.strokeRoundedNotification01),
+                      child: Icon(HugeIcons.strokeRoundedNotification02),
                     )
                   ),
                 ],
