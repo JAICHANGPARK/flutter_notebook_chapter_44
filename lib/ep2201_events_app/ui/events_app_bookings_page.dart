@@ -202,6 +202,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                           image: NetworkImage(
                                             "https://cdn.pixabay.com/photo/2022/08/12/12/07/subway-7381618_1280.jpg",
                                           ),
+                                          fit: BoxFit.cover,
                                         ),
                                       ),
                                       child: Column(children: [Container()]),
