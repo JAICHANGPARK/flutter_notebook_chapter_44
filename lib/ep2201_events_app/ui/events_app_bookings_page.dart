@@ -211,7 +211,6 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Container(
-                                            
                                             decoration: ShapeDecoration(
                                               shape: StadiumBorder(),
                                               color: Colors.white,
@@ -246,7 +245,18 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                           ),
                                           SizedBox(
                                             height: 32,
-                                            child: Placeholder(),
+                                            child: Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Stack(
+                                                    children:List.generate(5, (idx){
+
+                                                      return   CircleAvatar(radius: 15);
+                                                    })
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
                                           ),
                                         ],
                                       ),
