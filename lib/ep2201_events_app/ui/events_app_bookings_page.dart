@@ -195,8 +195,9 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                     ),
                                     Expanded(
                                       child: Column(
-                                        spacing: 12,
-                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        spacing: 8,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
                                         children: [
                                           Text(
                                             "Lorem Ipsum(Lipsum)",
@@ -207,6 +208,10 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                           Text(
                                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
                                             maxLines: 2,
+                                          ),
+                                          SizedBox(
+                                            height: 32,
+                                            child: Placeholder(),
                                           ),
                                         ],
                                       ),
