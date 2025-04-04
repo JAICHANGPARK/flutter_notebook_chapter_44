@@ -224,7 +224,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                     borderRadius: BorderRadius.circular(6),
                                     color: Colors.grey[100]!,
                                   ),
-                                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceAround,
 
