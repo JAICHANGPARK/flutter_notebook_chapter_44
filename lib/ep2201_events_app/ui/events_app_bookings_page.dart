@@ -205,7 +205,9 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                           fit: BoxFit.cover,
                                         ),
                                       ),
-                                      child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+                                      child: Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
                                         children: [
                                           Container(
                                             decoration: ShapeDecoration(
@@ -216,7 +218,10 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                               horizontal: 6,
                                               vertical: 2,
                                             ),
-                                            child: Text("Traditional"),
+                                            child: Text(
+                                              "Traditional",
+                                              style: TextStyle(fontSize: 12),
+                                            ),
                                           ),
                                         ],
                                       ),
