@@ -218,6 +218,16 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                     ),
                                   ],
                                 ),
+                                Container(
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(6),
+                                  ),
+                                  child: Row(
+                                    children: [
+                                      Icon(Icons.location_on_outlined),
+                                    ],
+                                  ),
+                                ),
                               ],
                             ),
                           );
