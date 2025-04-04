@@ -227,8 +227,10 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                     children: [
                                       Icon(Icons.location_on_outlined),
                                       Text('Dream City'),
+                                      Text("●"),
                                       Icon(Icons.calendar_month),
                                       Text("12 jan 2025"),
+                                      Text("●"),
                                       Icon(Icons.access_time),
                                       Text("12:00 AM"),
                                     ],
