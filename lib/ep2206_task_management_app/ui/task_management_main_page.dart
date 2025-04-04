@@ -13,22 +13,25 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              children: [
-                CircleAvatar(),
-                Expanded(child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  spacing: 6,
-                  children: [
-                  Text("Hi 👋 Dream!"),
-                  Text("Welcome Back!")
-                ],))
-              ],
-            )
-          ],
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(16, 32, 16, 0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  CircleAvatar(),
+                  Expanded(child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    spacing: 6,
+                    children: [
+                    Text("Hi 👋 Dream!"),
+                    Text("Welcome Back!")
+                  ],))
+                ],
+              )
+            ],
+          ),
         ),
       ),
     );
