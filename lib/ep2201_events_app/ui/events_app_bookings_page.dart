@@ -265,6 +265,8 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                                     }),
                                                   ),
                                                 ),
+                                                Icon(Icons.group),
+                                                Text("12/120"),
                                               ],
                                             ),
                                           ),
