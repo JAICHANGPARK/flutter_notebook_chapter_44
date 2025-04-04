@@ -12,18 +12,24 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Row(
-            children: [
-              CircleAvatar(),
-              Expanded(child: Column(children: [
-                Text("Hi 👋 Dream!"),
-                Text("Welcome Back!")
-              ],))
-            ],
-          )
-        ],
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                CircleAvatar(),
+                Expanded(child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  spacing: 6,
+                  children: [
+                  Text("Hi 👋 Dream!"),
+                  Text("Welcome Back!")
+                ],))
+              ],
+            )
+          ],
+        ),
       ),
     );
   }
