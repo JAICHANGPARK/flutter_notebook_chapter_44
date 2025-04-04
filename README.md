@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-## EP2206
+## EP2207
 
 - Task Management Mobile App
 - Fireart UI/UX for Fireart Studio
@@ -10,7 +10,7 @@ A new Flutter project.
 
 <img src="https://cdn.dribbble.com/userupload/42799551/file/original-a5b3a43c9ddf012ce6434145300943c3.jpg?resize=1905x1429&vertical=center">
 
-## EP2201-2205
+## EP2201-2206
 
 - Events Mobile App
 - Fireart UI/UX for Fireart Studio
