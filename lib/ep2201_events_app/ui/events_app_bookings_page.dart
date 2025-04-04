@@ -112,7 +112,10 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                     Container(
                       padding: EdgeInsets.only(left: 16),
                       height: 180,
-                      child: ListView.builder(itemBuilder: (context, index) {}),
+                      child: ListView.builder(
+                        scrollDirection: Axis.horizontal,
+                        itemBuilder: (context, index) {},
+                      ),
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
