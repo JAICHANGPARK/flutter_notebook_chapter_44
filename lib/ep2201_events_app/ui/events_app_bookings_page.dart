@@ -189,12 +189,13 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                   spacing: 12,
                                   children: [
                                     Container(
-                                      height: 100,
-                                      width: 100,
+                                      height: 108,
+                                      width: 108,
                                       child: Placeholder(),
                                     ),
                                     Expanded(
                                       child: Column(
+                                        spacing: 12,
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Text(
