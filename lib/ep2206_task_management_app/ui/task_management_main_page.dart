@@ -11,6 +11,20 @@ class TaskManagementMainPage extends StatefulWidget {
 class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(
+        children: [
+          Row(
+            children: [
+              CircleAvatar(),
+              Expanded(child: Column(children: [
+                Text("Hi 👋 Dream!"),
+                Text("Welcome Back!")
+              ],))
+            ],
+          )
+        ],
+      ),
+    );
   }
 }
