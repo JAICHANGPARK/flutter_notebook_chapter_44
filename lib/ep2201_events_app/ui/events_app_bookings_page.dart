@@ -188,11 +188,26 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                 Row(
                                   children: [
                                     Container(
-                                      height: 64,
-                                      width: 64,
+                                      height: 120,
+                                      width: 120,
                                       child: Placeholder(),
                                     ),
-                                    Expanded(child: Column(children: [])),
+                                    Expanded(
+                                      child: Column(
+                                        children: [
+                                          Text(
+                                            "Lorem Ipsum(Lipsum)",
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          Text(
+                                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+                                            maxLines: 2,
+                                          ),
+                                        ],
+                                      ),
+                                    ),
                                   ],
                                 ),
                               ],
