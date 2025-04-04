@@ -20,7 +20,9 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
             children: [
               Row(
                 children: [
-                  CircleAvatar(),
+                  CircleAvatar(
+                    radius: 24,
+                  ),
                   Expanded(child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     spacing: 6,
