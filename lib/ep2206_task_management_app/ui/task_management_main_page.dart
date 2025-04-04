@@ -13,6 +13,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.fromLTRB(16, 32, 16, 0),
