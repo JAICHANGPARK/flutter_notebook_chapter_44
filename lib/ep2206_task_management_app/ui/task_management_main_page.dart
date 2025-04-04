@@ -19,6 +19,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
+                spacing: 12,
                 children: [
                   CircleAvatar(
                     radius: 24,
@@ -29,7 +30,12 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                     children: [
                     Text("Hi 👋 Dream!"),
                     Text("Welcome Back!")
-                  ],))
+                  ],)),
+                  CircleAvatar(
+                    radius: 28,
+                    backgroundColor: Colors.black,
+                    child: Icon(Icons.add_circle_rounded,color: Colors.white,),
+                  ),
                 ],
               )
             ],
