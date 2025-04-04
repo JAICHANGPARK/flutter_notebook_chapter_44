@@ -225,6 +225,11 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                   child: Row(
                                     children: [
                                       Icon(Icons.location_on_outlined),
+                                      Text('Dream City'),
+                                      Icon(Icons.calendar_month),
+                                      Text("12 jan 2025"),
+                                      Icon(Icons.calendar_month),
+                                      Text("12 jan 2025"),
                                     ],
                                   ),
                                 ),
