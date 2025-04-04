@@ -251,7 +251,10 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                                   child: Stack(
                                                     children:List.generate(5, (idx){
 
-                                                      return   CircleAvatar(radius: 15);
+                                                      return   Positioned(
+
+                                                          left: idx * 15,
+                                                          child: CircleAvatar(radius: 15));
                                                     })
                                                   ),
                                                 ),
