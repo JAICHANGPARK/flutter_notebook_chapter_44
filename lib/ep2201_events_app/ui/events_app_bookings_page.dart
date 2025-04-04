@@ -117,7 +117,12 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                         itemCount: 10,
                         itemBuilder: (context, index) {
                           return Container(
-                            decoration: BoxDecoration(color: Colors.blue),
+                            margin: EdgeInsets.only(right: 16),
+                            width: 260,
+                            decoration: BoxDecoration(
+                              color: Colors.blue,
+                              borderRadius: BorderRadius.circular(16),
+                            ),
                           );
                         },
                       ),
