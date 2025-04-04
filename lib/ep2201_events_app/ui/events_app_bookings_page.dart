@@ -188,12 +188,13 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                 Row(
                                   children: [
                                     Container(
-                                      height: 120,
-                                      width: 120,
+                                      height: 100,
+                                      width: 100,
                                       child: Placeholder(),
                                     ),
                                     Expanded(
                                       child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
                                           Text(
                                             "Lorem Ipsum(Lipsum)",
