@@ -198,12 +198,13 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                       decoration: BoxDecoration(
                                         borderRadius: BorderRadius.circular(16),
                                         color: Colors.grey,
+                                        image: DecorationImage(
+                                          image: NetworkImage(
+                                            "https://cdn.pixabay.com/photo/2022/08/12/12/07/subway-7381618_1280.jpg",
+                                          ),
+                                        ),
                                       ),
-                                      child: Column(
-                                        children: [
-                                          Container()
-                                        ],
-                                      )
+                                      child: Column(children: [Container()]),
                                     ),
                                     Expanded(
                                       child: Column(
