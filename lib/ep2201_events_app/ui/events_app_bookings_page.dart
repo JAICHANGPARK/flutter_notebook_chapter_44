@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class EventsAppBookingsPage extends StatefulWidget {
   const EventsAppBookingsPage({super.key});
@@ -243,19 +244,25 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
                                             maxLines: 2,
                                           ),
+                                          Gap(4),
                                           SizedBox(
                                             height: 32,
                                             child: Row(
                                               children: [
                                                 Expanded(
                                                   child: Stack(
-                                                    children:List.generate(5, (idx){
-
-                                                      return   Positioned(
-
-                                                          left: idx * 20,
-                                                          child: CircleAvatar(radius: 15));
-                                                    })
+                                                    children: List.generate(7, (
+                                                      idx,
+                                                    ) {
+                                                      return Positioned(
+                                                        left: idx * 20,
+                                                        child: CircleAvatar(
+                                                          radius: 14,
+                                                          backgroundColor:
+                                                              Color(0xFF00FF00),
+                                                        ),
+                                                      );
+                                                    }),
                                                   ),
                                                 ),
                                               ],
