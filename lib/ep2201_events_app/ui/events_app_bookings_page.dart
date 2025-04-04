@@ -222,6 +222,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                 Container(
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(6),
+                                    color: Colors.grey[100]!,
                                   ),
                                   child: Row(
                                     children: [
