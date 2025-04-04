@@ -259,7 +259,8 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                                         child: CircleAvatar(
                                                           radius: 14,
                                                           backgroundColor:
-                                                              Color(0xFF00FF00),
+                                                              Colors
+                                                                  .purpleAccent,
                                                         ),
                                                       );
                                                     }),
