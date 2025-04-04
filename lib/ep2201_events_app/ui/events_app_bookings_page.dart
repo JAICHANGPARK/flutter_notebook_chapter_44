@@ -205,7 +205,21 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                           fit: BoxFit.cover,
                                         ),
                                       ),
-                                      child: Column(children: [Container()]),
+                                      child: Column(crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(),
+                                              color: Colors.white,
+                                            ),
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 6,
+                                              vertical: 2,
+                                            ),
+                                            child: Text("Traditional"),
+                                          ),
+                                        ],
+                                      ),
                                     ),
                                     Expanded(
                                       child: Column(
