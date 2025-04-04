@@ -182,7 +182,10 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                         children: List.generate(5, (index) {
                           return Container(
                             padding: EdgeInsets.all(8),
-                            decoration: BoxDecoration(color: Colors.white),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(16),
+                            ),
                             child: Column(
                               spacing: 12,
                               children: [
@@ -192,6 +195,10 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                     Container(
                                       height: 108,
                                       width: 108,
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(16),
+                                        color: Colors.grey,
+                                      ),
                                       child: Placeholder(),
                                     ),
                                     Expanded(
@@ -224,21 +231,25 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                     borderRadius: BorderRadius.circular(6),
                                     color: Colors.grey[100]!,
                                   ),
-                                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 8,
+                                    vertical: 8,
+                                  ),
                                   child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceAround,
 
                                     children: [
-                                      Icon(Icons.location_on_outlined,
-                                      size: 18,),
+                                      Icon(
+                                        Icons.location_on_outlined,
+                                        size: 18,
+                                      ),
                                       Text('Dream City'),
                                       Text("●"),
-                                      Icon(Icons.calendar_month,
-                                        size: 18,),
+                                      Icon(Icons.calendar_month, size: 18),
                                       Text("12 jan 2025"),
                                       Text("●"),
-                                      Icon(Icons.access_time,
-                                        size: 18,),
+                                      Icon(Icons.access_time, size: 18),
                                       Text("12:00 AM"),
                                     ],
                                   ),
