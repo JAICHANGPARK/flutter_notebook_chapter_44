@@ -193,13 +193,17 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                   spacing: 12,
                                   children: [
                                     Container(
-                                      height: 108,
-                                      width: 108,
+                                      height: 120,
+                                      width: 110,
                                       decoration: BoxDecoration(
                                         borderRadius: BorderRadius.circular(16),
                                         color: Colors.grey,
                                       ),
-                                      child: Placeholder(),
+                                      child: Column(
+                                        children: [
+                                          Container()
+                                        ],
+                                      )
                                     ),
                                     Expanded(
                                       child: Column(
