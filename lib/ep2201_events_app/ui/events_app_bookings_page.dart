@@ -126,6 +126,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                 image: NetworkImage(
                                   "https://cdn.pixabay.com/photo/2024/12/28/13/28/tram-9296118_1280.jpg",
                                 ),
+                                fit: BoxFit.cover,
                               ),
                             ),
                           );
