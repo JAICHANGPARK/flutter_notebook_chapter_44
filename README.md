@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## EP2206
 
-- Events Mobile App
+- Task Management Mobile App
 - Fireart UI/UX for Fireart Studio
 - https://dribbble.com/shots/25836620-Events-Mobile-App
 
