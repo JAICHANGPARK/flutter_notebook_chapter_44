@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 
 class TaskManagementMainPage extends StatefulWidget {
@@ -32,9 +33,16 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                     Text("Welcome Back!")
                   ],)),
                   CircleAvatar(
-                    radius: 28,
+                    radius: 26,
                     backgroundColor: Colors.black,
                     child: Icon(Icons.add_circle_rounded,color: Colors.white,),
+                  ),
+                  CircleAvatar(
+                    radius: 26,
+                    backgroundColor: Colors.white,
+                    child: Badge(
+                      child: Icon(HugeIcons.strokeRoundedNotification01),
+                    )
                   ),
                 ],
               )
