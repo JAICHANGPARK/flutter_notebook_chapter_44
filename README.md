@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-## EP2201-2205
+## EP2206
 
 - Events Mobile App
 - Fireart UI/UX for Fireart Studio
