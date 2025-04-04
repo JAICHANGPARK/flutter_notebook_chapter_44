@@ -122,6 +122,11 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                             decoration: BoxDecoration(
                               color: Colors.blue,
                               borderRadius: BorderRadius.circular(16),
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  "https://cdn.pixabay.com/photo/2024/12/28/13/28/tram-9296118_1280.jpg",
+                                ),
+                              ),
                             ),
                           );
                         },
