@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 
-
 class TaskManagementMainPage extends StatefulWidget {
   const TaskManagementMainPage({super.key});
 
@@ -23,30 +22,33 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
               Row(
                 spacing: 12,
                 children: [
-                  CircleAvatar(
-                    radius: 24,
+                  CircleAvatar(radius: 24),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 6,
+                      children: [Text("Hi 👋 Dream!"), Text("Welcome Back!")],
+                    ),
                   ),
-                  Expanded(child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    spacing: 6,
-                    children: [
-                    Text("Hi 👋 Dream!"),
-                    Text("Welcome Back!")
-                  ],)),
                   CircleAvatar(
                     radius: 26,
                     backgroundColor: Colors.black,
-                    child: Icon(Icons.add_circle_rounded,color: Colors.white,),
+                    child: Icon(Icons.add_circle_rounded, color: Colors.white),
                   ),
                   CircleAvatar(
                     radius: 26,
                     backgroundColor: Colors.white,
                     child: Badge(
                       child: Icon(HugeIcons.strokeRoundedNotification02),
-                    )
+                    ),
                   ),
                 ],
-              )
+              ),
+              Container(height: 100, child: Placeholder()),
+              Text("Recent Activity"),
+              Container(height: 42, child: Placeholder()),
+              Container(height: 200, child: Placeholder()),
+              Container(height: 200, child: Placeholder()),
             ],
           ),
         ),
