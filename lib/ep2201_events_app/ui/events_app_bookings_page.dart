@@ -129,6 +129,11 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                 fit: BoxFit.cover,
                               ),
                             ),
+                            child: Stack(
+                              children: [
+                                
+                              ],
+                            ),
                           );
                         },
                       ),
