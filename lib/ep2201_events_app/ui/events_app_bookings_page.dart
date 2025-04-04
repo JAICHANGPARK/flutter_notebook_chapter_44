@@ -186,6 +186,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                             child: Column(
                               children: [
                                 Row(
+                                  spacing: 12,
                                   children: [
                                     Container(
                                       height: 100,
