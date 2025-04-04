@@ -253,7 +253,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
 
                                                       return   Positioned(
 
-                                                          left: idx * 15,
+                                                          left: idx * 20,
                                                           child: CircleAvatar(radius: 15));
                                                     })
                                                   ),
