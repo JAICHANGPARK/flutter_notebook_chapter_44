@@ -131,7 +131,19 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                             ),
                             child: Stack(
                               children: [
-                                
+                                Positioned(
+                                  left: 12,
+                                  bottom: 12,
+
+                                  child: Text(
+                                    "Snow",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 24,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ),
                               ],
                             ),
                           );
