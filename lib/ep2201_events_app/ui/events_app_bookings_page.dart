@@ -184,6 +184,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                             padding: EdgeInsets.all(8),
                             decoration: BoxDecoration(color: Colors.white),
                             child: Column(
+                              spacing: 12,
                               children: [
                                 Row(
                                   spacing: 12,
@@ -228,8 +229,8 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                                       Text('Dream City'),
                                       Icon(Icons.calendar_month),
                                       Text("12 jan 2025"),
-                                      Icon(Icons.calendar_month),
-                                      Text("12 jan 2025"),
+                                      Icon(Icons.access_time),
+                                      Text("12:00 AM"),
                                     ],
                                   ),
                                 ),
