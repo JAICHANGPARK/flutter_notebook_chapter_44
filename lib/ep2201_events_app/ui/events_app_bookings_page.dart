@@ -114,6 +114,7 @@ class _EventsAppBookingsPageState extends State<EventsAppBookingsPage> {
                       height: 180,
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
+                        itemCount: 10,
                         itemBuilder: (context, index) {},
                       ),
                     ),
