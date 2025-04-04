@@ -44,6 +44,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                   ),
                 ],
               ),
+              Expanded(child: SingleChildScrollView()),
               Container(height: 100, child: Placeholder()),
               Text("Recent Activity"),
               Container(height: 42, child: Placeholder()),
