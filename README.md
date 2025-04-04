@@ -8,7 +8,7 @@ A new Flutter project.
 - Fireart UI/UX for Fireart Studio
 - https://dribbble.com/shots/25862021-Task-Management-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/42704343/file/original-83a71c7449c9bc817bf2c2fc18406bf5.jpeg?resize=1905x1429&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/42799551/file/original-a5b3a43c9ddf012ce6434145300943c3.jpg?resize=1905x1429&vertical=center">
 
 ## EP2201-2205
 
