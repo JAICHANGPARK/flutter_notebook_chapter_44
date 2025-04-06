@@ -45,20 +45,21 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                   ),
                 ],
               ),
-              Expanded(child: SingleChildScrollView(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  spacing: 16,
-                  children: [
-                    Container(height: 100, child: Placeholder()),
-                    Text("Recent Activity"),
-                    Container(height: 42, child: Placeholder()),
-                    Container(height: 260, child: Placeholder()),
-                    Container(height: 260, child: Placeholder()),
-                  ],
+              Expanded(
+                child: SingleChildScrollView(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    spacing: 16,
+                    children: [
+                      Container(height: 100, child: Placeholder()),
+                      Text("Recent Activity"),
+                      Container(height: 42, child: Placeholder()),
+                      Container(height: 260, child: Placeholder()),
+                      Container(height: 260, child: Placeholder()),
+                    ],
+                  ),
                 ),
-              )),
-
+              ),
             ],
           ),
         ),
