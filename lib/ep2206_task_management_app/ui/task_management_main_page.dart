@@ -87,6 +87,16 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                             shape: StadiumBorder(),
                             color: Colors.grey[200]!,
                           ),
+                          child: Row(
+                            children: [
+                              Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                       Container(height: 260, child: Placeholder()),
