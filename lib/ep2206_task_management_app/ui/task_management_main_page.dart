@@ -89,12 +89,41 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                           ),
                           child: Row(
                             children: [
-                              Container(
-                                decoration: ShapeDecoration(
-                                  shape: StadiumBorder(),
-                                  color: Colors.white,
+                              Expanded(
+                                child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.white,
+                                  ),
+                                  child: Center(child: Text("All")),
                                 ),
-                                child: Center(child: Text("All")),
+                              ),
+                              Expanded(
+                                child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+
+                                  ),
+                                  child: Center(child: Text("Upcomming")),
+                                ),
+                              ),
+                              Expanded(
+                                child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+
+                                  ),
+                                  child: Center(child: Text("Upcomming")),
+                                ),
+                              ),
+                              Expanded(
+                                child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+
+                                  ),
+                                  child: Center(child: Text("Upcomming")),
+                                ),
                               ),
                             ],
                           ),
