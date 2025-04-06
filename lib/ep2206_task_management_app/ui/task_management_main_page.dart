@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class TaskManagementMainPage extends StatefulWidget {
@@ -78,9 +79,10 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                           ],
                         ),
                       ),
+                      Gap(8),
                       Text("Recent Activity"
                         ,
-                        style: TextStyle(fontSize: 24),),
+                        style: TextStyle(fontSize: 20),),
                       Container(height: 42, child: Placeholder()),
                       Container(height: 260, child: Placeholder()),
                       Container(height: 260, child: Placeholder()),
