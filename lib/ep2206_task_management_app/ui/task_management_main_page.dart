@@ -102,16 +102,19 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                               child: Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
-
                                 ),
-                                child: Center(child: Text("Upcoming")),
+                                child: Center(
+                                  child: Text(
+                                    "Upcoming",
+                                    style: TextStyle(color: Colors.grey),
+                                  ),
+                                ),
                               ),
                             ),
                             Expanded(
                               child: Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
-
                                 ),
                                 child: Center(child: Text("Meeting")),
                               ),
@@ -120,7 +123,6 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                               child: Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
-
                                 ),
                                 child: Center(child: Text("Projects")),
                               ),
