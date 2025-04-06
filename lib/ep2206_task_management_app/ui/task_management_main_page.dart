@@ -166,11 +166,12 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                             Container(height: 52, child: Placeholder()),
                             Container(
                               // height: 52,
-                              padding: EdgeInsets.all(12),
+                              padding: EdgeInsets.all(8),
                               decoration: BoxDecoration(
                                 color: Colors.grey[100]!,
                               ),
                               child: Column(
+                                spacing: 8,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Row(
