@@ -171,7 +171,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                 color: Colors.grey[100]!,
                               ),
                               child: Column(
-                                spacing: 8,
+                                spacing: 12,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Row(
@@ -179,7 +179,9 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                         MainAxisAlignment.spaceBetween,
                                     children: [Text("Progress"), Text("72%")],
                                   ),
-                                  LinearPercentIndicator(),
+                                  LinearPercentIndicator(
+                                    padding: EdgeInsets.zero,
+                                  ),
                                 ],
                               ),
                             ),
