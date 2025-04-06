@@ -52,22 +52,25 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                     spacing: 16,
                     children: [
                       Container(
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                          ),
-                          height: 100, child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        spacing: 12,
-                        children: [
-                          Text("Your Progress",),
-                          Row(
-                            children: [
-                              Expanded(child: Text("You are doing well 😊")),
-                              Text("72%")
-                            ],
-                          )
-                        ],
-                      )),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(14),
+                        ),
+                        height: 100,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          spacing: 12,
+                          children: [
+                            Text("Your Progress"),
+                            Row(
+                              children: [
+                                Expanded(child: Text("You are doing well 😊")),
+                                Text("72%"),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
                       Text("Recent Activity"),
                       Container(height: 42, child: Placeholder()),
                       Container(height: 260, child: Placeholder()),
