@@ -94,6 +94,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                   shape: StadiumBorder(),
                                   color: Colors.white,
                                 ),
+                                child: Center(child: Text("All")),
                               ),
                             ],
                           ),
