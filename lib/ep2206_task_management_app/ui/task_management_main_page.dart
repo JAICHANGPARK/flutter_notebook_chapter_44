@@ -82,6 +82,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                       Text("Recent Activity", style: TextStyle(fontSize: 20)),
                       Container(
                         height: 42,
+                        padding: EdgeInsets.all(2),
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
                           color: Colors.grey[200]!,
