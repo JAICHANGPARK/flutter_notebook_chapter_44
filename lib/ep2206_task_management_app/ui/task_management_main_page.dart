@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
+import 'package:percent_indicator/percent_indicator.dart';
 
 class TaskManagementMainPage extends StatefulWidget {
   const TaskManagementMainPage({super.key});
@@ -176,6 +177,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                         MainAxisAlignment.spaceBetween,
                                     children: [Text("Progress"), Text("72%")],
                                   ),
+                                  LinearPercentIndicator(),
                                 ],
                               ),
                             ),
