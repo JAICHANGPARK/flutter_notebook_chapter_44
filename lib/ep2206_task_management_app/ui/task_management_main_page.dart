@@ -171,7 +171,12 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-
+Row(
+  children: [
+    Text("Progress"),
+    Text("72%")
+  ],
+)
                                 ],
                               ),
                             ),
