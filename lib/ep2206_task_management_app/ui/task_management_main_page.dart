@@ -162,7 +162,14 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                 Chip(label: Text("In Progress")),
                               ],
                             ),
-
+                            Container(
+                              height: 52,
+                              child: Placeholder(),
+                            ),
+                            Container(
+                              height: 52,
+                              child: Placeholder(),
+                            ),
                           ],
                         ),
                       ),
