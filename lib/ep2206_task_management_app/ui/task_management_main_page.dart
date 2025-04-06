@@ -67,12 +67,12 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                               children: [
                                 Expanded(
                                   child: Text(
-                                    "You are doing well 😊",
+                                    "You are doing\nwell 😊",
                                     style: TextStyle(fontSize: 24),
                                   ),
                                 ),
                                 Text("72%",
-                                  style: TextStyle(fontSize: 42),),
+                                  style: TextStyle(fontSize: 52),),
                               ],
                             ),
                           ],
