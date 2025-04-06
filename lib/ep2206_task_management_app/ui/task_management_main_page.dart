@@ -188,7 +188,53 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                           ],
                         ),
                       ),
-                      Container(height: 260, child: Placeholder()),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        padding: EdgeInsets.all(12),
+                        child: Column(
+                          spacing: 8,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Finance Mobile App"),
+                            Text(
+                              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+                              maxLines: 3,
+                            ),
+                            Row(
+                              spacing: 8,
+                              children: [
+                                Chip(label: Text("In Progress")),
+                                Chip(label: Text("In Progress")),
+                              ],
+                            ),
+                            Container(height: 52, child: Placeholder()),
+                            Container(
+                              // height: 52,
+                              padding: EdgeInsets.all(8),
+                              decoration: BoxDecoration(
+                                color: Colors.grey[100]!,
+                              ),
+                              child: Column(
+                                spacing: 12,
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Row(
+                                    mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                    children: [Text("Progress"), Text("72%")],
+                                  ),
+                                  LinearPercentIndicator(
+                                    padding: EdgeInsets.zero,
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                 ),
