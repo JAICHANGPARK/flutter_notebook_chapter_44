@@ -57,7 +57,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(14),
                         ),
-                        height: 100,
+                        // height: 100,
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           spacing: 12,
@@ -71,7 +71,8 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                     style: TextStyle(fontSize: 24),
                                   ),
                                 ),
-                                Text("72%"),
+                                Text("72%",
+                                  style: TextStyle(fontSize: 42),),
                               ],
                             ),
                           ],
