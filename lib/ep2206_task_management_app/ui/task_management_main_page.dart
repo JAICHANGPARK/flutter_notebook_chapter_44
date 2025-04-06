@@ -78,7 +78,9 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                           ],
                         ),
                       ),
-                      Text("Recent Activity"),
+                      Text("Recent Activity"
+                        ,
+                        style: TextStyle(fontSize: 24),),
                       Container(height: 42, child: Placeholder()),
                       Container(height: 260, child: Placeholder()),
                       Container(height: 260, child: Placeholder()),
