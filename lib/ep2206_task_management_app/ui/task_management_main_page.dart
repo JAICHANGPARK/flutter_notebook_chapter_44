@@ -168,7 +168,12 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                               decoration: BoxDecoration(
                                 color: Colors.grey[100]!,
                               ),
-                              child: Placeholder(),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+
+                                ],
+                              ),
                             ),
                           ],
                         ),
