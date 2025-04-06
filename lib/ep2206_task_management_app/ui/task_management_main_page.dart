@@ -82,51 +82,49 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                       Text("Recent Activity", style: TextStyle(fontSize: 20)),
                       Container(
                         height: 42,
-                        child: Container(
-                          decoration: ShapeDecoration(
-                            shape: StadiumBorder(),
-                            color: Colors.grey[200]!,
-                          ),
-                          child: Row(
-                            children: [
-                              Expanded(
-                                child: Container(
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
-                                    color: Colors.white,
-                                  ),
-                                  child: Center(child: Text("All")),
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.grey[200]!,
+                        ),
+                        child: Row(
+                          children: [
+                            Expanded(
+                              child: Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Colors.white,
                                 ),
+                                child: Center(child: Text("All")),
                               ),
-                              Expanded(
-                                child: Container(
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
+                            ),
+                            Expanded(
+                              child: Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
 
-                                  ),
-                                  child: Center(child: Text("Upcomming")),
                                 ),
+                                child: Center(child: Text("Upcoming")),
                               ),
-                              Expanded(
-                                child: Container(
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
+                            ),
+                            Expanded(
+                              child: Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
 
-                                  ),
-                                  child: Center(child: Text("Upcomming")),
                                 ),
+                                child: Center(child: Text("Meeting")),
                               ),
-                              Expanded(
-                                child: Container(
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
+                            ),
+                            Expanded(
+                              child: Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
 
-                                  ),
-                                  child: Center(child: Text("Upcomming")),
                                 ),
+                                child: Center(child: Text("Projects")),
                               ),
-                            ],
-                          ),
+                            ),
+                          ],
                         ),
                       ),
                       Container(height: 260, child: Placeholder()),
