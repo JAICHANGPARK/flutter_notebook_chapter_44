@@ -116,8 +116,12 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
                                 ),
-                                child: Center(child: Text("Meeting",
-                                  style: TextStyle(color: Colors.grey),)),
+                                child: Center(
+                                  child: Text(
+                                    "Meeting",
+                                    style: TextStyle(color: Colors.grey),
+                                  ),
+                                ),
                               ),
                             ),
                             Expanded(
@@ -125,14 +129,36 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
                                 ),
-                                child: Center(child: Text("Projects",
-                                  style: TextStyle(color: Colors.grey),)),
+                                child: Center(
+                                  child: Text(
+                                    "Projects",
+                                    style: TextStyle(color: Colors.grey),
+                                  ),
+                                ),
                               ),
                             ),
                           ],
                         ),
                       ),
-                      Container(height: 260, child: Placeholder()),
+                      Container(
+                        height: 260,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        padding: EdgeInsets.all(12),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Finance Mobile App"),
+                            Text(
+                              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+                              maxLines: 3,
+                            ),
+                            Chip(label: Text("In Progress"),),
+                          ],
+                        ),
+                      ),
                       Container(height: 260, child: Placeholder()),
                     ],
                   ),
