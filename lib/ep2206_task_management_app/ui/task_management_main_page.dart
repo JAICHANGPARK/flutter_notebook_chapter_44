@@ -52,6 +52,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                     spacing: 16,
                     children: [
                       Container(
+                        padding: EdgeInsets.all(16),
                         decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(14),
