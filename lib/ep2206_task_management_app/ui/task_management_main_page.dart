@@ -51,7 +51,18 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     spacing: 16,
                     children: [
-                      Container(height: 100, child: Placeholder()),
+                      Container(height: 100, child: Column(
+                        spacing: 12,
+                        children: [
+                          Text("Your Progress",),
+                          Row(
+                            children: [
+                              Expanded(child: Text("You are doing well 😊")),
+                              Text("72%")
+                            ],
+                          )
+                        ],
+                      )),
                       Text("Recent Activity"),
                       Container(height: 42, child: Placeholder()),
                       Container(height: 260, child: Placeholder()),
