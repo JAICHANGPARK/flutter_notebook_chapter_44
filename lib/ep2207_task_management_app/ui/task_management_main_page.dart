@@ -191,7 +191,19 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                 ),
                               ],
                             ),
-                            Container(height: 52, child: Row(children: [])),
+                            Container(
+                              height: 52,
+                              child: Row(
+                                children: [
+                                  Container(
+                                    width: 140,
+                                    color: Colors.blue,
+                                    child: Stack(),
+                                  ),
+                                  Expanded(child: Text.rich(TextSpan))
+                                ],
+                              ),
+                            ),
                             Container(
                               // height: 52,
                               padding: EdgeInsets.all(8),
