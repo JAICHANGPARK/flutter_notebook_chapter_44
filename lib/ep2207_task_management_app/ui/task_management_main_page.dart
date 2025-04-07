@@ -239,7 +239,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                               // height: 52,
                               padding: EdgeInsets.all(8),
                               decoration: BoxDecoration(
-                                color: Colors.grey[100]!,
+                                color: Colors.grey[50]!,
                               ),
                               child: Column(
                                 spacing: 12,
@@ -252,6 +252,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                   ),
                                   LinearPercentIndicator(
                                     padding: EdgeInsets.zero,
+                                    percent: .72,
                                   ),
                                 ],
                               ),
