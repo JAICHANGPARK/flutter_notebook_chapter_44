@@ -198,7 +198,10 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                           spacing: 8,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Finance Mobile App"),
+                            Text(
+                              "Finance Mobile App",
+                              style: TextStyle(fontSize: 18),
+                            ),
                             Text(
                               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
                               maxLines: 3,
@@ -223,7 +226,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                 children: [
                                   Row(
                                     mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
+                                        MainAxisAlignment.spaceBetween,
                                     children: [Text("Progress"), Text("72%")],
                                   ),
                                   LinearPercentIndicator(
