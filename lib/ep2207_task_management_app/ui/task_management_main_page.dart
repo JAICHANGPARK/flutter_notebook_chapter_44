@@ -169,7 +169,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                 Container(
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
-                                    color: Colors.grey[200]!,
+                                    color: Colors.grey[100]!,
                                   ),
                                   child: Text("In Progress"),
                                   padding: EdgeInsets.symmetric(
@@ -178,7 +178,17 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                   ),
                                 ),
 
-                                Chip(label: Text("In Progress")),
+                                Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.grey[100]!,
+                                  ),
+                                  child: Text("Medium"),
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 16,
+                                    vertical: 6,
+                                  ),
+                                ),
                               ],
                             ),
                             Container(height: 52, child: Placeholder()),
