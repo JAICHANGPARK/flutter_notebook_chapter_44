@@ -197,14 +197,13 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                 spacing: 12,
                                 children: [
                                   Container(
-                                    width: 140,
-                                    color: Colors.blue,
+                                    width: 120,
                                     child: Stack(
                                       children:
                                           List.generate(3, (idx) {
                                             return Positioned(
 
-                                                left: idx* 24,
+                                                left: idx* 34,
                                                 child: CircleAvatar(
                                                   radius: 26,
                                                 ));
