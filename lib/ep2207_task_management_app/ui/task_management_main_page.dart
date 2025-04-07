@@ -169,10 +169,13 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                 Container(
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
-                                    color: Colors.grey[300]!,
+                                    color: Colors.grey[200]!,
                                   ),
                                   child: Text("In Progress"),
-                                  padding: EdgeInsets.symmetric(horizontal: 12),
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 12,
+                                    vertical: 6,
+                                  ),
                                 ),
 
                                 Chip(label: Text("In Progress")),
