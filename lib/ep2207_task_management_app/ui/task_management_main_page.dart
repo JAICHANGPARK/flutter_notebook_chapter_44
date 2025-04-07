@@ -200,7 +200,16 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                     color: Colors.blue,
                                     child: Stack(),
                                   ),
-                                  Expanded(child: Text.rich(TextSpan))
+                                  Expanded(
+                                    child: Text.rich(
+                                      TextSpan(
+                                        children: [
+                                          TextSpan(text: "3 People "),
+                                          TextSpan(text: "in this project"),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
                                 ],
                               ),
                             ),
