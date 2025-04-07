@@ -148,7 +148,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                         ),
                         padding: EdgeInsets.all(12),
                         child: Column(
-                          spacing: 8,
+                          spacing: 10,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
@@ -191,7 +191,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                 ),
                               ],
                             ),
-                            Container(height: 52, child: Placeholder()),
+                            Container(height: 52, child: Row(children: [])),
                             Container(
                               // height: 52,
                               padding: EdgeInsets.all(8),
