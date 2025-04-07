@@ -203,11 +203,9 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                       children:
                                           List.generate(3, (idx) {
                                             return Positioned(
-
-                                                left: idx* 34,
-                                                child: CircleAvatar(
-                                                  radius: 26,
-                                                ));
+                                              left: idx * 34,
+                                              child: CircleAvatar(radius: 26),
+                                            );
                                           }).toList(),
                                     ),
                                   ),
@@ -253,6 +251,8 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                   LinearPercentIndicator(
                                     padding: EdgeInsets.zero,
                                     percent: .72,
+                                    backgroundColor: Colors.white,
+                                    progressColor: Colors.green,
                                   ),
                                 ],
                               ),
