@@ -204,8 +204,19 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                     child: Text.rich(
                                       TextSpan(
                                         children: [
-                                          TextSpan(text: "3 People "),
-                                          TextSpan(text: "in this project"),
+                                          TextSpan(
+                                            text: "3 People ",
+                                            style: TextStyle(
+                                              color: Colors.black,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          TextSpan(
+                                            text: "in this project",
+                                            style: TextStyle(
+                                              color: Colors.black87,
+                                            ),
+                                          ),
                                         ],
                                       ),
                                     ),
