@@ -173,7 +173,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                   ),
                                   child: Text("In Progress"),
                                   padding: EdgeInsets.symmetric(
-                                    horizontal: 12,
+                                    horizontal: 16,
                                     vertical: 6,
                                   ),
                                 ),
