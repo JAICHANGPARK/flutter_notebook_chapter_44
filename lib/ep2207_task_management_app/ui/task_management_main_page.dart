@@ -193,6 +193,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                             ),
                             Container(
                               height: 52,
+                              margin: EdgeInsets.symmetric(vertical: 8),
                               child: Row(
                                 spacing: 12,
                                 children: [
