@@ -202,7 +202,12 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                     child: Stack(
                                       children:
                                           List.generate(3, (idx) {
-                                            return CircleAvatar();
+                                            return Positioned(
+
+                                                left: idx* 24,
+                                                child: CircleAvatar(
+                                                  radius: 26,
+                                                ));
                                           }).toList(),
                                     ),
                                   ),
