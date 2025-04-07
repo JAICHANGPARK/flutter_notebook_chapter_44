@@ -158,6 +158,10 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                             Text(
                               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
                               maxLines: 3,
+                              style: TextStyle(
+                                fontSize: 12,
+                                color: Colors.black54,
+                              ),
                             ),
                             Row(
                               spacing: 8,
