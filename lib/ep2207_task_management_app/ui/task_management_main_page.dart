@@ -153,6 +153,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                             Padding(
                               padding: const EdgeInsets.all(12.0),
                               child: Column(
+                                spacing: 8,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
