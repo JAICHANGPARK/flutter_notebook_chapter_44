@@ -169,9 +169,12 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                 Container(
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
-                                    color: Colors.grey[300]!,),
+                                    color: Colors.grey[300]!,
+                                  ),
+                                  child: Text("In Progress"),
+                                  padding: EdgeInsets.symmetric(horizontal: 12),
                                 ),
-                                Chip(label: Text("In Progress")),
+
                                 Chip(label: Text("In Progress")),
                               ],
                             ),
@@ -188,7 +191,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                 children: [
                                   Row(
                                     mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
+                                        MainAxisAlignment.spaceBetween,
                                     children: [Text("Progress"), Text("72%")],
                                   ),
                                   LinearPercentIndicator(
@@ -238,7 +241,7 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                                 children: [
                                   Row(
                                     mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
+                                        MainAxisAlignment.spaceBetween,
                                     children: [Text("Progress"), Text("72%")],
                                   ),
                                   LinearPercentIndicator(
