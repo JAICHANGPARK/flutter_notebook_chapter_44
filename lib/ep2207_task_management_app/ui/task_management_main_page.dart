@@ -194,11 +194,17 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                             Container(
                               height: 52,
                               child: Row(
+                                spacing: 12,
                                 children: [
                                   Container(
                                     width: 140,
                                     color: Colors.blue,
-                                    child: Stack(),
+                                    child: Stack(
+                                      children:
+                                          List.generate(3, (idx) {
+                                            return CircleAvatar();
+                                          }).toList(),
+                                    ),
                                   ),
                                   Expanded(
                                     child: Text.rich(
