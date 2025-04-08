@@ -41,10 +41,11 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
             top: 320,
             left: 24,
             right: 0,
+            bottom: 0,
             child: Transform(
               transform: Matrix4.identity()
             ..rotateX(0.2)
-            ..rotateY(-.1)
+            ..rotateY(-.2)
             ..rotateZ(-.1),
               child: TaskActivityWidget(),
             ),
