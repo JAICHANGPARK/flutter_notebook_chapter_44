@@ -16,7 +16,9 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned.fill(child: Transform(transform: Matrix4.identity(),
+          Positioned.fill(child: Transform(transform: Matrix4.identity(
+            
+          )..rotateX(0.1)..rotateY(-.4),
           child: TaskActivityWidget(),)),
           Positioned(
             bottom: 0,
