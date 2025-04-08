@@ -30,7 +30,12 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
                     "Manage your tasks effortiessly and boost your efficiency with smart planning.",
                   ),
                   Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    margin: EdgeInsets.symmetric(horizontal: 16),
+                    padding: EdgeInsets.symmetric(vertical: 16),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.black,
+                    ),
                     child: Center(
                       child: Text(
                         "Get Started",
