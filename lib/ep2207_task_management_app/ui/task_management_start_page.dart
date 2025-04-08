@@ -19,7 +19,16 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
           Positioned(
             top: 64,
             left: 64,
-            child: Container(height: 240, width: 240, color: Colors.blue),
+            child: Transform(
+              transform: Matrix4.identity()..rotateY(0),
+                child: Container(height: 240, width: 240, color: Colors.blue,
+
+                child: Stack(
+                  children: [
+                    Center(child: VerticalDivider(),),
+                    Center (child: Divider(),),
+                  ],
+                ),),),
           ),
           // Positioned.fill(
           //   top: 320,
