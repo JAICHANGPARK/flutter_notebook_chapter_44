@@ -39,10 +39,35 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
             ),
           ),
           Positioned.fill(
+            top: 160,
+            left: 120,
+            right: -72,
+            child: Transform(
+              transform:
+              Matrix4.identity()
+                ..rotateX(0.2)
+                ..rotateY(.6)
+                ..rotateZ(-.1),
+              child: Container(
+                padding: EdgeInsets.all(3),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(5),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withValues(alpha: .05),
+                      blurRadius: 1,
+                      spreadRadius: 1,
+                    ),
+                  ],
+                ),
+                child: TaskActivityWidget(),
+              ),
+            ),
+          ),
+          Positioned.fill(
             top: 240,
             left: 72,
-            right: -42,
-
+            right: -24,
             child: Transform(
               transform:
               Matrix4.identity()
