@@ -29,8 +29,10 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                     textAlign: TextAlign.center,
                   ),
+                  Gap(12),
                   Text(
-                    "Manage your tasks effortiessly and boost your efficiency with smart planning.",
+                    "Manage your tasks effortiessly and boost your\nefficiency with smart planning.",
+                    textAlign: TextAlign.center,
                   ),
                   Gap(32),
                   Container(
