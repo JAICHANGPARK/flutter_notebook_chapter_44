@@ -20,19 +20,21 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
             left: 0,
             right: 0,
             child: Container(
+              padding: EdgeInsets.all(24),
               decoration: BoxDecoration(color: Colors.white),
               child: Column(
                 children: [
                   Text(
                     "Stay Organized, Stay\nProductive",
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                    textAlign: TextAlign.center,
                   ),
                   Text(
                     "Manage your tasks effortiessly and boost your efficiency with smart planning.",
                   ),
                   Gap(32),
                   Container(
-                    margin: EdgeInsets.symmetric(horizontal: 16),
+                    // margin: EdgeInsets.symmetric(horizontal: 16),
                     padding: EdgeInsets.symmetric(vertical: 16),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
