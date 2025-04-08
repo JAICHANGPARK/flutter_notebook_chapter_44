@@ -24,8 +24,11 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
                 children: [
                   Text(
                     "Stay Organized, Stay Productive",
-                    style: TextStyle(fontSize: 24),
+                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+
                   ),
+                  Text("Manage your tasks effortiessly and boost your efficiency with smart planning."),
+                  
                 ],
               ),
             ),
