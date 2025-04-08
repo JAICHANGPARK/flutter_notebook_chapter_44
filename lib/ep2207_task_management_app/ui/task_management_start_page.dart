@@ -15,7 +15,15 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
       body: Stack(
         children: [
           Positioned(
-            child: Container(decoration: BoxDecoration(color: Colors.white)),
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: Container(decoration: BoxDecoration(color: Colors.white),
+            child: Column(
+              children: [
+                Text("Stay Organized, Stay Productive")
+              ],
+            ),),
           ),
         ],
       ),
