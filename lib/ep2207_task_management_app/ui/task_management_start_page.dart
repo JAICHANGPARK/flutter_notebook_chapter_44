@@ -49,6 +49,10 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
                       ),
                     ),
                   ),
+                  Text(
+                    "Already have an account? Login",
+                    textAlign: TextAlign.center,
+                  ),
                 ],
               ),
             ),
