@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_44/ep2207_task_management_app/ui/widgets/task_activity_widget.dart';
 import 'package:gap/gap.dart';
 
 class TaskManagementStartPage extends StatefulWidget {
@@ -15,6 +16,8 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
     return Scaffold(
       body: Stack(
         children: [
+          Positioned.fill(child: Transform(transform: Matrix4.identity(),
+          child: TaskActivityWidget(),)),
           Positioned(
             bottom: 0,
             left: 0,
