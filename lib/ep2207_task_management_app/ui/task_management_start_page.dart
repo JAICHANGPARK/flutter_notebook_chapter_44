@@ -18,12 +18,17 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
             bottom: 0,
             left: 0,
             right: 0,
-            child: Container(decoration: BoxDecoration(color: Colors.white),
-            child: Column(
-              children: [
-                Text("Stay Organized, Stay Productive")
-              ],
-            ),),
+            child: Container(
+              decoration: BoxDecoration(color: Colors.white),
+              child: Column(
+                children: [
+                  Text(
+                    "Stay Organized, Stay Productive",
+                    style: TextStyle(fontSize: 24),
+                  ),
+                ],
+              ),
+            ),
           ),
         ],
       ),
