@@ -20,29 +20,35 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
             top: 64,
             left: 64,
             child: Transform(
-              transform: Matrix4.identity()..rotateY(0),
-                child: Container(height: 240, width: 240, color: Colors.blue,
-
+              transform: Matrix4.identity()
+                ..rotateX(0.2)
+                ..rotateY(-.1)
+                ..rotateZ(-.1),
+              child: Container(
+                height: 240,
+                width: 240,
+                color: Colors.blue,
                 child: Stack(
                   children: [
-                    Center(child: VerticalDivider(),),
-                    Center (child: Divider(),),
+                    Center(child: VerticalDivider()),
+                    Center(child: Divider()),
                   ],
-                ),),),
+                ),
+              ),
+            ),
           ),
-          // Positioned.fill(
-          //   top: 320,
-          //   left: 24,
-          //   right: 0,
-          //   child: Transform(
-          //     transform:
-          //         Matrix4.identity()
-          //           ..rotateX(1)
-          //           ..rotateY(0)
-          //           ..rotateZ(0),
-          //     child: TaskActivityWidget(),
-          //   ),
-          // ),
+          Positioned.fill(
+            top: 320,
+            left: 24,
+            right: 0,
+            child: Transform(
+              transform: Matrix4.identity()
+            ..rotateX(0.2)
+            ..rotateY(-.1)
+            ..rotateZ(-.1),
+              child: TaskActivityWidget(),
+            ),
+          ),
           Positioned(
             bottom: 0,
             left: 0,
