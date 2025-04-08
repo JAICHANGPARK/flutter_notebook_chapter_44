@@ -25,10 +25,19 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
                   Text(
                     "Stay Organized, Stay Productive",
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-
                   ),
-                  Text("Manage your tasks effortiessly and boost your efficiency with smart planning."),
-                  
+                  Text(
+                    "Manage your tasks effortiessly and boost your efficiency with smart planning.",
+                  ),
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: Center(
+                      child: Text(
+                        "Get Started",
+                        style: TextStyle(color: Colors.white),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
