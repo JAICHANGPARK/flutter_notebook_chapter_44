@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class TaskManagementStartPage extends StatefulWidget {
   const TaskManagementStartPage({super.key});
@@ -23,12 +24,13 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
               child: Column(
                 children: [
                   Text(
-                    "Stay Organized, Stay Productive",
+                    "Stay Organized, Stay\nProductive",
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   ),
                   Text(
                     "Manage your tasks effortiessly and boost your efficiency with smart planning.",
                   ),
+                  Gap(32),
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 16),
                     padding: EdgeInsets.symmetric(vertical: 16),
