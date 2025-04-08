@@ -16,14 +16,24 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned.fill(
-              top: 320,
-              left: 24,
-              right: 0,
-              child: Transform(transform: Matrix4.identity(
-            
-          )..rotateX(0.2)..rotateY(-.4)..rotateZ(-.2),
-          child: TaskActivityWidget(),)),
+          Positioned(
+            top: 64,
+            left: 64,
+            child: Container(height: 240, width: 240, color: Colors.blue),
+          ),
+          // Positioned.fill(
+          //   top: 320,
+          //   left: 24,
+          //   right: 0,
+          //   child: Transform(
+          //     transform:
+          //         Matrix4.identity()
+          //           ..rotateX(1)
+          //           ..rotateY(0)
+          //           ..rotateZ(0),
+          //     child: TaskActivityWidget(),
+          //   ),
+          // ),
           Positioned(
             bottom: 0,
             left: 0,
