@@ -50,14 +50,14 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
                     ..rotateY(.3)
                     ..rotateZ(-.1),
               child: Container(
-                padding: EdgeInsets.all(8),
+                padding: EdgeInsets.all(3),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
                   boxShadow: [
                     BoxShadow(
                       color: Colors.black.withValues(alpha: .05),
-                      blurRadius: 2,
-                      spreadRadius: 2,
+                      blurRadius: 1,
+                      spreadRadius: 1,
                     ),
                   ],
                 ),
