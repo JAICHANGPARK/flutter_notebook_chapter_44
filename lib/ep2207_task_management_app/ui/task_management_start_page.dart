@@ -14,30 +14,10 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Stack(
         children: [
-          Positioned(
-            top: 64,
-            left: 64,
-            child: Transform(
-              transform:
-                  Matrix4.identity()
-                    ..rotateX(0.2)
-                    ..rotateY(-.1)
-                    ..rotateZ(-.1),
-              child: Container(
-                height: 240,
-                width: 240,
-                color: Colors.blue,
-                child: Stack(
-                  children: [
-                    Center(child: VerticalDivider()),
-                    Center(child: Divider()),
-                  ],
-                ),
-              ),
-            ),
-          ),
+
           Positioned.fill(
             top: 160,
             left: 120,
