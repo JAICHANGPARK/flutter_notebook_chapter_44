@@ -27,7 +27,7 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
               Matrix4.identity()
                 ..rotateX(0.2)
                 ..rotateY(.6)
-                ..rotateZ(-.1),
+                ..rotateZ(.005),
               child: Container(
                 padding: EdgeInsets.all(3),
                 decoration: BoxDecoration(
@@ -53,7 +53,7 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
               Matrix4.identity()
                 ..rotateX(0.2)
                 ..rotateY(.4)
-                ..rotateZ(-.1),
+                ..rotateZ(.008),
               child: Container(
                 padding: EdgeInsets.all(3),
                 decoration: BoxDecoration(
