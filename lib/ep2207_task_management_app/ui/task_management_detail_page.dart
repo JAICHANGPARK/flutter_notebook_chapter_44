@@ -181,6 +181,48 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                   ],
                 ),
               ),
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(8),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withValues(alpha: .05),
+                      blurRadius: 1,
+                      spreadRadius: 1,
+                    ),
+                  ],
+                ),
+                child: Column(
+                  spacing: 12,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text("Attachment"),
+                    Row(
+                      spacing: 6,
+                      children: [
+                        Icon(Icons.description),
+                        Text("Dreamwalker.pdf"),
+                      ],
+                    ),
+                    Row(
+                      spacing: 6,
+                      children: [
+                        Icon(Icons.description),
+                        Text("Dreamwalker.pdf"),
+                      ],
+                    ),
+                    Row(
+                      spacing: 6,
+                      children: [
+                        Icon(Icons.description),
+                        Text("Dreamwalker.pdf"),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
