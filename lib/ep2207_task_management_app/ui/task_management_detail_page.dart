@@ -29,7 +29,7 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                       radius: 24,
                       foregroundColor: Colors.black,
 
-                      child: Icon(Icons.more_horiz),
+                      child: Icon(Icons.arrow_back_ios_new),
                     ),
                     Expanded(child: Center(child: Text("Details"))),
                     CircleAvatar(
@@ -121,6 +121,12 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                     ),
                   ),
                 ],
+              ),
+              Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(8),
+                  boxShadow: [],
+                ),
               ),
             ],
           ),
