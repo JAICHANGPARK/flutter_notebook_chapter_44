@@ -135,7 +135,7 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                     BoxShadow(
                       color: Colors.black.withValues(alpha: .05),
                       blurRadius: 1,
-                      spreadRadius: 1
+                      spreadRadius: 1,
                     ),
                   ],
                 ),
@@ -163,19 +163,21 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                   borderRadius: BorderRadius.circular(8),
                   boxShadow: [
                     BoxShadow(
-                        color: Colors.black.withValues(alpha: .05),
-                        blurRadius: 1,
-                        spreadRadius: 1
+                      color: Colors.black.withValues(alpha: .05),
+                      blurRadius: 1,
+                      spreadRadius: 1,
                     ),
                   ],
                 ),
                 child: Column(
                   children: [
                     Text("About this Project"),
-                    
+                    Text(
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                    ),
                   ],
                 ),
-              )
+              ),
             ],
           ),
         ),
