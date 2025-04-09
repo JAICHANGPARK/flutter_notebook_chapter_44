@@ -142,14 +142,12 @@ class _TaskManagementMainPageState extends State<TaskManagementMainPage> {
                           ],
                         ),
                       ),
-                    ...[
-                      TaskActivityWidget(),
-                      TaskActivityWidget(),
-                      TaskActivityWidget(),
-                      TaskActivityWidget(),
-                    ]
-
-
+                      ...[
+                        TaskActivityWidget(),
+                        TaskActivityWidget(),
+                        TaskActivityWidget(),
+                        TaskActivityWidget(),
+                      ],
                     ],
                   ),
                 ),
