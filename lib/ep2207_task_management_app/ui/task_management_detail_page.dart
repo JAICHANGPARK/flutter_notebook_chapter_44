@@ -87,7 +87,7 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                             List.generate(3, (idx) {
                               return Positioned(
                                 left: idx * 34,
-                                child: CircleAvatar(radius: 26),
+                                child: CircleAvatar(radius: 22),
                               );
                             }).toList(),
                           ),
