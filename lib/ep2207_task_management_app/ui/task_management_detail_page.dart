@@ -169,6 +169,12 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                     ),
                   ],
                 ),
+                child: Column(
+                  children: [
+                    Text("About this Project"),
+                    
+                  ],
+                ),
               )
             ],
           ),
