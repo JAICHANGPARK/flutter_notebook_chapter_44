@@ -8,7 +8,8 @@ class TaskActivityWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: (){
-        
+        Navigator.of(context).push(MaterialPageRoute(builder: (context)=>
+        Task))
       },
       child: Container(
         decoration: BoxDecoration(
