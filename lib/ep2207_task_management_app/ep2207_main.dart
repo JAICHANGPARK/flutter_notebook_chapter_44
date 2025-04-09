@@ -12,8 +12,6 @@ class TaskManagementApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: TaskManagementStartPage(),
-    );
+    return MaterialApp(home: TaskManagementStartPage());
   }
 }
