@@ -123,9 +123,25 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                 ],
               ),
               Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(8),
-                  boxShadow: [],
+                // height: 52,
+                margin: EdgeInsets.all(2),
+                padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                decoration: BoxDecoration(color: Colors.grey[50]!),
+                child: Column(
+                  spacing: 12,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [Text("Progress"), Text("72%")],
+                    ),
+                    LinearPercentIndicator(
+                      padding: EdgeInsets.zero,
+                      percent: .72,
+                      backgroundColor: Colors.white,
+                      progressColor: Colors.green,
+                    ),
+                  ],
                 ),
               ),
             ],
