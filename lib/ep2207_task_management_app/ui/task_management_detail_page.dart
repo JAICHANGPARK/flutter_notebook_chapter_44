@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:percent_indicator/percent_indicator.dart';
 
 class TaskManagementDetailPage extends StatefulWidget {
   const TaskManagementDetailPage({super.key});
@@ -126,14 +127,18 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                 // height: 52,
                 margin: EdgeInsets.all(2),
                 padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-                decoration: BoxDecoration(color: Colors.grey[50]!),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(8),
+                  boxShadow: [],
+                ),
                 child: Column(
                   spacing: 12,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [Text("Progress"), Text("72%")],
+                      children: [Text("Project Progress"), Text("72%")],
                     ),
                     LinearPercentIndicator(
                       padding: EdgeInsets.zero,
