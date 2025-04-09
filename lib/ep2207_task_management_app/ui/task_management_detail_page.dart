@@ -14,18 +14,24 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
 
-          children: [
-            Row(
-              children: [
-                CircleAvatar(),
-                Expanded(child: Center(child: Text("Details"))),
-                CircleAvatar(),
-              ],
-            ),
-          ],
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    CircleAvatar(),
+                    Expanded(child: Center(child: Text("Details"))),
+                    CircleAvatar(),
+                  ],
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
