@@ -24,7 +24,13 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                 padding: const EdgeInsets.all(8.0),
                 child: Row(
                   children: [
-                    CircleAvatar(backgroundColor: Colors.white, radius: 24),
+                    CircleAvatar(
+                      backgroundColor: Colors.white,
+                      radius: 24,
+                      foregroundColor: Colors.black,
+
+                      child: Icon(Icons.more_horiz),
+                    ),
                     Expanded(child: Center(child: Text("Details"))),
                     CircleAvatar(
                       radius: 24,
