@@ -157,7 +157,7 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                padding: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(8),
@@ -170,6 +170,8 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                   ],
                 ),
                 child: Column(
+                  spacing: 12,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text("About this Project"),
                     Text(
