@@ -24,14 +24,12 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                 padding: const EdgeInsets.all(8.0),
                 child: Row(
                   children: [
-                    CircleAvatar(
-                      backgroundColor: Colors.white,
-                      radius: 24,
-                    ),
+                    CircleAvatar(backgroundColor: Colors.white, radius: 24),
                     Expanded(child: Center(child: Text("Details"))),
                     CircleAvatar(
                       backgroundColor: Colors.white,
                       radius: 24,
+                      child: Icon(Icons.more_horiz),
                     ),
                   ],
                 ),
@@ -84,12 +82,12 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                           width: 120,
                           child: Stack(
                             children:
-                            List.generate(3, (idx) {
-                              return Positioned(
-                                left: idx * 34,
-                                child: CircleAvatar(radius: 22),
-                              );
-                            }).toList(),
+                                List.generate(3, (idx) {
+                                  return Positioned(
+                                    left: idx * 34,
+                                    child: CircleAvatar(radius: 22),
+                                  );
+                                }).toList(),
                           ),
                         ),
                         Expanded(
