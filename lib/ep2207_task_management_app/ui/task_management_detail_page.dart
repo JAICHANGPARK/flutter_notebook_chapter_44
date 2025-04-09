@@ -27,8 +27,10 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                     CircleAvatar(backgroundColor: Colors.white, radius: 24),
                     Expanded(child: Center(child: Text("Details"))),
                     CircleAvatar(
-                      backgroundColor: Colors.white,
                       radius: 24,
+                      backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
+
                       child: Icon(Icons.more_horiz),
                     ),
                   ],
