@@ -130,7 +130,13 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(8),
-                  boxShadow: [],
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withValues(alpha: .05),
+                      blurRadius: 1,
+                      spreadRadius: 1
+                    ),
+                  ],
                 ),
                 child: Column(
                   spacing: 12,
