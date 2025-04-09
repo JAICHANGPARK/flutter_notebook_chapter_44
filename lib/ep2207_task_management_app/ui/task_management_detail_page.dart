@@ -18,6 +18,7 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            spacing: 12,
             crossAxisAlignment: CrossAxisAlignment.start,
 
             children: [
@@ -155,6 +156,20 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
                   ],
                 ),
               ),
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(8),
+                  boxShadow: [
+                    BoxShadow(
+                        color: Colors.black.withValues(alpha: .05),
+                        blurRadius: 1,
+                        spreadRadius: 1
+                    ),
+                  ],
+                ),
+              )
             ],
           ),
         ),
