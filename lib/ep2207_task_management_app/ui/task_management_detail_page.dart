@@ -10,6 +10,6 @@ class TaskManagementDetailPage extends StatefulWidget {
 class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
