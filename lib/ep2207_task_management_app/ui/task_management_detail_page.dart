@@ -12,7 +12,7 @@ class _TaskManagementDetailPageState extends State<TaskManagementDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Color.fromRGBO(250, 250, 250, 1),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
