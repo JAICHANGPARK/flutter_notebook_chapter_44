@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_44/ep2207_task_management_app/ui/task_management_main_page.dart';
 import 'package:flutter_notebook_chapter_44/ep2207_task_management_app/ui/widgets/task_activity_widget.dart';
 import 'package:gap/gap.dart';
 
@@ -17,17 +18,16 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-
           Positioned.fill(
             top: 160,
             left: 120,
             right: -72,
             child: Transform(
               transform:
-              Matrix4.identity()
-                ..rotateX(0.2)
-                ..rotateY(.6)
-                ..rotateZ(.005),
+                  Matrix4.identity()
+                    ..rotateX(0.2)
+                    ..rotateY(.6)
+                    ..rotateZ(.005),
               child: Container(
                 padding: EdgeInsets.all(3),
                 decoration: BoxDecoration(
@@ -50,10 +50,10 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
             right: -24,
             child: Transform(
               transform:
-              Matrix4.identity()
-                ..rotateX(0.2)
-                ..rotateY(.4)
-                ..rotateZ(.008),
+                  Matrix4.identity()
+                    ..rotateX(0.2)
+                    ..rotateY(.4)
+                    ..rotateZ(.008),
               child: Container(
                 padding: EdgeInsets.all(3),
                 decoration: BoxDecoration(
@@ -117,17 +117,26 @@ class _TaskManagementStartPageState extends State<TaskManagementStartPage> {
                     textAlign: TextAlign.center,
                   ),
                   Gap(32),
-                  Container(
-                    // margin: EdgeInsets.symmetric(horizontal: 16),
-                    padding: EdgeInsets.symmetric(vertical: 16),
-                    decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
-                      color: Colors.black,
-                    ),
-                    child: Center(
-                      child: Text(
-                        "Get Started",
-                        style: TextStyle(color: Colors.white),
+                  InkWell(
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => TaskManagementMainPage(),
+                        ),
+                      );
+                    },
+                    child: Container(
+                      // margin: EdgeInsets.symmetric(horizontal: 16),
+                      padding: EdgeInsets.symmetric(vertical: 16),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.black,
+                      ),
+                      child: Center(
+                        child: Text(
+                          "Get Started",
+                          style: TextStyle(color: Colors.white),
+                        ),
                       ),
                     ),
                   ),
