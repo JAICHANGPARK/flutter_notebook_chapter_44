@@ -7,9 +7,10 @@ class TaskActivityWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: (){
-        Navigator.of(context).push(MaterialPageRoute(builder: (context)=>
-        Task))
+      onTap: () {
+        Navigator.of(context).push(
+          MaterialPageRoute(builder: (context) => TaskManagementDetailPage()),
+        );
       },
       child: Container(
         decoration: BoxDecoration(
