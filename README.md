@@ -6,7 +6,7 @@ A new Flutter project.
 
 - Food Delivery Mobile App UI/UX Design
 - Ronas IT | UI/UX Team
-- https://dribbble.com/shots/25862021-Task-Management-Mobile-App
+- https://dribbble.com/shots/25869703-Food-Delivery-Mobile-App-UI-UX-Design
 
 <img src="https://cdn.dribbble.com/userupload/42799551/file/original-a5b3a43c9ddf012ce6434145300943c3.jpg?resize=1905x1429&vertical=center">
 
