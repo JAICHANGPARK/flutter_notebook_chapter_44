@@ -23,6 +23,14 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
             icon: Icon(HugeIcons.strokeRoundedSearch01),
             label: "Catalog",
           ),
+          BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedShoppingCart01),
+            label: "Cart",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedUser),
+            label: "Profile",
+          ),
         ],
       ),
     );
