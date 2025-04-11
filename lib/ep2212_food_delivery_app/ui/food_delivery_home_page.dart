@@ -16,6 +16,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
       bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
           unselectedItemColor: Colors.grey ,
+          selectedItemColor: Colors.orange,
           items: [
           BottomNavigationBarItem(
           icon: Icon(HugeIcons.strokeRoundedHome02),
