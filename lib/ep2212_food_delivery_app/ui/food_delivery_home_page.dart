@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class FoodDeliveryHomePage extends StatefulWidget {
@@ -16,13 +17,15 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
+          
           children: [
+            Gap(12),
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text("Regent Street, 16", style: TextStyle(fontSize: 28)),
+                  Text("Regent Street, 16", style: TextStyle(fontSize: 32)),
                   Icon(Icons.keyboard_arrow_down, size: 26),
                 ],
               ),
