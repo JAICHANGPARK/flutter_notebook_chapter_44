@@ -13,29 +13,33 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(children: []),
-      bottomNavigationBar: BottomNavigationBar(
-          type: BottomNavigationBarType.fixed,
-          unselectedItemColor: Colors.grey ,
-          selectedItemColor: Colors.orange,
-          items: [
-          BottomNavigationBarItem(
-          icon: Icon(HugeIcons.strokeRoundedHome02),
-      label: "Home",
-    ),
-    BottomNavigationBarItem(
-    icon: Icon(HugeIcons.strokeRoundedSearch01),
-    label: "Catalog",
-    ),
-    BottomNavigationBarItem(
-    icon: Icon(HugeIcons.strokeRoundedShoppingCart01),
-    label: "Cart",
-    ),
-    BottomNavigationBarItem(
-    icon: Icon(HugeIcons.strokeRoundedUser),
-    label: "Profile",
-    ),
-    ],
-    ),
+      bottomNavigationBar: SizedBox(
+        height: 82,
+        child: BottomNavigationBar(
+
+            type: BottomNavigationBarType.fixed,
+            unselectedItemColor: Colors.grey ,
+            selectedItemColor: Colors.orange,
+            items: [
+            BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedHome02),
+        label: "Home",
+            ),
+            BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedSearch01),
+            label: "Catalog",
+            ),
+            BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedShoppingCart01),
+            label: "Cart",
+            ),
+            BottomNavigationBarItem(
+            icon: Icon(HugeIcons.strokeRoundedUser),
+            label: "Profile",
+            ),
+            ],
+            ),
+      ),
     );
   }
 }
