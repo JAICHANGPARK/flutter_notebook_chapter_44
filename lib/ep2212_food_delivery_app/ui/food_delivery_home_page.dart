@@ -14,26 +14,27 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
     return Scaffold(
       body: Column(children: []),
       bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,
-        items: [
+          type: BottomNavigationBarType.fixed,
+          unselectedItemColor: Colors.grey ,
+          items: [
           BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedHome02),
-            label: "Home",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedSearch01),
-            label: "Catalog",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedShoppingCart01),
-            label: "Cart",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedUser),
-            label: "Profile",
-          ),
-        ],
-      ),
+          icon: Icon(HugeIcons.strokeRoundedHome02),
+      label: "Home",
+    ),
+    BottomNavigationBarItem(
+    icon: Icon(HugeIcons.strokeRoundedSearch01),
+    label: "Catalog",
+    ),
+    BottomNavigationBarItem(
+    icon: Icon(HugeIcons.strokeRoundedShoppingCart01),
+    label: "Cart",
+    ),
+    BottomNavigationBarItem(
+    icon: Icon(HugeIcons.strokeRoundedUser),
+    label: "Profile",
+    ),
+    ],
+    ),
     );
   }
 }
