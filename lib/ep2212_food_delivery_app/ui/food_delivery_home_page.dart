@@ -20,63 +20,70 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
             Padding(
               padding: const EdgeInsets.all(24.0),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text("Regent Street, 16"),
-                  Icon(Icons.keyboard_arrow_down),
+                  Text("Regent Street, 16", style: TextStyle(fontSize: 28)),
+                  Icon(Icons.keyboard_arrow_down, size: 26),
                 ],
               ),
             ),
-            Expanded(child: SingleChildScrollView(child: Column(
-              spacing: 20,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Container(
-                  margin: EdgeInsets.symmetric(horizontal: 24),
-                  height: 200,
-                  child: Placeholder(),
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 24),
-                  child: Column(
-                    spacing: 12,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
+            Expanded(
+              child: SingleChildScrollView(
+                child: Column(
+                  spacing: 20,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Container(
+                      margin: EdgeInsets.symmetric(horizontal: 24),
+                      height: 200,
+                      child: GridView.count(
+                        crossAxisCount: 3,
                         children: [
-                          Text("Places"),
-                          // Icon(Icons.keyboard_arrow_down),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.orange,
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                          ),
                         ],
                       ),
-                      Container(
-                        height: 200,
-                        child: Placeholder(),
-                      ),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 24),
-                  child: Column(
-                    spacing: 12,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 24),
+                      child: Column(
+                        spacing: 12,
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text("Best prices"),
-                          Icon(Icons.verified),
+                          Row(
+                            children: [
+                              Text("Places"),
+                              // Icon(Icons.keyboard_arrow_down),
+                            ],
+                          ),
+                          Container(height: 200, child: Placeholder()),
                         ],
                       ),
-                      Container(
-                        height: 200,
-                        child: Placeholder(),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 24),
+                      child: Column(
+                        spacing: 12,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Text("Best prices"),
+                              Icon(Icons.verified),
+                            ],
+                          ),
+                          Container(height: 200, child: Placeholder()),
+                        ],
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
-
-              ],
-            ),))
-
+              ),
+            ),
           ],
         ),
       ),
