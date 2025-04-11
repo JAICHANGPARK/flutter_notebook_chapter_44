@@ -116,6 +116,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                           Icon(Icons.star),
                                         ],
                                       ),
+                                      Text("italian food 60 min")
                                     ],
                                   ),
                                 );
