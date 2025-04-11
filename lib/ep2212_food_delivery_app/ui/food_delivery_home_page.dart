@@ -32,27 +32,45 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   height: 200,
                   child: Placeholder(),
                 ),
-                Column(
-                  children: [
-                    Row(
-                      children: [
-                        Text("Places"),
-                        // Icon(Icons.keyboard_arrow_down),
-                      ],
-                    ),
-                    Container(
-                      height: 200,
-                      child: Placeholder(),
-                    ),
-                  ],
+                Padding(
+                  padding: const EdgeInsets.only(left: 24),
+                  child: Column(
+                    spacing: 12,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          Text("Places"),
+                          // Icon(Icons.keyboard_arrow_down),
+                        ],
+                      ),
+                      Container(
+                        height: 200,
+                        child: Placeholder(),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 24),
+                  child: Column(
+                    spacing: 12,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          Text("Best prices"),
+                          Icon(Icons.verified),
+                        ],
+                      ),
+                      Container(
+                        height: 200,
+                        child: Placeholder(),
+                      ),
+                    ],
+                  ),
                 ),
 
-                Row(
-                  children: [
-                    Text("Best prices"),
-                    Icon(Icons.verified),
-                  ],
-                ),
               ],
             ),))
 
