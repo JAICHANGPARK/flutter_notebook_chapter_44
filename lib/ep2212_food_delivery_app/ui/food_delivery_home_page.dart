@@ -24,6 +24,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
               ],
             ),
             Expanded(child: SingleChildScrollView(child: Column(
+              spacing: 20,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
@@ -31,16 +32,21 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   height: 200,
                   child: Placeholder(),
                 ),
-                Row(
+                Column(
                   children: [
-                    Text("Places"),
-                    // Icon(Icons.keyboard_arrow_down),
+                    Row(
+                      children: [
+                        Text("Places"),
+                        // Icon(Icons.keyboard_arrow_down),
+                      ],
+                    ),
+                    Container(
+                      height: 200,
+                      child: Placeholder(),
+                    ),
                   ],
                 ),
-                Container(
-                  height: 200,
-                  child: Placeholder(),
-                ),
+
                 Row(
                   children: [
                     Text("Best prices"),
