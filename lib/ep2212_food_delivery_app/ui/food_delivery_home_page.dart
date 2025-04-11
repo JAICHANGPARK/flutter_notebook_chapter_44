@@ -150,6 +150,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
                                 return Container(
+                                  width: 120,
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     spacing: 6,
