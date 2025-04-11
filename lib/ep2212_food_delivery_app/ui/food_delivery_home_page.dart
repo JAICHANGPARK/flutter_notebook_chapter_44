@@ -17,11 +17,14 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Row(
-              children: [
-                Text("Regent Street, 16"),
-                Icon(Icons.keyboard_arrow_down),
-              ],
+            Padding(
+              padding: const EdgeInsets.all(24.0),
+              child: Row(
+                children: [
+                  Text("Regent Street, 16"),
+                  Icon(Icons.keyboard_arrow_down),
+                ],
+              ),
             ),
             Expanded(child: SingleChildScrollView(child: Column(
               spacing: 20,
