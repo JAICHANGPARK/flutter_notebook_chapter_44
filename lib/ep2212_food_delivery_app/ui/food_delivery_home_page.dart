@@ -113,8 +113,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                       Row(
                                         children: [
                                           Text("Sundown Cafe"),
+                                          Spacer(),
                                           Text('4.9'),
-                                          Icon(Icons.star),
+                                          Icon(Icons.star,
+                                          size: 16,),
                                         ],
                                       ),
                                       Text("italian food 60 min"),
