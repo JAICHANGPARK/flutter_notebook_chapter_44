@@ -35,13 +35,44 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   children: [
                     Container(
                       margin: EdgeInsets.symmetric(horizontal: 24),
-                      height: 200,
+                      height: 280,
+
                       child: GridView.count(
                         crossAxisCount: 3,
                         children: [
                           Container(
                             decoration: BoxDecoration(
                               color: Colors.orange,
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.orange[50],
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.orange[50],
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.orange[50],
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.orange[50],
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.orange[50],
                               borderRadius: BorderRadius.circular(6),
                             ),
                           ),
