@@ -8,7 +8,7 @@ A new Flutter project.
 - Ronas IT | UI/UX Team
 - https://dribbble.com/shots/25869703-Food-Delivery-Mobile-App-UI-UX-Design
 
-<img src="https://cdn.dribbble.com/userupload/42799551/file/original-a5b3a43c9ddf012ce6434145300943c3.jpg?resize=1905x1429&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/42825309/file/original-9d4ec93f3216e5b017cbe5e53393d17e.png?resize=1905x1429&vertical=center">
 
 
 
