@@ -115,8 +115,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                           Text("Sundown Cafe"),
                                           Spacer(),
                                           Text('4.9'),
-                                          Icon(Icons.star,
-                                          size: 16,),
+                                          Icon(Icons.star, size: 16),
                                         ],
                                       ),
                                       Text("italian food 60 min"),
@@ -136,12 +135,24 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Row(
+                            spacing: 8,
                             children: [
-                              Text("Best prices"),
-                              Icon(Icons.verified),
+                              Text(
+                                "Best prices",
+                                style: TextStyle(fontSize: 24),
+                              ),
+                              Icon(Icons.verified, color: Colors.green),
                             ],
                           ),
-                          Container(height: 200, child: Placeholder()),
+                          Container(
+                            height: 200,
+                            child: ListView.builder(
+                              scrollDirection: Axis.horizontal,
+                              itemBuilder: (context, index) {
+                                return Container();
+                              },
+                            ),
+                          ),
                         ],
                       ),
                     ),
