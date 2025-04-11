@@ -104,9 +104,18 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                 return Container(
                                   width: 160,
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    spacing: 12,
                                     children: [
-
+                                      Expanded(child: Placeholder()),
+                                      Row(
+                                        children: [
+                                          Text("Sundown Cafe"),
+                                          Text('4.9'),
+                                          Icon(Icons.star),
+                                        ],
+                                      ),
                                     ],
                                   ),
                                 );
