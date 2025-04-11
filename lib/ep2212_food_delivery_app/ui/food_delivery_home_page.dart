@@ -17,7 +17,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          
+
           children: [
             Gap(12),
             Padding(
@@ -92,11 +92,25 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         children: [
                           Row(
                             children: [
-                              Text("Places"),
+                              Text("Places", style: TextStyle(fontSize: 24)),
                               // Icon(Icons.keyboard_arrow_down),
                             ],
                           ),
-                          Container(height: 200, child: Placeholder()),
+                          Container(
+                            height: 200,
+                            child: ListView.builder(
+                              scrollDirection: Axis.horizontal,
+                              itemBuilder: (context, index) {
+                                return Container(
+                                  child: Column(
+                                    children: [
+
+                                    ],
+                                  ),
+                                );
+                              },
+                            ),
+                          ),
                         ],
                       ),
                     ),
