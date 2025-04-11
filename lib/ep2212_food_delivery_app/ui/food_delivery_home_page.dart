@@ -14,6 +14,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
     return Scaffold(
       body: Column(children: []),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
             icon: Icon(HugeIcons.strokeRoundedHome02),
