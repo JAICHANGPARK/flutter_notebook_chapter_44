@@ -12,33 +12,38 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(children: []),
+      backgroundColor: Colors.white,
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [Text("Regent Street, 16"), Icon(Icons.keyboard_arrow_down)],
+      ),
       bottomNavigationBar: SizedBox(
         height: 82,
         child: BottomNavigationBar(
+          backgroundColor: Colors.white,
 
-            type: BottomNavigationBarType.fixed,
-            unselectedItemColor: Colors.grey ,
-            selectedItemColor: Colors.orange,
-            items: [
+          type: BottomNavigationBarType.fixed,
+          unselectedItemColor: Colors.grey,
+          selectedItemColor: Colors.orange,
+          items: [
             BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedHome02),
-        label: "Home",
-            ),
-            BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedSearch01),
-            label: "Catalog",
+              icon: Icon(HugeIcons.strokeRoundedHome02),
+              label: "Home",
             ),
             BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedShoppingCart01),
-            label: "Cart",
+              icon: Icon(HugeIcons.strokeRoundedSearch01),
+              label: "Catalog",
             ),
             BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedUser),
-            label: "Profile",
+              icon: Icon(HugeIcons.strokeRoundedShoppingCart01),
+              label: "Cart",
             ),
-            ],
+            BottomNavigationBarItem(
+              icon: Icon(HugeIcons.strokeRoundedUser),
+              label: "Profile",
             ),
+          ],
+        ),
       ),
     );
   }
