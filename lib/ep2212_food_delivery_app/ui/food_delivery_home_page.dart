@@ -42,8 +42,8 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                 ),
                 Row(
                   children: [
-                    Text("Places"),
-                    // Icon(Icons.keyboard_arrow_down),
+                    Text("Best prices"),
+                    Icon(Icons.verified),
                   ],
                 ),
               ],
