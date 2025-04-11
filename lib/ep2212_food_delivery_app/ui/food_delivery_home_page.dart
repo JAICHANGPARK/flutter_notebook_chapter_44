@@ -102,7 +102,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
                                 return Container(
-                                  
+                                  margin: EdgeInsets.only(right: 12),
                                   width: 200,
                                   child: Column(
                                     crossAxisAlignment:
@@ -117,7 +117,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                           Icon(Icons.star),
                                         ],
                                       ),
-                                      Text("italian food 60 min")
+                                      Text("italian food 60 min"),
                                     ],
                                   ),
                                 );
