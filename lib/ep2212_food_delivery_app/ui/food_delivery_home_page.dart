@@ -13,9 +13,19 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [Text("Regent Street, 16"), Icon(Icons.keyboard_arrow_down)],
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                
+              ],
+            )
+            Text("Regent Street, 16"),
+            Icon(Icons.keyboard_arrow_down),
+          ],
+        ),
       ),
       bottomNavigationBar: SizedBox(
         height: 82,
