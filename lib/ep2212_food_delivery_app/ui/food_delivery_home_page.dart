@@ -149,7 +149,17 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
-                                return Container();
+                                return Container(
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    spacing: 6,
+                                    children: [
+                                      Expanded(child: Placeholder()),
+                                      Text("Latte"),
+                                      Text("\$2.00")
+                                    ],
+                                  ),
+                                );
                               },
                             ),
                           ),
