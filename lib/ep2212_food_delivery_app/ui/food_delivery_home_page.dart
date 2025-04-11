@@ -97,13 +97,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             ],
                           ),
                           Container(
-                            height: 200,
+                            height: 210,
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
                                 return Container(
                                   margin: EdgeInsets.only(right: 12),
-                                  width: 200,
+                                  width: 220,
                                   child: Column(
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
