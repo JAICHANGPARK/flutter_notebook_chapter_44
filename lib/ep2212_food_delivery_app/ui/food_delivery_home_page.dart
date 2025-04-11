@@ -19,11 +19,21 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
           children: [
             Row(
               children: [
-                
+                Text("Regent Street, 16"),
+                Icon(Icons.keyboard_arrow_down),
               ],
-            )
-            Text("Regent Street, 16"),
-            Icon(Icons.keyboard_arrow_down),
+            ),
+            Container(
+              height: 200,
+              child: Placeholder(),
+            ),
+            Row(
+              children: [
+                Text("Places"),
+                // Icon(Icons.keyboard_arrow_down),
+              ],
+            ),
+
           ],
         ),
       ),
