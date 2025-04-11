@@ -27,6 +27,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
+                  margin: EdgeInsets.symmetric(horizontal: 24),
                   height: 200,
                   child: Placeholder(),
                 ),
