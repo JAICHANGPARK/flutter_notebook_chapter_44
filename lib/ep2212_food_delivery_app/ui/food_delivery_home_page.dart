@@ -23,27 +23,32 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                 Icon(Icons.keyboard_arrow_down),
               ],
             ),
-            
-            Container(
-              height: 200,
-              child: Placeholder(),
-            ),
-            Row(
+            Expanded(child: SingleChildScrollView(child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text("Places"),
-                // Icon(Icons.keyboard_arrow_down),
+                Container(
+                  height: 200,
+                  child: Placeholder(),
+                ),
+                Row(
+                  children: [
+                    Text("Places"),
+                    // Icon(Icons.keyboard_arrow_down),
+                  ],
+                ),
+                Container(
+                  height: 200,
+                  child: Placeholder(),
+                ),
+                Row(
+                  children: [
+                    Text("Places"),
+                    // Icon(Icons.keyboard_arrow_down),
+                  ],
+                ),
               ],
-            ),
-            Container(
-              height: 200,
-              child: Placeholder(),
-            ),
-            Row(
-              children: [
-                Text("Places"),
-                // Icon(Icons.keyboard_arrow_down),
-              ],
-            ),
+            ),))
+
           ],
         ),
       ),
