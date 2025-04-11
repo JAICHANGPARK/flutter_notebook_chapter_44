@@ -35,10 +35,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   children: [
                     Container(
                       margin: EdgeInsets.symmetric(horizontal: 24),
-                      height: 280,
 
                       child: GridView.count(
                         crossAxisCount: 3,
+                        crossAxisSpacing: 3,
+                        mainAxisSpacing: 3,
+                        shrinkWrap: true,
                         children: [
                           Container(
                             decoration: BoxDecoration(
