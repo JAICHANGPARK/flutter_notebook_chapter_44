@@ -13,7 +13,13 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
     return Scaffold(
       body: Column(
         children: [
-          Container(height: 280, decoration: BoxDecoration(color: Colors.blue)),
+          Container(height: 400, decoration: BoxDecoration(color: Colors.blue)),
+          Expanded(child: SingleChildScrollView(child: Column(children: []))),
+          Container(
+            decoration: BoxDecoration(
+              
+            ),
+          )
         ],
       ),
     );
