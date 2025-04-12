@@ -120,7 +120,6 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                     "https://cdn.pixabay.com/photo/2014/09/12/18/20/can-443123_1280.png",
                                   ),
                                 ),
-
                               ],
                             ),
                           ),
@@ -158,13 +157,14 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                     "Pizza",
                                     style: TextStyle(fontSize: 15),
                                   ),
-                                ),  Positioned(
+                                ),
+                                Positioned(
                                   bottom: -64,
                                   right: -64,
                                   top: 32,
                                   left: 32,
                                   child: Image.network(
-                                    "https://cdn.pixabay.com/photo/2022/10/06/22/22/pizza-7503664_1280.png"
+                                    "https://cdn.pixabay.com/photo/2022/10/06/22/22/pizza-7503664_1280.png",
                                   ),
                                 ),
                               ],
@@ -185,7 +185,8 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                     "Salads",
                                     style: TextStyle(fontSize: 15),
                                   ),
-                                ),  Positioned(
+                                ),
+                                Positioned(
                                   bottom: -64,
                                   right: -64,
                                   top: 32,
@@ -225,7 +226,22 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                         CrossAxisAlignment.start,
                                     spacing: 12,
                                     children: [
-                                      Expanded(child: Placeholder()),
+                                      Expanded(
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                            color: Colors.blue,
+                                            borderRadius: BorderRadius.circular(
+                                              8,
+                                            ),
+                                            image: DecorationImage(
+                                              image: NetworkImage(
+                                                "https://cdn.pixabay.com/photo/2021/01/08/06/32/cafe-5899078_1280.jpg",
+                                              ),
+                                              fit: BoxFit.cover,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
                                       Row(
                                         children: [
                                           Text("Sundown Cafe"),
