@@ -50,6 +50,11 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               color: Colors.orange,
                               borderRadius: BorderRadius.circular(6),
                             ),
+                            child: Stack(
+                              children: [
+                                Positioned(child: Text("Specials of the week")),
+                              ],
+                            ),
                           ),
                           Container(
                             decoration: BoxDecoration(
@@ -150,17 +155,16 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
                                 return Container(
-                                  margin: EdgeInsets.only(
-                                    right: 8
-                                  ),
+                                  margin: EdgeInsets.only(right: 8),
                                   width: 130,
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     spacing: 6,
                                     children: [
                                       Expanded(child: Placeholder()),
                                       Text("Latte"),
-                                      Text("\$2.00")
+                                      Text("\$2.00"),
                                     ],
                                   ),
                                 );
