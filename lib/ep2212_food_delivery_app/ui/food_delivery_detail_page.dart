@@ -17,8 +17,10 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
           Expanded(child: SingleChildScrollView(child: Column(children: []))),
           Container(
             margin: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+            padding: EdgeInsets.symmetric(vertical: 16),
             decoration: BoxDecoration(color: Colors.deepOrangeAccent[100]),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text("\$5.90"),
                 VerticalDivider(),
