@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_44/ep2207_task_management_app/ui/widgets/task_activity_widget.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
-import 'package:percent_indicator/percent_indicator.dart';
 
 class TaskManagementMainPage extends StatefulWidget {
   const TaskManagementMainPage({super.key});
