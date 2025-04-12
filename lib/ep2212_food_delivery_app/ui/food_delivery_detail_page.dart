@@ -11,6 +11,8 @@ class FoodDeliveryDetailPage extends StatefulWidget {
 class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+
+    );
   }
 }
