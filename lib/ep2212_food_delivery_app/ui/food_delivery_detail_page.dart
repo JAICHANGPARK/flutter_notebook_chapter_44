@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FoodDeliveryDetailPage extends StatefulWidget {
   const FoodDeliveryDetailPage({super.key});
@@ -20,22 +21,26 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                 spacing: 12,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text.rich(
-                        TextSpan(
-                          children: [
-                            TextSpan(text: "Choco croissant,"),
-                            TextSpan(text: "110g"),
-                          ],
+                  Gap(6),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16,),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text.rich(
+                          TextSpan(
+                            children: [
+                              TextSpan(text: "Choco croissant,"),
+                              TextSpan(text: "110g"),
+                            ],
+                          ),
                         ),
-                      ),
-                      Text(
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                        maxLines: 3,
-                      ),
-                    ],
+                        Text(
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                          maxLines: 3,
+                        ),
+                      ],
+                    ),
                   ),
 
                   Column(
