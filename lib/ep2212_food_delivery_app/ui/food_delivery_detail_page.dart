@@ -1,4 +1,6 @@
 
+import 'package:flutter/material.dart';
+
 class FoodDeliveryDetailPage extends StatefulWidget {
   const FoodDeliveryDetailPage({super.key});
 
@@ -9,6 +11,6 @@ class FoodDeliveryDetailPage extends StatefulWidget {
 class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
