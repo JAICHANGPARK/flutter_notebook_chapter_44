@@ -308,7 +308,17 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                         child: Container(
                                           decoration: BoxDecoration(
                                             color: Colors.orange,
-                                            borderRadius: BorderRadius.circular(6)
+                                            borderRadius: BorderRadius.circular(
+                                              8,
+                                            ),
+                                          ),
+                                          child: Stack(
+                                            children: [
+                                              Positioned(
+                                                  top: 8,
+                                                  right: 8,
+                                                  child: CircleAvatar()),
+                                            ],
                                           ),
                                         ),
                                       ),
