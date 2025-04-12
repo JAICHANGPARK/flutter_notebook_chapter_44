@@ -21,6 +21,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text.rich(
                         TextSpan(
@@ -38,6 +39,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                   ),
 
                   Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text("Add to order", style: TextStyle(fontSize: 19)),
                       Container(
@@ -49,17 +51,14 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                               margin: EdgeInsets.only(right: 8),
                               width: 120,
                               child: Column(
-                                crossAxisAlignment:
-                                CrossAxisAlignment.start,
+                                crossAxisAlignment: CrossAxisAlignment.start,
                                 spacing: 4,
                                 children: [
                                   Expanded(
                                     child: Container(
                                       decoration: BoxDecoration(
                                         color: Colors.orange,
-                                        borderRadius: BorderRadius.circular(
-                                          8,
-                                        ),
+                                        borderRadius: BorderRadius.circular(8),
                                       ),
                                       child: Stack(
                                         children: [
@@ -69,20 +68,14 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                                             child: CircleAvatar(
                                               radius: 15,
 
-                                              child: Icon(
-                                                Icons.add,
-                                                size: 16,
-                                              ),
+                                              child: Icon(Icons.add, size: 16),
                                             ),
                                           ),
                                         ],
                                       ),
                                     ),
                                   ),
-                                  Text(
-                                    "Latte",
-                                    style: TextStyle(fontSize: 18),
-                                  ),
+                                  Text("Latte", style: TextStyle(fontSize: 18)),
                                   Text("\$2.00"),
                                 ],
                               ),
@@ -91,8 +84,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                         ),
                       ),
                     ],
-                  )
-
+                  ),
                 ],
               ),
             ),
