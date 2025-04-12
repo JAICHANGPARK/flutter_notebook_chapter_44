@@ -56,8 +56,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                   left: 12,
                                   top: 12,
                                   right: 24,
-                                  child: Text("Specials of the week",
-                                  style: ,),
+                                  child: Text(
+                                    "Specials of the week",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 15,
+                                    ),
+                                  ),
                                 ),
                               ],
                             ),
