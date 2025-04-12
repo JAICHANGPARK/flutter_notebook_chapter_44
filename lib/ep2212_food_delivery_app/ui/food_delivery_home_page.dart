@@ -317,7 +317,14 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                               Positioned(
                                                 top: 8,
                                                 right: 8,
-                                                child: CircleAvatar(radius: 15),
+                                                child: CircleAvatar(
+                                                  radius: 15,
+
+                                                  child: Icon(
+                                                    Icons.add,
+                                                    size: 16,
+                                                  ),
+                                                ),
                                               ),
                                             ],
                                           ),
