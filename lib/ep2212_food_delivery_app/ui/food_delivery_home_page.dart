@@ -302,16 +302,20 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                   child: Column(
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
-                                    spacing: 6,
+                                    spacing: 4,
                                     children: [
                                       Expanded(
                                         child: Container(
                                           decoration: BoxDecoration(
                                             color: Colors.orange,
+                                            borderRadius: BorderRadius.circular(6)
                                           ),
                                         ),
                                       ),
-                                      Text("Latte"),
+                                      Text(
+                                        "Latte",
+                                        style: TextStyle(fontSize: 18),
+                                      ),
                                       Text("\$2.00"),
                                     ],
                                   ),
