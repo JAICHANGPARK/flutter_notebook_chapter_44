@@ -164,7 +164,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                   top: 32,
                                   left: 32,
                                   child: Image.network(
-                                    "https://cdn.pixabay.com/photo/2014/04/02/17/06/cookie-307960_1280.png",
+                                    "https://cdn.pixabay.com/photo/2022/10/06/22/22/pizza-7503664_1280.png"
                                   ),
                                 ),
                               ],
