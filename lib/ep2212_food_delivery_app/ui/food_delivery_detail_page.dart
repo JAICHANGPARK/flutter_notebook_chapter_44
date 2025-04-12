@@ -23,7 +23,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("\$5.90"),
+                  Text("\$5.90", style: TextStyle(color: Colors.white)),
                   VerticalDivider(),
                   Text("Add to cart"),
                 ],
