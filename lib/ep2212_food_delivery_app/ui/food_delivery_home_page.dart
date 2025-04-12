@@ -71,7 +71,22 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             decoration: BoxDecoration(
                               color: Colors.orange[50],
                               borderRadius: BorderRadius.circular(6),
-                            ),
+                            ),child: Stack(
+                            children: [
+                              Positioned(
+                                left: 12,
+                                top: 12,
+                                right: 24,
+                                child: Text(
+                                  "Cookies",
+                                  style: TextStyle(
+
+                                    fontSize: 15,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
                           ),
                           Container(
                             decoration: BoxDecoration(
