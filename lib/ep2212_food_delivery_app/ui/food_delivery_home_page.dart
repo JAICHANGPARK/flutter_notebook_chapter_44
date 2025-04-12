@@ -83,6 +83,15 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                     style: TextStyle(fontSize: 15),
                                   ),
                                 ),
+                                Positioned(
+                                  bottom: -64,
+                                  right: -64,
+                                  top: 32,
+                                  left: 32,
+                                  child: Image.network(
+                                    "https://cdn.pixabay.com/photo/2014/04/02/17/06/cookie-307960_1280.png",
+                                  ),
+                                ),
                               ],
                             ),
                           ),
@@ -91,11 +100,19 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               color: Colors.orange[50],
                               borderRadius: BorderRadius.circular(6),
                             ),
-                          ),
-                          Container(
-                            decoration: BoxDecoration(
-                              color: Colors.orange[50],
-                              borderRadius: BorderRadius.circular(6),
+                            child: Stack(
+                              children: [
+                                Positioned(
+                                  left: 12,
+                                  top: 12,
+                                  right: 24,
+                                  child: Text(
+                                    "Drinks",
+                                    style: TextStyle(fontSize: 15),
+                                  ),
+                                ),
+
+                              ],
                             ),
                           ),
                           Container(
@@ -103,11 +120,56 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               color: Colors.orange[50],
                               borderRadius: BorderRadius.circular(6),
                             ),
+                            child: Stack(
+                              children: [
+                                Positioned(
+                                  left: 12,
+                                  top: 12,
+                                  right: 24,
+                                  child: Text(
+                                    "Desserts",
+                                    style: TextStyle(fontSize: 15),
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
                           Container(
                             decoration: BoxDecoration(
                               color: Colors.orange[50],
                               borderRadius: BorderRadius.circular(6),
+                            ),
+                            child: Stack(
+                              children: [
+                                Positioned(
+                                  left: 12,
+                                  top: 12,
+                                  right: 24,
+                                  child: Text(
+                                    "Pizza",
+                                    style: TextStyle(fontSize: 15),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              color: Colors.orange[50],
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                            child: Stack(
+                              children: [
+                                Positioned(
+                                  left: 12,
+                                  top: 12,
+                                  right: 24,
+                                  child: Text(
+                                    "Salads",
+                                    style: TextStyle(fontSize: 15),
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         ],
