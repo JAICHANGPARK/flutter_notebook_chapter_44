@@ -18,19 +18,20 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
           Container(
             margin: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
             padding: EdgeInsets.symmetric(vertical: 16),
-            decoration: BoxDecoration(color: Colors.deepOrangeAccent[100]),
+            decoration: BoxDecoration(color: Color.fromRGBO(243, 152, 80, 1)),
             child: IntrinsicHeight(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
                     "\$5.90",
-                    style: TextStyle(color: Colors.white, fontSize: 19),
+                    style: TextStyle(color: Colors.white, fontSize: 16),
                   ),
-                  VerticalDivider(
-                    width: 32,
+                  VerticalDivider(width: 32),
+                  Text(
+                    "Add to cart",
+                    style: TextStyle(color: Colors.white, fontSize: 16),
                   ),
-                  Text("Add to cart", style: TextStyle(color: Colors.white, fontSize: 19),),
                 ],
               ),
             ),
