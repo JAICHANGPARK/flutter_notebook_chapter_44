@@ -12,6 +12,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
         children: [
           Container(height: 400, decoration: BoxDecoration(color: Colors.blue)),
