@@ -111,6 +111,15 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                     style: TextStyle(fontSize: 15),
                                   ),
                                 ),
+                                Positioned(
+                                  bottom: -24,
+                                  right: 0,
+                                  top: 42,
+                                  left: 0,
+                                  child: Image.network(
+                                    "https://cdn.pixabay.com/photo/2014/09/12/18/20/can-443123_1280.png",
+                                  ),
+                                ),
 
                               ],
                             ),
@@ -149,6 +158,14 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                     "Pizza",
                                     style: TextStyle(fontSize: 15),
                                   ),
+                                ),  Positioned(
+                                  bottom: -64,
+                                  right: -64,
+                                  top: 32,
+                                  left: 32,
+                                  child: Image.network(
+                                    "https://cdn.pixabay.com/photo/2014/04/02/17/06/cookie-307960_1280.png",
+                                  ),
                                 ),
                               ],
                             ),
@@ -167,6 +184,14 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                   child: Text(
                                     "Salads",
                                     style: TextStyle(fontSize: 15),
+                                  ),
+                                ),  Positioned(
+                                  bottom: -64,
+                                  right: -64,
+                                  top: 32,
+                                  left: 32,
+                                  child: Image.network(
+                                    "https://cdn.pixabay.com/photo/2014/04/02/17/06/cookie-307960_1280.png",
                                   ),
                                 ),
                               ],
