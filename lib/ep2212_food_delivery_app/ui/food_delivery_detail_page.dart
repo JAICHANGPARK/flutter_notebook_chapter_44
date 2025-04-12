@@ -22,9 +22,10 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                 spacing: 12,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Gap(6),
+                  
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    padding: const EdgeInsets.symmetric(horizontal: 16,
+                    vertical: 16),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -56,9 +57,10 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                   Padding(
                     padding: const EdgeInsets.only(left: 16),
                     child: Column(
+                      spacing: 12,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Add to order", style: TextStyle(fontSize: 19)),
+                        Text("Add to order", style: TextStyle(fontSize: 22)),
                         Container(
                           height: 180,
                           child: ListView.builder(
