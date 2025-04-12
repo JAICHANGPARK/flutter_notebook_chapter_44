@@ -17,71 +17,82 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
           Expanded(
             child: SingleChildScrollView(
               child: Column(
+                spacing: 12,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text.rich(
-                    TextSpan(
-                      children: [
-                        TextSpan(text: "Choco croissant,"),
-                        TextSpan(text: "110g"),
-                      ],
-                    ),
+                  Column(
+                    children: [
+                      Text.rich(
+                        TextSpan(
+                          children: [
+                            TextSpan(text: "Choco croissant,"),
+                            TextSpan(text: "110g"),
+                          ],
+                        ),
+                      ),
+                      Text(
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        maxLines: 3,
+                      ),
+                    ],
                   ),
-                  Text(
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                    maxLines: 3,
-                  ),
-                  Text("Add to order", style: TextStyle(fontSize: 19)),
-                  Container(
-                    height: 180,
-                    child: ListView.builder(
-                      scrollDirection: Axis.horizontal,
-                      itemBuilder: (context, index) {
-                        return Container(
-                          margin: EdgeInsets.only(right: 8),
-                          width: 120,
-                          child: Column(
-                            crossAxisAlignment:
-                            CrossAxisAlignment.start,
-                            spacing: 4,
-                            children: [
-                              Expanded(
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.orange,
-                                    borderRadius: BorderRadius.circular(
-                                      8,
-                                    ),
-                                  ),
-                                  child: Stack(
-                                    children: [
-                                      Positioned(
-                                        top: 8,
-                                        right: 8,
-                                        child: CircleAvatar(
-                                          radius: 15,
 
-                                          child: Icon(
-                                            Icons.add,
-                                            size: 16,
-                                          ),
+                  Column(
+                    children: [
+                      Text("Add to order", style: TextStyle(fontSize: 19)),
+                      Container(
+                        height: 180,
+                        child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context, index) {
+                            return Container(
+                              margin: EdgeInsets.only(right: 8),
+                              width: 120,
+                              child: Column(
+                                crossAxisAlignment:
+                                CrossAxisAlignment.start,
+                                spacing: 4,
+                                children: [
+                                  Expanded(
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: Colors.orange,
+                                        borderRadius: BorderRadius.circular(
+                                          8,
                                         ),
                                       ),
-                                    ],
+                                      child: Stack(
+                                        children: [
+                                          Positioned(
+                                            top: 8,
+                                            right: 8,
+                                            child: CircleAvatar(
+                                              radius: 15,
+
+                                              child: Icon(
+                                                Icons.add,
+                                                size: 16,
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
                                   ),
-                                ),
+                                  Text(
+                                    "Latte",
+                                    style: TextStyle(fontSize: 18),
+                                  ),
+                                  Text("\$2.00"),
+                                ],
                               ),
-                              Text(
-                                "Latte",
-                                style: TextStyle(fontSize: 18),
-                              ),
-                              Text("\$2.00"),
-                            ],
-                          ),
-                        );
-                      },
-                    ),
-                  ),
+                            );
+                          },
+                        ),
+                      ),
+                    ],
+                  )
+
                 ],
               ),
             ),
