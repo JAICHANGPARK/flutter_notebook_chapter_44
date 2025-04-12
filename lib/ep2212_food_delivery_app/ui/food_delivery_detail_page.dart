@@ -16,10 +16,15 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
           Container(height: 400, decoration: BoxDecoration(color: Colors.blue)),
           Expanded(child: SingleChildScrollView(child: Column(children: []))),
           Container(
-            decoration: BoxDecoration(
-              
+            decoration: BoxDecoration(color: Colors.deepOrangeAccent[100]),
+            child: Row(
+              children: [
+                Text("\$5.90"),
+                VerticalDivider(),
+                Text("Add to cart"),
+              ],
             ),
-          )
+          ),
         ],
       ),
     );
