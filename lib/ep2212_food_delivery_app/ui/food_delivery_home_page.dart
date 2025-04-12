@@ -53,10 +53,11 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             child: Stack(
                               children: [
                                 Positioned(
-                                  left: 8,
-                                  top: 8,
+                                  left: 12,
+                                  top: 12,
                                   right: 24,
-                                  child: Text("Specials of the week"),
+                                  child: Text("Specials of the week",
+                                  style: ,),
                                 ),
                               ],
                             ),
