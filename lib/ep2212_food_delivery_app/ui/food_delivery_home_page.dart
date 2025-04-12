@@ -123,23 +123,33 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               ],
                             ),
                           ),
-                          Container(
-                            decoration: BoxDecoration(
-                              color: Colors.orange[50],
-                              borderRadius: BorderRadius.circular(6),
-                            ),
-                            child: Stack(
-                              children: [
-                                Positioned(
-                                  left: 12,
-                                  top: 12,
-                                  right: 24,
-                                  child: Text(
-                                    "Desserts",
-                                    style: TextStyle(fontSize: 15),
-                                  ),
+                          InkWell(
+                            onTap: () {
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder:
+                                      (context) => FoodDeliveryDetailPage(),
                                 ),
-                              ],
+                              );
+                            },
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.orange[50],
+                                borderRadius: BorderRadius.circular(6),
+                              ),
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    left: 12,
+                                    top: 12,
+                                    right: 24,
+                                    child: Text(
+                                      "Desserts",
+                                      style: TextStyle(fontSize: 15),
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                           Container(
