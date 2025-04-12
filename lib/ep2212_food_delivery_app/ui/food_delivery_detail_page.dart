@@ -14,11 +14,34 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
       body: Column(
         children: [
           Container(height: 400, decoration: BoxDecoration(color: Colors.blue)),
-          Expanded(child: SingleChildScrollView(child: Column(children: []))),
+          Expanded(
+            child: SingleChildScrollView(
+              child: Column(
+                children: [
+                  Text.rich(
+                    TextSpan(
+                      children: [
+                        TextSpan(text: "Choco croissant,"),
+                        TextSpan(text: "110g"),
+                      ],
+                    ),
+                  ),
+                  Text(
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                    maxLines: 3,
+                  ),
+                  
+                ],
+              ),
+            ),
+          ),
           Container(
             margin: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
             padding: EdgeInsets.symmetric(vertical: 16),
-            decoration: BoxDecoration(color: Color.fromRGBO(243, 152, 80, 1)),
+            decoration: BoxDecoration(
+              color: Color.fromRGBO(243, 152, 80, 1),
+              borderRadius: BorderRadius.circular(6),
+            ),
             child: IntrinsicHeight(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
