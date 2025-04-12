@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'ui/task_management_main_page.dart';
 import 'ui/task_management_start_page.dart';
 
 void main() {
