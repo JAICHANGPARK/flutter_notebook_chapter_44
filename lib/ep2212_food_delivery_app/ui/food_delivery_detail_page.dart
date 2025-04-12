@@ -16,6 +16,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
           Container(height: 400, decoration: BoxDecoration(color: Colors.blue)),
           Expanded(child: SingleChildScrollView(child: Column(children: []))),
           Container(
+            margin: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
             decoration: BoxDecoration(color: Colors.deepOrangeAccent[100]),
             child: Row(
               children: [
