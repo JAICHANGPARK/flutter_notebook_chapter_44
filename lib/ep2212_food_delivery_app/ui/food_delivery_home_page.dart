@@ -224,7 +224,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                   child: Column(
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
-                                    spacing: 12,
+                                    spacing: 8,
                                     children: [
                                       Expanded(
                                         child: Container(
@@ -244,13 +244,28 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                       ),
                                       Row(
                                         children: [
-                                          Text("Sundown Cafe"),
+                                          Text(
+                                            "Sundown Cafe",
+                                            style: TextStyle(fontSize: 18),
+                                          ),
                                           Spacer(),
-                                          Text('4.9'),
-                                          Icon(Icons.star, size: 16),
+                                          Text(
+                                            '4.9',
+                                            style: TextStyle(
+                                              color: Colors.orange,
+                                            ),
+                                          ),
+                                          Icon(
+                                            Icons.star,
+                                            size: 16,
+                                            color: Colors.orange,
+                                          ),
                                         ],
                                       ),
-                                      Text("italian food 60 min"),
+                                      Text(
+                                        "italian food 60 min",
+                                        style: TextStyle(color: Colors.grey),
+                                      ),
                                     ],
                                   ),
                                 );
