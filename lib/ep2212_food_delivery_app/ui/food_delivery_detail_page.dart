@@ -23,15 +23,24 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                 children: [
                   Gap(6),
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16,),
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text.rich(
                           TextSpan(
                             children: [
-                              TextSpan(text: "Choco croissant,"),
-                              TextSpan(text: "110g"),
+                              TextSpan(
+                                text: "Choco croissant,",
+                                style: TextStyle(fontSize: 38),
+                              ),
+                              TextSpan(
+                                text: "110g",
+                                style: TextStyle(
+                                  fontSize: 38,
+                                  color: Colors.grey,
+                                ),
+                              ),
                             ],
                           ),
                         ),
@@ -65,7 +74,9 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                                       child: Container(
                                         decoration: BoxDecoration(
                                           color: Colors.orange,
-                                          borderRadius: BorderRadius.circular(8),
+                                          borderRadius: BorderRadius.circular(
+                                            8,
+                                          ),
                                         ),
                                         child: Stack(
                                           children: [
@@ -75,14 +86,20 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                                               child: CircleAvatar(
                                                 radius: 15,
 
-                                                child: Icon(Icons.add, size: 16),
+                                                child: Icon(
+                                                  Icons.add,
+                                                  size: 16,
+                                                ),
                                               ),
                                             ),
                                           ],
                                         ),
                                       ),
                                     ),
-                                    Text("Latte", style: TextStyle(fontSize: 18)),
+                                    Text(
+                                      "Latte",
+                                      style: TextStyle(fontSize: 18),
+                                    ),
                                     Text("\$2.00"),
                                   ],
                                 ),
