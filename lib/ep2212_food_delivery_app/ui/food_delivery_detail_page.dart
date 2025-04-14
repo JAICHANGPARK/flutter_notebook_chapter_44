@@ -22,10 +22,11 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                 spacing: 12,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16,
-                    vertical: 16),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 16,
+                      vertical: 16,
+                    ),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
