@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class FoodDeliveryCartPage extends StatefulWidget {
   const FoodDeliveryCartPage({super.key});
 
@@ -13,6 +12,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      body: SafeArea(child: Column(children: [])),
     );
   }
 }
