@@ -85,7 +85,8 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               decoration: InputDecoration(
                 border: OutlineInputBorder()
               ),
-            )
+            ),
+
           ],
         ),
       ),
