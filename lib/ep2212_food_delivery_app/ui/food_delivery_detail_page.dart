@@ -21,8 +21,12 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
             child: Stack(
               children: [
                 Positioned.fill(
+                  left: 16,
+                  right: 16,
+                  top: 16,
                   child: SafeArea(
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -35,6 +39,17 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                               onPressed: () {},
                               icon: Icon(Icons.favorite),
                               color: Colors.deepOrangeAccent,
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Spacer(),
+                            Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                              ),
+                              child: Text("460 kcal"),
                             ),
                           ],
                         ),
