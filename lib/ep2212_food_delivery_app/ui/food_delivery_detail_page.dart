@@ -25,17 +25,17 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                     child: Column(
                       children: [
                         Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             IconButton(
                               onPressed: () {},
                               icon: Icon(Icons.arrow_back_ios_new_sharp),
                             ),
                             IconButton(
-                                onPressed: () {},
-                                icon: Icon(Icons.favorite),
-                                color: Colors.deepOrangeAccent ,
+                              onPressed: () {},
+                              icon: Icon(Icons.favorite),
+                              color: Colors.deepOrangeAccent,
                             ),
-
                           ],
                         ),
                       ],
