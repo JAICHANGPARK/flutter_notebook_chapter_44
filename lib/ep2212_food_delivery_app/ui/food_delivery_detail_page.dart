@@ -20,7 +20,23 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
             decoration: BoxDecoration(color: Color.fromRGBO(247, 238, 223, 1)),
             child: Stack(
               children: [
-                Positioned(child: SafeArea(child: Column(children: []))),
+                Positioned.fill(
+                  child: SafeArea(
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            IconButton(
+                              onPressed: () {},
+                              icon: Icon(Icons.arrow_back_ios_new_sharp),
+                            ),
+                            
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
