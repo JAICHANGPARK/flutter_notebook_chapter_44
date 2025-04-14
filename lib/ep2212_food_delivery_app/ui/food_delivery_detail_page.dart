@@ -31,8 +31,9 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                               icon: Icon(Icons.arrow_back_ios_new_sharp),
                             ),
                             IconButton(
-                              onPressed: () {},
-                              icon: Icon(Icons.arrow_back_ios_new_sharp),
+                                onPressed: () {},
+                                icon: Icon(Icons.favorite),
+                                color: Colors.deepOrangeAccent ,
                             ),
 
                           ],
