@@ -69,7 +69,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                             itemBuilder: (context, index) {
                               return Container(
                                 margin: EdgeInsets.only(right: 8),
-                                width: 120,
+                                width: 124,
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   spacing: 4,
