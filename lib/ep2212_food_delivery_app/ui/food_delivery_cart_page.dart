@@ -42,7 +42,11 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                   ),
                 ),
                 Container(
-                  decoration: BoxDecoration(shape: BoxShape.circle),
+                  height: 28,
+                  width: 28,
+                  decoration: BoxDecoration(shape: BoxShape.circle,
+                  color: Colors.orange),
+
                 )
               ],
             )
