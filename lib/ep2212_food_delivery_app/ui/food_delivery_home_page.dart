@@ -367,10 +367,14 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
         height: 82,
         child: BottomNavigationBar(
           backgroundColor: Colors.white,
-
           type: BottomNavigationBarType.fixed,
           unselectedItemColor: Colors.grey,
           selectedItemColor: Colors.orange,
+          onTap: (idx){
+            if(idx == 2){
+              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>FoodDeliveryCartPage()));
+            }
+          },
           items: [
             BottomNavigationBarItem(
               icon: Icon(HugeIcons.strokeRoundedHome02),
