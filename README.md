@@ -10,8 +10,6 @@ A new Flutter project.
 
 <img src="https://cdn.dribbble.com/userupload/42825309/file/original-9d4ec93f3216e5b017cbe5e53393d17e.png?resize=1905x1429&vertical=center">
 
-
-
 ## EP2207-2211
 
 - Task Management Mobile App
