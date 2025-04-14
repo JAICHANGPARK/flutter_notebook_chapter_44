@@ -54,14 +54,25 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
             Divider(),
             Row(
               children: [
-                Text("Standard delivery, 40-60 minutes"),
+                Text("Express, 15-25 minutes"),
                 Icon(Icons.bolt, color: Colors.orange),
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Color.fromRGBO(245, 226, 205, 1),
+                  ),
+                  child: Text(
+                    "\$2.00",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ),
                 Container(
                   height: 28,
                   width: 28,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.orange,
+                    border: Border.all(color: Colors.grey),
                   ),
                 ),
               ],
