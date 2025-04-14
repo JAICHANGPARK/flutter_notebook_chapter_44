@@ -19,19 +19,19 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               children: [
                 Text("Cart,"),
                 Text('3 items'),
-                IconButton(onPressed: () {
-                  Navigator.of(context).pop();
-                }, icon: Icon(Icons.clear)),
+                IconButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                  },
+                  icon: Icon(Icons.clear),
+                ),
               ],
             ),
             Row(
               children: [
                 Text("Standard delivery, 40-60 minutes"),
                 Container(
-                  padding: EdgeInsets.symmetric(
-                    horizontal: 12,
-                    vertical: 6,
-                  ),
+                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
                     color: Color.fromRGBO(245, 226, 205, 1),
@@ -44,12 +44,29 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 Container(
                   height: 28,
                   width: 28,
-                  decoration: BoxDecoration(shape: BoxShape.circle,
-                  color: Colors.orange),
-
-                )
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.orange,
+                  ),
+                ),
               ],
-            )
+            ),
+            Divider(),
+            Row(
+              children: [
+                Text("Standard delivery, 40-60 minutes"),
+                Icon(Icons.bolt, color: Colors.orange),
+                Container(
+                  height: 28,
+                  width: 28,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.orange,
+                  ),
+                ),
+              ],
+            ),
+            Divider(),
           ],
         ),
       ),
