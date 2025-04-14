@@ -86,7 +86,29 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 border: OutlineInputBorder()
               ),
             ),
-
+            Container(
+              padding: EdgeInsets.symmetric(vertical: 16),
+              decoration: BoxDecoration(
+                color: Color.fromRGBO(243, 152, 80, 1),
+                borderRadius: BorderRadius.circular(6),
+              ),
+              child: IntrinsicHeight(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      "\$5.90",
+                      style: TextStyle(color: Colors.white, fontSize: 16),
+                    ),
+                    VerticalDivider(width: 32),
+                    Text(
+                      "Add to cart",
+                      style: TextStyle(color: Colors.white, fontSize: 16),
+                    ),
+                  ],
+                ),
+              ),
+            ),
           ],
         ),
       ),
