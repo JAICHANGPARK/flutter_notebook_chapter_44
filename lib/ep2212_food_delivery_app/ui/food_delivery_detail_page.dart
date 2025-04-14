@@ -15,7 +15,11 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
       backgroundColor: Colors.white,
       body: Column(
         children: [
-          Container(height: 420, decoration: BoxDecoration(color: Colors.blue)),
+          Container(
+            height: 420,
+            decoration: BoxDecoration(color: Color.fromRGBO(247, 238, 223, 1)),
+            child: Stack(children: []),
+          ),
           Expanded(
             child: SingleChildScrollView(
               child: Column(
