@@ -30,7 +30,11 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                               onPressed: () {},
                               icon: Icon(Icons.arrow_back_ios_new_sharp),
                             ),
-                            
+                            IconButton(
+                              onPressed: () {},
+                              icon: Icon(Icons.arrow_back_ios_new_sharp),
+                            ),
+
                           ],
                         ),
                       ],
