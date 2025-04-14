@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import 'food_delivery_cart_page.dart';
 import 'food_delivery_detail_page.dart';
 
 class FoodDeliveryHomePage extends StatefulWidget {
@@ -370,9 +371,11 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
           type: BottomNavigationBarType.fixed,
           unselectedItemColor: Colors.grey,
           selectedItemColor: Colors.orange,
-          onTap: (idx){
-            if(idx == 2){
-              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>FoodDeliveryCartPage()));
+          onTap: (idx) {
+            if (idx == 2) {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (context) => FoodDeliveryCartPage()),
+              );
             }
           },
           items: [
