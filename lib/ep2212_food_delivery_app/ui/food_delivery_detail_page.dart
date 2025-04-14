@@ -24,6 +24,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                   left: 16,
                   right: 16,
                   top: 16,
+                  bottom: 16,
                   child: SafeArea(
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -48,6 +49,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                             Container(
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
+                                color: Color.fromRGBO(245, 226, 205, 1),
                               ),
                               child: Text("460 kcal"),
                             ),
