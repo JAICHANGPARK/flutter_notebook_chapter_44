@@ -19,9 +19,30 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               children: [
                 Text("Cart,"),
                 Text('3 items'),
-                IconButton(onPressed: () {}, icon: Icon(Icons.clear)),
+                IconButton(onPressed: () {
+                  Navigator.of(context).pop();
+                }, icon: Icon(Icons.clear)),
               ],
             ),
+            Row(
+              children: [
+                Text("Standard delivery, 40-60 minutes"),
+                Container(
+                  padding: EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 6,
+                  ),
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Color.fromRGBO(245, 226, 205, 1),
+                  ),
+                  child: Text(
+                    "Free",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ],
+            )
           ],
         ),
       ),
