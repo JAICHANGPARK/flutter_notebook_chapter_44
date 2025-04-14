@@ -47,11 +47,18 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                           children: [
                             Spacer(),
                             Container(
+                              padding: EdgeInsets.symmetric(
+                                horizontal: 12,
+                                vertical: 6,
+                              ),
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
                                 color: Color.fromRGBO(245, 226, 205, 1),
                               ),
-                              child: Text("460 kcal"),
+                              child: Text(
+                                "460 kcal",
+                                style: TextStyle(fontWeight: FontWeight.bold),
+                              ),
                             ),
                           ],
                         ),
