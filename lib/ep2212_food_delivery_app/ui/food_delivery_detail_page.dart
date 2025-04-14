@@ -15,7 +15,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
       backgroundColor: Colors.white,
       body: Column(
         children: [
-          Container(height: 400, decoration: BoxDecoration(color: Colors.blue)),
+          Container(height: 420, decoration: BoxDecoration(color: Colors.blue)),
           Expanded(
             child: SingleChildScrollView(
               child: Column(
@@ -72,7 +72,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                                 width: 124,
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
-                                  spacing: 4,
+                                  spacing: 6,
                                   children: [
                                     Expanded(
                                       child: Container(
