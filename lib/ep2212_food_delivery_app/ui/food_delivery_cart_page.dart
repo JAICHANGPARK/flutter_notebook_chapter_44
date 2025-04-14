@@ -80,7 +80,12 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
             Divider(),
             Expanded(child: ListView(
               children: [Placeholder()],
-            ),)
+            ),),
+            TextField(
+              decoration: InputDecoration(
+                border: OutlineInputBorder()
+              ),
+            )
           ],
         ),
       ),
