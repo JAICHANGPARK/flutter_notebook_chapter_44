@@ -63,7 +63,8 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 ],
               ),
               Divider(),
-              Row(spacing: 6,
+              Row(
+                spacing: 6,
                 children: [
                   Text("Express, 15-25 minutes"),
                   Icon(Icons.bolt, color: Colors.orange),
@@ -91,8 +92,11 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               ),
               Divider(),
               Expanded(child: ListView(children: [Placeholder()])),
-              TextField(
-                decoration: InputDecoration(border: OutlineInputBorder()),
+              Container(
+                child: TextField(
+                  decoration: InputDecoration(border: OutlineInputBorder(),
+                  ),
+                ),
               ),
               Container(
                 padding: EdgeInsets.symmetric(vertical: 16),
