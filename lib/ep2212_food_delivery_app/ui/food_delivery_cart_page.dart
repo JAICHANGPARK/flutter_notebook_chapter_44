@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FoodDeliveryCartPage extends StatefulWidget {
   const FoodDeliveryCartPage({super.key});
@@ -20,8 +21,11 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
             children: [
               Row(
                 children: [
-                  Text("Cart,", style: TextStyle(fontSize: 28)),
-                  Text('3 items'),
+                  Text("Cart,", style: TextStyle(fontSize: 32)),
+                  Text(
+                    ' 3 items',
+                    style: TextStyle(fontSize: 32, color: Colors.grey),
+                  ),
                   Spacer(),
                   IconButton(
                     onPressed: () {
@@ -31,6 +35,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                   ),
                 ],
               ),
+              Gap(4),
               Row(
                 children: [
                   Text("Standard delivery, 40-60 minutes"),
