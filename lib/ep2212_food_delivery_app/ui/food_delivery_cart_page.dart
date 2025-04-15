@@ -104,11 +104,17 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               ),
               Divider(),
               Expanded(child: ListView.builder(
-                  
+                  itemCount: cartItems.length,
                   itemBuilder: (context, index){
                     return Row(
                       children: [
-
+                          Container(
+                            height: 120,
+                            width: 120,
+                            decoration: BoxDecoration(
+                              color: Colors.blue
+                            ),
+                          )
                       ],
                     );
                   },)),
