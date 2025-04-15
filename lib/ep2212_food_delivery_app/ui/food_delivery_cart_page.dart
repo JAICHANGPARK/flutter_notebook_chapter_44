@@ -109,6 +109,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                     return Padding(
                       padding: const EdgeInsets.only(bottom: 20),
                       child: Row(
+                        spacing: 16,
                         children: [
                           Container(
                             height: 120,
@@ -122,12 +123,19 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                             child: Column(
                               spacing: 6,
                                 crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [Text("${cart.title}"),
+                                children: [Text("${cart.title}",style: TextStyle(
+                                  fontSize: 20,
+                                ),),
                                 Row(
                                   children: [
                                     Text("\$${cart.price}"),
                                     Spacer(),
                                     Container(
+                                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(),
+                                        color: Color.fromRGBO(245, 226, 205, 1),
+                                      ),
                                       child: Row(
                                         spacing: 5,
                                         children: [
