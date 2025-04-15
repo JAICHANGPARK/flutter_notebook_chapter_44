@@ -95,7 +95,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               Container(
                 child: Row(
                   children: [
-                    Text(""),
+                    Text("Promocode", style: TextStyle(color: Colors.grey)),
                     Expanded(
                       child: TextField(
                         decoration: InputDecoration(border: InputBorder.none),
