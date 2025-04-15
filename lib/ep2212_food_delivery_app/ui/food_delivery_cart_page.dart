@@ -51,6 +51,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ),
+                  Spacer(),
                   Container(
                     height: 28,
                     width: 28,
