@@ -10,13 +10,13 @@ class FoodDeliveryCartPage extends StatefulWidget {
 }
 
 class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
-  List<FoodCart> cartItems  = [
+  List<FoodCart> cartItems = [
     FoodCart("Gnocchi with mushroom gravy,", "230", 5.6, 1),
     FoodCart("Wenzel with raspberries and currants", "170", 3.8, 1),
     FoodCart("Gnocchi with mushroom gravy,", "230", 5.6, 1),
     FoodCart("Gnocchi with mushroom gravy,", "230", 5.6, 1),
-
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -68,9 +68,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       color: Colors.orange,
                     ),
                     padding: EdgeInsets.all(8),
-                    child: CircleAvatar(
-                      backgroundColor: Colors.white,
-                    ),
+                    child: CircleAvatar(backgroundColor: Colors.white),
                   ),
                 ],
               ),
@@ -103,28 +101,32 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 ],
               ),
               Divider(),
-              Expanded(child: ListView.builder(
+              Expanded(
+                child: ListView.builder(
                   itemCount: cartItems.length,
-                  itemBuilder: (context, index){
+                  itemBuilder: (context, index) {
+                    final cart = cartItems[index];
                     return Padding(
                       padding: const EdgeInsets.only(bottom: 20),
                       child: Row(
                         children: [
-                            Container(
-                              height: 120,
-                              width: 120,
-                              decoration: BoxDecoration(
-                                color: Colors.blue,
-                                borderRadius: BorderRadius.circular(6),
-                              ),
+                          Container(
+                            height: 120,
+                            width: 120,
+                            decoration: BoxDecoration(
+                              color: Colors.blue,
+                              borderRadius: BorderRadius.circular(6),
                             ),
-                          Expanded(child: Column(children: [
-
-                          ],))
+                          ),
+                          Expanded(
+                            child: Column(children: [Text("${cart.title}")]),
+                          ),
                         ],
                       ),
                     );
-                  },)),
+                  },
+                ),
+              ),
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 12, vertical: 3),
                 decoration: BoxDecoration(
