@@ -103,7 +103,15 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 ],
               ),
               Divider(),
-              Expanded(child: ListView(children: [Placeholder()])),
+              Expanded(child: ListView.builder(
+                  
+                  itemBuilder: (context, index){
+                    return Row(
+                      children: [
+
+                      ],
+                    );
+                  },)),
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 12, vertical: 3),
                 decoration: BoxDecoration(
