@@ -63,7 +63,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 ],
               ),
               Divider(),
-              Row(
+              Row(spacing: 6,
                 children: [
                   Text("Express, 15-25 minutes"),
                   Icon(Icons.bolt, color: Colors.orange),
@@ -78,6 +78,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ),
+                  Spacer(),
                   Container(
                     height: 28,
                     width: 28,
