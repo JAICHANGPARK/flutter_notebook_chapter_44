@@ -105,12 +105,13 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                     Expanded(
                       child: TextField(
                         textAlign: TextAlign.end,
+                        style: TextStyle(fontWeight: FontWeight.bold),
 
                         decoration: InputDecoration(
                           contentPadding: EdgeInsets.symmetric(vertical: 12),
                           border: InputBorder.none,
                           suffixIcon: Icon(Icons.check),
-                          suffixIconColor: Colors.orange
+                          suffixIconColor: Colors.orange,
                         ),
                       ),
                     ),
