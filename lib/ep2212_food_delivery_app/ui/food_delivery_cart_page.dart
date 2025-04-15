@@ -37,7 +37,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               ),
               Gap(4),
               Row(
-                spacing: 4,
+                spacing: 6,
                 children: [
                   Text("Standard delivery, 40-60 minutes"),
                   Container(
@@ -48,7 +48,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                     ),
                     child: Text(
                       "Free",
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                      // style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ),
                   Spacer(),
