@@ -120,13 +120,16 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                           ),
                           Expanded(
                             child: Column(
+                              spacing: 6,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [Text("${cart.title}"),
                                 Row(
                                   children: [
                                     Text("\$${cart.price}"),
+                                    Spacer(),
                                     Container(
                                       child: Row(
+                                        spacing: 5,
                                         children: [
                                           Icon(Icons.remove),
                                           Text('${cart.count}'),
