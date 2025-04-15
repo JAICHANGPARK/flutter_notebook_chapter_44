@@ -132,9 +132,9 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                     Spacer(),
                                     Container(
                                       padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                                      decoration: ShapeDecoration(
-                                        shape: StadiumBorder(),
+                                      decoration: BoxDecoration(
                                         color: Color.fromRGBO(245, 226, 205, 1),
+                                        borderRadius: BorderRadius.circular(4),
                                       ),
                                       child: Row(
                                         spacing: 5,
