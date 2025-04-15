@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_44/ep2212_food_delivery_app/model/food_cart_model.dart';
 import 'package:gap/gap.dart';
 
 class FoodDeliveryCartPage extends StatefulWidget {
@@ -9,6 +10,13 @@ class FoodDeliveryCartPage extends StatefulWidget {
 }
 
 class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
+  List<FoodCart> cartItems  = [
+    FoodCart("Gnocchi with mushroom gravy,", "230", 5.6, 1),
+    FoodCart("Wenzel with raspberries and currants", "170", 3.8, 1),
+    FoodCart("Gnocchi with mushroom gravy,", "230", 5.6, 1),
+    FoodCart("Gnocchi with mushroom gravy,", "230", 5.6, 1),
+
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
