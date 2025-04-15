@@ -59,6 +59,10 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       shape: BoxShape.circle,
                       color: Colors.orange,
                     ),
+                    padding: EdgeInsets.all(8),
+                    child: CircleAvatar(
+                      backgroundColor: Colors.white,
+                    ),
                   ),
                 ],
               ),
