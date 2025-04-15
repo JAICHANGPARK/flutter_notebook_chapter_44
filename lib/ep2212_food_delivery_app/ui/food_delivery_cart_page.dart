@@ -105,9 +105,11 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       child: TextField(
                         textAlign: TextAlign.end,
 
-                        decoration: InputDecoration(border: InputBorder.none,
+                        decoration: InputDecoration(
+                          border: InputBorder.none,
+                          suffixIcon: Icon(Icons.check),
+                          suffixIconColor: Colors.orange
                         ),
-
                       ),
                     ),
                   ],
