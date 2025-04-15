@@ -107,16 +107,20 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                   itemCount: cartItems.length,
                   itemBuilder: (context, index){
                     return Padding(
-                      padding: const EdgeInsets.only(bottom: 16),
+                      padding: const EdgeInsets.only(bottom: 20),
                       child: Row(
                         children: [
                             Container(
                               height: 120,
                               width: 120,
                               decoration: BoxDecoration(
-                                color: Colors.blue
+                                color: Colors.blue,
+                                borderRadius: BorderRadius.circular(6),
                               ),
-                            )
+                            ),
+                          Expanded(child: Column(children: [
+
+                          ],))
                         ],
                       ),
                     );
