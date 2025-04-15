@@ -119,7 +119,23 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                             ),
                           ),
                           Expanded(
-                            child: Column(children: [Text("${cart.title}")]),
+                            child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [Text("${cart.title}"),
+                                Row(
+                                  children: [
+                                    Text("\$${cart.price}"),
+                                    Container(
+                                      child: Row(
+                                        children: [
+                                          Icon(Icons.remove),
+                                          Text('${cart.count}'),
+                                          Icon(Icons.add),
+                                        ],
+                                      ),
+                                    )
+                                  ],
+                                )]),
                           ),
                         ],
                       ),
