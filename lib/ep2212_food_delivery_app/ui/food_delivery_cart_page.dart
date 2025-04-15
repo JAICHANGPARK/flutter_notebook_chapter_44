@@ -20,8 +20,9 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
             children: [
               Row(
                 children: [
-                  Text("Cart,"),
+                  Text("Cart,", style: TextStyle(fontSize: 28)),
                   Text('3 items'),
+                  Spacer(),
                   IconButton(
                     onPressed: () {
                       Navigator.of(context).pop();
