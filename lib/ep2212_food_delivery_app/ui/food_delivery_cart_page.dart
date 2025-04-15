@@ -106,16 +106,19 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               Expanded(child: ListView.builder(
                   itemCount: cartItems.length,
                   itemBuilder: (context, index){
-                    return Row(
-                      children: [
-                          Container(
-                            height: 120,
-                            width: 120,
-                            decoration: BoxDecoration(
-                              color: Colors.blue
-                            ),
-                          )
-                      ],
+                    return Padding(
+                      padding: const EdgeInsets.only(bottom: 16),
+                      child: Row(
+                        children: [
+                            Container(
+                              height: 120,
+                              width: 120,
+                              decoration: BoxDecoration(
+                                color: Colors.blue
+                              ),
+                            )
+                        ],
+                      ),
                     );
                   },)),
               Container(
