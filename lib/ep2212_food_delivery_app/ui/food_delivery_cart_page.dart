@@ -93,9 +93,15 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               Divider(),
               Expanded(child: ListView(children: [Placeholder()])),
               Container(
-                child: TextField(
-                  decoration: InputDecoration(border: OutlineInputBorder(),
-                  ),
+                child: Row(
+                  children: [
+                    Text(""),
+                    Expanded(
+                      child: TextField(
+                        decoration: InputDecoration(border: InputBorder.none),
+                      ),
+                    ),
+                  ],
                 ),
               ),
               Container(
