@@ -107,6 +107,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                         textAlign: TextAlign.end,
 
                         decoration: InputDecoration(
+                          contentPadding: EdgeInsets.symmetric(vertical: 12),
                           border: InputBorder.none,
                           suffixIcon: Icon(Icons.check),
                           suffixIconColor: Colors.orange
