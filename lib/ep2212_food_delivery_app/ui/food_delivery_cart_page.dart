@@ -75,7 +75,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                     ),
                     child: Text(
                       "\$2.00",
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                      // style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ),
                   Spacer(),
