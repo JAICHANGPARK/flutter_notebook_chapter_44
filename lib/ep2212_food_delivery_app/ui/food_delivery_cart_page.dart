@@ -93,11 +93,12 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               Divider(),
               Expanded(child: ListView(children: [Placeholder()])),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 12),
+                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 3),
                 decoration: BoxDecoration(
                   border: Border.all(color: Colors.grey[400]!),
                   borderRadius: BorderRadius.circular(4),
                 ),
+
                 child: Row(
                   children: [
                     Text("Promocode", style: TextStyle(color: Colors.grey)),
