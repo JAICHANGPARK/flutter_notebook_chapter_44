@@ -100,7 +100,9 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               Divider(),
               InkWell(
                 onTap: (){
-                  
+                  setState(() {
+                    deliveryType = DeliveryType.express;
+                  });
                 },
                 child: Row(
                   spacing: 6,
