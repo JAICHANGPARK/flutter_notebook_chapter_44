@@ -175,12 +175,18 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text.rich(TextSpan(
-                                  children: [],
+                                  children: [
+                                    TextSpan(
+                                      text: "${cart.title}",
+                                      style: TextStyle(fontSize: 20),
+                                    ),
+                                    TextSpan(
+                                      text: "${cart.title}",
+                                      style: TextStyle(fontSize: 20),
+                                    ),
+                                  ],
                                 )),
-                                Text(
-                                  "${cart.title}",
-                                  style: TextStyle(fontSize: 20),
-                                ),
+
                                 Row(
                                   children: [
                                     Text("\$${cart.price}"),
