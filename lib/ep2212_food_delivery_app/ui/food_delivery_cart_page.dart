@@ -225,7 +225,10 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                           Text('${cart.count}'),
                                           InkWell(
                                               onTap: (){
-                                                
+                                                setState(() {
+                                                  cartItems[index].count
+                                                      = (cart.count ?? 1) + 1;
+                                                });
                                               },
                                               child: Icon(Icons.add, size: 16)),
                                         ],
