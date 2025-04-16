@@ -173,7 +173,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                           ),
                           Expanded(
                             child: Column(
-                              spacing: 6,
+                              spacing: 24,
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text.rich(
