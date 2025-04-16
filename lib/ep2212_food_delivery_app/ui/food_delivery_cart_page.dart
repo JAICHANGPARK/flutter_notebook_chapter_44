@@ -75,20 +75,27 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                     switch(deliveryType){
 
                       // TODO: Handle this case.
-                      DeliveryType.standard => throw UnimplementedError(),
-                      // TODO: Handle this case.
-                      DeliveryType.express => throw UnimplementedError(),
-                    },
-                    Container(
-                      height: 28,
-                      width: 28,
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        color: Colors.orange,
+                      DeliveryType.standard =>  Container(
+                        height: 28,
+                        width: 28,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.orange,
+                        ),
+                        padding: EdgeInsets.all(8),
+                        child: CircleAvatar(backgroundColor: Colors.white),
                       ),
-                      padding: EdgeInsets.all(8),
-                      child: CircleAvatar(backgroundColor: Colors.white),
-                    ),
+                      // TODO: Handle this case.
+                      DeliveryType.express => Container(
+                        height: 28,
+                        width: 28,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          border: Border.all(color: Colors.grey),
+                        ),
+                      ),
+                    },
+
                   ],
                 ),
               ),
