@@ -74,7 +74,6 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                     Spacer(),
                     switch(deliveryType){
 
-                      // TODO: Handle this case.
                       DeliveryType.standard =>  Container(
                         height: 28,
                         width: 28,
@@ -85,7 +84,6 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                         padding: EdgeInsets.all(8),
                         child: CircleAvatar(backgroundColor: Colors.white),
                       ),
-                      // TODO: Handle this case.
                       DeliveryType.express => Container(
                         height: 28,
                         width: 28,
@@ -100,32 +98,37 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 ),
               ),
               Divider(),
-              Row(
-                spacing: 6,
-                children: [
-                  Text("Express, 15-25 minutes"),
-                  Icon(Icons.bolt, color: Colors.orange),
-                  Container(
-                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                    decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
-                      color: Color.fromRGBO(245, 226, 205, 1),
+              InkWell(
+                onTap: (){
+                  
+                },
+                child: Row(
+                  spacing: 6,
+                  children: [
+                    Text("Express, 15-25 minutes"),
+                    Icon(Icons.bolt, color: Colors.orange),
+                    Container(
+                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Color.fromRGBO(245, 226, 205, 1),
+                      ),
+                      child: Text(
+                        "\$2.00",
+                        // style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
                     ),
-                    child: Text(
-                      "\$2.00",
-                      // style: TextStyle(fontWeight: FontWeight.bold),
+                    Spacer(),
+                    Container(
+                      height: 28,
+                      width: 28,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        border: Border.all(color: Colors.grey),
+                      ),
                     ),
-                  ),
-                  Spacer(),
-                  Container(
-                    height: 28,
-                    width: 28,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      border: Border.all(color: Colors.grey),
-                    ),
-                  ),
-                ],
+                  ],
+                ),
               ),
               Divider(),
               Expanded(
