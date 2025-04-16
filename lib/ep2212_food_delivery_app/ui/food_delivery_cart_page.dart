@@ -196,7 +196,13 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
 
                                 Row(
                                   children: [
-                                    Text("\$${cart.price}"),
+                                    Text(
+                                      "\$${cart.price}",
+                                      style: TextStyle(
+                                        color: Colors.orange,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
                                     Spacer(),
                                     Container(
                                       padding: EdgeInsets.symmetric(
