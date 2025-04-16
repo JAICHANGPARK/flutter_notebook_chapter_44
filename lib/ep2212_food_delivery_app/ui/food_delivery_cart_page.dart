@@ -57,8 +57,10 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 child: Row(
                   spacing: 6,
                   children: [
-                    Text("Standard delivery, 40-60 minutes",
-                      style: TextStyle(fontWeight: FontWeight.bold),),
+                    Text(
+                      "Standard delivery, 40-60 minutes",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
                     Container(
                       padding: EdgeInsets.symmetric(
                         horizontal: 12,
@@ -174,18 +176,23 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                               spacing: 6,
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text.rich(TextSpan(
-                                  children: [
-                                    TextSpan(
-                                      text: "${cart.title}",
-                                      style: TextStyle(fontSize: 20),
-                                    ),
-                                    TextSpan(
-                                      text: "${cart.title}",
-                                      style: TextStyle(fontSize: 20),
-                                    ),
-                                  ],
-                                )),
+                                Text.rich(
+                                  TextSpan(
+                                    children: [
+                                      TextSpan(
+                                        text: "${cart.title}",
+                                        style: TextStyle(fontSize: 20),
+                                      ),
+                                      TextSpan(
+                                        text: "${cart.g}g",
+                                        style: TextStyle(
+                                          fontSize: 20,
+                                          color: Colors.grey,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
 
                                 Row(
                                   children: [
