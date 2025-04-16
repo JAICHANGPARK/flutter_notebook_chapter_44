@@ -217,7 +217,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                       child: Row(
                                         spacing: 5,
                                         children: [
-                                          Icon(Icons.remove),
+                                          Icon(Icons.remove, size: 16),
                                           Text('${cart.count}'),
                                           Icon(Icons.add),
                                         ],
