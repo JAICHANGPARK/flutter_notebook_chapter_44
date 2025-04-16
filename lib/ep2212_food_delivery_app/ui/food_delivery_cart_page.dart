@@ -219,7 +219,14 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                         children: [
                                           InkWell(
                                               onTap: (){
+                                                setState(() {
 
+                                                  final cnt = (cart.count ?? 1) - 1;
+                                                  if(cnt < 1){
+                                                    cartItems[index].count = 1;
+                                                  }
+                                                  //
+                                                });
                                               },
                                               child: Icon(Icons.remove, size: 16)),
                                           Text('${cart.count}'),
