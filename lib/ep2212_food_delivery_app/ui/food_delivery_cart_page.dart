@@ -72,6 +72,13 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       ),
                     ),
                     Spacer(),
+                    switch(deliveryType){
+
+                      // TODO: Handle this case.
+                      DeliveryType.standard => throw UnimplementedError(),
+                      // TODO: Handle this case.
+                      DeliveryType.express => throw UnimplementedError(),
+                    },
                     Container(
                       height: 28,
                       width: 28,
