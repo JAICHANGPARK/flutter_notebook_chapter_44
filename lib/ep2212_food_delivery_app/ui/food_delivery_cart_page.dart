@@ -215,11 +215,11 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                         borderRadius: BorderRadius.circular(4),
                                       ),
                                       child: Row(
-                                        spacing: 5,
+                                        spacing: 12,
                                         children: [
                                           Icon(Icons.remove, size: 16),
                                           Text('${cart.count}'),
-                                          Icon(Icons.add),
+                                          Icon(Icons.add, size: 16),
                                         ],
                                       ),
                                     ),
