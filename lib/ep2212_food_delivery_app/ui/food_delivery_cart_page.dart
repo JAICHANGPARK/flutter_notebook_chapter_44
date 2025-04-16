@@ -121,14 +121,27 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       ),
                     ),
                     Spacer(),
-                    Container(
-                      height: 28,
-                      width: 28,
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        border: Border.all(color: Colors.grey),
+                    switch(deliveryType){
+
+                      DeliveryType.standard =>  Container(
+                        height: 28,
+                        width: 28,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          border: Border.all(color: Colors.grey),
+                        ),
                       ),
-                    ),
+                      DeliveryType.express => Container(
+                        height: 28,
+                        width: 28,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.orange,
+                        ),
+                        padding: EdgeInsets.all(8),
+                        child: CircleAvatar(backgroundColor: Colors.white),
+                      ),
+                    },
                   ],
                 ),
               ),
