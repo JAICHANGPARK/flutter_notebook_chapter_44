@@ -57,7 +57,8 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 child: Row(
                   spacing: 6,
                   children: [
-                    Text("Standard delivery, 40-60 minutes"),
+                    Text("Standard delivery, 40-60 minutes",
+                      style: TextStyle(fontWeight: FontWeight.bold),),
                     Container(
                       padding: EdgeInsets.symmetric(
                         horizontal: 12,
