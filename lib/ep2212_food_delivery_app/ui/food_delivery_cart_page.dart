@@ -197,7 +197,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                 Row(
                                   children: [
                                     Text(
-                                      "\$${(cart.price ?? 1) * (cart.count ?? 1)}",
+                                      "\$${((cart.price ?? 1) * (cart.count ?? 1)).toStringAsFixed(2)}",
                                       style: TextStyle(
                                         color: Colors.orange,
                                         fontWeight: FontWeight.bold,
