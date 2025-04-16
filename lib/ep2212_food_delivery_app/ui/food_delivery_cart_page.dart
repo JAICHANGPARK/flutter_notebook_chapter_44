@@ -222,6 +222,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                                 setState(() {
 
                                                   final cnt = (cart.count ?? 1) - 1;
+                                                  cartItems[index].count = cnt;
                                                   if(cnt < 1){
                                                     cartItems[index].count = 1;
                                                   }
