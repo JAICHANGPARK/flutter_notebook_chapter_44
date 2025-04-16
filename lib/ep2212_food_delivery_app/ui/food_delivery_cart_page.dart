@@ -52,7 +52,9 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               Gap(4),
               InkWell(
                 onTap: (){
-                  
+                  setState(() {
+                      deliveryType = DeliveryType.standard;
+                  });
                 },
                 child: Row(
                   spacing: 6,
