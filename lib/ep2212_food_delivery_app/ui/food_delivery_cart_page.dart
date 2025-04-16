@@ -201,6 +201,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                       style: TextStyle(
                                         color: Colors.orange,
                                         fontWeight: FontWeight.bold,
+                                        fontSize: 18,
                                       ),
                                     ),
                                     Spacer(),
