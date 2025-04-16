@@ -2,10 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_44/ep2212_food_delivery_app/model/food_cart_model.dart';
 import 'package:gap/gap.dart';
 
-enum DeliveryType{
-  standard,
-  express,
-}
+enum DeliveryType { standard, express }
 
 class FoodDeliveryCartPage extends StatefulWidget {
   const FoodDeliveryCartPage({super.key});
@@ -23,6 +20,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
   ];
 
   DeliveryType deliveryType = DeliveryType.standard;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -51,9 +49,9 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               ),
               Gap(4),
               InkWell(
-                onTap: (){
+                onTap: () {
                   setState(() {
-                      deliveryType = DeliveryType.standard;
+                    deliveryType = DeliveryType.standard;
                   });
                 },
                 child: Row(
@@ -61,7 +59,10 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                   children: [
                     Text("Standard delivery, 40-60 minutes"),
                     Container(
-                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 6,
+                      ),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
                         color: Color.fromRGBO(245, 226, 205, 1),
@@ -72,9 +73,8 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       ),
                     ),
                     Spacer(),
-                    switch(deliveryType){
-
-                      DeliveryType.standard =>  Container(
+                    switch (deliveryType) {
+                      DeliveryType.standard => Container(
                         height: 28,
                         width: 28,
                         decoration: BoxDecoration(
@@ -93,13 +93,12 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                         ),
                       ),
                     },
-
                   ],
                 ),
               ),
               Divider(),
               InkWell(
-                onTap: (){
+                onTap: () {
                   setState(() {
                     deliveryType = DeliveryType.express;
                   });
@@ -107,10 +106,16 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 child: Row(
                   spacing: 6,
                   children: [
-                    Text("Express, 15-25 minutes"),
+                    Text(
+                      "Express, 15-25 minutes",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
                     Icon(Icons.bolt, color: Colors.orange),
                     Container(
-                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 6,
+                      ),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
                         color: Color.fromRGBO(245, 226, 205, 1),
@@ -121,9 +126,8 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       ),
                     ),
                     Spacer(),
-                    switch(deliveryType){
-
-                      DeliveryType.standard =>  Container(
+                    switch (deliveryType) {
+                      DeliveryType.standard => Container(
                         height: 28,
                         width: 28,
                         decoration: BoxDecoration(
@@ -167,16 +171,21 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                           Expanded(
                             child: Column(
                               spacing: 6,
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [Text("${cart.title}",style: TextStyle(
-                                  fontSize: 20,
-                                ),),
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "${cart.title}",
+                                  style: TextStyle(fontSize: 20),
+                                ),
                                 Row(
                                   children: [
                                     Text("\$${cart.price}"),
                                     Spacer(),
                                     Container(
-                                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: 12,
+                                        vertical: 6,
+                                      ),
                                       decoration: BoxDecoration(
                                         color: Color.fromRGBO(245, 226, 205, 1),
                                         borderRadius: BorderRadius.circular(4),
@@ -189,9 +198,11 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                           Icon(Icons.add),
                                         ],
                                       ),
-                                    )
+                                    ),
                                   ],
-                                )]),
+                                ),
+                              ],
+                            ),
                           ),
                         ],
                       ),
