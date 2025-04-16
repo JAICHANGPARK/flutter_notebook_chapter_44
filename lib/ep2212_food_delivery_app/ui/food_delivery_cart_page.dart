@@ -50,33 +50,38 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 ],
               ),
               Gap(4),
-              Row(
-                spacing: 6,
-                children: [
-                  Text("Standard delivery, 40-60 minutes"),
-                  Container(
-                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                    decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
-                      color: Color.fromRGBO(245, 226, 205, 1),
+              InkWell(
+                onTap: (){
+                  
+                },
+                child: Row(
+                  spacing: 6,
+                  children: [
+                    Text("Standard delivery, 40-60 minutes"),
+                    Container(
+                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Color.fromRGBO(245, 226, 205, 1),
+                      ),
+                      child: Text(
+                        "Free",
+                        // style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
                     ),
-                    child: Text(
-                      "Free",
-                      // style: TextStyle(fontWeight: FontWeight.bold),
+                    Spacer(),
+                    Container(
+                      height: 28,
+                      width: 28,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: Colors.orange,
+                      ),
+                      padding: EdgeInsets.all(8),
+                      child: CircleAvatar(backgroundColor: Colors.white),
                     ),
-                  ),
-                  Spacer(),
-                  Container(
-                    height: 28,
-                    width: 28,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Colors.orange,
-                    ),
-                    padding: EdgeInsets.all(8),
-                    child: CircleAvatar(backgroundColor: Colors.white),
-                  ),
-                ],
+                  ],
+                ),
               ),
               Divider(),
               Row(
