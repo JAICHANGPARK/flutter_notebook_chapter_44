@@ -22,6 +22,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
     FoodCart("Gnocchi with mushroom gravy,", "230", 5.6, 1),
   ];
 
+  DeliveryType deliveryType = DeliveryType.standard;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
