@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_44/ep2212_food_delivery_app/model/food_cart_model.dart';
 import 'package:gap/gap.dart';
 
+enum DeliveryType{
+  standard,
+  express,
+}
+
 class FoodDeliveryCartPage extends StatefulWidget {
   const FoodDeliveryCartPage({super.key});
 
