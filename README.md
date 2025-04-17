@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-## EP2212
+## EP2212-
 
 - Food Delivery Mobile App UI/UX Design
 - Ronas IT | UI/UX Team
