@@ -43,7 +43,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                 Positioned.fill(
                                   left: 62,
                                   right: 62,
-                                  top: 0,
+                                  top: 8,
                                   child: Container(
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(16),
@@ -78,9 +78,11 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                           ),
                           Container(
                             height: 380,
-                            child: Container(
-                              decoration: BoxDecoration(),
-                              child: Placeholder(),
+                            child:  Container(
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(16),
+                                color: Color.fromRGBO(28, 28, 28, 1),
+                              ),
                             ),
                           ),
                         ],
