@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 
-
 class HealthcareAppbarWidget extends StatelessWidget {
   const HealthcareAppbarWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return  Padding(
+    return Padding(
       padding: const EdgeInsets.all(16.0),
       child: Row(
         spacing: 8,
