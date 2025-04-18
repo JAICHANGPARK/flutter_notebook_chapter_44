@@ -5,6 +5,7 @@ import 'package:hugeicons/hugeicons.dart';
 
 import 'widgets/healthcare_appbar_widget.dart';
 import 'widgets/healthcare_search_bar_widget.dart';
+import 'widgets/healthcare_tabbar_widget.dart';
 
 class HealthcareHomePage extends StatefulWidget {
   const HealthcareHomePage({super.key});
