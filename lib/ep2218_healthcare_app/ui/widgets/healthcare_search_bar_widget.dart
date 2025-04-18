@@ -33,8 +33,8 @@ class HealthcareSearchBarWidget extends StatelessWidget {
                     decoration: InputDecoration(
                       hintText: "Search",
                       icon: Icon(Icons.search),
-                      iconColor: Colors.white,
-                      hintStyle: TextStyle(color: Colors.white),
+                      iconColor: Colors.grey,
+                      hintStyle: TextStyle(color: Colors.grey),
                       border: InputBorder.none,
                     ),
                   ),
