@@ -107,6 +107,9 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                       child: Row(
                         children: [
                           Container(
+                            margin: EdgeInsets.only(
+                              right: 8
+                            ),
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
                               color: Color.fromRGBO(203, 251, 96, 1),
@@ -117,6 +120,23 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                             ),
                             child: Text(
                               "Today, 26 Jul",
+                              style: TextStyle(fontSize: 16),
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(
+                                right: 8
+                            ),
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.white.withValues(alpha: .15)
+                            ),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 16,
+                              vertical: 6,
+                            ),
+                            child: Text(
+                              "Tomorrow, 27 Jul",
                               style: TextStyle(fontSize: 16),
                             ),
                           ),
