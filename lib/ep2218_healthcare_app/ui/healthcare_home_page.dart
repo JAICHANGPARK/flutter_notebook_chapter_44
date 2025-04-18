@@ -47,6 +47,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                   child: Container(
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(16),
+                                      color: Colors.white.withValues(alpha: .2)
                                     ),
                                   ),
                                 ),
