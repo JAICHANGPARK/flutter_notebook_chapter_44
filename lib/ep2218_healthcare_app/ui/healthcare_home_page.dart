@@ -47,7 +47,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                   child: Container(
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(16),
-                                      color: Colors.white.withValues(alpha: .2)
+                                      color: Color.fromRGBO(45, 42, 43, 1),
                                     ),
                                   ),
                                 ),
@@ -55,7 +55,12 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                   left: 32,
                                   right: 32,
                                   top: 24,
-                                  child: Container(),
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(16),
+                                      color: Color.fromRGBO(28, 28, 28, 1),
+                                    ),
+                                  ),
                                 ),
                                 Positioned.fill(
                                   left: 16,
@@ -104,18 +109,24 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                         foregroundColor: Colors.white,
                         child: Icon(HugeIcons.strokeRoundedHome02),
                       ),
-                      CircleAvatar(radius: 28,
+                      CircleAvatar(
+                        radius: 28,
                         backgroundColor: Colors.black,
                         foregroundColor: Colors.white,
-                        child: Icon(HugeIcons.strokeRoundedCalendar01),),
-                      CircleAvatar(radius: 28,
+                        child: Icon(HugeIcons.strokeRoundedCalendar01),
+                      ),
+                      CircleAvatar(
+                        radius: 28,
                         backgroundColor: Colors.black,
                         foregroundColor: Colors.white,
-                        child: Icon(HugeIcons.strokeRoundedUserGroup),),
-                      CircleAvatar(radius: 28,
+                        child: Icon(HugeIcons.strokeRoundedUserGroup),
+                      ),
+                      CircleAvatar(
+                        radius: 28,
                         backgroundColor: Colors.black,
                         foregroundColor: Colors.white,
-                        child: Icon(HugeIcons.strokeRoundedUserList),),
+                        child: Icon(HugeIcons.strokeRoundedUserList),
+                      ),
                     ],
                   ),
                 ),
