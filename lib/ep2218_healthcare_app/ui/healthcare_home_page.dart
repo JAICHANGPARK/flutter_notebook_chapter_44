@@ -37,7 +37,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                         spacing: 16,
                         children: [
                           Container(
-                            height: 380,
+                            height: 400,
                             child: Stack(
                               children: [
                                 Positioned.fill(
@@ -53,13 +53,35 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                     child: Column(
                                       children: [
                                         Row(
+                                          spacing: 8,
                                           children: [
-                                            CircleAvatar(),
+                                            CircleAvatar(
+                                              backgroundColor: Color.fromRGBO(
+                                                66,
+                                                63,
+                                                64,
+                                                1,
+                                              ),
+                                            ),
                                             Spacer(),
-                                            CircleAvatar(),
-                                            CircleAvatar(),
+                                            CircleAvatar(
+                                              backgroundColor: Color.fromRGBO(
+                                                66,
+                                                63,
+                                                64,
+                                                1,
+                                              ),
+                                            ),
+                                            CircleAvatar(
+                                              backgroundColor: Color.fromRGBO(
+                                                66,
+                                                63,
+                                                64,
+                                                1,
+                                              ),
+                                            ),
                                           ],
-                                        )
+                                        ),
                                       ],
                                     ),
                                   ),
@@ -72,17 +94,40 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(16),
                                       color: Color.fromRGBO(28, 28, 28, 1),
-                                    ),padding: EdgeInsets.all(12),
+                                    ),
+                                    padding: EdgeInsets.all(12),
                                     child: Column(
                                       children: [
                                         Row(
+                                          spacing: 8,
                                           children: [
-                                            CircleAvatar(),
+                                            CircleAvatar(
+                                              backgroundColor: Color.fromRGBO(
+                                                66,
+                                                63,
+                                                64,
+                                                1,
+                                              ),
+                                            ),
                                             Spacer(),
-                                            CircleAvatar(),
-                                            CircleAvatar(),
+                                            CircleAvatar(
+                                              backgroundColor: Color.fromRGBO(
+                                                66,
+                                                63,
+                                                64,
+                                                1,
+                                              ),
+                                            ),
+                                            CircleAvatar(
+                                              backgroundColor: Color.fromRGBO(
+                                                66,
+                                                63,
+                                                64,
+                                                1,
+                                              ),
+                                            ),
                                           ],
-                                        )
+                                        ),
                                       ],
                                     ),
                                   ),
@@ -103,7 +148,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                           ),
                           Container(
                             height: 380,
-                            child:  Container(
+                            child: Container(
                               margin: EdgeInsets.all(16),
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(24),
