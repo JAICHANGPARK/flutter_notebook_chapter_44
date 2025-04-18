@@ -26,6 +26,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                         CircleAvatar(
                           radius: 24,
                           backgroundColor: Colors.white.withValues(alpha: .2),
+                          child: Icon(Icons.arrow_back),
                         ),
                         Spacer(),
                         CircleAvatar(
