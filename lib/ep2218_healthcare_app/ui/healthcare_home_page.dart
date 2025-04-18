@@ -44,13 +44,17 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                   left: 52,
                                   right: 52,
                                   top: 0,
-                                  child: Placeholder(),
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(16),
+                                    ),
+                                  ),
                                 ),
                                 Positioned.fill(
                                   left: 32,
                                   right: 32,
                                   top: 24,
-                                  child: Placeholder(),
+                                  child: Container(),
                                 ),
                                 Positioned.fill(
                                   left: 16,
