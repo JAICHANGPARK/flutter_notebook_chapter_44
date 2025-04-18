@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
-
 void main() {
-
+  runApp(HealthcareApp());
 }
 
 class HealthcareApp extends StatelessWidget {
