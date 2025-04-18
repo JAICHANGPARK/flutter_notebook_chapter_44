@@ -89,7 +89,11 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                     ),
                   ),
                   Container(
-                    height: 42,
+                    height: 52,
+                    child: Placeholder(),
+                  ),
+                  Container(
+                    height: 380,
                     child: Placeholder(),
                   )
                 ],
