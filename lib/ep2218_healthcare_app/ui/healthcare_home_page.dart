@@ -80,9 +80,8 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                     hintText: "Search",
                                     icon: Icon(Icons.search),
                                     iconColor: Colors.white,
-                                    hintStyle: TextStyle(
-                                      color: Colors.white
-                                    )
+                                    hintStyle: TextStyle(color: Colors.white),
+                                    border: InputBorder.none,
                                   ),
                                 ),
                               ),
