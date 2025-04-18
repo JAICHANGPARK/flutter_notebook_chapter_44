@@ -66,7 +66,12 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                   left: 16,
                                   right: 16,
                                   top: 48,
-                                  child: Placeholder(),
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(16),
+                                      color: Color.fromRGBO(28, 28, 28, 1),
+                                    ),
+                                  ),
                                 ),
                               ],
                             ),
