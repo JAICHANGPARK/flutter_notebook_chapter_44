@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/healthcare_search_bar_widget.dart';
+
 class HealthcareHomePage extends StatefulWidget {
   const HealthcareHomePage({super.key});
 
@@ -51,7 +53,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                       ],
                     ),
                   ),
-
+                  HealthcareSearchBarWidget(),
                   Container(
                     height: 52,
                     padding: EdgeInsets.only(left: 16),
