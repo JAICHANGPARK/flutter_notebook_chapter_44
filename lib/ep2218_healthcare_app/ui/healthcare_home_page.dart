@@ -22,7 +22,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 spacing: 16,
                 children: [
-
+                  HealthcareAppbarWidget(),
                   HealthcareSearchBarWidget(),
                   Container(
                     height: 52,
