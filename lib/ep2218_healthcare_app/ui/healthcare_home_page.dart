@@ -107,9 +107,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                       child: Row(
                         children: [
                           Container(
-                            margin: EdgeInsets.only(
-                              right: 8
-                            ),
+                            margin: EdgeInsets.only(right: 8),
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
                               color: Color.fromRGBO(203, 251, 96, 1),
@@ -124,12 +122,10 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                             ),
                           ),
                           Container(
-                            margin: EdgeInsets.only(
-                                right: 8
-                            ),
+                            margin: EdgeInsets.only(right: 8),
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
-                              color: Colors.white.withValues(alpha: .15)
+                              color: Colors.white.withValues(alpha: .15),
                             ),
                             padding: EdgeInsets.symmetric(
                               horizontal: 20,
@@ -137,8 +133,28 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                             ),
                             child: Text(
                               "Tomorrow, 27 Jul",
-                              style: TextStyle(fontSize: 16,
-                              color: Colors.white),
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.only(right: 8),
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.white.withValues(alpha: .15),
+                            ),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 20,
+                              vertical: 8,
+                            ),
+                            child: Text(
+                              "Day after, 28 Jul",
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.white,
+                              ),
                             ),
                           ),
                         ],
@@ -150,7 +166,28 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                       child: Column(
                         spacing: 16,
                         children: [
-                          Container(height: 380, child: Placeholder()),
+                          Container(
+                            height: 380,
+                            child: Stack(
+                              children: [
+                                Positioned.fill(
+                                  left: 52,
+                                    right: 52,
+                                    top: 0,
+                                    child: Placeholder()),
+                                Positioned.fill(
+                                    left: 32,
+                                    right: 32,
+                                    top: 24,
+                                    child: Placeholder()),
+                                Positioned.fill(
+                                    left: 16,
+                                    right: 16,
+                                    top: 48,
+                                    child: Placeholder()),
+                              ],
+                            ),
+                          ),
                           Container(height: 380, child: Placeholder()),
                         ],
                       ),
