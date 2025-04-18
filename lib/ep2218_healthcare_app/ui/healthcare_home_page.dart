@@ -51,36 +51,47 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                       ],
                     ),
                   ),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        "Book a Doctor",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 32,
-                          fontWeight: FontWeight.bold,
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 12,
+                      children: [
+                        Text(
+                          "Book a Doctor",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 32,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
-                      ),
-                      Row(
-                        children: [
-                          Expanded(
-                            child: Container(
-                              decoration: ShapeDecoration(
-                                shape: StadiumBorder(),
+                        Row(
+                          spacing: 8,
+                          children: [
+                            Expanded(
+                              child: Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Colors.white.withValues(alpha: .2)
+                                ),
+                                child: TextField(),
                               ),
                             ),
-                          ),
-                          CircleAvatar(
-                            radius: 24,
-                            backgroundColor: Colors.white.withValues(alpha: .2),
-                            foregroundColor: Colors.white,
-                            child: Icon(Icons.arrow_back),
-                          ),
-                        ],
-                      ),
-                    ],
+                            CircleAvatar(
+                              radius: 24,
+                              backgroundColor: Colors.white.withValues(alpha: .2),
+                              foregroundColor: Colors.white,
+                              child: Icon(Icons.tune),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
                   ),
+                  Container(
+                    height: 42,
+                    child: Placeholder(),
+                  )
                 ],
               ),
             ),
