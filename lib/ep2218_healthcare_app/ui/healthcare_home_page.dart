@@ -16,7 +16,16 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
         children: [
           Column(
             children: [
-
+                Row(
+                  spacing: 8,
+                  children: [
+                    CircleAvatar(),
+                    Spacer(),
+                    CircleAvatar(),
+                    CircleAvatar(),
+                    CircleAvatar(),
+                  ],
+                )
 
             ],
           ),
