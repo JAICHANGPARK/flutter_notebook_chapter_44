@@ -92,14 +92,17 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                     height: 52,
                     child: Placeholder(),
                   ),
-                  Container(
-                    height: 380,
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    height: 380,
-                    child: Placeholder(),
-                  )
+                  Expanded(child: SingleChildScrollView(child: Column(children: [
+                    Container(
+                      height: 380,
+                      child: Placeholder(),
+                    ),
+                    Container(
+                      height: 380,
+                      child: Placeholder(),
+                    )
+                  ],),))
+
                 ],
               ),
             ),
