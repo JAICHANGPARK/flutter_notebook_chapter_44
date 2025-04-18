@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 import 'widgets/healthcare_appbar_widget.dart';
 import 'widgets/healthcare_search_bar_widget.dart';
@@ -90,7 +91,11 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                     spacing: 8,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      CircleAvatar(radius: 28),
+                      CircleAvatar(
+                        radius: 28,
+                        backgroundColor: Colors.black,
+                        child: Icon(HugeIcons.strokeRoundedHome02),
+                      ),
                       CircleAvatar(radius: 28),
                       CircleAvatar(radius: 28),
                       CircleAvatar(radius: 28),
