@@ -41,8 +41,8 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                             child: Stack(
                               children: [
                                 Positioned.fill(
-                                  left: 52,
-                                  right: 52,
+                                  left: 62,
+                                  right: 62,
                                   top: 0,
                                   child: Container(
                                     decoration: BoxDecoration(
@@ -52,9 +52,9 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                   ),
                                 ),
                                 Positioned.fill(
-                                  left: 32,
-                                  right: 32,
-                                  top: 24,
+                                  left: 42,
+                                  right: 42,
+                                  top: 32,
                                   child: Container(
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(16),
@@ -65,11 +65,11 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                 Positioned.fill(
                                   left: 16,
                                   right: 16,
-                                  top: 48,
+                                  top: 64,
                                   child: Container(
                                     decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(16),
-                                      color: Color.fromRGBO(28, 28, 28, 1),
+                                      borderRadius: BorderRadius.circular(24),
+                                      color: Color.fromRGBO(203, 251, 96, 1),
                                     ),
                                   ),
                                 ),
