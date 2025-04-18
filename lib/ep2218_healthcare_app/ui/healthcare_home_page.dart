@@ -49,6 +49,18 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                       borderRadius: BorderRadius.circular(16),
                                       color: Color.fromRGBO(45, 42, 43, 1),
                                     ),
+                                    child: Column(
+                                      children: [
+                                        Row(
+                                          children: [
+                                            CircleAvatar(),
+                                            Spacer(),
+                                            CircleAvatar(),
+                                            CircleAvatar(),
+                                          ],
+                                        )
+                                      ],
+                                    ),
                                   ),
                                 ),
                                 Positioned.fill(
