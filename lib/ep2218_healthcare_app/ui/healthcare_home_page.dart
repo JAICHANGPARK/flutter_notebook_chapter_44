@@ -14,20 +14,25 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
       backgroundColor: Colors.black,
       body: Stack(
         children: [
-          Column(
-            children: [
-                Row(
-                  spacing: 8,
-                  children: [
-                    CircleAvatar(),
-                    Spacer(),
-                    CircleAvatar(),
-                    CircleAvatar(),
-                    CircleAvatar(),
-                  ],
-                )
-
-            ],
+          Positioned(
+            child: Column(
+              children: [
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      spacing: 8,
+                      children: [
+                        CircleAvatar(),
+                        Spacer(),
+                        CircleAvatar(),
+                        CircleAvatar(),
+                        CircleAvatar(),
+                      ],
+                    ),
+                  )
+            
+              ],
+            ),
           ),
         ],
       ),
