@@ -211,21 +211,17 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
             left: 72,
             right: 72,
             child: Container(
-              decoration: ShapeDecoration(shape: StadiumBorder(),
-              ),
+              decoration: ShapeDecoration(shape: StadiumBorder()),
               child: Row(
-                spacing: 12,
+                spacing: 8,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  CircleAvatar(
-                    radius: 26,
-                  ),
-                  CircleAvatar(radius: 26,),
-                  CircleAvatar(radius: 26,),
-                  CircleAvatar(radius: 26,),
+                  CircleAvatar(radius: 28),
+                  CircleAvatar(radius: 28),
+                  CircleAvatar(radius: 28),
+                  CircleAvatar(radius: 28),
                 ],
               ),
-
             ),
           ),
         ],
