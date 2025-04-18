@@ -110,6 +110,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                               shape: StadiumBorder(),
                               color: Color.fromRGBO(203, 251, 96, 1),
                             ),
+                            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 6),
                             child: Text("Today, 26 Jul"),
                           ),
                         ],
