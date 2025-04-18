@@ -207,8 +207,20 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
             ),
           ),
           Positioned(
+            bottom: 0,
+            left: 72,
+            right: 72,
             child: Container(
-              decoration: ShapeDecoration(shape: StadiumBorder(),),
+              decoration: ShapeDecoration(shape: StadiumBorder(),
+              ),
+              child: Row(
+                children: [
+                  CircleAvatar(),
+                  CircleAvatar(),
+                  CircleAvatar(),
+                  CircleAvatar(),
+                ],
+              ),
 
             ),
           ),
