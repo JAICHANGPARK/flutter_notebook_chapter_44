@@ -11,9 +11,15 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      backgroundColor: Colors.black,
+      body: Stack(
         children: [
+          Column(
+            children: [
 
+
+            ],
+          ),
         ],
       ),
     );
