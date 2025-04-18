@@ -77,19 +77,25 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
             bottom: 24,
             left: 72,
             right: 72,
-            child: BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 5, sigmaY: 6),
-              child: Container(
-                decoration: ShapeDecoration(shape: StadiumBorder()),
-                child: Row(
-                  spacing: 8,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    CircleAvatar(radius: 28),
-                    CircleAvatar(radius: 28),
-                    CircleAvatar(radius: 28),
-                    CircleAvatar(radius: 28),
-                  ],
+            child: ClipRRect(
+              child: BackdropFilter(
+                filter: ImageFilter.blur(sigmaX: 5, sigmaY: 6),
+                child: Container(
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.white.withValues(alpha: .2),
+                  ),
+                  padding: EdgeInsets.symmetric(vertical: 6),
+                  child: Row(
+                    spacing: 8,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      CircleAvatar(radius: 28),
+                      CircleAvatar(radius: 28),
+                      CircleAvatar(radius: 28),
+                      CircleAvatar(radius: 28),
+                    ],
+                  ),
                 ),
               ),
             ),
