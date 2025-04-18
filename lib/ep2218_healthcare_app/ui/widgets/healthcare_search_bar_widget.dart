@@ -5,7 +5,7 @@ class HealthcareSearchBarWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return    Padding(
+    return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -42,9 +42,7 @@ class HealthcareSearchBarWidget extends StatelessWidget {
               ),
               CircleAvatar(
                 radius: 24,
-                backgroundColor: Colors.white.withValues(
-                  alpha: .2,
-                ),
+                backgroundColor: Colors.white.withValues(alpha: .2),
                 foregroundColor: Colors.white,
                 child: Icon(Icons.tune),
               ),
