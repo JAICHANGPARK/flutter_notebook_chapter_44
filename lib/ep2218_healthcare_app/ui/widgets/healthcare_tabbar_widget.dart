@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class HealthcareTabbarWidget extends StatelessWidget {
   const HealthcareTabbarWidget({super.key});
 
