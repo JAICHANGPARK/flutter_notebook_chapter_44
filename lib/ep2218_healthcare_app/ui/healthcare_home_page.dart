@@ -101,6 +101,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                   ),
                   Container(
                     height: 52,
+                    padding: EdgeInsets.only(left: 16),
                     child: SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
                       child: Row(
@@ -110,8 +111,14 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                               shape: StadiumBorder(),
                               color: Color.fromRGBO(203, 251, 96, 1),
                             ),
-                            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 6),
-                            child: Text("Today, 26 Jul"),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 16,
+                              vertical: 6,
+                            ),
+                            child: Text(
+                              "Today, 26 Jul",
+                              style: TextStyle(fontSize: 16),
+                            ),
                           ),
                         ],
                       ),
