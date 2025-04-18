@@ -28,7 +28,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                 children: [
                   HealthcareAppbarWidget(),
                   HealthcareSearchBarWidget(),
-                  
+                  HealthcareTabbarWidget(),
 
                   Expanded(
                     child: SingleChildScrollView(
