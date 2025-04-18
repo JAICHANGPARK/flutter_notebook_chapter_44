@@ -23,11 +23,13 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                       child: Row(
                         spacing: 8,
                         children: [
-                          CircleAvatar(),
+                          CircleAvatar(
+                            radius: 24,
+                          ),
                           Spacer(),
-                          CircleAvatar(),
-                          CircleAvatar(),
-                          CircleAvatar(),
+                          CircleAvatar( radius: 24,),
+                          CircleAvatar( radius: 24,),
+                          CircleAvatar( radius: 28,),
                         ],
                       ),
                     )
