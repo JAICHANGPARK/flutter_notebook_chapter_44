@@ -72,14 +72,22 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                               child: Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
-                                  color: Colors.white.withValues(alpha: .2)
+                                  color: Colors.white.withValues(alpha: .2),
                                 ),
-                                child: TextField(),
+                                padding: EdgeInsets.symmetric(horizontal: 16),
+                                child: TextField(
+                                  decoration: InputDecoration(
+                                    hintText: "Search",
+                                    icon: Icon(Icons.search),
+                                  ),
+                                ),
                               ),
                             ),
                             CircleAvatar(
                               radius: 24,
-                              backgroundColor: Colors.white.withValues(alpha: .2),
+                              backgroundColor: Colors.white.withValues(
+                                alpha: .2,
+                              ),
                               foregroundColor: Colors.white,
                               child: Icon(Icons.tune),
                             ),
@@ -88,23 +96,18 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                       ],
                     ),
                   ),
-                  Container(
-                    height: 52,
-                    child: Placeholder(),
-                  ),
-                  Expanded(child: SingleChildScrollView(child: Column(
-                    spacing: 16,
-                    children: [
-                    Container(
-                      height: 380,
-                      child: Placeholder(),
+                  Container(height: 52, child: Placeholder()),
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        spacing: 16,
+                        children: [
+                          Container(height: 380, child: Placeholder()),
+                          Container(height: 380, child: Placeholder()),
+                        ],
+                      ),
                     ),
-                    Container(
-                      height: 380,
-                      child: Placeholder(),
-                    )
-                  ],),))
-
+                  ),
                 ],
               ),
             ),
