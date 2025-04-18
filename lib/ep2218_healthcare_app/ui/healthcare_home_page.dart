@@ -115,8 +115,8 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                               color: Color.fromRGBO(203, 251, 96, 1),
                             ),
                             padding: EdgeInsets.symmetric(
-                              horizontal: 16,
-                              vertical: 6,
+                              horizontal: 20,
+                              vertical: 8,
                             ),
                             child: Text(
                               "Today, 26 Jul",
@@ -132,12 +132,13 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                               color: Colors.white.withValues(alpha: .15)
                             ),
                             padding: EdgeInsets.symmetric(
-                              horizontal: 16,
-                              vertical: 6,
+                              horizontal: 20,
+                              vertical: 8,
                             ),
                             child: Text(
                               "Tomorrow, 27 Jul",
-                              style: TextStyle(fontSize: 16),
+                              style: TextStyle(fontSize: 16,
+                              color: Colors.white),
                             ),
                           ),
                         ],
