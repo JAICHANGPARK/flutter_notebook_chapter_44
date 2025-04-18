@@ -106,7 +106,9 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                       child: Row(
                         children: [
                           Container(
-                            decoration: ShapeDecoration(shape: StadiumBorder()
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Color.fromRGBO(203, 251, 96, 1),
                             ),
                             child: Text("Today, 26 Jul"),
                           ),
