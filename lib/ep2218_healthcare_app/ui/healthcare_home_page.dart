@@ -18,23 +18,31 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
             child: SafeArea(
               child: Column(
                 children: [
-                    Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Row(
-                        spacing: 8,
-                        children: [
-                          CircleAvatar(
-                            radius: 24,
-                            backgroundColor: Colors.white.withValues(alpha: .2),
-                          ),
-                          Spacer(),
-                          CircleAvatar( radius: 24,),
-                          CircleAvatar( radius: 24,),
-                          CircleAvatar( radius: 28,),
-                        ],
-                      ),
-                    )
-              
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      spacing: 8,
+                      children: [
+                        CircleAvatar(
+                          radius: 24,
+                          backgroundColor: Colors.white.withValues(alpha: .2),
+                        ),
+                        Spacer(),
+                        CircleAvatar(
+                          radius: 24,
+                          backgroundColor: Colors.white.withValues(alpha: .2),
+                        ),
+                        CircleAvatar(
+                          radius: 24,
+                          backgroundColor: Colors.white.withValues(alpha: .2),
+                        ),
+                        CircleAvatar(
+                          radius: 28,
+                          backgroundColor: Colors.white.withValues(alpha: .2),
+                        ),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
