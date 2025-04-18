@@ -99,7 +99,21 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                       ],
                     ),
                   ),
-                  Container(height: 52, child: Placeholder()),
+                  Container(
+                    height: 52,
+                    child: SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Row(
+                        children: [
+                          Container(
+                            decoration: ShapeDecoration(shape: StadiumBorder()
+                            ),
+                            child: Text("Today, 26 Jul"),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
