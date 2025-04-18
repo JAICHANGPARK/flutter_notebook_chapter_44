@@ -51,13 +51,29 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                       ],
                     ),
                   ),
-                  Text(
-                    "Book a Doctor",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold,
-                    ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "Book a Doctor",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 32,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
                 ],
               ),
