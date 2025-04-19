@@ -127,7 +127,7 @@ class HealthcareCardWidget extends StatelessWidget {
                       return Container(
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
-                          color: Colors.white,
+                          color: Color.fromRGBO(185, 228, 88, 1),
                         ),
                       );
                     },
