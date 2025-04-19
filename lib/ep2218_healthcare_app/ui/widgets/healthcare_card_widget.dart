@@ -112,21 +112,31 @@ class HealthcareCardWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Text("Dr, Dream Walker",style: TextStyle(
-                    fontSize: 20,
-                  ),),
+                  Text("Dr, Dream Walker", style: TextStyle(fontSize: 20)),
                   GridView.builder(
                     shrinkWrap: true,
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
+                      mainAxisSpacing: 12,
+                      crossAxisSpacing: 12,
+                      childAspectRatio: 3.5,
                     ),
                     itemCount: 4,
                     itemBuilder: (context, index) {
                       return Container(
-                        decoration: ShapeDecoration(shape: StadiumBorder(),),
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.white,
+                        ),
                       );
                     },
                   ),
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.white,
+                    ),
+                  )
                 ],
               ),
             ),
