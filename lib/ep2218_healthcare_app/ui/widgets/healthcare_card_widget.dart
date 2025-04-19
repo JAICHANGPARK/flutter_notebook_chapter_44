@@ -111,6 +111,18 @@ class HealthcareCardWidget extends StatelessWidget {
                 borderRadius: BorderRadius.circular(32),
                 color: Color.fromRGBO(203, 251, 96, 1),
               ),
+              child: Column(
+                spacing: 12,
+                children: [
+                  Row(
+                    children: [
+                      CircleAvatar(),
+                      Expanded(child: Text(""))
+                    ],
+                  )
+
+                ],
+              ),
             ),
           ),
         ],
