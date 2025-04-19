@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 
-
 class HealthcareCardWidget extends StatelessWidget {
   const HealthcareCardWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return     Container(
+    return Container(
       height: 400,
       child: Stack(
         children: [
@@ -26,29 +25,14 @@ class HealthcareCardWidget extends StatelessWidget {
                     spacing: 8,
                     children: [
                       CircleAvatar(
-                        backgroundColor: Color.fromRGBO(
-                          66,
-                          63,
-                          64,
-                          1,
-                        ),
+                        backgroundColor: Color.fromRGBO(66, 63, 64, 1),
                       ),
                       Spacer(),
                       CircleAvatar(
-                        backgroundColor: Color.fromRGBO(
-                          66,
-                          63,
-                          64,
-                          1,
-                        ),
+                        backgroundColor: Color.fromRGBO(66, 63, 64, 1),
                       ),
                       CircleAvatar(
-                        backgroundColor: Color.fromRGBO(
-                          66,
-                          63,
-                          64,
-                          1,
-                        ),
+                        backgroundColor: Color.fromRGBO(66, 63, 64, 1),
                       ),
                     ],
                   ),
@@ -72,29 +56,14 @@ class HealthcareCardWidget extends StatelessWidget {
                     spacing: 8,
                     children: [
                       CircleAvatar(
-                        backgroundColor: Color.fromRGBO(
-                          66,
-                          63,
-                          64,
-                          1,
-                        ),
+                        backgroundColor: Color.fromRGBO(66, 63, 64, 1),
                       ),
                       Spacer(),
                       CircleAvatar(
-                        backgroundColor: Color.fromRGBO(
-                          66,
-                          63,
-                          64,
-                          1,
-                        ),
+                        backgroundColor: Color.fromRGBO(66, 63, 64, 1),
                       ),
                       CircleAvatar(
-                        backgroundColor: Color.fromRGBO(
-                          66,
-                          63,
-                          64,
-                          1,
-                        ),
+                        backgroundColor: Color.fromRGBO(66, 63, 64, 1),
                       ),
                     ],
                   ),
@@ -117,10 +86,11 @@ class HealthcareCardWidget extends StatelessWidget {
                   Row(
                     children: [
                       CircleAvatar(),
-                      Expanded(child: Text(""))
+                      Expanded(child: Text("Available Today")),
+                      CircleAvatar(),
+                      CircleAvatar(),
                     ],
-                  )
-
+                  ),
                 ],
               ),
             ),
