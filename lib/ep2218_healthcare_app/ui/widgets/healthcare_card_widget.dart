@@ -113,7 +113,7 @@ class HealthcareCardWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Text("Dr, Dream Walker", style: TextStyle(fontSize: 20)),
+                  Text("Dr, Dream Walker", style: TextStyle(fontSize: 32)),
                   GridView.builder(
                     shrinkWrap: true,
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -137,7 +137,14 @@ class HealthcareCardWidget extends StatelessWidget {
                       shape: StadiumBorder(),
                       color: Colors.black,
                     ),
-                    child: Center(child: Text("View All Appointment")),
+                    padding: EdgeInsets.symmetric(vertical: 12, ),
+                    child: Center(
+                      child: Text(
+                        "View All Appointment",
+                        style: TextStyle(fontSize: 16,
+                          color: Color.fromRGBO(203, 251, 96, 1), ),
+                      ),
+                    ),
                   ),
                 ],
               ),
