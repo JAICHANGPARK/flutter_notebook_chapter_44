@@ -39,14 +39,83 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                         children: [
                           HealthcareCardWidget(),
                           Container(
-                            height: 380,
-                            child: Container(
-                              margin: EdgeInsets.all(16),
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(24),
-                                color: Color.fromRGBO(28, 28, 28, 1),
-                              ),
+                            margin: EdgeInsets.all(16),
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(24),
+                              color: Color.fromRGBO(28, 28, 28, 1),
                             ),
+                            padding: EdgeInsets.all(16),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              spacing: 12,
+                              children: [
+                                Row(
+                                  spacing: 12,
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 24,
+                                      backgroundColor: Color.fromRGBO(51, 228, 88, 1),
+                                    ),
+                                    Expanded(
+                                      child: Text(
+                                        "Available Today",
+                                        style: TextStyle(fontSize: 16),
+                                      ),
+                                    ),
+                                    CircleAvatar(
+                                      radius: 24,
+                                      backgroundColor: Color.fromRGBO(185, 228, 88, 1),
+                                      foregroundColor: Colors.black,
+                                      child: Icon(Icons.favorite_border),
+                                    ),
+                                    CircleAvatar(
+                                      radius: 24,
+                                      backgroundColor: Color.fromRGBO(185, 228, 88, 1),
+                                      foregroundColor: Colors.black,
+                                      child: Icon(Icons.chat_outlined),
+                                    ),
+                                  ],
+                                ),
+                                Text("Dr, Dream Walker", style: TextStyle(fontSize: 32)),
+                                GridView.builder(
+                                  shrinkWrap: true,
+                                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                                    crossAxisCount: 2,
+                                    mainAxisSpacing: 12,
+                                    crossAxisSpacing: 12,
+                                    childAspectRatio: 3.5,
+                                  ),
+                                  itemCount: 4,
+                                  itemBuilder: (context, index) {
+                                    return Container(
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(),
+                                        color: Color.fromRGBO(185, 228, 88, 1),
+                                      ),
+                                      child: Center(
+                                        child: Text("Today, 26 Jul"),
+                                      ),
+                                    );
+                                  },
+                                ),
+                                Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.black,
+                                  ),
+                                  padding: EdgeInsets.symmetric(vertical: 12, ),
+                                  child: Center(
+                                    child: Text(
+                                      "View All Appointment",
+                                      style: TextStyle(fontSize: 16,
+                                        color: Color.fromRGBO(203, 251, 96, 1), ),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+
                           ),
                         ],
                       ),
