@@ -94,7 +94,9 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                         color: Color.fromRGBO(51, 51, 51, 1),
                                       ),
                                       child: Center(
-                                        child: Text("Today, 26 Jul"),
+                                        child: Text("Today, 26 Jul",style: TextStyle(
+                                          color: Colors.white
+                                        ),),
                                       ),
                                     );
                                   },
