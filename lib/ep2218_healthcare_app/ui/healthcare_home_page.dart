@@ -65,7 +65,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                     ),
                                     CircleAvatar(
                                       radius: 24,
-                                      backgroundColor: Color.fromRGBO(185, 228, 88, 1),
+                                      backgroundColor: Color.fromRGBO(51, 228, 88, 1),
                                       foregroundColor: Colors.black,
                                       child: Icon(Icons.favorite_border),
                                     ),
