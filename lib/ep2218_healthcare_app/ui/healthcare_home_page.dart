@@ -55,7 +55,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                   children: [
                                     CircleAvatar(
                                       radius: 24,
-                                      backgroundColor: Color.fromRGBO(51, 228, 88, 1),
+                                      backgroundColor: Color.fromRGBO(51, 51, 88, 1),
                                     ),
                                     Expanded(
                                       child: Text(
