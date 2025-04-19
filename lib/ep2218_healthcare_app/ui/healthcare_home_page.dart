@@ -77,7 +77,8 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                     ),
                                   ],
                                 ),
-                                Text("Dr, Dream Walker", style: TextStyle(fontSize: 32)),
+                                Text("Dr, Dream Walker", style: TextStyle(fontSize: 32,
+                                color: Colors.white)),
                                 GridView.builder(
                                   shrinkWrap: true,
                                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
