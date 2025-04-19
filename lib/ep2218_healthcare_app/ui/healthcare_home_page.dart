@@ -66,13 +66,13 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                     CircleAvatar(
                                       radius: 24,
                                       backgroundColor: Color.fromRGBO(51, 51, 51, 1),
-                                      foregroundColor: Colors.black,
+                                      foregroundColor: Colors.grey,
                                       child: Icon(Icons.favorite_border),
                                     ),
                                     CircleAvatar(
                                       radius: 24,
-                                      backgroundColor: Color.fromRGBO(185, 228, 88, 1),
-                                      foregroundColor: Colors.black,
+                                      backgroundColor: Color.fromRGBO(51, 51, 51, 1),
+                                      foregroundColor: Colors.grey,
                                       child: Icon(Icons.chat_outlined),
                                     ),
                                   ],
@@ -91,7 +91,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                     return Container(
                                       decoration: ShapeDecoration(
                                         shape: StadiumBorder(),
-                                        color: Color.fromRGBO(185, 228, 88, 1),
+                                        color: Color.fromRGBO(51, 51, 51, 1),
                                       ),
                                       child: Center(
                                         child: Text("Today, 26 Jul"),
