@@ -82,6 +82,7 @@ class HealthcareCardWidget extends StatelessWidget {
               ),
               padding: EdgeInsets.all(16),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 spacing: 12,
                 children: [
                   Row(
@@ -111,13 +112,20 @@ class HealthcareCardWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Text("Dr, Dream Walker"),
+                  Text("Dr, Dream Walker",style: TextStyle(
+                    fontSize: 20,
+                  ),),
                   GridView.builder(
+                    shrinkWrap: true,
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
                     ),
                     itemCount: 4,
-                    itemBuilder: (context, index) {},
+                    itemBuilder: (context, index) {
+                      return Container(
+                        decoration: ShapeDecoration(shape: StadiumBorder(),),
+                      );
+                    },
                   ),
                 ],
               ),
