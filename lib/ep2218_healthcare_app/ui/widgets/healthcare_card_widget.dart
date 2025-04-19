@@ -87,12 +87,15 @@ class HealthcareCardWidget extends StatelessWidget {
                   Row(
                     spacing: 12,
                     children: [
-                      CircleAvatar(
-                        radius: 24,
+                      CircleAvatar(radius: 24),
+                      Expanded(
+                        child: Text(
+                          "Available Today",
+                          style: TextStyle(fontSize: 16),
+                        ),
                       ),
-                      Expanded(child: Text("Available Today")),
-                      CircleAvatar(radius: 24,),
-                      CircleAvatar(radius: 24,),
+                      CircleAvatar(radius: 24),
+                      CircleAvatar(radius: 24),
                     ],
                   ),
                 ],
