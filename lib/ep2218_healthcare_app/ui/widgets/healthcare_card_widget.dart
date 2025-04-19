@@ -129,6 +129,9 @@ class HealthcareCardWidget extends StatelessWidget {
                           shape: StadiumBorder(),
                           color: Color.fromRGBO(185, 228, 88, 1),
                         ),
+                        child: Center(
+                          child: Text("Today, 26 Jul"),
+                        ),
                       );
                     },
                   ),
