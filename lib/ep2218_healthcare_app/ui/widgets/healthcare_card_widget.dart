@@ -83,6 +83,7 @@ class HealthcareCardWidget extends StatelessWidget {
               padding: EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 spacing: 12,
                 children: [
                   Row(
@@ -134,9 +135,10 @@ class HealthcareCardWidget extends StatelessWidget {
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
-                  )
+                    child: Center(child: Text("View All Appointment")),
+                  ),
                 ],
               ),
             ),
