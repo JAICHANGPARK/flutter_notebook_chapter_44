@@ -10,12 +10,7 @@ class HealthcareAppbarWidget extends StatelessWidget {
       child: Row(
         spacing: 8,
         children: [
-          CircleAvatar(
-            radius: 24,
-            backgroundColor: Colors.white.withValues(alpha: .2),
-            foregroundColor: Colors.white,
-            child: Icon(Icons.arrow_back),
-          ),
+
           Spacer(),
           CircleAvatar(
             radius: 24,
