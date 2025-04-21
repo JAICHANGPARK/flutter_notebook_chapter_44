@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 
 class HealthcareBookingPage extends StatefulWidget {
@@ -15,6 +16,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
       crossAxisAlignment: CrossAxisAlignment.start,
       spacing: 16,
       children: [
+        Gap(24),
         Padding(
           padding: const EdgeInsets.all(16.0),
           child: Row(
