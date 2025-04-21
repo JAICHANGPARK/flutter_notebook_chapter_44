@@ -21,10 +21,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
           padding: const EdgeInsets.all(16.0),
           child: Row(
             children: [
-              CircleAvatar(
-                radius: 26,
-
-              )
+              HealthcareNavBackButton(),
             ],
           ),
         )
