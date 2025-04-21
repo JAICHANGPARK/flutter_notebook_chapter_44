@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'widgets/healthcare_appbar_widget.dart';
+import 'widgets/healthcare_card_widget.dart';
 import 'widgets/healthcare_search_bar_widget.dart';
 import 'widgets/healthcare_tabbar_widget.dart';
 
