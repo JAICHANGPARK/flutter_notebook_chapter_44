@@ -38,6 +38,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                 ],
               ),
             ),
+            HealthcareBookingTabbarWidget(),
           ],
         ),
       ),
