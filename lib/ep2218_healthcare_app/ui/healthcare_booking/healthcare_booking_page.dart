@@ -25,7 +25,14 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
               child: Row(
                 children: [
                   HealthcareNavBackButton(),
-                  Expanded(child: Center(child: Text("Doctor Booking"))),
+                  Expanded(
+                    child: Center(
+                      child: Text(
+                        "Doctor Booking",
+                        style: TextStyle(color: Colors.white, fontSize: 18),
+                      ),
+                    ),
+                  ),
                   HealthcareAlertButton(),
                 ],
               ),
