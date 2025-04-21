@@ -55,7 +55,8 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                   children: [
                                     CircleAvatar(
                                       radius: 24,
-                                      backgroundColor: Color.fromRGBO(51, 51, 51, 1),
+                                      backgroundColor: Color.fromRGBO(
+                                          51, 51, 51, 1),
                                     ),
                                     Expanded(
                                       child: Text(
@@ -65,20 +66,23 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                     ),
                                     CircleAvatar(
                                       radius: 24,
-                                      backgroundColor: Color.fromRGBO(51, 51, 51, 1),
+                                      backgroundColor: Color.fromRGBO(
+                                          51, 51, 51, 1),
                                       foregroundColor: Colors.grey,
                                       child: Icon(Icons.favorite_border),
                                     ),
                                     CircleAvatar(
                                       radius: 24,
-                                      backgroundColor: Color.fromRGBO(51, 51, 51, 1),
+                                      backgroundColor: Color.fromRGBO(
+                                          51, 51, 51, 1),
                                       foregroundColor: Colors.grey,
                                       child: Icon(Icons.chat_outlined),
                                     ),
                                   ],
                                 ),
-                                Text("Dr, Dream Walker", style: TextStyle(fontSize: 32,
-                                color: Colors.white)),
+                                Text("Dr, Dream Walker",
+                                    style: TextStyle(fontSize: 32,
+                                        color: Colors.white)),
                                 GridView.builder(
                                   shrinkWrap: true,
                                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -95,8 +99,9 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                         color: Color.fromRGBO(51, 51, 51, 1),
                                       ),
                                       child: Center(
-                                        child: Text("Today, 26 Jul",style: TextStyle(
-                                          color: Colors.white
+                                        child: Text(
+                                          "Today, 26 Jul", style: TextStyle(
+                                            color: Colors.white
                                         ),),
                                       ),
                                     );
@@ -107,12 +112,13 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                                     shape: StadiumBorder(),
                                     color: Colors.black,
                                   ),
-                                  padding: EdgeInsets.symmetric(vertical: 12, ),
+                                  padding: EdgeInsets.symmetric(vertical: 12,),
                                   child: Center(
                                     child: Text(
                                       "View All Appointment",
                                       style: TextStyle(fontSize: 16,
-                                        color: Color.fromRGBO(203, 251, 96, 1), ),
+                                        color: Color.fromRGBO(
+                                            203, 251, 96, 1),),
                                     ),
                                   ),
                                 ),
