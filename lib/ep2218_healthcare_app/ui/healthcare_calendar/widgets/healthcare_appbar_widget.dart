@@ -10,7 +10,7 @@ class HealthcareAppbarWidget extends StatelessWidget {
       child: Row(
         spacing: 8,
         children: [
-
+          HealthcareNavBackButton(),
           Spacer(),
           CircleAvatar(
             radius: 24,
