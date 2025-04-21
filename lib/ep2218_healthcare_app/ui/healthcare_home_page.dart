@@ -13,6 +13,7 @@ class HealthcareHomePage extends StatefulWidget {
 }
 
 class _HealthcareHomePageState extends State<HealthcareHomePage> {
+  int pageNum = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
