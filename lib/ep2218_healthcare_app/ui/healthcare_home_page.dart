@@ -24,7 +24,11 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
         children: [
           Positioned.fill(
             child: SafeArea(
-              child:
+              child: IndexedStack(
+                children: [
+                  HealthcareCalendarPage(),
+                ],
+              )
             ),
           ),
           Positioned(
