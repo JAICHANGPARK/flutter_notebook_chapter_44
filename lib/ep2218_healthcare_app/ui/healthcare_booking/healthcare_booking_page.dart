@@ -41,6 +41,10 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
               ),
             ),
             HealthcareBookingTabbarWidget(),
+            Expanded(child: GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,
+            ), itemBuilder: (context,inde){
+              return Placeholder();
+            }))
           ],
         ),
       ),
