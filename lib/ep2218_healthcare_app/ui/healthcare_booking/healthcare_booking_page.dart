@@ -45,7 +45,8 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
               child: GridView.builder(
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
-                  
+                  mainAxisSpacing: 12,
+                  crossAxisSpacing: 12,
                 ),
                 itemBuilder: (context, inde) {
                   return Placeholder();
