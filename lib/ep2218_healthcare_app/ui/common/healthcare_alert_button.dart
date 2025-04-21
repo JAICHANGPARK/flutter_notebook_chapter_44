@@ -6,6 +6,11 @@ class HealthcareAlertButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return  CircleAvatar(
+      radius: 24,
+      backgroundColor: Colors.white.withValues(alpha: .2),
+      foregroundColor: Colors.white,
+      child: Badge(child: Icon(Icons.notifications_none)),
+    );
   }
 }
