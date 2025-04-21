@@ -3,10 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 
-import 'widgets/healthcare_appbar_widget.dart';
-import 'widgets/healthcare_card_widget.dart';
-import 'widgets/healthcare_search_bar_widget.dart';
-import 'widgets/healthcare_tabbar_widget.dart';
+import 'healthcare_calendar/healthcare_calendar_page.dart';
 
 class HealthcareHomePage extends StatefulWidget {
   const HealthcareHomePage({super.key});
