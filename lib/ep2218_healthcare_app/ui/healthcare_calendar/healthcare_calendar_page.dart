@@ -22,7 +22,6 @@ class _HealthcareCalendarPageState extends State<HealthcareCalendarPage> {
         HealthcareAppbarWidget(),
         HealthcareSearchBarWidget(),
         HealthcareTabbarWidget(),
-
         Expanded(
           child: SingleChildScrollView(
             child: Column(
