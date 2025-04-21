@@ -13,7 +13,14 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        Row(
+          children: [
+            CircleAvatar(
+              radius: 26,
 
+            )
+          ],
+        )
       ],
     );
   }
