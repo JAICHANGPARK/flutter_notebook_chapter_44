@@ -42,7 +42,9 @@ class HealthcareSearchBarWidget extends StatelessWidget {
               ),
               InkWell(
                 onTap: (){
-                  
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context){
+                    return HealthcareBookingPage();
+                  }));
                 },
                 child: CircleAvatar(
                   radius: 24,
