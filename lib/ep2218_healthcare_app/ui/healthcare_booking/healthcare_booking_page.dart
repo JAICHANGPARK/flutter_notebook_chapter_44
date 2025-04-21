@@ -12,14 +12,19 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
   @override
   Widget build(BuildContext context) {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      spacing: 16,
       children: [
-        Row(
-          children: [
-            CircleAvatar(
-              radius: 26,
+        Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Row(
+            children: [
+              CircleAvatar(
+                radius: 26,
 
-            )
-          ],
+              )
+            ],
+          ),
         )
       ],
     );
