@@ -13,6 +13,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
