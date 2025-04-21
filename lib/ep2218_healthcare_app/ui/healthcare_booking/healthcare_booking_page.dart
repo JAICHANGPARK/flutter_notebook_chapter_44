@@ -13,21 +13,28 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        spacing: 16,
-        children: [
-          Gap(24),
-          Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: Row(
-              children: [
-                HealthcareNavBackButton(),
-                Expanded(child: Center(child: Text("Doctor Booking"))),
-              ],
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          spacing: 16,
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Row(
+                children: [
+                  HealthcareNavBackButton(),
+                  Expanded(child: Center(child: Text("Doctor Booking"))),
+                  CircleAvatar(
+                    radius: 24,
+                    backgroundColor: Colors.white.withValues(alpha: .2),
+                    foregroundColor: Colors.white,
+                    child: Badge(child: Icon(Icons.notifications_none)),
+                  ),
+                ],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
