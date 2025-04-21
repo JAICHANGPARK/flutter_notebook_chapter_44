@@ -40,11 +40,16 @@ class HealthcareSearchBarWidget extends StatelessWidget {
                   ),
                 ),
               ),
-              CircleAvatar(
-                radius: 24,
-                backgroundColor: Colors.white.withValues(alpha: .2),
-                foregroundColor: Colors.white,
-                child: Icon(Icons.tune),
+              InkWell(
+                onTap: (){
+                  
+                },
+                child: CircleAvatar(
+                  radius: 24,
+                  backgroundColor: Colors.white.withValues(alpha: .2),
+                  foregroundColor: Colors.white,
+                  child: Icon(Icons.tune),
+                ),
               ),
             ],
           ),
