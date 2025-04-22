@@ -40,6 +40,17 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                       borderRadius: BorderRadius.circular(24),
                       color: Color.fromRGBO(28, 28, 28, 1),
                     ),
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            CircleAvatar(
+                              radius: 26,
+                            )
+                          ],
+                        )
+                      ],
+                    ),
                   );
                 },
               ),
