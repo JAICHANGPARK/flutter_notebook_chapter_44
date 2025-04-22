@@ -85,7 +85,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                                   )
                                 ),
                               ),
-                              padding: EdgeInsets.symmetric(horizontal: 16,vertical: 2),
+                              padding: EdgeInsets.symmetric(horizontal: 16,vertical: 4),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
