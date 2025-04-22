@@ -81,7 +81,11 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                                   Text("Time 11:AM")
                                 ],
                               ),
-                            )
+                            ),
+                            CircleAvatar(
+                              radius: 24,
+                              child: Icon(Icons.arrow_forward),
+                            ),
                           ],
                         )
                       ],
