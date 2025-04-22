@@ -47,7 +47,13 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                           children: [
                             CircleAvatar(
                               radius: 26,
-                            )
+                            ),
+                            Expanded(child: Column(
+                              children: [
+                                Text("Dr. Dream"),
+                                Text("Walker"),
+                              ],
+                            ))
                           ],
                         )
                       ],
