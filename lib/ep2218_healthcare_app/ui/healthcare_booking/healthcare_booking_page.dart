@@ -77,6 +77,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                               decoration: ShapeDecoration(shape: StadiumBorder(),
                               ),
                               child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text('01 Aug',
                                   style: TextStyle(
