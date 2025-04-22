@@ -57,15 +57,33 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                                     "Dr. Dream",
                                     style: TextStyle(color: Colors.white),
                                   ),
-                                  Text("Walker",
-                                    style: TextStyle(color: Colors.white),),
+                                  Text(
+                                    "Walker",
+                                    style: TextStyle(color: Colors.white),
+                                  ),
                                 ],
                               ),
                             ),
                           ],
                         ),
-                        Text("General Flutter Development",
-                          style: TextStyle(color: Colors.white),)
+                        Text(
+                          "General Flutter Development",
+                          style: TextStyle(color: Colors.white),
+                        ),
+                        Row(
+                          children: [
+                            Container(
+                              decoration: ShapeDecoration(shape: StadiumBorder(),
+                              ),
+                              child: Column(
+                                children: [
+                                  Text('01 Aug',),
+                                  Text("Time 11:AM")
+                                ],
+                              ),
+                            )
+                          ],
+                        )
                       ],
                     ),
                   );
