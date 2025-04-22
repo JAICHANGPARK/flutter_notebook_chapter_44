@@ -72,6 +72,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                           style: TextStyle(color: Colors.white),
                         ),
                         Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Container(
                               decoration: ShapeDecoration(
