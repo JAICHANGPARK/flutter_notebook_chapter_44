@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
@@ -104,7 +106,10 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                               radius: 24,
                               foregroundColor: Colors.white,
                               backgroundColor: Color.fromRGBO(40, 40, 40, 1),
-                              child: Icon(Icons.arrow_forward),
+                              child: Transform.rotate(
+
+                                  angle: -math.pi / 4.0,
+                                  child: Icon(Icons.arrow_forward)),
                             ),
                           ],
                         ),
