@@ -25,20 +25,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
             Gap(8),
             Padding(
               padding: const EdgeInsets.all(16.0),
-              child: Row(
-                children: [
-                  HealthcareNavBackButton(),
-                  Expanded(
-                    child: Center(
-                      child: Text(
-                        "Doctor Booking",
-                        style: TextStyle(color: Colors.white, fontSize: 18),
-                      ),
-                    ),
-                  ),
-                  HealthcareAlertButton(),
-                ],
-              ),
+              child:
             ),
             HealthcareBookingTabbarWidget(),
             Expanded(
