@@ -42,6 +42,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                     ),
                     padding: EdgeInsets.all(16),
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Row(
                           spacing: 8,
