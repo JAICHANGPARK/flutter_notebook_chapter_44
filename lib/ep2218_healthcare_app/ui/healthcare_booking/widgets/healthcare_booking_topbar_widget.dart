@@ -6,6 +6,19 @@ class HealthcareBookingTopbarWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Row(
+      children: [
+        HealthcareNavBackButton(),
+        Expanded(
+          child: Center(
+            child: Text(
+              "Doctor Booking",
+              style: TextStyle(color: Colors.white, fontSize: 18),
+            ),
+          ),
+        ),
+        HealthcareAlertButton(),
+      ],
+    );
   }
 }
