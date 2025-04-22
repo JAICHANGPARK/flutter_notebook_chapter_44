@@ -79,11 +79,13 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(
                                   side: BorderSide(
-                                    color: Colors.grey
+                                    color: Colors.white.withValues(
+                                      alpha: .2
+                                    )
                                   )
                                 ),
                               ),
-                              padding: EdgeInsets.symmetric(horizontal: 12,vertical: 2),
+                              padding: EdgeInsets.symmetric(horizontal: 16,vertical: 2),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
