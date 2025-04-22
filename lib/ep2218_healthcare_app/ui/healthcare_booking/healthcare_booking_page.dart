@@ -64,7 +64,8 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                             ),
                           ],
                         ),
-                        Text("General Flutter Development")
+                        Text("General Flutter Development",
+                          style: TextStyle(color: Colors.white),)
                       ],
                     ),
                   );
