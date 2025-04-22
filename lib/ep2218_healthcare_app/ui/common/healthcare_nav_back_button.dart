@@ -5,11 +5,16 @@ class HealthcareNavBackButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CircleAvatar(
-      radius: 24,
-      backgroundColor: Colors.white.withValues(alpha: .2),
-      foregroundColor: Colors.white,
-      child: Icon(Icons.arrow_back),
+    return InkWell(
+      onTap: (){
+        
+      },
+      child: CircleAvatar(
+        radius: 24,
+        backgroundColor: Colors.white.withValues(alpha: .2),
+        foregroundColor: Colors.white,
+        child: Icon(Icons.arrow_back),
+      ),
     );
   }
 }
