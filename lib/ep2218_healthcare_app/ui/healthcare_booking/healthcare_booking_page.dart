@@ -76,7 +76,11 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                           children: [
                             Container(
                               decoration: ShapeDecoration(
-                                shape: StadiumBorder(),
+                                shape: StadiumBorder(
+                                  side: BorderSide(
+                                    color: Colors.grey
+                                  )
+                                ),
                               ),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
