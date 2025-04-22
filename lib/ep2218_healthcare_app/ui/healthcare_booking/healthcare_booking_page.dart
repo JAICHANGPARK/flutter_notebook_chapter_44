@@ -48,7 +48,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                         Row(
                           spacing: 8,
                           children: [
-                            CircleAvatar(radius: 26),
+                            CircleAvatar(radius: 24),
                             Expanded(
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -82,6 +82,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                                   )
                                 ),
                               ),
+                              padding: EdgeInsets.symmetric(horizontal: 12,vertical: 2),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
