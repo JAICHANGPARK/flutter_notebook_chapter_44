@@ -49,8 +49,12 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                               radius: 26,
                             ),
                             Expanded(child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              spacing: 2,
                               children: [
-                                Text("Dr. Dream"),
+                                Text("Dr. Dream",style: TextStyle(
+                                  
+                                ),),
                                 Text("Walker"),
                               ],
                             ))
