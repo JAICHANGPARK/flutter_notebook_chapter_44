@@ -78,7 +78,10 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                               ),
                               child: Column(
                                 children: [
-                                  Text('01 Aug',),
+                                  Text('01 Aug',
+                                  style: TextStyle(
+                                    color: Colors.white
+                                  ),),
                                   Text("Time 11:AM")
                                 ],
                               ),
