@@ -35,7 +35,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                   mainAxisSpacing: 12,
                   crossAxisSpacing: 12,
                 ),
-                itemBuilder: (context, inde) {
+                itemBuilder: (context, index) {
                   return Placeholder();
                 },
               ),
