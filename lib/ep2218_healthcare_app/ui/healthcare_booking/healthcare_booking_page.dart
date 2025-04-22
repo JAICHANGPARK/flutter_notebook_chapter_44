@@ -42,7 +42,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                     ),
                     padding: EdgeInsets.all(16),
                     child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Row(
@@ -74,25 +74,30 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                         Row(
                           children: [
                             Container(
-                              decoration: ShapeDecoration(shape: StadiumBorder(),
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
                               ),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Text('01 Aug',
-                                  style: TextStyle(
-                                    color: Colors.white
-                                  ),),
-                                  Text("Time 11:AM")
+                                  Text(
+                                    '01 Aug',
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                  Text(
+                                    "Time 11:AM",
+                                    style: TextStyle(color: Colors.grey),
+                                  ),
                                 ],
                               ),
                             ),
                             CircleAvatar(
                               radius: 24,
+                              backgroundColor: Color.fromRGBO(40, 40, 40, 1),
                               child: Icon(Icons.arrow_forward),
                             ),
                           ],
-                        )
+                        ),
                       ],
                     ),
                   );
