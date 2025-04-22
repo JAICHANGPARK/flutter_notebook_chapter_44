@@ -25,7 +25,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
             Gap(8),
             Padding(
               padding: const EdgeInsets.all(16.0),
-              child:
+              child:HealthcareBookingTopbarWidget(),
             ),
             HealthcareBookingTabbarWidget(),
             Expanded(
