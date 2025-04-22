@@ -44,6 +44,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                     child: Column(
                       children: [
                         Row(
+                          spacing: 8,
                           children: [
                             CircleAvatar(radius: 26),
                             Expanded(
