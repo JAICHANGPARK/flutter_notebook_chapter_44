@@ -33,6 +33,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                   crossAxisCount: 2,
                   mainAxisSpacing: 12,
                   crossAxisSpacing: 12,
+                  childAspectRatio: 0.96
                 ),
                 itemBuilder: (context, index) {
                   return Container(
