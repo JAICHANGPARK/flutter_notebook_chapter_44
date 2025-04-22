@@ -45,21 +45,22 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                       children: [
                         Row(
                           children: [
-                            CircleAvatar(
-                              radius: 26,
+                            CircleAvatar(radius: 26),
+                            Expanded(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                spacing: 2,
+                                children: [
+                                  Text(
+                                    "Dr. Dream",
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                  Text("Walker"),
+                                ],
+                              ),
                             ),
-                            Expanded(child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              spacing: 2,
-                              children: [
-                                Text("Dr. Dream",style: TextStyle(
-                                  
-                                ),),
-                                Text("Walker"),
-                              ],
-                            ))
                           ],
-                        )
+                        ),
                       ],
                     ),
                   );
