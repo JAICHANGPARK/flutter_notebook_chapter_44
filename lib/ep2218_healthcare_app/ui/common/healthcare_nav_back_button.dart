@@ -7,7 +7,7 @@ class HealthcareNavBackButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: (){
-        
+        Navigator.of(context).pop();
       },
       child: CircleAvatar(
         radius: 24,
