@@ -107,7 +107,6 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                               foregroundColor: Colors.white,
                               backgroundColor: Color.fromRGBO(40, 40, 40, 1),
                               child: Transform.rotate(
-
                                   angle: -math.pi / 4.0,
                                   child: Icon(Icons.arrow_forward)),
                             ),
