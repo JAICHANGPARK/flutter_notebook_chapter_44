@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-
 import 'widgets/healthcare_booking_tabbar_widget.dart';
 import 'widgets/healthcare_booking_topbar_widget.dart';
 
@@ -36,7 +35,12 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                   crossAxisSpacing: 12,
                 ),
                 itemBuilder: (context, index) {
-                  return Placeholder();
+                  return Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(24),
+                      color: Color.fromRGBO(28, 28, 28, 1),
+                    ),
+                  );
                 },
               ),
             ),
