@@ -93,6 +93,7 @@ class _HealthcareBookingPageState extends State<HealthcareBookingPage> {
                             ),
                             CircleAvatar(
                               radius: 24,
+                              foregroundColor: Colors.white,
                               backgroundColor: Color.fromRGBO(40, 40, 40, 1),
                               child: Icon(Icons.arrow_forward),
                             ),
