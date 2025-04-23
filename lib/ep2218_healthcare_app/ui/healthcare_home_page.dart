@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_44/ep2218_healthcare_app/ui/healthcare_welcome/healthcare_welcome_list_page.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 import 'healthcare_calendar/healthcare_calendar_page.dart';
@@ -25,6 +26,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
               child: IndexedStack(
                 children: [
                   HealthcareCalendarPage(),
+                  HealthcareWelcomeListPage(),
                 ],
               )
             ),
