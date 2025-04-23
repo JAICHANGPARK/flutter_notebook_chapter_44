@@ -30,7 +30,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                   Container(),
                   HealthcareCalendarPage(),
                   Container(),
-                  HealthcareWelcomeListPage(),
+                  // HealthcareWelcomeListPage(),
                 ],
               ),
             ),
