@@ -35,7 +35,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                 SizedBox(
                   height: 52,
                   child: Placeholder(),),
-                Text("Please Select Your Region"),
+                Text("Please Select Visit Type"),
                 SizedBox(
                   height: 52,
                   child: Placeholder(),)
