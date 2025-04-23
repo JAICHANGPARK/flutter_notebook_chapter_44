@@ -24,12 +24,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
               borderRadius: BorderRadius.only(),
               color: Color.fromRGBO(203, 251, 96, 1),
             ),
-            padding: EdgeInsets.only(
-              left: 16,
-              right: 16,
-              top: 72,
-              bottom: 24
-            ),
+            padding: EdgeInsets.only(left: 16, right: 16, top: 72, bottom: 24),
             child: Column(
               children: [
                 Row(
@@ -40,13 +35,9 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                   ],
                 ),
                 Text("Please Select Your Region"),
-                SizedBox(
-                  height: 52,
-                  child: Placeholder(),),
+                SizedBox(height: 52, child: Placeholder()),
                 Text("Please Select Visit Type"),
-                SizedBox(
-                  height: 52,
-                  child: Placeholder(),)
+                SizedBox(height: 52, child: Placeholder()),
               ],
             ),
           ),
@@ -57,8 +48,14 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                   padding: const EdgeInsets.symmetric(horizontal: 8),
                   child: Row(
                     children: [
-                      Text("Doctor List"),
-                      CircleAvatar(child: Icon(Icons.arrow_forward)),
+                      Text(
+                        "Doctor List",
+                        style: TextStyle(color: Colors.white),
+                      ),
+                      CircleAvatar(
+                          radius: 12,
+                          child: Icon(Icons.arrow_forward,
+                          size: 14,)),
                     ],
                   ),
                 ),
@@ -71,28 +68,30 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                     ),
                     child: ListView.builder(
                       itemBuilder: (context, index) {
-                        return Container(decoration: BoxDecoration(),
-                        child: Row(
-                          children: [
-                            Container(
-                              height: 120,
-                              width: 82,
-                              child: Placeholder(),
-                            ),
-                            Expanded(child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text("Dr. Dream Walker"),
-                                Row(
+                        return Container(
+                          decoration: BoxDecoration(),
+                          child: Row(
+                            children: [
+                              Container(
+                                height: 120,
+                                width: 82,
+                                child: Placeholder(),
+                              ),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-
+                                    Text("Dr. Dream Walker"),
+                                    Row(children: []),
+                                    Text(
+                                      "Meet Dr. Dreamwalker Flutter Skilled over 10.",
+                                    ),
                                   ],
                                 ),
-                                Text("Meet Dr. Dreamwalker Flutter Skilled over 10.")
-                              ],
-                            ))
-                          ],
-                        ),);
+                              ),
+                            ],
+                          ),
+                        );
                       },
                     ),
                   ),
