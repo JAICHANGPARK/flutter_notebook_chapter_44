@@ -25,7 +25,9 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
             child: SafeArea(
               child: IndexedStack(
                 children: [
+                  Container(),
                   HealthcareCalendarPage(),
+                  Container(),
                   HealthcareWelcomeListPage(),
                 ],
               )
