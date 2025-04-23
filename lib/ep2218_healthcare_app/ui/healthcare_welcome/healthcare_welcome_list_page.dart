@@ -54,7 +54,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                         style: TextStyle(color: Colors.white),
                       ),
                       CircleAvatar(
-                          radius: 12,
+                          radius: 14,
                           child: Icon(Icons.arrow_forward,
                           size: 14,)),
                     ],
