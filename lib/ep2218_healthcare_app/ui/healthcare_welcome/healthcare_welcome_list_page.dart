@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-
 class HealthcareWelcomeListPage extends StatefulWidget {
   const HealthcareWelcomeListPage({super.key});
 
   @override
-  State<HealthcareWelcomeListPage> createState() => _HealthcareWelcomeListPageState();
+  State<HealthcareWelcomeListPage> createState() =>
+      _HealthcareWelcomeListPageState();
 }
 
 class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
@@ -15,11 +15,10 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
       children: [
         Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.only(
-              
-            )
+            borderRadius: BorderRadius.only(),
+            color: Color.fromRGBO(203, 251, 96, 1),
           ),
-        )
+        ),
       ],
     );
   }
