@@ -14,9 +14,15 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
     return Column(
       children: [
         Container(
+
           decoration: BoxDecoration(
             borderRadius: BorderRadius.only(),
             color: Color.fromRGBO(203, 251, 96, 1),
+          ),
+          child: Column(
+            children: [
+              
+            ],
           ),
         ),
       ],
