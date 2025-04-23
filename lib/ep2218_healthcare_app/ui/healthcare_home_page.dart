@@ -50,11 +50,18 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                     spacing: 8,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      CircleAvatar(
-                        radius: 28,
-                        backgroundColor: Colors.black,
-                        foregroundColor: Colors.white,
-                        child: Icon(HugeIcons.strokeRoundedHome02),
+                      InkWell(
+                        onTap: (){
+                          setState(() {
+                            pageNum = 0;
+                          });
+                        },
+                        child: CircleAvatar(
+                          radius: 28,
+                          backgroundColor: Colors.black,
+                          foregroundColor: Colors.white,
+                          child: Icon(HugeIcons.strokeRoundedHome02),
+                        ),
                       ),
                       CircleAvatar(
                         radius: 28,
