@@ -24,6 +24,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: IndexedStack(
+                index: pageNum,
                 children: [
                   Container(),
                   HealthcareCalendarPage(),
@@ -63,11 +64,18 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                           child: Icon(HugeIcons.strokeRoundedHome02),
                         ),
                       ),
-                      CircleAvatar(
-                        radius: 28,
-                        backgroundColor: Colors.black,
-                        foregroundColor: Colors.white,
-                        child: Icon(HugeIcons.strokeRoundedCalendar01),
+                      InkWell(
+                        onTap: (){
+                          setState(() {
+                            pageNum = 1;
+                          });
+                        },
+                        child: CircleAvatar(
+                          radius: 28,
+                          backgroundColor: Colors.black,
+                          foregroundColor: Colors.white,
+                          child: Icon(HugeIcons.strokeRoundedCalendar01),
+                        ),
                       ),
                       CircleAvatar(
                         radius: 28,
