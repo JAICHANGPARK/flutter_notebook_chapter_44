@@ -69,7 +69,22 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                     ),
                     child: ListView.builder(
                       itemBuilder: (context, index) {
-                        return Container(decoration: BoxDecoration());
+                        return Container(decoration: BoxDecoration(),
+                        child: Row(
+                          children: [
+                            Container(
+                              height: 120,
+                              width: 82,
+                              child: Placeholder(),
+                            ),
+                            Expanded(child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+
+                              ],
+                            ))
+                          ],
+                        ),);
                       },
                     ),
                   ),
