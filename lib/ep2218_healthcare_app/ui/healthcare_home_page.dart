@@ -77,17 +77,31 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                           child: Icon(HugeIcons.strokeRoundedCalendar01),
                         ),
                       ),
-                      CircleAvatar(
-                        radius: 28,
-                        backgroundColor: Colors.black,
-                        foregroundColor: Colors.white,
-                        child: Icon(HugeIcons.strokeRoundedUserGroup),
+                      InkWell(
+                        onTap: (){
+                          setState(() {
+                            pageNum = 2;
+                          });
+                        },
+                        child: CircleAvatar(
+                          radius: 28,
+                          backgroundColor: Colors.black,
+                          foregroundColor: Colors.white,
+                          child: Icon(HugeIcons.strokeRoundedUserGroup),
+                        ),
                       ),
-                      CircleAvatar(
-                        radius: 28,
-                        backgroundColor: Colors.black,
-                        foregroundColor: Colors.white,
-                        child: Icon(HugeIcons.strokeRoundedUserList),
+                      InkWell(
+                        onTap: (){
+                          setState(() {
+                            pageNum = 3;
+                          });
+                        },
+                        child: CircleAvatar(
+                          radius: 28,
+                          backgroundColor: Colors.black,
+                          foregroundColor: Colors.white,
+                          child: Icon(HugeIcons.strokeRoundedUserList),
+                        ),
                       ),
                     ],
                   ),
