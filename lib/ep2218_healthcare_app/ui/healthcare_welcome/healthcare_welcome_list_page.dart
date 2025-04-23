@@ -16,6 +16,8 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
     return Scaffold(
       backgroundColor: Colors.black,
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        spacing: 20,
         children: [
           Container(
             decoration: BoxDecoration(
