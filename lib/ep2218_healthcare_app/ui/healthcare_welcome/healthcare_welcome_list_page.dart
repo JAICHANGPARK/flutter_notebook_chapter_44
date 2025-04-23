@@ -11,6 +11,16 @@ class HealthcareWelcomeListPage extends StatefulWidget {
 class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(
+      children: [
+        Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.only(
+              
+            )
+          ),
+        )
+      ],
+    );
   }
 }
