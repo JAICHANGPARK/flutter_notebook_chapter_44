@@ -14,6 +14,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: Column(
         children: [
           Container(
@@ -46,7 +47,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                   child: ListView.builder(itemBuilder: (context, index) {
                     return Container(
                       decoration: BoxDecoration(
-                        
+
                       ),
                     );
                   }),
