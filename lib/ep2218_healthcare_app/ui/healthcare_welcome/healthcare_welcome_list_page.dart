@@ -22,6 +22,12 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
               borderRadius: BorderRadius.only(),
               color: Color.fromRGBO(203, 251, 96, 1),
             ),
+            padding: EdgeInsets.only(
+              left: 16,
+              right: 16,
+              top: 72,
+              bottom: 24
+            ),
             child: Column(
               children: [
                 Row(
