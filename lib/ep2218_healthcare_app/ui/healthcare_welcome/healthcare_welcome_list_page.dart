@@ -47,6 +47,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 8),
                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
                         "Doctor List",
