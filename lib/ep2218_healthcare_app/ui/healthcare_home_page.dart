@@ -15,6 +15,7 @@ class HealthcareHomePage extends StatefulWidget {
 
 class _HealthcareHomePageState extends State<HealthcareHomePage> {
   int pageNum = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +32,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                   Container(),
                   HealthcareWelcomeListPage(),
                 ],
-              )
+              ),
             ),
           ),
           Positioned(
@@ -52,7 +53,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       InkWell(
-                        onTap: (){
+                        onTap: () {
                           setState(() {
                             pageNum = 0;
                           });
@@ -65,7 +66,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                         ),
                       ),
                       InkWell(
-                        onTap: (){
+                        onTap: () {
                           setState(() {
                             pageNum = 1;
                           });
@@ -78,7 +79,7 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                         ),
                       ),
                       InkWell(
-                        onTap: (){
+                        onTap: () {
                           setState(() {
                             pageNum = 2;
                           });
@@ -91,7 +92,12 @@ class _HealthcareHomePageState extends State<HealthcareHomePage> {
                         ),
                       ),
                       InkWell(
-                        onTap: (){
+                        onTap: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => HealthcareWelcomeListPage(),
+                            ),
+                          );
                           setState(() {
                             pageNum = 3;
                           });
