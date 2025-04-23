@@ -31,26 +31,42 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                     HealthcareAlertButton(),
                   ],
                 ),
+                Text("Please Select Your Region"),
+                SizedBox(
+                  height: 52,
+                  child: Placeholder(),),
+                Text("Please Select Your Region"),
+                SizedBox(
+                  height: 52,
+                  child: Placeholder(),)
               ],
             ),
           ),
           Expanded(
             child: Column(
               children: [
-                Row(
-                  children: [
-                    Text("Doctor List"),
-                    CircleAvatar(child: Icon(Icons.arrow_forward)),
-                  ],
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 8),
+                  child: Row(
+                    children: [
+                      Text("Doctor List"),
+                      CircleAvatar(child: Icon(Icons.arrow_forward)),
+                    ],
+                  ),
                 ),
                 Expanded(
-                  child: ListView.builder(itemBuilder: (context, index) {
-                    return Container(
-                      decoration: BoxDecoration(
-
-                      ),
-                    );
-                  }),
+                  child: Padding(
+                    padding: const EdgeInsets.only(
+                      left: 16.0,
+                      right: 16.0,
+                      top: 16.0,
+                    ),
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Container(decoration: BoxDecoration());
+                      },
+                    ),
+                  ),
                 ),
               ],
             ),
