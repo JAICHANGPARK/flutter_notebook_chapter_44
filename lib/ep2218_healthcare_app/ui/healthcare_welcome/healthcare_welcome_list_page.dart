@@ -57,7 +57,12 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                         child: Row(
                           spacing: 8,
                           children: [
-                            CircleAvatar(radius: 12, child: CircleAvatar()),
+                            CircleAvatar(radius: 10, child: Padding(
+                              padding: const EdgeInsets.all(4.0),
+                              child: CircleAvatar(
+                                backgroundColor: Colors.black,
+                              ),
+                            )),
                             Text("Abu Dhabi"),
                           ],
                         ),
