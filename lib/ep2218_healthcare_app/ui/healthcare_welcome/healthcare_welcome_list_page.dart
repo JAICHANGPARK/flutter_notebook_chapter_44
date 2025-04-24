@@ -56,14 +56,8 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
 
                         child: Row(
                           children: [
-                            CircleAvatar(
-                              radius: 12,
-                              child: CircleAvatar(
-
-                              ),
-                            ),
-                            Text("")
-
+                            CircleAvatar(radius: 12, child: CircleAvatar()),
+                            Text("Abu Dhabi"),
                           ],
                         ),
                       ),
