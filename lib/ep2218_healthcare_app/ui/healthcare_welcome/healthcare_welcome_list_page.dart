@@ -26,6 +26,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
             ),
             padding: EdgeInsets.only(left: 16, right: 16, top: 72, bottom: 24),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
                   children: [
