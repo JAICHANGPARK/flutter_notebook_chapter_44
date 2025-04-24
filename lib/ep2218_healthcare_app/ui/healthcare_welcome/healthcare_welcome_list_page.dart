@@ -46,37 +46,95 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                 Text("Please Select Your Region"),
                 SizedBox(
                   height: 52,
-                  child: Row(
-                    children: [
-                      Container(
-                        decoration: ShapeDecoration(
-                          shape: StadiumBorder(),
-                          color: Color.fromRGBO(181, 226, 85, 1),
-                        ),
-                        padding: EdgeInsets.symmetric(
-                          horizontal: 20,
-                          vertical: 12,
-                        ),
-                        child: Row(
-                          spacing: 8,
-                          children: [
-                            CircleAvatar(
-                              radius: 10,
-                              backgroundColor: Colors.white.withValues(
-                                alpha: .3,
-                              ),
-                              child: Padding(
-                                padding: const EdgeInsets.all(6.0),
-                                child: CircleAvatar(
-                                  backgroundColor: Colors.black,
+                  child: SingleChildScrollView(
+                    child: Row(
+                      children: [
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Color.fromRGBO(181, 226, 85, 1),
+                          ),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 18,
+                            vertical: 12,
+                          ),
+                          child: Row(
+                            spacing: 8,
+                            children: [
+                              CircleAvatar(
+                                radius: 10,
+                                backgroundColor: Colors.white.withValues(
+                                  alpha: .3,
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(6.0),
+                                  child: CircleAvatar(
+                                    backgroundColor: Colors.black,
+                                  ),
                                 ),
                               ),
-                            ),
-                            Text("Abu Dhabi"),
-                          ],
+                              Text("Abu Dhabi"),
+                            ],
+                          ),
                         ),
-                      ),
-                    ],
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Color.fromRGBO(181, 226, 85, 1),
+                          ),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 18,
+                            vertical: 12,
+                          ),
+                          child: Row(
+                            spacing: 8,
+                            children: [
+                              CircleAvatar(
+                                radius: 10,
+                                backgroundColor: Colors.white.withValues(
+                                  alpha: .3,
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(6.0),
+                                  child: CircleAvatar(
+                                    backgroundColor: Colors.black,
+                                  ),
+                                ),
+                              ),
+                              Text("Abu Dhabi"),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Color.fromRGBO(181, 226, 85, 1),
+                          ),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 18,
+                            vertical: 12,
+                          ),
+                          child: Row(
+                            spacing: 8,
+                            children: [
+                              CircleAvatar(
+                                radius: 10,
+                                backgroundColor: Colors.white.withValues(
+                                  alpha: .3,
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(6.0),
+                                  child: CircleAvatar(
+                                    backgroundColor: Colors.black,
+                                  ),
+                                ),
+                              ),
+                              Text("Abu Dhabi"),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
                 Text("Please Select Visit Type"),
