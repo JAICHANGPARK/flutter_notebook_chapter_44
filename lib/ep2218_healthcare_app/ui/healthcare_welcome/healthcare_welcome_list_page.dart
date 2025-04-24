@@ -54,7 +54,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                           color: Color.fromRGBO(181, 226, 85, 1),
                         ),
                         padding: EdgeInsets.symmetric(
-                          horizontal: 16,
+                          horizontal: 20,
                           vertical: 12,
                         ),
                         child: Row(
