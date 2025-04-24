@@ -30,7 +30,10 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                 Row(
                   children: [
                     HealthcareNavBackButton(),
-                    Expanded(child: Center(child: Text("Welcome List"))),
+                    Expanded(child: Center(child: Text("Welcome List",
+                    style: TextStyle(
+                      fontSize: 18,
+                    ),))),
                     HealthcareAlertButton(),
                   ],
                 ),
