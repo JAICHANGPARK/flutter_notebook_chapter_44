@@ -161,18 +161,13 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                         spacing: 8,
                         children: [
                           CircleAvatar(
-                            radius: 10,
+                            radius: 12,
                             backgroundColor: Colors.white.withValues(
                               alpha: .3,
                             ),
-                            child: Padding(
-                              padding: const EdgeInsets.all(6.0),
-                              child: CircleAvatar(
-                                backgroundColor: Colors.black,
-                              ),
-                            ),
+                            child: Icon(Icons.home_filled),
                           ),
-                          Text("Seoul"),
+                          Text("Home Visit"),
                         ],
                       ),
                     ),
