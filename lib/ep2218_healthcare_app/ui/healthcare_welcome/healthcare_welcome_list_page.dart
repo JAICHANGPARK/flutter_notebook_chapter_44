@@ -53,6 +53,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                           shape: StadiumBorder(),
                           color: Color.fromRGBO(181, 226, 85, 1),
                         ),
+                        padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
 
                         child: Row(
                           children: [
