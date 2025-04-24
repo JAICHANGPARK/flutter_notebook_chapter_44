@@ -58,7 +58,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                           spacing: 8,
                           children: [
                             CircleAvatar(radius: 10, child: Padding(
-                              padding: const EdgeInsets.all(4.0),
+                              padding: const EdgeInsets.all(6.0),
                               child: CircleAvatar(
                                 backgroundColor: Colors.black,
                               ),
