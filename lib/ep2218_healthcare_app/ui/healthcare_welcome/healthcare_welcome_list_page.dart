@@ -53,9 +53,16 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                           shape: StadiumBorder(),
                           color: Color.fromRGBO(181, 226, 85, 1),
                         ),
+
                         child: Row(
                           children: [
-                            
+                            CircleAvatar(
+                              radius: 12,
+                              child: CircleAvatar(
+
+                              ),
+                            ),
+                            Text("")
 
                           ],
                         ),
