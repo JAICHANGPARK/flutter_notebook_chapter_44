@@ -32,10 +32,14 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                 Row(
                   children: [
                     HealthcareNavBackButton(),
-                    Expanded(child: Center(child: Text("Welcome List",
-                    style: TextStyle(
-                      fontSize: 18,
-                    ),))),
+                    Expanded(
+                      child: Center(
+                        child: Text(
+                          "Welcome List",
+                          style: TextStyle(fontSize: 18),
+                        ),
+                      ),
+                    ),
                     HealthcareAlertButton(),
                   ],
                 ),
@@ -59,9 +63,9 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                         style: TextStyle(color: Colors.white),
                       ),
                       CircleAvatar(
-                          radius: 14,
-                          child: Icon(Icons.arrow_forward,
-                          size: 14,)),
+                        radius: 14,
+                        child: Icon(Icons.arrow_forward, size: 14),
+                      ),
                     ],
                   ),
                 ),
