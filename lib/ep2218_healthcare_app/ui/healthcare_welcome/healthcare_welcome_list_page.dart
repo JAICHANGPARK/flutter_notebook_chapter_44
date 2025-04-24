@@ -161,11 +161,12 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                         spacing: 8,
                         children: [
                           CircleAvatar(
-                            radius: 12,
+                            radius: 14,
                             backgroundColor: Colors.white.withValues(
                               alpha: .3,
                             ),
-                            child: Icon(Icons.home_filled),
+                            child: Icon(Icons.home_filled,
+                            size: 16,),
                           ),
                           Text("Home Visit"),
                         ],
