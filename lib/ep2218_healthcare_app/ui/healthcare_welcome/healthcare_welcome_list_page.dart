@@ -44,7 +44,24 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                   ],
                 ),
                 Text("Please Select Your Region"),
-                SizedBox(height: 52, child: Placeholder()),
+                SizedBox(
+                  height: 52,
+                  child: Row(
+                    children: [
+                      Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Color.fromRGBO(181, 226, 85, 1),
+                        ),
+                        child: Row(
+                          children: [
+                            
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
                 Text("Please Select Visit Type"),
                 SizedBox(height: 52, child: Placeholder()),
               ],
