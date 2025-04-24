@@ -47,7 +47,9 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                 SizedBox(
                   height: 52,
                   child: SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
                     child: Row(
+                      spacing: 12,
                       children: [
                         Container(
                           decoration: ShapeDecoration(
@@ -59,6 +61,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                             vertical: 12,
                           ),
                           child: Row(
+
                             spacing: 8,
                             children: [
                               CircleAvatar(
@@ -101,7 +104,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                   ),
                                 ),
                               ),
-                              Text("Abu Dhabi"),
+                              Text("Dubai"),
                             ],
                           ),
                         ),
@@ -129,7 +132,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                   ),
                                 ),
                               ),
-                              Text("Abu Dhabi"),
+                              Text("Seoul"),
                             ],
                           ),
                         ),
