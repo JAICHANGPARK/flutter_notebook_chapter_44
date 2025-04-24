@@ -43,7 +43,9 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                     HealthcareAlertButton(),
                   ],
                 ),
-                Text("Please Select Your Region"),
+                Text("Please Select Your Region",style: TextStyle(
+                  fontSize: 16,
+                ),),
                 SizedBox(
                   height: 52,
                   child: SingleChildScrollView(
