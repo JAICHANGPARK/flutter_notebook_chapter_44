@@ -146,7 +146,38 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                   "Please Select Visit Type",
                   style: TextStyle(fontSize: 16),
                 ),
-                SizedBox(height: 52, child: Placeholder()),
+                SizedBox(height: 52,child: Row(
+                  children: [
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Color.fromRGBO(181, 226, 85, 1),
+                      ),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 18,
+                        vertical: 12,
+                      ),
+                      child: Row(
+                        spacing: 8,
+                        children: [
+                          CircleAvatar(
+                            radius: 10,
+                            backgroundColor: Colors.white.withValues(
+                              alpha: .3,
+                            ),
+                            child: Padding(
+                              padding: const EdgeInsets.all(6.0),
+                              child: CircleAvatar(
+                                backgroundColor: Colors.black,
+                              ),
+                            ),
+                          ),
+                          Text("Seoul"),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),),
               ],
             ),
           ),
