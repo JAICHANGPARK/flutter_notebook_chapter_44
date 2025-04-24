@@ -43,9 +43,10 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                     HealthcareAlertButton(),
                   ],
                 ),
-                Text("Please Select Your Region",style: TextStyle(
-                  fontSize: 16,
-                ),),
+                Text(
+                  "Please Select Your Region",
+                  style: TextStyle(fontSize: 16),
+                ),
                 SizedBox(
                   height: 52,
                   child: SingleChildScrollView(
@@ -63,7 +64,6 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                             vertical: 12,
                           ),
                           child: Row(
-
                             spacing: 8,
                             children: [
                               CircleAvatar(
@@ -142,7 +142,10 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                     ),
                   ),
                 ),
-                Text("Please Select Visit Type"),
+                Text(
+                  "Please Select Visit Type",
+                  style: TextStyle(fontSize: 16),
+                ),
                 SizedBox(height: 52, child: Placeholder()),
               ],
             ),
