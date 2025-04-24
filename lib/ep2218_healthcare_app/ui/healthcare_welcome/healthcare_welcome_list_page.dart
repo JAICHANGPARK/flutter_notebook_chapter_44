@@ -219,6 +219,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                       ),
                       CircleAvatar(
                         radius: 14,
+                        backgroundColor: Colors.white.withValues(alpha: .2),
                         child: Icon(Icons.arrow_forward, size: 14),
                       ),
                     ],
