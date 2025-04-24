@@ -169,7 +169,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                             child: Icon(Icons.home_filled,
                               size: 16,),
                           ),
-                          Text("Home Visit"),
+                          Text("Teleconsultation"),
                         ],
                       ),
                     ),
