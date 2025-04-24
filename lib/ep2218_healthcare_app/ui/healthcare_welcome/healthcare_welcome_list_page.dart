@@ -22,8 +22,8 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
           Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.only(
-                bottomRight: Radius.circular(16),
-                bottomLeft: Radius.circular(16),
+                bottomRight: Radius.circular(24),
+                bottomLeft: Radius.circular(24),
               ),
               color: Color.fromRGBO(203, 251, 96, 1),
             ),
@@ -215,7 +215,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                     children: [
                       Text(
                         "Doctor List",
-                        style: TextStyle(color: Colors.white),
+                        style: TextStyle(color: Colors.white,fontSize: 24,),
                       ),
                       CircleAvatar(
                         radius: 14,
