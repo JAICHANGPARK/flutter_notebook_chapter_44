@@ -21,7 +21,10 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
         children: [
           Container(
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.only(),
+              borderRadius: BorderRadius.only(
+                bottomRight: Radius.circular(16),
+                bottomLeft: Radius.circular(16),
+              ),
               color: Color.fromRGBO(203, 251, 96, 1),
             ),
             padding: EdgeInsets.only(left: 16, right: 16, top: 72, bottom: 24),
