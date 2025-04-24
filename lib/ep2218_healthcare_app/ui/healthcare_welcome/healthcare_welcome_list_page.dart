@@ -147,6 +147,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                   style: TextStyle(fontSize: 16),
                 ),
                 SizedBox(height: 52,child: Row(
+                  spacing: 12,
                   children: [
                     Container(
                       decoration: ShapeDecoration(
@@ -154,8 +155,32 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                         color: Color.fromRGBO(181, 226, 85, 1),
                       ),
                       padding: EdgeInsets.symmetric(
-                        horizontal: 18,
-                        vertical: 12,
+                        horizontal: 16,
+                        vertical: 8,
+                      ),
+                      child: Row(
+                        spacing: 8,
+                        children: [
+                          CircleAvatar(
+                            radius: 14,
+                            backgroundColor: Colors.white.withValues(
+                              alpha: .3,
+                            ),
+                            child: Icon(Icons.home_filled,
+                              size: 16,),
+                          ),
+                          Text("Home Visit"),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Color.fromRGBO(181, 226, 85, 1),
+                      ),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 16,
+                        vertical: 8,
                       ),
                       child: Row(
                         spacing: 8,
