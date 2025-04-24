@@ -53,16 +53,25 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                           shape: StadiumBorder(),
                           color: Color.fromRGBO(181, 226, 85, 1),
                         ),
-                        padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 16,
+                          vertical: 12,
+                        ),
                         child: Row(
                           spacing: 8,
                           children: [
-                            CircleAvatar(radius: 10, child: Padding(
-                              padding: const EdgeInsets.all(6.0),
-                              child: CircleAvatar(
-                                backgroundColor: Colors.black,
+                            CircleAvatar(
+                              radius: 10,
+                              backgroundColor: Colors.white.withValues(
+                                alpha: .3,
                               ),
-                            )),
+                              child: Padding(
+                                padding: const EdgeInsets.all(6.0),
+                                child: CircleAvatar(
+                                  backgroundColor: Colors.black,
+                                ),
+                              ),
+                            ),
                             Text("Abu Dhabi"),
                           ],
                         ),
