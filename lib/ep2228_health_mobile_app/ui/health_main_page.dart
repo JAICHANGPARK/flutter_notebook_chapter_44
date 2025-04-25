@@ -11,6 +11,7 @@ class _HealthMainPageState extends State<HealthMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
