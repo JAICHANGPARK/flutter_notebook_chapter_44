@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## EP2218
 
-- Healthcare App | On-Demand Doctor Booking App
+- Health Mobile App
 - Sk Ashikuzzaman
 - https://dribbble.com/shots/25901036-Healthcare-App-On-Demand-Doctor-Booking-App
 
