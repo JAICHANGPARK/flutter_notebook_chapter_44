@@ -270,6 +270,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                         fontSize: 18,
                                       ),
                                     ),
+                                    Gap(3),
                                     Row(
                                       children: [
                                         Icon(
