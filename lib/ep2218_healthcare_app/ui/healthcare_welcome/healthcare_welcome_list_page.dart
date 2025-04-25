@@ -267,7 +267,10 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                     ),),
                                     Row(children: [
                                       Icon(Icons.location_on_outlined),
-                                      Text("South Korea")
+                                      Text("South Korea"),
+                                      Icon(Icons.verified_outlined),
+                                      Text("Rating"),
+                                      Text("4.9")
                                     ]),
                                     Text(
                                       "Meet Dr. Dreamwalker Flutter Skilled over 10.",
