@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 class HealthcareNavBackButton extends StatelessWidget {
   Color? backgroundColor;
-  Color? forgroundColor;
+  Color? foregroundColor;
 
   HealthcareNavBackButton({super.key, this.backgroundColor,
-  this.forgroundColor});
+  this.foregroundColor});
 
   @override
   Widget build(BuildContext context) {
