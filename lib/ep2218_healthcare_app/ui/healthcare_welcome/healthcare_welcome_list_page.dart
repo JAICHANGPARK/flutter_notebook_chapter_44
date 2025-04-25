@@ -266,9 +266,11 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                       fontSize: 18,
                                     ),),
                                     Row(children: [
-                                      Icon(Icons.location_on_outlined),
+                                      Icon(Icons.location_on_outlined,
+                                      color: Colors.greenAccent,),
                                       Text("South Korea"),
-                                      Icon(Icons.verified_outlined),
+                                      Icon(Icons.verified_outlined,
+                                        color: Colors.greenAccent,),
                                       Text("Rating"),
                                       Text("4.9")
                                     ]),
