@@ -35,7 +35,10 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
               children: [
                 Row(
                   children: [
-                    HealthcareNavBackButton(),
+                    HealthcareNavBackButton(
+                      backgroundColor: Color.fromRGBO(182, 226, 86, 1),
+                      foregroundColor: Colors.black,
+                    ),
                     Expanded(
                       child: Center(
                         child: Text(
