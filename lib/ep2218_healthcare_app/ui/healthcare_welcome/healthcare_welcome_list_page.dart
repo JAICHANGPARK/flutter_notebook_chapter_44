@@ -50,7 +50,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                 Gap(4),
                 Text(
                   "Please Select Your Region",
-                  style: TextStyle(fontSize: 16),
+                  style: TextStyle(fontSize: 15),
                 ),
                 SizedBox(
                   height: 52,
@@ -149,7 +149,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                 ),
                 Text(
                   "Please Select Visit Type",
-                  style: TextStyle(fontSize: 16),
+                  style: TextStyle(fontSize: 15),
                 ),
                 SizedBox(height: 52,child: Row(
                   spacing: 12,
