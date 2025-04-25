@@ -14,8 +14,8 @@ class HealthcareAlertButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return CircleAvatar(
       radius: 24,
-      backgroundColor: Colors.white.withValues(alpha: .2),
-      foregroundColor: Colors.white,
+      backgroundColor: backgroundColor ?? Colors.white.withValues(alpha: .2),
+      foregroundColor: foregroundColor ?? Colors.white,
       child: Badge(child: Icon(Icons.notifications_none)),
     );
   }
