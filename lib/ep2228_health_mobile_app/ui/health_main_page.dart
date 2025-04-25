@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class HealthMainPage extends StatefulWidget {
   const HealthMainPage({super.key});
 
@@ -11,6 +10,12 @@ class HealthMainPage extends StatefulWidget {
 class _HealthMainPageState extends State<HealthMainPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
+        ],
+      ),
+    );
   }
 }
