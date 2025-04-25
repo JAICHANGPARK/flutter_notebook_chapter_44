@@ -13,7 +13,7 @@ class _HealthMainPageState extends State<HealthMainPage> {
     return Scaffold(
       appBar: AppBar(
         leading: Icon(Icons.arrow_back_ios_new),
-        
+        title: Text("Today, Mar 12"),
       ),
       bottomNavigationBar: SizedBox(
         height: 80,
