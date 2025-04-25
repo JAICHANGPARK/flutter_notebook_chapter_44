@@ -249,9 +249,11 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                           child: Row(
                             children: [
                               Container(
-                                height: 120,
-                                width: 82,
-                                child: Placeholder(),
+                                height: 132,
+                                width: 96,
+                                child: Container(decoration: BoxDecoration(
+                                  
+                                ),),
                               ),
                               Expanded(
                                 child: Column(
