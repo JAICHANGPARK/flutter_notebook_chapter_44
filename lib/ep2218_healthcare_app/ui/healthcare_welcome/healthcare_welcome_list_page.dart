@@ -47,7 +47,10 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                         ),
                       ),
                     ),
-                    HealthcareAlertButton(),
+                    HealthcareAlertButton(
+                      backgroundColor: Color.fromRGBO(182, 226, 86, 1),
+                      foregroundColor: Colors.black,
+                    ),
                   ],
                 ),
                 Gap(4),
