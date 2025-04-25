@@ -267,6 +267,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                     ),),
                                     Row(children: [
                                       Icon(Icons.location_on_outlined,
+                                        size: 14,
                                         color: Color.fromRGBO(181, 226, 85, 1),),
                                       Gap(6),
                                       Text("South Korea",style: TextStyle(
