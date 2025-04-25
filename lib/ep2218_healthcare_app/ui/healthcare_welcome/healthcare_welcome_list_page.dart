@@ -252,7 +252,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                 height: 132,
                                 width: 96,
                                 child: Container(decoration: BoxDecoration(
-                                  
+                                  color: Colors.greenAccent,
                                 ),),
                               ),
                               Expanded(
