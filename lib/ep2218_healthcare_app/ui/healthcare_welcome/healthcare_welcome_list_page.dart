@@ -213,7 +213,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
             child: Column(
               children: [
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 8),
+                  padding: const EdgeInsets.symmetric(horizontal: 16),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -235,7 +235,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                     padding: const EdgeInsets.only(
                       left: 16.0,
                       right: 16.0,
-                      top: 16.0,
+                      top: 8.0,
                     ),
                     child: ListView.builder(
                       itemBuilder: (context, index) {
@@ -318,7 +318,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                     Gap(24),
                                     Text(
                                       "Meet Dr. Dreamwalker Flutter Skilled over 10.",
-                                      style: TextStyle(color: Colors.white),
+                                      style: TextStyle(color: Colors.grey),
                                     ),
                                   ],
                                 ),
