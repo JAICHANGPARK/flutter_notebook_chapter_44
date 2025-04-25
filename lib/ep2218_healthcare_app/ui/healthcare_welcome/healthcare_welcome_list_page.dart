@@ -244,6 +244,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                           margin: EdgeInsets.only(bottom: 24),
                           decoration: BoxDecoration(
                             color: Color.fromRGBO(28, 28, 28, 1),
+                            borderRadius: BorderRadius.circular(24),
                           ),
                           child: Row(
                             children: [
