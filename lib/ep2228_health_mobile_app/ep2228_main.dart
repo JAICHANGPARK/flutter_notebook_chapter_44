@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'ui/health_main_page.dart';
+
 
 void main() {
   runApp(HealthMobileApp());
