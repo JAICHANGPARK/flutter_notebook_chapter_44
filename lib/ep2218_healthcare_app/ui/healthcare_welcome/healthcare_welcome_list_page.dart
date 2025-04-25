@@ -263,8 +263,12 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                   children: [
                                     Text("Dr. Dream Walker",style: TextStyle(
                                       color: Colors.white,
+                                      fontSize: 18,
                                     ),),
-                                    Row(children: []),
+                                    Row(children: [
+                                      Icon(Icons.location_on_outlined),
+                                      Text("South Korea")
+                                    ]),
                                     Text(
                                       "Meet Dr. Dreamwalker Flutter Skilled over 10.",
                                     ),
