@@ -152,59 +152,60 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                   "Please Select Visit Type",
                   style: TextStyle(fontSize: 15),
                 ),
-                SizedBox(height: 52,child: Row(
-                  spacing: 12,
-                  children: [
-                    Container(
-                      decoration: ShapeDecoration(
-                        shape: StadiumBorder(),
-                        color: Color.fromRGBO(181, 226, 85, 1),
-                      ),
-                      padding: EdgeInsets.symmetric(
-                        horizontal: 16,
-                        vertical: 8,
-                      ),
-                      child: Row(
-                        spacing: 8,
-                        children: [
-                          CircleAvatar(
-                            radius: 14,
-                            backgroundColor: Colors.white.withValues(
-                              alpha: .3,
+                SizedBox(
+                  height: 52,
+                  child: Row(
+                    spacing: 12,
+                    children: [
+                      Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Color.fromRGBO(181, 226, 85, 1),
+                        ),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 16,
+                          vertical: 8,
+                        ),
+                        child: Row(
+                          spacing: 8,
+                          children: [
+                            CircleAvatar(
+                              radius: 14,
+                              backgroundColor: Colors.white.withValues(
+                                alpha: .3,
+                              ),
+                              child: Icon(Icons.home_filled, size: 16),
                             ),
-                            child: Icon(Icons.home_filled,
-                              size: 16,),
-                          ),
-                          Text("Teleconsultation"),
-                        ],
+                            Text("Teleconsultation"),
+                          ],
+                        ),
                       ),
-                    ),
-                    Container(
-                      decoration: ShapeDecoration(
-                        shape: StadiumBorder(),
-                        color: Color.fromRGBO(181, 226, 85, 1),
-                      ),
-                      padding: EdgeInsets.symmetric(
-                        horizontal: 16,
-                        vertical: 8,
-                      ),
-                      child: Row(
-                        spacing: 8,
-                        children: [
-                          CircleAvatar(
-                            radius: 14,
-                            backgroundColor: Colors.white.withValues(
-                              alpha: .3,
+                      Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Color.fromRGBO(181, 226, 85, 1),
+                        ),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 16,
+                          vertical: 8,
+                        ),
+                        child: Row(
+                          spacing: 8,
+                          children: [
+                            CircleAvatar(
+                              radius: 14,
+                              backgroundColor: Colors.white.withValues(
+                                alpha: .3,
+                              ),
+                              child: Icon(Icons.home_filled, size: 16),
                             ),
-                            child: Icon(Icons.home_filled,
-                            size: 16,),
-                          ),
-                          Text("Home Visit"),
-                        ],
+                            Text("Home Visit"),
+                          ],
+                        ),
                       ),
-                    ),
-                  ],
-                ),),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
@@ -218,7 +219,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                     children: [
                       Text(
                         "Doctor List",
-                        style: TextStyle(color: Colors.white,fontSize: 24,),
+                        style: TextStyle(color: Colors.white, fontSize: 24),
                       ),
                       CircleAvatar(
                         radius: 14,
@@ -239,7 +240,9 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                     child: ListView.builder(
                       itemBuilder: (context, index) {
                         return Container(
-                          decoration: BoxDecoration(),
+                          decoration: BoxDecoration(
+                            color: Color.fromRGBO(28, 28, 28, 1),
+                          ),
                           child: Row(
                             children: [
                               Container(
