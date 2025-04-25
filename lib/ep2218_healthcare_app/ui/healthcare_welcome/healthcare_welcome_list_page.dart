@@ -252,32 +252,57 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                               Container(
                                 height: 132,
                                 width: 96,
-                                child: Container(decoration: BoxDecoration(
-                                  color: Color.fromRGBO(181, 226, 85, 1),
-                                  borderRadius: BorderRadius.circular(16),
-                                ),),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Color.fromRGBO(181, 226, 85, 1),
+                                    borderRadius: BorderRadius.circular(16),
+                                  ),
+                                ),
                               ),
                               Expanded(
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Text("Dr. Dream Walker",style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 18,
-                                    ),),
-                                    Row(children: [
-                                      Icon(Icons.location_on_outlined,
-                                        size: 14,
-                                        color: Color.fromRGBO(181, 226, 85, 1),),
-                                      Gap(6),
-                                      Text("South Korea",style: TextStyle(
+                                    Text(
+                                      "Dr. Dream Walker",
+                                      style: TextStyle(
                                         color: Colors.white,
-                                      ),),
-                                      Icon(Icons.verified_outlined,
-                                        color: Color.fromRGBO(181, 226, 85, 1),),
-                                      Text("Rating"),
-                                      Text("4.9")
-                                    ]),
+                                        fontSize: 18,
+                                      ),
+                                    ),
+                                    Row(
+                                      children: [
+                                        Icon(
+                                          Icons.location_on_outlined,
+                                          size: 14,
+                                          color: Color.fromRGBO(
+                                            181,
+                                            226,
+                                            85,
+                                            1,
+                                          ),
+                                        ),
+                                        Gap(6),
+                                        Text(
+                                          "South Korea",
+                                          style: TextStyle(color: Colors.white),
+                                        ),
+                                        Gap(6),
+                                        Icon(
+                                          Icons.verified_outlined,
+                                          size: 14,
+                                          color: Color.fromRGBO(
+                                            181,
+                                            226,
+                                            85,
+                                            1,
+                                          ),
+                                        ),
+                                        Gap(6),
+                                        Text("Rating"),
+                                        Text("4.9"),
+                                      ],
+                                    ),
                                     Text(
                                       "Meet Dr. Dreamwalker Flutter Skilled over 10.",
                                     ),
