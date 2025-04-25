@@ -14,6 +14,7 @@ class _HealthMainPageState extends State<HealthMainPage> {
       appBar: AppBar(
         leading: Icon(Icons.arrow_back_ios_new),
         title: Text("Today, Mar 12"),
+        centerTitle: true,
       ),
       bottomNavigationBar: SizedBox(
         height: 80,
