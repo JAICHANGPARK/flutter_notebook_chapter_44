@@ -3,6 +3,8 @@ import 'package:flutter_notebook_chapter_44/ep2218_healthcare_app/ui/common/heal
 import 'package:flutter_notebook_chapter_44/ep2218_healthcare_app/ui/common/healthcare_nav_back_button.dart';
 import 'package:gap/gap.dart';
 
+import 'widgets/healthcare_doctor_list_widget.dart';
+
 class HealthcareWelcomeListPage extends StatefulWidget {
   const HealthcareWelcomeListPage({super.key});
 
@@ -243,97 +245,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                       right: 16.0,
                       top: 8.0,
                     ),
-                    child: ListView.builder(
-                      itemBuilder: (context, index) {
-                        return Container(
-                          padding: EdgeInsets.all(16),
-                          margin: EdgeInsets.only(bottom: 24),
-                          decoration: BoxDecoration(
-                            color: Color.fromRGBO(28, 28, 28, 1),
-                            borderRadius: BorderRadius.circular(24),
-                          ),
-                          child: Row(
-                            spacing: 20,
-                            children: [
-                              Container(
-                                height: 132,
-                                width: 96,
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                    color: Color.fromRGBO(181, 226, 85, 1),
-                                    borderRadius: BorderRadius.circular(16),
-                                  ),
-                                ),
-                              ),
-                              Expanded(
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(
-                                      "Dr. Dream Walker",
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontSize: 20,
-                                      ),
-                                    ),
-                                    Gap(3),
-                                    Row(
-                                      children: [
-                                        Icon(
-                                          Icons.location_on_outlined,
-                                          size: 14,
-                                          color: Color.fromRGBO(
-                                            181,
-                                            226,
-                                            85,
-                                            1,
-                                          ),
-                                        ),
-                                        Gap(6),
-                                        Text(
-                                          "South Korea",
-                                          style: TextStyle(color: Colors.white),
-                                        ),
-                                        Gap(6),
-                                        Icon(
-                                          Icons.verified_outlined,
-                                          size: 14,
-                                          color: Color.fromRGBO(
-                                            181,
-                                            226,
-                                            85,
-                                            1,
-                                          ),
-                                        ),
-                                        Gap(6),
-                                        Text(
-                                          "Rating",
-                                          style: TextStyle(
-                                            color: Colors.white.withValues(
-                                              alpha: .3,
-                                            ),
-                                          ),
-                                        ),
-                                        Gap(4),
-                                        Text(
-                                          "4.9",
-                                          style: TextStyle(color: Colors.white),
-                                        ),
-                                      ],
-                                    ),
-                                    Gap(24),
-                                    Text(
-                                      "Meet Dr. Dreamwalker Flutter Skilled over 10.",
-                                      style: TextStyle(color: Colors.grey),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ],
-                          ),
-                        );
-                      },
-                    ),
+                    child: HealthcareDoctorListWidget(),
                   ),
                 ),
               ],
