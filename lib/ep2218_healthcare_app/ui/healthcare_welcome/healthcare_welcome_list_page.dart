@@ -267,7 +267,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                       "Dr. Dream Walker",
                                       style: TextStyle(
                                         color: Colors.white,
-                                        fontSize: 18,
+                                        fontSize: 20,
                                       ),
                                     ),
                                     Gap(3),
