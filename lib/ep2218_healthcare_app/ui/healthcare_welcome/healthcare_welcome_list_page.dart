@@ -253,7 +253,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                 height: 132,
                                 width: 96,
                                 child: Container(decoration: BoxDecoration(
-                                  color: Colors.greenAccent,
+                                  color: Color.fromRGBO(181, 226, 85, 1),
                                   borderRadius: BorderRadius.circular(16),
                                 ),),
                               ),
@@ -267,10 +267,13 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                     ),),
                                     Row(children: [
                                       Icon(Icons.location_on_outlined,
-                                      color: Colors.greenAccent,),
-                                      Text("South Korea"),
+                                        color: Color.fromRGBO(181, 226, 85, 1),),
+                                      Gap(6),
+                                      Text("South Korea",style: TextStyle(
+                                        color: Colors.white,
+                                      ),),
                                       Icon(Icons.verified_outlined,
-                                        color: Colors.greenAccent,),
+                                        color: Color.fromRGBO(181, 226, 85, 1),),
                                       Text("Rating"),
                                       Text("4.9")
                                     ]),
