@@ -299,14 +299,25 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                           ),
                                         ),
                                         Gap(6),
-                                        Text("Rating",
-                                          style: TextStyle(color: Colors.white.withValues(alpha: .3)),),
-                                        Text("4.9",
-                                          style: TextStyle(color: Colors.white),),
+                                        Text(
+                                          "Rating",
+                                          style: TextStyle(
+                                            color: Colors.white.withValues(
+                                              alpha: .3,
+                                            ),
+                                          ),
+                                        ),
+                                        Gap(4),
+                                        Text(
+                                          "4.9",
+                                          style: TextStyle(color: Colors.white),
+                                        ),
                                       ],
                                     ),
+                                    Gap(24),
                                     Text(
                                       "Meet Dr. Dreamwalker Flutter Skilled over 10.",
+                                      style: TextStyle(color: Colors.white),
                                     ),
                                   ],
                                 ),
