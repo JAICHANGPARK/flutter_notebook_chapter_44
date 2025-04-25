@@ -247,6 +247,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                             borderRadius: BorderRadius.circular(24),
                           ),
                           child: Row(
+                            spacing: 20,
                             children: [
                               Container(
                                 height: 132,
