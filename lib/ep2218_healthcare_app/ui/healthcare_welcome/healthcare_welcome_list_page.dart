@@ -260,7 +260,9 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Text("Dr. Dream Walker"),
+                                    Text("Dr. Dream Walker",style: TextStyle(
+                                      color: Colors.white,
+                                    ),),
                                     Row(children: []),
                                     Text(
                                       "Meet Dr. Dreamwalker Flutter Skilled over 10.",
