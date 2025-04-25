@@ -147,6 +147,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                     ),
                   ),
                 ),
+                Gap(6),
                 Text(
                   "Please Select Visit Type",
                   style: TextStyle(fontSize: 15),
