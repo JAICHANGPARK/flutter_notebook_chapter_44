@@ -16,7 +16,7 @@ class _HealthMainPageState extends State<HealthMainPage> {
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.stacked_bar_chart), label: "Statistics"),
           BottomNavigationBarItem(icon: Icon(Icons.search_outlined), label: "Catalog"),
-          BottomNavigationBarItem(icon: Icon(Icons.settings_outlined), label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.settings_outlined), label: "Settings"),
         ],
       ),
     );
