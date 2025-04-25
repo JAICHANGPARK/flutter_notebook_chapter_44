@@ -299,8 +299,10 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                                           ),
                                         ),
                                         Gap(6),
-                                        Text("Rating"),
-                                        Text("4.9"),
+                                        Text("Rating",
+                                          style: TextStyle(color: Colors.white.withValues(alpha: .3)),),
+                                        Text("4.9",
+                                          style: TextStyle(color: Colors.white),),
                                       ],
                                     ),
                                     Text(
