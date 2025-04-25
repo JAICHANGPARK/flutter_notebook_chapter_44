@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class HealthcareAlertButton extends StatelessWidget {
+  final Color? backgroundColor;
+  final Color? foregroundColor;
   const HealthcareAlertButton({super.key});
 
   @override
