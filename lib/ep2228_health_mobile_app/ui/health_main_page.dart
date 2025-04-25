@@ -19,7 +19,10 @@ class _HealthMainPageState extends State<HealthMainPage> {
           selectedItemColor: Colors.white,
           unselectedItemColor: Colors.white,
           items: [
-            BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.home_filled),
+              label: "Home",
+            ),
             BottomNavigationBarItem(
               icon: Icon(Icons.stacked_bar_chart),
               label: "Statistics",
