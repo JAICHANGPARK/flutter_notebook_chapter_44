@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 
 class HealthcareNavBackButton extends StatelessWidget {
-  Color? backgroundColor;
-  Color? foregroundColor;
+  final Color? backgroundColor;
+  final Color? foregroundColor;
 
-  HealthcareNavBackButton({super.key, this.backgroundColor,
-  this.foregroundColor});
+  const HealthcareNavBackButton({
+    super.key,
+    this.backgroundColor,
+    this.foregroundColor,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +19,7 @@ class HealthcareNavBackButton extends StatelessWidget {
       child: CircleAvatar(
         radius: 24,
         backgroundColor: backgroundColor ?? Colors.white.withValues(alpha: .2),
-        foregroundColor: Colors.white,
+        foregroundColor: foregroundColor ?? Colors.white,
         child: Icon(Icons.arrow_back),
       ),
     );
