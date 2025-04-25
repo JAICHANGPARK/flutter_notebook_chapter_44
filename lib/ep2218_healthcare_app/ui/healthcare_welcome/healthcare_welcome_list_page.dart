@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_44/ep2218_healthcare_app/ui/common/healthcare_alert_button.dart';
 import 'package:flutter_notebook_chapter_44/ep2218_healthcare_app/ui/common/healthcare_nav_back_button.dart';
+import 'package:gap/gap.dart';
 
 class HealthcareWelcomeListPage extends StatefulWidget {
   const HealthcareWelcomeListPage({super.key});
@@ -30,7 +31,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
             padding: EdgeInsets.only(left: 16, right: 16, top: 72, bottom: 24),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              spacing: 16,
+              spacing: 8,
               children: [
                 Row(
                   children: [
@@ -46,6 +47,7 @@ class _HealthcareWelcomeListPageState extends State<HealthcareWelcomeListPage> {
                     HealthcareAlertButton(),
                   ],
                 ),
+                Gap(4),
                 Text(
                   "Please Select Your Region",
                   style: TextStyle(fontSize: 16),
