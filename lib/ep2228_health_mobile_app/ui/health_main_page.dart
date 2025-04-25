@@ -12,6 +12,8 @@ class _HealthMainPageState extends State<HealthMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.black,
+        foregroundColor: Colors.white,
         leading: Icon(Icons.arrow_back_ios_new),
         title: Text("Today, Mar 12"),
         centerTitle: true,
