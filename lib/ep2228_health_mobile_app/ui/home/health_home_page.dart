@@ -21,7 +21,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [Text("Breakfast"), CircleAvatar(child: Icon(Icons.add))],
+          children: [Text("Breakfast"), CircleAvatar(child: Icon(Icons.add),),],
         ),
         Row(
           children: [
