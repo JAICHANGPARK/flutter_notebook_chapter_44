@@ -13,7 +13,7 @@ class _HealthMainPageState extends State<HealthMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: IndexedStack(
-        index: 0,
+        index: pageIndex.toInt(),
         children: [
 
         ],
