@@ -21,7 +21,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [Text("Breakfast"), CircleAvatar(child: Icon(Icons.add),),],
+          children: [Text("Breakfast"), CircleAvatar(child: Icon(Icons.add))],
         ),
         Row(
           children: [
@@ -35,6 +35,21 @@ class _HealthHomePageState extends State<HealthHomePage> {
               child: Text("Normal", style: TextStyle(color: Colors.white)),
             ),
           ],
+        ),
+        Expanded(
+          child: ListView(
+            children: [
+              Container(
+                decoration: BoxDecoration(color: Colors.pink[50]!),
+                child: Column(
+                  children: [
+                    Text('fried eggs with tomatoes and bacon'),
+                    Row(children: [Text("410"), Text("kcal"), CircleAvatar()]),
+                  ],
+                ),
+              ),
+            ],
+          ),
         ),
       ],
     );
