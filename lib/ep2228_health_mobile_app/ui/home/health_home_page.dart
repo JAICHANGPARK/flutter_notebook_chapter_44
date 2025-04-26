@@ -19,6 +19,16 @@ class _HealthHomePageState extends State<HealthHomePage> {
           title: Text("Today, Mar 12"),
           centerTitle: true,
         ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text("Breakfast"),
+            CircleAvatar(
+              child: Icon(Icons.add),
+            ),
+
+          ],
+        )
       ],
     );
   }
