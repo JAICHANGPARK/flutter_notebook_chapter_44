@@ -32,6 +32,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                 shape: StadiumBorder(),
                 color: Colors.green,
               ),
+              child: Text("Normal", style: TextStyle(color: Colors.white)),
             ),
           ],
         ),
