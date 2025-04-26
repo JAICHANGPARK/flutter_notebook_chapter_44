@@ -8,10 +8,16 @@ class HealthMainPage extends StatefulWidget {
 }
 
 class _HealthMainPageState extends State<HealthMainPage> {
+  num pageIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      body: IndexedStack(
+        index: 0,
+        children: [
 
+        ],
+      ),
       bottomNavigationBar: SizedBox(
         height: 80,
         child: BottomNavigationBar(
