@@ -10,6 +10,16 @@ class HealthHomePage extends StatefulWidget {
 class _HealthHomePageState extends State<HealthHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(
+      children: [
+        AppBar(
+          backgroundColor: Colors.black,
+          foregroundColor: Colors.white,
+          leading: Icon(Icons.arrow_back_ios_new),
+          title: Text("Today, Mar 12"),
+          centerTitle: true,
+        ),
+      ],
+    );
   }
 }
