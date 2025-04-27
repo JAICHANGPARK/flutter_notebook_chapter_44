@@ -42,6 +42,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
               Container(
                 decoration: BoxDecoration(color: Colors.pink[50]!),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text('fried eggs with tomatoes and bacon'),
                     Row(children: [Text("410"), Text("kcal"), CircleAvatar()]),
