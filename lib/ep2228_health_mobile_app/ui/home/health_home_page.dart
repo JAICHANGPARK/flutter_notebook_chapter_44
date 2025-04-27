@@ -78,7 +78,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                       ],
                     ),
                   ),
-                  Container(
+                  Container(height: 160,
                     decoration: BoxDecoration(color: Colors.pink[50]!),
                     padding: EdgeInsets.all(24),
                     margin: EdgeInsets.only(bottom: 8),
