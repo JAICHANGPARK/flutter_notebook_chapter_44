@@ -52,9 +52,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                   Container(
                     decoration: BoxDecoration(color: Colors.pink[50]!),
                     padding: EdgeInsets.all(24),
-                    margin: EdgeInsets.only(
-                      bottom: 12
-                    ),
+                    margin: EdgeInsets.only(bottom: 8),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -68,6 +66,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                   Container(
                     decoration: BoxDecoration(color: Colors.pink[50]!),
                     padding: EdgeInsets.all(24),
+                    margin: EdgeInsets.only(bottom: 8),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -81,6 +80,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                   Container(
                     decoration: BoxDecoration(color: Colors.pink[50]!),
                     padding: EdgeInsets.all(24),
+                    margin: EdgeInsets.only(bottom: 8),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
