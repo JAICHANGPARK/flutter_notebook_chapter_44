@@ -11,54 +11,62 @@ class _HealthHomePageState extends State<HealthHomePage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        spacing: 12,
-        children: [
-          AppBar(
-            backgroundColor: Colors.black,
-            foregroundColor: Colors.white,
-            leading: Icon(Icons.arrow_back_ios_new),
-            title: Text("Today, Mar 12"),
-            centerTitle: true,
-          ),
-          Divider(color: Colors.white,),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [Text("Breakfast"), CircleAvatar(child: Icon(Icons.add))],
-          ),
-          Row(
-            children: [
-              Text("626"),
-              Text("kcal"),
-              Container(
-                decoration: ShapeDecoration(
-                  shape: StadiumBorder(),
-                  color: Colors.green,
-                ),
-                child: Text("Normal", style: TextStyle(color: Colors.white)),
-              ),
-            ],
-          ),
-          Expanded(
-            child: ListView(
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          spacing: 12,
+          children: [
+            AppBar(
+              backgroundColor: Colors.black,
+              foregroundColor: Colors.white,
+              leading: Icon(Icons.arrow_back_ios_new),
+              title: Text("Today, Mar 12"),
+              centerTitle: true,
+            ),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
+                Text("Breakfast", style: TextStyle(color: Colors.white)),
+                CircleAvatar(child: Icon(Icons.add)),
+              ],
+            ),
+            Divider(color: Colors.white),
+            Row(
+              children: [
+                Text("626"),
+                Text("kcal"),
                 Container(
-                  decoration: BoxDecoration(color: Colors.pink[50]!),
-                  padding: EdgeInsets.all(24),
-                  child: Column(
-                    
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text('fried eggs with tomatoes and bacon'),
-                      Row(children: [Text("410"), Text("kcal"), CircleAvatar()]),
-                    ],
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.green,
                   ),
+                  child: Text("Normal", style: TextStyle(color: Colors.white)),
                 ),
               ],
             ),
-          ),
-        ],
+            Expanded(
+              child: ListView(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(color: Colors.pink[50]!),
+                    padding: EdgeInsets.all(24),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('fried eggs with tomatoes and bacon'),
+                        Row(
+                          children: [Text("410"), Text("kcal"), CircleAvatar()],
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
