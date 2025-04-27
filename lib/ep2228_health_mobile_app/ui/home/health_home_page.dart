@@ -12,6 +12,8 @@ class _HealthHomePageState extends State<HealthHomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        spacing: 12,
         children: [
           AppBar(
             backgroundColor: Colors.black,
@@ -20,6 +22,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
             title: Text("Today, Mar 12"),
             centerTitle: true,
           ),
+          Divider(color: Colors.white,),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [Text("Breakfast"), CircleAvatar(child: Icon(Icons.add))],
