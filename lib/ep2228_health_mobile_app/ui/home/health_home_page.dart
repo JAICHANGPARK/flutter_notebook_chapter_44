@@ -35,8 +35,8 @@ class _HealthHomePageState extends State<HealthHomePage> {
             Divider(color: Colors.white),
             Row(
               children: [
-                Text("626"),
-                Text("kcal"),
+                Text("626", style: TextStyle(color: Colors.white)),
+                Text("kcal", style: TextStyle(color: Colors.grey)),
                 Container(
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
@@ -49,6 +49,35 @@ class _HealthHomePageState extends State<HealthHomePage> {
             Expanded(
               child: ListView(
                 children: [
+                  Container(
+                    decoration: BoxDecoration(color: Colors.pink[50]!),
+                    padding: EdgeInsets.all(24),
+                    margin: EdgeInsets.only(
+                      bottom: 12
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('fried eggs with tomatoes and bacon'),
+                        Row(
+                          children: [Text("410"), Text("kcal"), CircleAvatar()],
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(color: Colors.pink[50]!),
+                    padding: EdgeInsets.all(24),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('fried eggs with tomatoes and bacon'),
+                        Row(
+                          children: [Text("410"), Text("kcal"), CircleAvatar()],
+                        ),
+                      ],
+                    ),
+                  ),
                   Container(
                     decoration: BoxDecoration(color: Colors.pink[50]!),
                     padding: EdgeInsets.all(24),
