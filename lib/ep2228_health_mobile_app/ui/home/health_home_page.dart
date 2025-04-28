@@ -30,8 +30,11 @@ class _HealthHomePageState extends State<HealthHomePage> {
               children: [
                 Text(
                   "Breakfast",
-                  style: TextStyle(color: Colors.white, fontSize: 32,
-                  fo),
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 32,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
                 CircleAvatar(child: Icon(Icons.add)),
               ],
