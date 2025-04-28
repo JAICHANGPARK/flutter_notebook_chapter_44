@@ -115,7 +115,9 @@ class _HealthHomePageState extends State<HealthHomePage> {
                               child: CircleAvatar(
                                 radius: 24,
                                 backgroundColor: Colors.black,
+                                child: Icon(Icons.arrow_forward),
                               ),
+
                             ),
                           ],
                         ),
