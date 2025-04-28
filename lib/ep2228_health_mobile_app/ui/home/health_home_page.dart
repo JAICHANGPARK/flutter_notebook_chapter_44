@@ -46,7 +46,14 @@ class _HealthHomePageState extends State<HealthHomePage> {
             Divider(color: Colors.white),
             Row(
               children: [
-                Text("626", style: TextStyle(color: Colors.white)),
+                Text(
+                  "626",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 72,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
                 Text("kcal", style: TextStyle(color: Colors.grey)),
                 Container(
                   decoration: ShapeDecoration(
