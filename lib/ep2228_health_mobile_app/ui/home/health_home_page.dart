@@ -92,9 +92,22 @@ class _HealthHomePageState extends State<HealthHomePage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('fried eggs with tomatoes and bacon'),
+                        Text(
+                          'fried eggs with tomatoes and bacon',
+                          style: TextStyle(fontSize: 18),
+                        ),
                         Row(
-                          children: [Text("410"), Text("kcal"), CircleAvatar()],
+                          children: [
+                            Text(
+                              "410",
+                              style: TextStyle(
+                                fontSize: 24,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Text("kcal"),
+                            CircleAvatar(),
+                          ],
                         ),
                       ],
                     ),
