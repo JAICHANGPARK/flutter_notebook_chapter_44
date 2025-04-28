@@ -45,7 +45,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
             ),
             Divider(color: Colors.white),
             Row(
-              textBaseline: TextBaseline.alphabetic,
+              textBaseline: TextBaseline.ideographic,
               spacing: 4,
               crossAxisAlignment: CrossAxisAlignment.baseline,
               children: [
