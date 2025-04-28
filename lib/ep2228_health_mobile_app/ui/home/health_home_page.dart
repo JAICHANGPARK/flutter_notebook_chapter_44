@@ -36,7 +36,10 @@ class _HealthHomePageState extends State<HealthHomePage> {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                CircleAvatar(child: Icon(Icons.add)),
+                CircleAvatar(
+                  child: Icon(Icons.add),
+                  backgroundColor: Colors.white.withValues(alpha: .1),
+                ),
               ],
             ),
             Divider(color: Colors.white),
