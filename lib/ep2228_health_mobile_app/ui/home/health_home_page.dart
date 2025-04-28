@@ -123,9 +123,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                   ),
                   Container(
                     height: 160,
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                    ),
+                    decoration: BoxDecoration(color: Colors.white),
                     padding: EdgeInsets.all(20),
                     margin: EdgeInsets.only(bottom: 8),
                     child: Column(
@@ -163,7 +161,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                   Container(
                     height: 160,
                     decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: Color.fromRGBO(227, 181, 98, 1),
                     ),
                     padding: EdgeInsets.all(20),
                     margin: EdgeInsets.only(bottom: 8),
