@@ -110,9 +110,12 @@ class _HealthHomePageState extends State<HealthHomePage> {
                             ),
                             Text("kcal"),
                             Spacer(),
-                            Align(
-                                alignment: Alignment.bottomCenter,
-                                child: CircleAvatar()),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: CircleAvatar(
+                                radius: 24,
+                              ),
+                            ),
                           ],
                         ),
                       ],
