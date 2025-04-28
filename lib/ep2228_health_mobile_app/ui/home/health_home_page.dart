@@ -87,7 +87,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                     decoration: BoxDecoration(
                       color: Color.fromRGBO(254, 165, 168, 1),
                     ),
-                    padding: EdgeInsets.all(24),
+                    padding: EdgeInsets.all(20),
                     margin: EdgeInsets.only(bottom: 8),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
