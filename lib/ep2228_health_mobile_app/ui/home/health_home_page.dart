@@ -45,6 +45,9 @@ class _HealthHomePageState extends State<HealthHomePage> {
             ),
             Divider(color: Colors.white),
             Row(
+              textBaseline: TextBaseline.alphabetic,
+              spacing: 4,
+              crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 Text(
                   "626",
@@ -52,9 +55,14 @@ class _HealthHomePageState extends State<HealthHomePage> {
                     color: Colors.white,
                     fontSize: 72,
                     fontWeight: FontWeight.bold,
+
                   ),
+
                 ),
-                Text("kcal", style: TextStyle(color: Colors.grey)),
+                Text(
+                  "kcal",
+                  style: TextStyle(color: Colors.grey, fontSize: 32),
+                ),
                 Container(
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
