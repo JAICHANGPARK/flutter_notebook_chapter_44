@@ -55,13 +55,15 @@ class _HealthHomePageState extends State<HealthHomePage> {
                     color: Colors.white,
                     fontSize: 72,
                     fontWeight: FontWeight.bold,
-
                   ),
-
                 ),
                 Text(
                   "kcal",
-                  style: TextStyle(color: Colors.grey, fontSize: 32),
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 32,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
                 Spacer(),
                 Container(
@@ -70,8 +72,9 @@ class _HealthHomePageState extends State<HealthHomePage> {
                     shape: StadiumBorder(),
                     color: Colors.green,
                   ),
-                  child: Text("Normal", style: TextStyle(color: Colors.white,
-                  fontSize: 16,),
+                  child: Text(
+                    "Normal",
+                    style: TextStyle(color: Colors.white, fontSize: 16),
                   ),
                 ),
               ],
