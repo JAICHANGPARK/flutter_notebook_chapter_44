@@ -28,7 +28,11 @@ class _HealthHomePageState extends State<HealthHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text("Breakfast", style: TextStyle(color: Colors.white)),
+                Text(
+                  "Breakfast",
+                  style: TextStyle(color: Colors.white, fontSize: 32,
+                  fo),
+                ),
                 CircleAvatar(child: Icon(Icons.add)),
               ],
             ),
@@ -64,7 +68,8 @@ class _HealthHomePageState extends State<HealthHomePage> {
                       ],
                     ),
                   ),
-                  Container(height: 160,
+                  Container(
+                    height: 160,
                     decoration: BoxDecoration(color: Colors.pink[50]!),
                     padding: EdgeInsets.all(24),
                     margin: EdgeInsets.only(bottom: 8),
@@ -78,7 +83,8 @@ class _HealthHomePageState extends State<HealthHomePage> {
                       ],
                     ),
                   ),
-                  Container(height: 160,
+                  Container(
+                    height: 160,
                     decoration: BoxDecoration(color: Colors.pink[50]!),
                     padding: EdgeInsets.all(24),
                     margin: EdgeInsets.only(bottom: 8),
