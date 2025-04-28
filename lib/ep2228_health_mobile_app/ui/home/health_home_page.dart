@@ -63,6 +63,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                   "kcal",
                   style: TextStyle(color: Colors.grey, fontSize: 32),
                 ),
+                Spacer(),
                 Container(
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
