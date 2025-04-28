@@ -141,7 +141,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                           crossAxisAlignment: CrossAxisAlignment.baseline,
                           children: [
                             Text(
-                              "410",
+                              "62",
                               style: TextStyle(
                                 fontSize: 42,
                                 fontWeight: FontWeight.bold,
@@ -162,15 +162,39 @@ class _HealthHomePageState extends State<HealthHomePage> {
                   ),
                   Container(
                     height: 160,
-                    decoration: BoxDecoration(color: Colors.pink[50]!),
-                    padding: EdgeInsets.all(24),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                    ),
+                    padding: EdgeInsets.all(20),
                     margin: EdgeInsets.only(bottom: 8),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text('fried eggs with tomatoes and bacon'),
+                        Text(
+                          'fried eggs with tomatoes\nand bacon',
+                          style: TextStyle(fontSize: 16),
+                        ),
                         Row(
-                          children: [Text("410"), Text("kcal"), CircleAvatar()],
+                          textBaseline: TextBaseline.alphabetic,
+                          crossAxisAlignment: CrossAxisAlignment.baseline,
+                          children: [
+                            Text(
+                              "62",
+                              style: TextStyle(
+                                fontSize: 42,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Text("kcal"),
+                            Spacer(),
+                            CircleAvatar(
+                              radius: 24,
+                              backgroundColor: Colors.black,
+                              foregroundColor: Colors.white,
+                              child: Icon(Icons.arrow_forward),
+                            ),
+                          ],
                         ),
                       ],
                     ),
