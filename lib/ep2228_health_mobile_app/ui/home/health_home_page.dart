@@ -39,6 +39,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                 CircleAvatar(
                   child: Icon(Icons.add),
                   backgroundColor: Colors.white.withValues(alpha: .1),
+                  foregroundColor: Colors.white,
                 ),
               ],
             ),
