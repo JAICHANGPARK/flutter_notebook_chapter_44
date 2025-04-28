@@ -47,7 +47,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
             Row(
               textBaseline: TextBaseline.alphabetic,
               spacing: 4,
-              crossAxisAlignment: CrossAxisAlignment.end,
+              crossAxisAlignment: CrossAxisAlignment.baseline,
               children: [
                 Text(
                   "626",
