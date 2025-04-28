@@ -70,7 +70,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                   padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
-                    color: Colors.green,
+                    color: Color.fromRGBO(0, 142, 35, 1),
                   ),
                   child: Text(
                     "Normal",
