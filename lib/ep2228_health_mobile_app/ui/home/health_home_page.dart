@@ -91,6 +91,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                     margin: EdgeInsets.only(bottom: 8),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
                           'fried eggs with tomatoes\nand bacon',
@@ -106,6 +107,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                               ),
                             ),
                             Text("kcal"),
+                            Spacer(),
                             CircleAvatar(),
                           ],
                         ),
