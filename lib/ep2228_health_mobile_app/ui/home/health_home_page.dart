@@ -98,11 +98,13 @@ class _HealthHomePageState extends State<HealthHomePage> {
                           style: TextStyle(fontSize: 18),
                         ),
                         Row(
+                          textBaseline: TextBaseline.alphabetic,
+                          crossAxisAlignment: CrossAxisAlignment.baseline,
                           children: [
                             Text(
                               "410",
                               style: TextStyle(
-                                fontSize: 24,
+                                fontSize: 42,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
