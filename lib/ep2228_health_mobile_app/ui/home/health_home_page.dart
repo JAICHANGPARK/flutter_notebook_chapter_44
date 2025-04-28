@@ -65,13 +65,13 @@ class _HealthHomePageState extends State<HealthHomePage> {
                 ),
                 Spacer(),
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
                     color: Colors.green,
                   ),
                   child: Text("Normal", style: TextStyle(color: Colors.white,
-                  fontSize: 20,),
+                  fontSize: 16,),
                   ),
                 ),
               ],
