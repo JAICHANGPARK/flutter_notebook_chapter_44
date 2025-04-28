@@ -93,7 +93,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'fried eggs with tomatoes and bacon',
+                          'fried eggs with tomatoes\nand bacon',
                           style: TextStyle(fontSize: 18),
                         ),
                         Row(
