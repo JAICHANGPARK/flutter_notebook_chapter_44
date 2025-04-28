@@ -111,9 +111,10 @@ class _HealthHomePageState extends State<HealthHomePage> {
                             Text("kcal"),
                             Spacer(),
                             Padding(
-                              padding: const EdgeInsets.all(8.0),
+                              padding: const EdgeInsets.all(4.0),
                               child: CircleAvatar(
                                 radius: 24,
+                                backgroundColor: Colors.black,
                               ),
                             ),
                           ],
