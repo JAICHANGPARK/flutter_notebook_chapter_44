@@ -95,7 +95,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                       children: [
                         Text(
                           'fried eggs with tomatoes\nand bacon',
-                          style: TextStyle(fontSize: 18),
+                          style: TextStyle(fontSize: 16),
                         ),
                         Row(
                           textBaseline: TextBaseline.alphabetic,
@@ -113,6 +113,7 @@ class _HealthHomePageState extends State<HealthHomePage> {
                             CircleAvatar(
                               radius: 24,
                               backgroundColor: Colors.black,
+                              foregroundColor: Colors.white,
                               child: Icon(Icons.arrow_forward),
                             ),
                           ],
