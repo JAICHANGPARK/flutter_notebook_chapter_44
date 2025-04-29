@@ -19,8 +19,12 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
     "30 kg",
     "20 kg",
     "10 kg",
-    "",
   ];
+
+  Map<String, List<int>> weightData = {
+    'Jan': [1, 1, 1, 1, 1, 0, 0, 0],
+    'Jan': [1, 1, 1, 1, 1, 0, 0, 0],
+  };
 
   @override
   Widget build(BuildContext context) {
