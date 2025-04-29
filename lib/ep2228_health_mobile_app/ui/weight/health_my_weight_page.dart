@@ -89,8 +89,8 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                 children: [
                   Container(
                     width: 42,
-                    color: Colors.blue,
-                    margin: EdgeInsets.symmetric(bottom: 24),
+                    // color: Colors.blue,
+                    margin: EdgeInsets.only(bottom: 32, top: 16),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children:
