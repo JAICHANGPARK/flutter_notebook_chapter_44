@@ -11,6 +11,14 @@ class HealthMyWeightPage extends StatefulWidget {
 class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Colors.black,
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        elevation: 0,
+        title: Text(""),
+      ),
+
+    );
   }
 }
