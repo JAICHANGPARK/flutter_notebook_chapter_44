@@ -40,7 +40,7 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                 fontSize: 72,
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
-                height: 0
+                height: 0,
               ),
             ),
           ],
