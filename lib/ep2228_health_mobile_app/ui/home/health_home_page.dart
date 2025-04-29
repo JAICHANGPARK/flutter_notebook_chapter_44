@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_44/ep2228_health_mobile_app/ui/weight/health_my_weight_page.dart';
 
 class HealthHomePage extends StatefulWidget {
   const HealthHomePage({super.key});
@@ -46,7 +47,9 @@ class _HealthHomePageState extends State<HealthHomePage> {
             Divider(color: Colors.white),
             GestureDetector(
               onTap: (){
-                
+                Navigator.of(context).push(MaterialPageRoute(builder: (context){
+                  return HealthMyWeightPage();
+                }));
               },
               child: Row(
                 textBaseline: TextBaseline.ideographic,
