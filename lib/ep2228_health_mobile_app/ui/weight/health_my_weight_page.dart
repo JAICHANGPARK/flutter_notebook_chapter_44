@@ -108,7 +108,16 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                   Expanded(
                     child: Column(
                       children: [
-                        Expanded(child: Placeholder()),
+                        Expanded(child: Row(
+                          children: months.map((e){
+                            final items = weightData[e] ?? [];
+                            return Column(
+                              children: items.map((v){
+                                return CircleAvatar();
+                              }).toList()
+                            );
+                          }).toList()
+                        ),),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children:
