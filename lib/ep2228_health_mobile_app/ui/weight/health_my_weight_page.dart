@@ -29,8 +29,8 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text("Your goal",style: TextStyle(
-            fontSize: 48,
-            color: Colors.white,
+            fontSize: 18,
+            color: Colors.grey,
 
           ),),
           Text("50kg",style: TextStyle(
