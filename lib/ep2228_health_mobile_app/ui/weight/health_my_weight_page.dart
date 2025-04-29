@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class HealthMyWeightPage extends StatefulWidget {
   const HealthMyWeightPage({super.key});
 
@@ -19,8 +18,8 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
         elevation: 0,
         centerTitle: true,
         title: Text("My weight"),
+        actions: [Icon(Icons.more_vert)],
       ),
-
     );
   }
 }
