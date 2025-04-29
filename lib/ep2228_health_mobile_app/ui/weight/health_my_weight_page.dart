@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class HealthMyWeightPage extends StatefulWidget {
   const HealthMyWeightPage({super.key});
@@ -25,19 +26,25 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
           ),
         ],
       ),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text("Your goal", style: TextStyle(fontSize: 18, color: Colors.grey)),
-          Text(
-            "50kg",
-            style: TextStyle(
-              fontSize: 48,
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text("Your goal", style: TextStyle(fontSize: 18, color: Colors.grey)),
+            Gap(8),
+            Text(
+
+              "50kg",
+              style: TextStyle(
+                fontSize: 72,
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+                height: 0
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
