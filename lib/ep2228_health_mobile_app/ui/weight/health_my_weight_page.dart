@@ -18,7 +18,11 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
         elevation: 0,
         centerTitle: true,
         title: Text("My weight"),
-        actions: [Icon(Icons.more_vert)],
+        actions: [Padding(
+
+          padding: const EdgeInsets.only(right: 16),
+          child: Icon(Icons.more_vert),
+        )],
       ),
     );
   }
