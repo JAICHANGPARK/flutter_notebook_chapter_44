@@ -90,7 +90,7 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                   Container(
                     width: 42,
                     color: Colors.blue,
-                    margin: EdgeInsets.only(bottom: 24),
+                    margin: EdgeInsets.symmetric(bottom: 24),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children:
@@ -114,9 +114,10 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                           children: months.map((e){
                             final items = weightData[e] ?? [];
                             return Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: items.map((v){
                                 return CircleAvatar(
-                                  radius: 24,
+                                  radius: 28,
                                 );
                               }).toList()
                             );
