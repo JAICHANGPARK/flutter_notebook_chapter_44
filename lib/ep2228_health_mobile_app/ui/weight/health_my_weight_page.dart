@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_44/ep2228_health_mobile_app/ui/weight/widget/chart_legend_item_widget.dart';
 import 'package:gap/gap.dart';
 
 class HealthMyWeightPage extends StatefulWidget {
@@ -47,7 +48,9 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
             ),
             Row(
               children: [
-                
+                ChartLegendItemWidget(
+                  color: Colors.green, ),
+
               ],
             )
           ],
