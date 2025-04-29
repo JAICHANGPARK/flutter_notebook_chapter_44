@@ -23,11 +23,12 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
 
   Map<String, List<int>> weightData = {
     'Jan': [1, 1, 1, 1, 1, 0, 0, 0],
-    'Jan': [1, 1, 1, 1, 1, 0, 0, 0],
+    'Feb': [1, 1, 1, 1, 1, 0, 0, 0],
   };
 
   @override
   Widget build(BuildContext context) {
+    final months = weightData.keys.toList(); // 월 목록
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
@@ -104,6 +105,7 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                               .toList(),
                     ),
                   ),
+                  Expanded(child: Row(children: weightData)),
                 ],
               ),
             ),
