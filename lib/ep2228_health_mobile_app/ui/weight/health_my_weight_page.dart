@@ -15,8 +15,10 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
       backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.black,
+        foregroundColor: Colors.white,
         elevation: 0,
-        title: Text(""),
+        centerTitle: true,
+        title: Text("My weight"),
       ),
 
     );
