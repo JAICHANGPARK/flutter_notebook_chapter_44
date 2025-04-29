@@ -100,7 +100,7 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                                   e,
                                   style: TextStyle(
                                     // fontSize: 12,
-                                    // color: Colors.grey,
+                                    color: Colors.grey,
                                   ),
                                 ),
                               )
@@ -111,6 +111,7 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                     child: Column(
                       children: [
                         Expanded(child: Row(
+                          spacing: 6,
                           children: months.map((e){
                             final items = weightData[e] ?? [];
                             return Column(
@@ -124,7 +125,7 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                           }).toList()
                         ),),
                         Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children:
                               months
                                   .map(
