@@ -31,7 +31,13 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
+          spacing: 12,
           children: [
+            Column(
+              children: [
+                
+              ],
+            )
             Text(
               "Your goal",
               style: TextStyle(fontSize: 18, color: Colors.grey),
@@ -49,10 +55,11 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
             Row(
               children: [
                 ChartLegendItemWidget(
-                  color: Colors.green, ),
-
+                  color: Colors.green,
+                  text: "normal weight",
+                ),
               ],
-            )
+            ),
           ],
         ),
       ),
