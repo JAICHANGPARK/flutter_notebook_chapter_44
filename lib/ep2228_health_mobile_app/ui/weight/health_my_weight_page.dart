@@ -54,10 +54,15 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
             ),
 
             Row(
+              spacing: 24,
               children: [
                 ChartLegendItemWidget(
                   color: Colors.green,
                   text: "normal weight",
+                ),
+                ChartLegendItemWidget(
+                  color: Colors.pink.shade300,
+                  text: "overweight",
                 ),
               ],
             ),
