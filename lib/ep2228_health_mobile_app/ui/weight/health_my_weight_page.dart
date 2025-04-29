@@ -18,11 +18,27 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
         elevation: 0,
         centerTitle: true,
         title: Text("My weight"),
-        actions: [Padding(
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 16),
+            child: Icon(Icons.more_vert),
+          ),
+        ],
+      ),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text("Your goal",style: TextStyle(
+            fontSize: 48,
+            color: Colors.white,
 
-          padding: const EdgeInsets.only(right: 16),
-          child: Icon(Icons.more_vert),
-        )],
+          ),),
+          Text("50kg",style: TextStyle(
+            fontSize: 48,
+            color: Colors.white,
+
+          ),)
+        ],
       ),
     );
   }
