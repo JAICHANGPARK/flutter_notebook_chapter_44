@@ -28,16 +28,15 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text("Your goal",style: TextStyle(
-            fontSize: 18,
-            color: Colors.grey,
-
-          ),),
-          Text("50kg",style: TextStyle(
-            fontSize: 48,
-            color: Colors.white,
-
-          ),)
+          Text("Your goal", style: TextStyle(fontSize: 18, color: Colors.grey)),
+          Text(
+            "50kg",
+            style: TextStyle(
+              fontSize: 48,
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ],
       ),
     );
