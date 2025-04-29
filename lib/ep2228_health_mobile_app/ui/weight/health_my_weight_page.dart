@@ -105,7 +105,25 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                               .toList(),
                     ),
                   ),
-                  Expanded(child: Row(children: weightData)),
+                  Expanded(
+                    child: Column(
+                      children: [
+                        Expanded(child: Placeholder()),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children:
+                              months
+                                  .map(
+                                    (e) => Text(
+                                      e,
+                                      style: TextStyle(color: Colors.white),
+                                    ),
+                                  )
+                                  .toList(),
+                        ),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
