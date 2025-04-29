@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
-
 class ChartLegendItemWidget extends StatelessWidget {
-  const ChartLegendItemWidget({super.key});
+  final Color? color;
+  final String? text;
+
+  const ChartLegendItemWidget({super.key, this.color, this.text});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Row(children: []);
   }
 }
