@@ -15,6 +15,9 @@ class ChartLegendItemWidget extends StatelessWidget {
         radius: 7,
         backgroundColor: color,
       ),
+          Text(text ?? "-", style: TextStyle(
+
+          ),)
 
     ]);
   }
