@@ -34,24 +34,25 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
           spacing: 12,
           children: [
             Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                
+                Text(
+                  "Your goal",
+                  style: TextStyle(fontSize: 18, color: Colors.grey),
+                ),
+                Gap(8),
+                Text(
+                  "50kg",
+                  style: TextStyle(
+                    fontSize: 72,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    height: 0,
+                  ),
+                ),
               ],
-            )
-            Text(
-              "Your goal",
-              style: TextStyle(fontSize: 18, color: Colors.grey),
             ),
-            Gap(8),
-            Text(
-              "50kg",
-              style: TextStyle(
-                fontSize: 72,
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-                height: 0,
-              ),
-            ),
+
             Row(
               children: [
                 ChartLegendItemWidget(
