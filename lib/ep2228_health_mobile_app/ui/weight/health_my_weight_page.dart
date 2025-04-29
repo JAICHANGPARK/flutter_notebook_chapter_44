@@ -85,10 +85,12 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
             ),
             Expanded(
               child: Row(
+                spacing: 16,
                 children: [
                   Container(
                     width: 42,
                     color: Colors.blue,
+                    margin: EdgeInsets.only(bottom: 24),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children:
@@ -113,7 +115,9 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                             final items = weightData[e] ?? [];
                             return Column(
                               children: items.map((v){
-                                return CircleAvatar();
+                                return CircleAvatar(
+                                  radius: 24,
+                                );
                               }).toList()
                             );
                           }).toList()
