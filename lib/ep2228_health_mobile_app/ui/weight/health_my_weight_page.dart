@@ -19,6 +19,7 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
     "30 kg",
     "20 kg",
     "10 kg",
+    "",
   ];
 
   @override
@@ -84,6 +85,7 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                     width: 42,
                     color: Colors.blue,
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children:
                           yAxisLabels
                               .map(
