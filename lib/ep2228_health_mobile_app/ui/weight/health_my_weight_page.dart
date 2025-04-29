@@ -24,6 +24,8 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
   Map<String, List<int>> weightData = {
     'Jan': [1, 1, 1, 1, 1, 0, 0, 0],
     'Feb': [1, 1, 1, 1, 1, 0, 0, 0],
+    
+
   };
 
   @override
