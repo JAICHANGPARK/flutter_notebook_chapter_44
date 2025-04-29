@@ -44,40 +44,45 @@ class _HealthHomePageState extends State<HealthHomePage> {
               ],
             ),
             Divider(color: Colors.white),
-            Row(
-              textBaseline: TextBaseline.ideographic,
-              spacing: 4,
-              crossAxisAlignment: CrossAxisAlignment.baseline,
-              children: [
-                Text(
-                  "626",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 72,
-                    fontWeight: FontWeight.bold,
+            GestureDetector(
+              onTap: (){
+                
+              },
+              child: Row(
+                textBaseline: TextBaseline.ideographic,
+                spacing: 4,
+                crossAxisAlignment: CrossAxisAlignment.baseline,
+                children: [
+                  Text(
+                    "626",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 72,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                ),
-                Text(
-                  "kcal",
-                  style: TextStyle(
-                    color: Colors.grey,
-                    fontSize: 32,
-                    fontWeight: FontWeight.bold,
+                  Text(
+                    "kcal",
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                ),
-                Spacer(),
-                Container(
-                  padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                  decoration: ShapeDecoration(
-                    shape: StadiumBorder(),
-                    color: Color.fromRGBO(0, 142, 35, 1),
+                  Spacer(),
+                  Container(
+                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Color.fromRGBO(0, 142, 35, 1),
+                    ),
+                    child: Text(
+                      "Normal",
+                      style: TextStyle(color: Colors.white, fontSize: 16),
+                    ),
                   ),
-                  child: Text(
-                    "Normal",
-                    style: TextStyle(color: Colors.white, fontSize: 16),
-                  ),
-                ),
-              ],
+                ],
+              ),
             ),
             Expanded(
               child: ListView(
