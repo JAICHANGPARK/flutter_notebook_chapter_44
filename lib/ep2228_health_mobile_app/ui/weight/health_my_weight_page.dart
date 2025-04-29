@@ -66,6 +66,8 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                 ),
               ],
             ),
+            Expanded(child: Placeholder()),
+            Container(decoration: ShapeDecoration(shape: StadiumBorder())),
           ],
         ),
       ),
