@@ -31,7 +31,7 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          spacing: 12,
+          spacing: 24,
           children: [
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
