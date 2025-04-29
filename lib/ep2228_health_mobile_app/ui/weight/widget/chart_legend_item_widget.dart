@@ -8,6 +8,14 @@ class ChartLegendItemWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(children: []);
+    return Row(
+        spacing: 8,
+        children: [
+      CircleAvatar(
+        radius: 7,
+        backgroundColor: color,
+      ),
+
+    ]);
   }
 }
