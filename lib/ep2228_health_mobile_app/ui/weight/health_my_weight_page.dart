@@ -69,13 +69,16 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
             Expanded(child: Placeholder()),
             Container(
               padding: EdgeInsets.symmetric(vertical: 18),
-              decoration: ShapeDecoration(shape: StadiumBorder(),
-            color: Colors.white),
-            child: Center(
-              child: Text("Update weight",style: TextStyle(
-
-              ),),
-            ),
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.white,
+              ),
+              child: Center(
+                child: Text(
+                  "Update weight",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                ),
+              ),
             ),
           ],
         ),
