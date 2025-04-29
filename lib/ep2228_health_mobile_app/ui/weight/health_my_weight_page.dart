@@ -10,6 +10,9 @@ class HealthMyWeightPage extends StatefulWidget {
 }
 
 class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
+  final List<String> yAxisLabels = [
+    "80 kg","70 kg","60 kg","50 kg","40 kg","30 kg","20 kg","10 kg",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -66,7 +69,21 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                 ),
               ],
             ),
-            Expanded(child: Placeholder()),
+            Expanded(child: Row(
+              children: [
+                Container(
+                  width: 42,
+                  color: Colors.blue,
+                  child: Column(
+                    children: yAxisLabels.map((e)=>Text(
+                      e, style: TextStyle(
+                      
+                    ),
+                    )).toList()
+                  ),
+                )
+              ],
+            )),
             Container(
               padding: EdgeInsets.symmetric(vertical: 18),
               decoration: ShapeDecoration(
