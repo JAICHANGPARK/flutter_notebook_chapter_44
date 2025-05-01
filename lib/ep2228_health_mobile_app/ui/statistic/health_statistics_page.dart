@@ -15,37 +15,12 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
       child: Column(
         spacing: 12,
         children: [
+          Column(
+            children: [
 
-          Row(
-            children: [
-              Text("Current week", style: TextStyle(color: Colors.white,
-              fontSize: 24,
-              )),
-              IconButton(onPressed: (){}, icon: Icon(Icons.calendar_month)),
             ],
           ),
-          Divider(),
-          Row(
-            spacing: 24,
-            children: [
-              ChartLegendItemWidget(
-                color: Colors.pink.shade300,
-                text: "fat",
-              ),
-              ChartLegendItemWidget(
-                color: Colors.orange.shade300,
-                text: "protein",
-              ),
-              ChartLegendItemWidget(
-                color: Colors.green,
-                text: "carbs",
-              ),
-              ChartLegendItemWidget(
-                color: Colors.white,
-                text: "activity",
-              ),
-            ],
-          ),
+
           Expanded(child: Placeholder()),
           Container(
             height: 160,
