@@ -112,6 +112,7 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                               .toList(),
                     ),
                   ),
+             
                   Expanded(
                     child: SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
