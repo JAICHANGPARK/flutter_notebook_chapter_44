@@ -13,6 +13,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Column(
+        spacing: 12,
         children: [
 
           Row(
@@ -49,9 +50,13 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
           Container(
             height: 160,
             child: ListView.builder(
+
               scrollDirection: Axis.horizontal,
               itemBuilder: (context,index){
               return Container(
+                margin: EdgeInsets.only(
+                  right: 12,
+                ),
                 width: 320,
                 child: Placeholder(),
               );
