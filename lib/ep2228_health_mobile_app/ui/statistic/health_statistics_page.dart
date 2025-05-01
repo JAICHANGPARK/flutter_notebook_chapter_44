@@ -16,44 +16,51 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         spacing: 12,
         children: [
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            spacing: 12,
-            children: [
-              Row(
-                children: [
-                  Text("Current week", style: TextStyle(color: Colors.white,
-                    fontSize: 24,
-                  )),
-                  IconButton(onPressed: (){}, icon: Icon(Icons.calendar_month)),
-                ],
-              ),
-              Divider(),
-              Row(
-                spacing: 24,
-                children: [
-                  ChartLegendItemWidget(
-                    color: Colors.pink.shade300,
-                    text: "fat",
-                  ),
-                  ChartLegendItemWidget(
-                    color: Colors.orange.shade300,
-                    text: "protein",
-                  ),
-                  ChartLegendItemWidget(
-                    color: Colors.green,
-                    text: "carbs",
-                  ),
-                  ChartLegendItemWidget(
-                    color: Colors.white,
-                    text: "activity",
-                  ),
-                ],
-              ),
-            ],
-          ),
+          Padding(
+            padding: const EdgeInsets.only(top: 16, left: 16, right: 16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              spacing: 12,
+              children: [
+                Row(
+                  children: [
+                    Text("Current week", style: TextStyle(color: Colors.white,
+                      fontSize: 24,
+                    )),
+                    IconButton(onPressed: (){}, icon: Icon(Icons.calendar_month)),
+                  ],
+                ),
+                Divider(),
+                Row(
+                  spacing: 24,
+                  children: [
+                    ChartLegendItemWidget(
+                      color: Colors.pink.shade300,
+                      text: "fat",
+                    ),
+                    ChartLegendItemWidget(
+                      color: Colors.orange.shade300,
+                      text: "protein",
+                    ),
+                    ChartLegendItemWidget(
+                      color: Colors.green,
+                      text: "carbs",
+                    ),
+                    ChartLegendItemWidget(
+                      color: Colors.white,
+                      text: "activity",
+                    ),
+                  ],
+                ),
 
-          Expanded(child: Placeholder()),
+              ],
+            ),
+          ),
+          Expanded(child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            child: Placeholder(),
+          )),
+
           Container(
             height: 160,
             child: ListView.builder(
