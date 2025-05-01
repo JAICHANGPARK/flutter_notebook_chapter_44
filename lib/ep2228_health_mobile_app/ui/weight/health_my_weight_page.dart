@@ -133,7 +133,8 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                                               radius: 28,
                                               backgroundColor: switch (v) {
                                                 0 => Colors.black,
-                                                1 => Colors.pink.shade300,
+                                                1 => Colors.green,
+                                                2 => Colors.pink.shade300,
                                                 // TODO: Handle this case.
                                                 _ => throw UnimplementedError(),
                                               },
