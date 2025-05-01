@@ -63,6 +63,9 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
 
           Container(
             height: 160,
+            margin: EdgeInsets.only(
+              left: 16
+            ),
             child: ListView.builder(
 
               scrollDirection: Axis.horizontal,
