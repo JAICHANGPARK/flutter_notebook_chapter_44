@@ -11,6 +11,6 @@ class HealthStatisticsPage extends StatefulWidget {
 class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
