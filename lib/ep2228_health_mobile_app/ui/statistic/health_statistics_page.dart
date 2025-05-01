@@ -13,11 +13,43 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         spacing: 12,
         children: [
           Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            spacing: 12,
             children: [
-
+              Row(
+                children: [
+                  Text("Current week", style: TextStyle(color: Colors.white,
+                    fontSize: 24,
+                  )),
+                  IconButton(onPressed: (){}, icon: Icon(Icons.calendar_month)),
+                ],
+              ),
+              Divider(),
+              Row(
+                spacing: 24,
+                children: [
+                  ChartLegendItemWidget(
+                    color: Colors.pink.shade300,
+                    text: "fat",
+                  ),
+                  ChartLegendItemWidget(
+                    color: Colors.orange.shade300,
+                    text: "protein",
+                  ),
+                  ChartLegendItemWidget(
+                    color: Colors.green,
+                    text: "carbs",
+                  ),
+                  ChartLegendItemWidget(
+                    color: Colors.white,
+                    text: "activity",
+                  ),
+                ],
+              ),
             ],
           ),
 
