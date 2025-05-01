@@ -62,7 +62,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
           )),
 
           Container(
-            height: 160,
+            height: 170,
             margin: EdgeInsets.only(
               left: 16
             ),
