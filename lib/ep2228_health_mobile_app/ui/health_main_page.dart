@@ -26,6 +26,12 @@ class _HealthMainPageState extends State<HealthMainPage> {
       bottomNavigationBar: SizedBox(
         height: 80,
         child: BottomNavigationBar(
+          currentIndex: pageIndex.toInt(),
+          onTap: (idx){
+            setState(() {
+              pageIndex  = idx;
+            });
+          },
           backgroundColor: Colors.black,
           type: BottomNavigationBarType.fixed,
           selectedItemColor: Colors.white,
