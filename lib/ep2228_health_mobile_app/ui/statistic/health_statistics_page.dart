@@ -48,7 +48,9 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
           Expanded(child: Placeholder()),
           Container(
             height: 160,
-            child: ListView.builder(itemBuilder: (context,index){
+            child: ListView.builder(
+              scrollDirection: Axis.horizontal,
+              itemBuilder: (context,index){
               return Container(
                 width: 320,
                 child: Placeholder(),
