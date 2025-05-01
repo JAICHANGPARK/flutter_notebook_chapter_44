@@ -24,13 +24,11 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
   Map<String, List<int>> weightData = {
     'Jan': [1, 1, 1, 1, 1, 2, 2, 2],
     'Feb': [1, 1, 1, 1, 1, 2, 2, 2],
-    'Mar': [1, 1, 1, 1, 1, 2,2, 0],
+    'Mar': [1, 1, 1, 1, 1, 2, 2, 0],
     'Apr': [1, 1, 1, 1, 1, 2, 2, 0],
     'May': [1, 1, 1, 1, 1, 2, 0, 0],
     'Jun': [1, 1, 1, 1, 1, 0, 0, 0],
     'Jul': [1, 1, 1, 1, 1, 0, 0, 0],
-
-
   };
 
   @override
@@ -120,20 +118,23 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                       child: Column(
                         spacing: 8,
                         children: [
-                          Expanded(child: Row(
-                            spacing: 4,
-                            children: months.map((e){
-                              final items = weightData[e] ?? [];
-                              return Column(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                children: items.map((v){
-                                  return CircleAvatar(
-                                    radius: 28,
-                                  );
-                                }).toList()
-                              );
-                            }).toList()
-                          ),),
+                          Expanded(
+                            child: Row(
+                              spacing: 4,
+                              children:
+                                  months.map((e) {
+                                    final items = weightData[e] ?? [];
+                                    return Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children:
+                                          items.map((v) {
+                                            return CircleAvatar(radius: 28);
+                                          }).toList(),
+                                    );
+                                  }).toList(),
+                            ),
+                          ),
 
                           SizedBox(
                             width: 390,
