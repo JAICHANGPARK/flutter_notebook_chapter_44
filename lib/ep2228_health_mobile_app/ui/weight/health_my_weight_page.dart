@@ -123,7 +123,8 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                               spacing: 4,
                               children:
                                   months.map((e) {
-                                    final items = weightData[e] ?? [];
+                                    List<int> items = weightData[e] ?? [];
+                                    items = items.reversed.toList() ?? [];
                                     return Column(
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceBetween,
