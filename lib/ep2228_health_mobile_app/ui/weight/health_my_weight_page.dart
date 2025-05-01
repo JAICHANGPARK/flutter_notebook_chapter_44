@@ -88,6 +88,7 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                 ),
               ],
             ),
+            Gap(1),
             Expanded(
               child: Row(
                 spacing: 16,
@@ -112,7 +113,7 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                               .toList(),
                     ),
                   ),
-             
+
                   Expanded(
                     child: SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
