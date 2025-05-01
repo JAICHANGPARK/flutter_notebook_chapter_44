@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_44/ep2228_health_mobile_app/ui/home/health_home_page.dart';
 
+import 'statistic/health_statistics_page.dart';
+
 class HealthMainPage extends StatefulWidget {
   const HealthMainPage({super.key});
 
@@ -17,7 +19,7 @@ class _HealthMainPageState extends State<HealthMainPage> {
         index: pageIndex.toInt(),
         children: [
           HealthHomePage(),
-          H
+          HealthStatisticsPage(),
 
         ],
       ),
