@@ -129,7 +129,15 @@ class _HealthMyWeightPageState extends State<HealthMyWeightPage> {
                                           MainAxisAlignment.spaceBetween,
                                       children:
                                           items.map((v) {
-                                            return CircleAvatar(radius: 28);
+                                            return CircleAvatar(
+                                              radius: 28,
+                                              backgroundColor: switch (v) {
+                                                0 => Colors.black,
+                                                1 => Colors.pink.shade300,
+                                                // TODO: Handle this case.
+                                                _ => throw UnimplementedError(),
+                                              },
+                                            );
                                           }).toList(),
                                     );
                                   }).toList(),
