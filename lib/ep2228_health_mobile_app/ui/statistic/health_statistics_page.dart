@@ -100,7 +100,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                             barRods: [
                               BarChartRodData(
                                 toY: 100,
-                                width: 52,
+                                width: 48,
                                 borderRadius: BorderRadius.zero,
 
                                 rodStackItems: [
@@ -125,7 +125,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                             barRods: [
                               BarChartRodData(
                                 toY: 100,
-                                width: 52,
+                                width: 48,
                                 borderRadius: BorderRadius.zero,
 
                                 rodStackItems: [
@@ -150,7 +150,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                             barRods: [
                               BarChartRodData(
                                 toY: 100,
-                                width: 52,
+                                width: 48,
                                 borderRadius: BorderRadius.zero,
 
                                 rodStackItems: [
@@ -175,7 +175,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                             barRods: [
                               BarChartRodData(
                                 toY: 100,
-                                width: 52,
+                                width: 48,
                                 borderRadius: BorderRadius.zero,
 
                                 rodStackItems: [
@@ -200,7 +200,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                             barRods: [
                               BarChartRodData(
                                 toY: 100,
-                                width: 52,
+                                width: 48,
                                 borderRadius: BorderRadius.zero,
 
                                 rodStackItems: [
@@ -225,7 +225,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                             barRods: [
                               BarChartRodData(
                                 toY: 100,
-                                width: 52,
+                                width: 48,
                                 borderRadius: BorderRadius.zero,
 
                                 rodStackItems: [
