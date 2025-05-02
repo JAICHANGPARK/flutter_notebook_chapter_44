@@ -64,7 +64,9 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
         x: index,
         barRods: [BarChartRodData(toY: data.reduce((a, b) => a + b),
           rodStackItems: rodStacks,
-          width: 40
+          width: 40,
+          borderRadius: BorderRadius.circular(0),
+          color: Colors.transparent,
         )],
       );
     });
