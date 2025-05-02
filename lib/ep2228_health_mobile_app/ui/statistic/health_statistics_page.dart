@@ -36,7 +36,31 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
 
     barGroups = List.generate(7, (index) {
       final data = weeklyData[index];
+      List<BarChartRodStackItem> rodStacks = [];
       double startY = 0;
+      if (data[0] > 0) {
+        rodStacks.add(
+          BarChartRodStackItem(startY, startY += data[0], activityColor),
+        );
+      }
+      if (data[1] > 0) {
+        rodStacks.add(
+          BarChartRodStackItem(startY, startY += data[1], carbsColor),
+        );
+      }
+
+      if (data[2] > 0) {
+        rodStacks.add(
+          BarChartRodStackItem(startY, startY += data[2], proteinColor),
+        );
+      }
+      if (data[3] > 0) {
+        rodStacks.add(
+          BarChartRodStackItem(startY, startY += data[3], fatColor),
+        );
+      }
+
+
     });
   }
 
