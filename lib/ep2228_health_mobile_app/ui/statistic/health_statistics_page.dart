@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_44/ep2228_health_mobile_app/ui/weight/widget/chart_legend_item_widget.dart';
 
@@ -105,7 +107,9 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                             radius: 24,
                             backgroundColor: Colors.black,
                             foregroundColor: Colors.white,
-                            child: Icon(Icons.arrow_forward),
+                            child: Transform.rotate(
+                                angle: - pi / 4,
+                                child: Icon(Icons.arrow_forward)),
                           ),
                         ],
                       ),
