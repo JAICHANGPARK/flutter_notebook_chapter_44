@@ -23,6 +23,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
               spacing: 12,
               children: [
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
                       "Current week",
@@ -35,6 +36,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                     IconButton(
                       onPressed: () {},
                       icon: Icon(Icons.calendar_month),
+                      color: Colors.white,
                     ),
                   ],
                 ),
