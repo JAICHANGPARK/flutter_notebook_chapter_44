@@ -15,6 +15,8 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
   final Color fatColor = Colors.pink[300]!;
   final Color proteinColor = Colors.yellow[600]!;
   final Color carbsColor = Colors.green[500]!;
+  final activityColor = Colors.grey[300]!;
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
