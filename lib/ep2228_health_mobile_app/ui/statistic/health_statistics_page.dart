@@ -60,7 +60,13 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
         );
       }
 
-
+      return BarChartGroupData(
+        x: index,
+        barRods: [BarChartRodData(toY: data.reduce((a, b) => a + b),
+          rodStackItems: rodStacks,
+          width: 40
+        )],
+      );
     });
   }
 
