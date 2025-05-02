@@ -74,6 +74,22 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                   Expanded(
                     child: BarChart(
                       BarChartData(
+                        barTouchData: BarTouchData(enabled: false),
+                        titlesData: FlTitlesData(
+                          show: true,
+                          bottomTitles: AxisTitles(
+                            sideTitles: SideTitles(showTitles: true),
+                          ),
+                          leftTitles: AxisTitles(
+                            sideTitles: SideTitles(showTitles: false),
+                          ),
+                          rightTitles: AxisTitles(
+                            sideTitles: SideTitles(showTitles: false),
+                          ),
+                          topTitles: AxisTitles(
+                            sideTitles: SideTitles(showTitles: false),
+                          ),
+                        ),
                         gridData: FlGridData(show: false),
                         borderData: FlBorderData(show: false),
                       ),
