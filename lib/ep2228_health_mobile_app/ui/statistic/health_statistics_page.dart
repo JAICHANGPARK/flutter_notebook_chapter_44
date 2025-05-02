@@ -80,7 +80,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                 return Container(
                   margin: EdgeInsets.only(right: 12),
                   width: 320,
-                  padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                  padding: EdgeInsets.symmetric(horizontal: 24, vertical: 16),
                   color: Colors.white,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
