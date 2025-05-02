@@ -153,6 +153,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                         ),
                         gridData: FlGridData(show: false),
                         borderData: FlBorderData(show: false),
+                        barGroups: barGroups,
                         // barGroups: [
                         //   BarChartGroupData(
                         //     x: 0,
