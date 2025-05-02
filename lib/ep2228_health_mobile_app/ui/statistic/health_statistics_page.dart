@@ -18,14 +18,15 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
   final activityColor = Colors.grey[300]!;
 
   List<List<double>> weeklyData = [
-    [20,40,30,10],
-    [15, 35,25,5],
-    [10, 20 ,15,5],
-    [25,40,20,15],
+    [20, 40, 30, 10],
+    [15, 35, 25, 5],
+    [10, 20, 15, 5],
+    [25, 40, 20, 15],
     [15, 35, 45, 30],
-    [10, 50,30,20],
-    [20, 30,25,10],
+    [10, 50, 30, 20],
+    [20, 30, 25, 10],
   ];
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
