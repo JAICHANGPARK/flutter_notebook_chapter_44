@@ -67,7 +67,23 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
           Expanded(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-              child: Placeholder(),
+              child: Column(
+                children: [
+                  Expanded(child: Placeholder()),
+                  Row(
+                    children: [
+                      Text("Mon", style: TextStyle(color: Colors.white)),
+                      Text("Tue", style: TextStyle(color: Colors.white)),
+                      Text("Wed", style: TextStyle(color: Colors.white)),
+                      Text("Thu", style: TextStyle(color: Colors.white)),
+                      Text("Fri", style: TextStyle(color: Colors.white)),
+                      Text("Sat", style: TextStyle(color: Colors.white)),
+                      Text("Sun", style: TextStyle(color: Colors.white)),
+
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
 
@@ -108,8 +124,9 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                             backgroundColor: Colors.black,
                             foregroundColor: Colors.white,
                             child: Transform.rotate(
-                                angle: - pi / 4,
-                                child: Icon(Icons.arrow_forward)),
+                              angle: -pi / 4,
+                              child: Icon(Icons.arrow_forward),
+                            ),
                           ),
                         ],
                       ),
