@@ -27,6 +27,19 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
     [20, 30, 25, 10],
   ];
 
+  List<BarChartGroupData> barGroups = [];
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+
+    barGroups = List.generate(7, (index) {
+      final data = weeklyData[index];
+      double startY = 0;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
