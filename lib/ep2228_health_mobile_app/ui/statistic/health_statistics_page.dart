@@ -24,10 +24,18 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
               children: [
                 Row(
                   children: [
-                    Text("Current week", style: TextStyle(color: Colors.white,
-                      fontSize: 24,
-                    )),
-                    IconButton(onPressed: (){}, icon: Icon(Icons.calendar_month)),
+                    Text(
+                      "Current week",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 32,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.calendar_month),
+                    ),
                   ],
                 ),
                 Divider(),
@@ -42,43 +50,37 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                       color: Colors.orange.shade300,
                       text: "protein",
                     ),
-                    ChartLegendItemWidget(
-                      color: Colors.green,
-                      text: "carbs",
-                    ),
+                    ChartLegendItemWidget(color: Colors.green, text: "carbs"),
                     ChartLegendItemWidget(
                       color: Colors.white,
                       text: "activity",
                     ),
                   ],
                 ),
-
               ],
             ),
           ),
-          Expanded(child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-            child: Placeholder(),
-          )),
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              child: Placeholder(),
+            ),
+          ),
 
           Container(
             height: 170,
-            margin: EdgeInsets.only(
-              left: 16
-            ),
+            margin: EdgeInsets.only(left: 16),
             child: ListView.builder(
-
               scrollDirection: Axis.horizontal,
-              itemBuilder: (context,index){
-              return Container(
-                margin: EdgeInsets.only(
-                  right: 12,
-                ),
-                width: 320,
-                child: Placeholder(),
-              );
-            },),
-          )
+              itemBuilder: (context, index) {
+                return Container(
+                  margin: EdgeInsets.only(right: 12),
+                  width: 320,
+                  child: Placeholder(),
+                );
+              },
+            ),
+          ),
         ],
       ),
     );
