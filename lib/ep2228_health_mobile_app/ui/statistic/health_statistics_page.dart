@@ -72,7 +72,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                 children: [
                   Expanded(child: Placeholder()),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Text("Mon", style: TextStyle(color: Colors.white)),
                       Text("Tue", style: TextStyle(color: Colors.white)),
