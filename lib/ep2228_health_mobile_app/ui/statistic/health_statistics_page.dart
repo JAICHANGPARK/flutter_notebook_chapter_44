@@ -72,7 +72,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
           ),
 
           Container(
-            height: 170,
+            height: 160,
             margin: EdgeInsets.only(left: 16),
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
@@ -80,7 +80,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                 return Container(
                   margin: EdgeInsets.only(right: 12),
                   width: 320,
-                  padding: EdgeInsets.all(20),
+                  padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                   color: Colors.white,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
