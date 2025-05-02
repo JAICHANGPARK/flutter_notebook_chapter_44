@@ -13,7 +13,8 @@ class HealthStatisticsPage extends StatefulWidget {
 
 class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
   final Color fatColor = Colors.pink[300]!;
-  
+  final Color proteinColor = Colors.yellow[600]!;
+  final Color carbsColor = Colors.green[500]!;
   @override
   Widget build(BuildContext context) {
     return SafeArea(
