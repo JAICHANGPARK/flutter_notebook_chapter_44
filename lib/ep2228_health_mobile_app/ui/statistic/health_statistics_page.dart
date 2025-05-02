@@ -78,7 +78,11 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                 return Container(
                   margin: EdgeInsets.only(right: 12),
                   width: 320,
-                  child: Placeholder(),
+                  child: Column(
+                    children: [
+                      
+                    ],
+                  ),
                 );
               },
             ),
