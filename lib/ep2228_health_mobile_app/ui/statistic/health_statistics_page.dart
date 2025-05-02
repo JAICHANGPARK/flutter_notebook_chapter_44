@@ -68,9 +68,11 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
               child: Column(
+                spacing: 12,
                 children: [
                   Expanded(child: Placeholder()),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text("Mon", style: TextStyle(color: Colors.white)),
                       Text("Tue", style: TextStyle(color: Colors.white)),
