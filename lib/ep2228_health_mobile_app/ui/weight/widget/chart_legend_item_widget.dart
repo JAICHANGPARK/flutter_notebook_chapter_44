@@ -12,7 +12,7 @@ class ChartLegendItemWidget extends StatelessWidget {
       spacing: 8,
       children: [
         CircleAvatar(radius: 7, backgroundColor: color),
-        Text(text ?? "-", style: TextStyle(color: Colors.grey)),
+        Text(text ?? "-", style: TextStyle(color: Colors.white)),
       ],
     );
   }
