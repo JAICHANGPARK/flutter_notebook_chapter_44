@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_44/ep2228_health_mobile_app/ui/weight/widget/chart_legend_item_widget.dart';
+import 'package:fl_chart/fl_chart.dart';
 
 class HealthStatisticsPage extends StatefulWidget {
   const HealthStatisticsPage({super.key});
@@ -70,7 +71,14 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
               child: Column(
                 spacing: 12,
                 children: [
-                  Expanded(child: Placeholder()),
+                  Expanded(
+                    child: BarChart(
+                      BarChartData(
+                        gridData: FlGridData(show: false),
+                        borderData: FlBorderData(show: false),
+                      ),
+                    ),
+                  ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
@@ -81,7 +89,6 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                       Text("Fri", style: TextStyle(color: Colors.white)),
                       Text("Sat", style: TextStyle(color: Colors.white)),
                       Text("Sun", style: TextStyle(color: Colors.white)),
-
                     ],
                   ),
                 ],
