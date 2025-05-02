@@ -78,9 +78,36 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                 return Container(
                   margin: EdgeInsets.only(right: 12),
                   width: 320,
+                  padding: EdgeInsets.all(20),
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      
+                      Text(
+                        'fried eggs with tomatoes\nand bacon',
+                        style: TextStyle(fontSize: 16),
+                      ),
+                      Row(
+                        textBaseline: TextBaseline.alphabetic,
+                        crossAxisAlignment: CrossAxisAlignment.baseline,
+                        children: [
+                          Text(
+                            "62",
+                            style: TextStyle(
+                              fontSize: 42,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          Text("kcal"),
+                          Spacer(),
+                          CircleAvatar(
+                            radius: 24,
+                            backgroundColor: Colors.black,
+                            foregroundColor: Colors.white,
+                            child: Icon(Icons.arrow_forward),
+                          ),
+                        ],
+                      ),
                     ],
                   ),
                 );
