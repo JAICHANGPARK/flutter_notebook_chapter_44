@@ -151,16 +151,25 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                                   fontSize: 14,
                                 );
                                 String text = "";
-                                switch (value.toInt()){
-                                  case 0: text = 'Mon';
-                                  case 1: text = 'Tue';
-                                  case 2: text = 'Web';
-                                  case 3: text = 'Thu';
-                                  case 4: text = 'Fri';
-                                  case 5: text = 'Sat';
-                                  case 6: text = 'Sun';
-                                  
+                                switch (value.toInt()) {
+                                  case 0:
+                                    text = 'Mon';
+                                  case 1:
+                                    text = 'Tue';
+                                  case 2:
+                                    text = 'Web';
+                                  case 3:
+                                    text = 'Thu';
+                                  case 4:
+                                    text = 'Fri';
+                                  case 5:
+                                    text = 'Sat';
+                                  case 6:
+                                    text = 'Sun';
+                                  default:
+                                    text = '';
                                 }
+                                return Text(text, style: style);
                               },
                             ),
                           ),
