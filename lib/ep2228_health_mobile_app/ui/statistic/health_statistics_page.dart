@@ -368,18 +368,6 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                       ),
                     ),
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                      Text("Mon", style: TextStyle(color: Colors.white)),
-                      Text("Tue", style: TextStyle(color: Colors.white)),
-                      Text("Wed", style: TextStyle(color: Colors.white)),
-                      Text("Thu", style: TextStyle(color: Colors.white)),
-                      Text("Fri", style: TextStyle(color: Colors.white)),
-                      Text("Sat", style: TextStyle(color: Colors.white)),
-                      Text("Sun", style: TextStyle(color: Colors.white)),
-                    ],
-                  ),
                 ],
               ),
             ),
