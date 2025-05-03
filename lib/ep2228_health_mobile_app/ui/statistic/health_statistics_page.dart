@@ -62,12 +62,15 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
 
       return BarChartGroupData(
         x: index,
-        barRods: [BarChartRodData(toY: data.reduce((a, b) => a + b),
-          rodStackItems: rodStacks,
-          width: 40,
-          borderRadius: BorderRadius.circular(0),
-          color: Colors.transparent,
-        )],
+        barRods: [
+          BarChartRodData(
+            toY: data.reduce((a, b) => a + b),
+            rodStackItems: rodStacks,
+            width: 42,
+            borderRadius: BorderRadius.circular(0),
+            color: Colors.transparent,
+          ),
+        ],
       );
     });
   }
@@ -139,7 +142,27 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                         titlesData: FlTitlesData(
                           show: true,
                           bottomTitles: AxisTitles(
-                            sideTitles: SideTitles(showTitles: true),
+                            sideTitles: SideTitles(
+                              showTitles: true,
+                              getTitlesWidget: (value, meta) {
+                                final style = TextStyle(
+                                  color: Colors.grey[500]!,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 14,
+                                );
+                                String text = "";
+                                switch (value.toInt()){
+                                  case 0: text = 'Mon';
+                                  case 1: text = 'Tue';
+                                  case 2: text = 'Web';
+                                  case 3: text = 'Thu';
+                                  case 4: text = 'Fri';
+                                  case 5: text = 'Sat';
+                                  case 6: text = 'Sun';
+                                  
+                                }
+                              },
+                            ),
                           ),
                           leftTitles: AxisTitles(
                             sideTitles: SideTitles(showTitles: false),
