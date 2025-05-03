@@ -28,6 +28,8 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
   ];
 
   List<BarChartGroupData> barGroups = [];
+  double maxY = 0;
+
 
   @override
   void initState() {
@@ -73,6 +75,16 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
         ],
       );
     });
+
+    for (var data in weeklyData){
+      final sum = data.reduce((a, b)=> a + b);
+      if(sum > maxY){
+        maxY = sum;
+      }
+    }
+
+
+    maxY *= 1.1;
   }
 
   @override
@@ -137,6 +149,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                   Expanded(
                     child: BarChart(
                       BarChartData(
+                        maxY: maxY,
                         alignment: BarChartAlignment.spaceAround,
                         barTouchData: BarTouchData(enabled: false),
                         titlesData: FlTitlesData(
@@ -144,6 +157,7 @@ class _HealthStatisticsPageState extends State<HealthStatisticsPage> {
                           bottomTitles: AxisTitles(
                             sideTitles: SideTitles(
                               showTitles: true,
+
                               getTitlesWidget: (value, meta) {
                                 final style = TextStyle(
                                   color: Colors.grey[500]!,
