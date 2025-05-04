@@ -36,7 +36,6 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
                 gradient: LinearGradient(
                   begin: Alignment.bottomCenter,
                   end: Alignment.topCenter,
-
                   colors: [
                     Color.fromRGBO(233, 227, 192, 1),
                     Color.fromRGBO(238, 234, 211, 1),
@@ -46,8 +45,16 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
                   ],
                 ),
               ),
+
             ),
           ),
+          Positioned(
+              left: 24,
+              right: 24,
+              bottom: 24,
+              child: Column(children: [
+
+          ],))
         ],
       ),
     );
