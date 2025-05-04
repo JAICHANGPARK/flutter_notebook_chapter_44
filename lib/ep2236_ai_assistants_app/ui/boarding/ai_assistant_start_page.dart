@@ -58,7 +58,13 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
                 Text(
                   "Unleash you potential & boost productivity with an AI powered Assistant.",
                 ),
-                Container(decoration: ShapeDecoration(shape: StadiumBorder())),
+                Container(
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Color.fromRGBO(190, 200, 249, 1),
+                  ),
+                  child: Center(child: Text("Start as Guest")),
+                ),
               ],
             ),
           ),
