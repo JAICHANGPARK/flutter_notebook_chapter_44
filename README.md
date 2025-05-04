@@ -2,8 +2,8 @@
 
 ## EP2236
 
-- Health Mobile App
 - Arobix AI - Chat GPT Powered AI Assistant
+- Mainul Islam Arafat for Arobix Design
 - https://dribbble.com/shots/25927556-Health-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/43017723/file/original-3982d06fb1911a4800ca631cfe92cf24.png?resize=1905x1429&vertical=center">
