@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_44/ep2236_ai_assistants_app/ui/home/ai_assistant_home_page.dart';
 import 'package:gap/gap.dart';
 
 class AiAssistantStartPage extends StatefulWidget {
@@ -80,7 +81,13 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
                 ),
                 Gap(32),
                 InkWell(
-                  
+                  onTap: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => AiAssistantHomePage(),
+                      ),
+                    );
+                  },
                   child: Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
