@@ -10,8 +10,14 @@ class AiAssistantHomePage extends StatefulWidget {
 class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-
+    return Scaffold(backgroundColor: Color.fromRGBO(237, 230, 207, 1),
+        body: Column(
+          children: [
+            Expanded(child: Container(decoration: BoxDecoration(
+              
+            ),))
+          ],
+        ),
     );
   }
 }
