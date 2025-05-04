@@ -53,8 +53,15 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
             right: 24,
             bottom: 32,
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text("Empower yourself with An AI Assistant!"),
+                Text("Empower yourself with An AI Assistant!",style: TextStyle(
+                  fontSize: 28,
+                  fontWeight: FontWeight.bold,
+
+                ),
+                textAlign: TextAlign.center,
+                ),
                 Gap(16),
                 Text(
                   "Unleash you potential & boost productivity with an AI powered Assistant.",
