@@ -20,6 +20,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                 color: Colors.white,
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(42),
+                bottomRight: Radius.circular(42),
               )
             ),),),
             Container(
