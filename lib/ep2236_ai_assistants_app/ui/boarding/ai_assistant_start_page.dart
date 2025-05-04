@@ -79,16 +79,19 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
                   textAlign: TextAlign.center,
                 ),
                 Gap(32),
-                Container(
-                  decoration: ShapeDecoration(
-                    shape: StadiumBorder(),
-                    color: Color.fromRGBO(190, 200, 249, 1),
-                  ),
-                  padding: EdgeInsets.symmetric(vertical: 14),
-                  child: Center(
-                    child: Text(
-                      "Get Start as Guest",
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                InkWell(
+                  
+                  child: Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Color.fromRGBO(190, 200, 249, 1),
+                    ),
+                    padding: EdgeInsets.symmetric(vertical: 14),
+                    child: Center(
+                      child: Text(
+                        "Get Start as Guest",
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
                     ),
                   ),
                 ),
