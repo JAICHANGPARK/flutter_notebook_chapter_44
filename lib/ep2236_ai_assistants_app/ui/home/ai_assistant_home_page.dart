@@ -17,6 +17,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
 
 
               decoration: BoxDecoration(
+                color: Colors.white,
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(42),
               )
