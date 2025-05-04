@@ -28,10 +28,11 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
           ),
           Container(
             height: 100,
-
+  
             child: Row(
               children: [
                 Column(
+                  spacing: 8,
                   children: [Icon(HugeIcons.strokeRoundedHome02), Text("Home")],
                 ),
               ],
