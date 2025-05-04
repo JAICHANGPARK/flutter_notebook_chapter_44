@@ -13,8 +13,13 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
     return Scaffold(backgroundColor: Color.fromRGBO(237, 230, 207, 1),
         body: Column(
           children: [
-            Expanded(child: Container(decoration: BoxDecoration(
-              
+            Expanded(child: Container(
+
+
+              decoration: BoxDecoration(
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(42),
+              )
             ),))
           ],
         ),
