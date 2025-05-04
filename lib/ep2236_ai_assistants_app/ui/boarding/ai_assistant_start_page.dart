@@ -11,6 +11,6 @@ class AiAssistantStartPage extends StatefulWidget {
 class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
