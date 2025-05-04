@@ -1,9 +1,9 @@
 # flutter_notebook_chapter_44
 
-## EP2228-2235
+## EP2236
 
 - Health Mobile App
-- Ronas IT | UI/UX Team
+- Arobix AI - Chat GPT Powered AI Assistant
 - https://dribbble.com/shots/25927556-Health-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/43017723/file/original-3982d06fb1911a4800ca631cfe92cf24.png?resize=1905x1429&vertical=center">
