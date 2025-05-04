@@ -15,9 +15,12 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
         children: [
           Positioned.fill(
             child: Container(
+
               decoration: BoxDecoration(
+                color: Colors.white,
                 gradient: LinearGradient(
-                  colors: [Color.fromRGBO(229, 234, 228, 1)],
+                  colors: [Color.fromRGBO(229, 234, 228, 1),
+                    Color.fromRGBO(229, 234, 228, 1)],
                 ),
               ),
             ),
