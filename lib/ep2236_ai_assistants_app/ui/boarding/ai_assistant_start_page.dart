@@ -63,6 +63,7 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
                     child: Text("Skip"),
                   ),
                 ),
+                Spacer(),
                 Text(
                   "Empower yourself with An AI Assistant!",
                   style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
