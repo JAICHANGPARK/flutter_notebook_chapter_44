@@ -10,6 +10,8 @@ class AiAssistantHomePage extends StatefulWidget {
 class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      
+    );
   }
 }
