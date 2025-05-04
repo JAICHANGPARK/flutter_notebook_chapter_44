@@ -59,7 +59,11 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
                 Align(
                   alignment: Alignment.centerRight,
                   child: Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Color.fromRGBO(228, 223, 207, 1),
+                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                     child: Text("Skip"),
                   ),
                 ),
