@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class AiAssistantStartPage extends StatefulWidget {
   const AiAssistantStartPage({super.key});
@@ -54,7 +55,7 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
             child: Column(
               children: [
                 Text("Empower yourself with An AI Assistant!"),
-
+                Gap(20),
                 Text(
                   "Unleash you potential & boost productivity with an AI powered Assistant.",
                 ),
@@ -63,6 +64,7 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
                     shape: StadiumBorder(),
                     color: Color.fromRGBO(190, 200, 249, 1),
                   ),
+                  padding: EdgeInsets.symmetric(vertical: 14,),
                   child: Center(child: Text("Start as Guest")),
                 ),
               ],
