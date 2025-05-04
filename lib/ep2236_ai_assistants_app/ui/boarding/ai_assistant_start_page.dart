@@ -49,12 +49,20 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
             ),
           ),
           Positioned(
+            top: 62,
             left: 24,
             right: 24,
             bottom: 32,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: Text("Skip"),
+                  ),
+                ),
                 Text(
                   "Empower yourself with An AI Assistant!",
                   style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
