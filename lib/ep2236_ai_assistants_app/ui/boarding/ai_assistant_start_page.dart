@@ -51,7 +51,7 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
           Positioned(
             left: 24,
             right: 24,
-            bottom: 24,
+            bottom: 32,
             child: Column(
               children: [
                 Text("Empower yourself with An AI Assistant!"),
