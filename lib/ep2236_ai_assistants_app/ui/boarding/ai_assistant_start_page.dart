@@ -29,6 +29,21 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
               ),
             ),
           ),
+          Positioned.fill(
+            child: Container(
+              decoration: BoxDecoration(
+
+                gradient: LinearGradient(
+                  begin: Alignment.bottomCenter,
+                  end: Alignment.topCenter,
+                  colors: [
+                    Color.fromRGBO(233, 227, 192, 1),
+                    Colors.transparent,
+                  ],
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );
