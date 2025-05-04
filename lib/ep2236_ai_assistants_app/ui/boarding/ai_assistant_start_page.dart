@@ -55,16 +55,15 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text("Empower yourself with An AI Assistant!",style: TextStyle(
-                  fontSize: 28,
-                  fontWeight: FontWeight.bold,
-
-                ),
-                textAlign: TextAlign.center,
+                Text(
+                  "Empower yourself with An AI Assistant!",
+                  style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+                  textAlign: TextAlign.center,
                 ),
                 Gap(16),
                 Text(
                   "Unleash you potential & boost productivity with an AI powered Assistant.",
+                  textAlign: TextAlign.center,
                 ),
                 Gap(32),
                 Container(
@@ -72,8 +71,13 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
                     shape: StadiumBorder(),
                     color: Color.fromRGBO(190, 200, 249, 1),
                   ),
-                  padding: EdgeInsets.symmetric(vertical: 14,),
-                  child: Center(child: Text("Start as Guest")),
+                  padding: EdgeInsets.symmetric(vertical: 14),
+                  child: Center(
+                    child: Text(
+                      "Get Start as Guest",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                  ),
                 ),
                 Gap(12),
                 Container(
@@ -81,10 +85,13 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
                     shape: StadiumBorder(),
                     color: Colors.black,
                   ),
-                  padding: EdgeInsets.symmetric(vertical: 14,),
-                  child: Center(child: Text("Sign Up",style: TextStyle(
-                    color: Colors.white,
-                  ),)),
+                  padding: EdgeInsets.symmetric(vertical: 14),
+                  child: Center(
+                    child: Text(
+                      "Sign Up",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
                 ),
               ],
             ),
