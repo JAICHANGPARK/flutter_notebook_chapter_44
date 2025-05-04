@@ -21,7 +21,11 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(42),
               )
-            ),))
+            ),),),
+            Container(
+              height: 100,
+
+            )
           ],
         ),
     );
