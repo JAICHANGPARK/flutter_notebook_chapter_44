@@ -8,8 +8,6 @@
 
 <img src="https://cdn.dribbble.com/userupload/43163885/file/original-ef865c92806b03c1390b4f21dec8894f.jpg?resize=1905x1429&vertical=center">
 
-
-
 ## EP2228-2235
 
 - Health Mobile App
@@ -17,7 +15,6 @@
 - https://dribbble.com/shots/25927556-Health-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/43017723/file/original-3982d06fb1911a4800ca631cfe92cf24.png?resize=1905x1429&vertical=center">****
-
 
 ## EP2219-2227
 
