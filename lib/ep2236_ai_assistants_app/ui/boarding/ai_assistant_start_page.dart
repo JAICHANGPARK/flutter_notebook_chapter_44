@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class AiAssistantStartPage extends StatefulWidget {
   const AiAssistantStartPage({super.key});
 
@@ -11,6 +10,8 @@ class AiAssistantStartPage extends StatefulWidget {
 class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Stack(children: [Positioned.fill(child: Container())]),
+    );
   }
 }
