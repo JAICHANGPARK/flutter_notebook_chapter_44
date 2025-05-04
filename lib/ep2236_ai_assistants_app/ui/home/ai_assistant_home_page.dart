@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class AiAssistantHomePage extends StatefulWidget {
   const AiAssistantHomePage({super.key});
@@ -25,7 +26,17 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
               ),
             ),
           ),
-          Container(height: 100),
+          Container(
+            height: 100,
+
+            child: Row(
+              children: [
+                Column(
+                  children: [Icon(HugeIcons.strokeRoundedHome02), Text("Home")],
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
