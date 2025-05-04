@@ -75,7 +75,9 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
                     color: Colors.black,
                   ),
                   padding: EdgeInsets.symmetric(vertical: 14,),
-                  child: Center(child: Text("Start as Guest")),
+                  child: Center(child: Text("Sign Up",style: TextStyle(
+                    color: Colors.white,
+                  ),)),
                 ),
               ],
             ),
