@@ -69,6 +69,14 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
                   child: Center(child: Text("Start as Guest")),
                 ),
                 Gap(12),
+                Container(
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.black,
+                  ),
+                  padding: EdgeInsets.symmetric(vertical: 14,),
+                  child: Center(child: Text("Start as Guest")),
+                ),
               ],
             ),
           ),
