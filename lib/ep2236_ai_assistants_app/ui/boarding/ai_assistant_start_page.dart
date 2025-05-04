@@ -54,9 +54,11 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
             child: Column(
               children: [
                 Text("Empower yourself with An AI Assistant!"),
+
                 Text(
                   "Unleash you potential & boost productivity with an AI powered Assistant.",
                 ),
+                Container(decoration: ShapeDecoration(shape: StadiumBorder())),
               ],
             ),
           ),
