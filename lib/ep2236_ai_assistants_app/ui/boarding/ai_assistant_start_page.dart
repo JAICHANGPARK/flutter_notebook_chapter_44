@@ -55,10 +55,11 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
             child: Column(
               children: [
                 Text("Empower yourself with An AI Assistant!"),
-                Gap(20),
+                Gap(16),
                 Text(
                   "Unleash you potential & boost productivity with an AI powered Assistant.",
                 ),
+                Gap(32),
                 Container(
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
@@ -67,6 +68,7 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
                   padding: EdgeInsets.symmetric(vertical: 14,),
                   child: Center(child: Text("Start as Guest")),
                 ),
+                Gap(12),
               ],
             ),
           ),
