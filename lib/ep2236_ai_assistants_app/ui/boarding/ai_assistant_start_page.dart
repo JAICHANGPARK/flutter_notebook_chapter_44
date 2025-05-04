@@ -30,15 +30,19 @@ class _AiAssistantStartPageState extends State<AiAssistantStartPage> {
             ),
           ),
           Positioned.fill(
+            // top: MediaQuery.sizeOf(context).height / 2,
             child: Container(
               decoration: BoxDecoration(
-
                 gradient: LinearGradient(
                   begin: Alignment.bottomCenter,
                   end: Alignment.topCenter,
+
                   colors: [
                     Color.fromRGBO(233, 227, 192, 1),
-                    Colors.transparent,
+                    Color.fromRGBO(238, 234, 211, 1),
+                    Colors.white.withValues(alpha: .1),
+                    Colors.white.withValues(alpha: .1),
+                    // Colors.transparent,
                   ],
                 ),
               ),
