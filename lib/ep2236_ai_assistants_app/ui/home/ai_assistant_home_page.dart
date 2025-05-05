@@ -34,8 +34,14 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                         bottomLeft: Radius.circular(42),
                         bottomRight: Radius.circular(42),
                       ),
+                      gradient: LinearGradient(
+                        colors: [
+                          Color.fromRGBO(255, 245, 235, 1),
+                          Color.fromRGBO(235, 244, 228, 1),
+                        ],
+                      ),
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
