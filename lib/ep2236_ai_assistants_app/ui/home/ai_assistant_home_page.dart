@@ -52,8 +52,11 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                             children: [
                               CircleAvatar(radius: 28),
                               Spacer(),
-                              CircleAvatar(radius: 28),
-                              CircleAvatar(radius: 28),
+                              CircleAvatar(radius: 28,
+                              backgroundColor: Colors.white.withValues(alpha: .2),),
+                              CircleAvatar(radius: 28,
+                                backgroundColor: Colors.white.withValues(alpha: .2),
+                              ),
                             ],
                           ),
                           Text(
