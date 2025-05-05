@@ -30,7 +30,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
             height: 100,
             padding: EdgeInsets.symmetric(horizontal: 24),
             child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Column(
                   mainAxisAlignment: MainAxisAlignment.center,
