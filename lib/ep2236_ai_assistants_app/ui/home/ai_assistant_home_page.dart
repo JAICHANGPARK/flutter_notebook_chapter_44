@@ -37,6 +37,21 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                   spacing: 8,
                   children: [Icon(HugeIcons.strokeRoundedHome02), Text("Home")],
                 ),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  spacing: 8,
+                  children: [Icon(HugeIcons.strokeRoundedHome02), Text("Home")],
+                ),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  spacing: 8,
+                  children: [Icon(HugeIcons.strokeRoundedHome02), Text("Home")],
+                ),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  spacing: 8,
+                  children: [Icon(HugeIcons.strokeRoundedHome02), Text("Home")],
+                ),
               ],
             ),
           ),
