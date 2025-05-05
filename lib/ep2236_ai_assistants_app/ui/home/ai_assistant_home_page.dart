@@ -82,7 +82,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                             "Hello Dream",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 24,
+                              fontSize: 26,
                             ),
                           ),
                           Gap(4),
@@ -90,15 +90,16 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                             "What's on your mind?",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 24,
+                              fontSize: 26,
                             ),
-                          ),
+                          ), Gap(4),
                           Text(
                             "What type of help you need!",
                             style: TextStyle(color: Colors.grey),
                           ),
                           Gap(16),
                           Row(
+                            spacing: 12,
                             children: [
                               Expanded(
                                 child: Container(
