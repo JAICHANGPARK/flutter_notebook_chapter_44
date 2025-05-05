@@ -146,6 +146,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                   ),
                   Expanded(
                     child: Column(
+                      spacing: 16,
                       children: [
                         Expanded(
                           child: Row(
