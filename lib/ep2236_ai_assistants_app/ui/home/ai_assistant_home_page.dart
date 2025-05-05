@@ -46,7 +46,6 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                     padding: EdgeInsets.all(20),
                     child: SafeArea(
                       child: Column(
-
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Row(
@@ -58,14 +57,18 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                 radius: 28,
                                 backgroundColor: Colors.black.withValues(
                                   alpha: .1,
-                                ),foregroundColor: Colors.black,
-                                child: Icon(HugeIcons.strokeRoundedMessageQuestion),
+                                ),
+                                foregroundColor: Colors.black,
+                                child: Icon(
+                                  HugeIcons.strokeRoundedMessageQuestion,
+                                ),
                               ),
                               CircleAvatar(
                                 radius: 28,
                                 backgroundColor: Colors.black.withValues(
                                   alpha: .1,
                                 ),
+                                foregroundColor: Colors.black,
                                 child: Icon(HugeIcons.strokeRoundedListSetting),
                               ),
                             ],
@@ -102,14 +105,14 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                       border: InputBorder.none,
                                       prefixIcon: Icon(Icons.search),
                                       hintText: "Search waht you want..",
-                                      contentPadding: EdgeInsets.symmetric(vertical: 12)
+                                      contentPadding: EdgeInsets.symmetric(
+                                        vertical: 12,
+                                      ),
                                     ),
                                   ),
                                 ),
                               ),
-                              CircleAvatar(
-                                radius: 28,
-                              ),
+                              CircleAvatar(radius: 28),
                             ],
                           ),
                         ],
