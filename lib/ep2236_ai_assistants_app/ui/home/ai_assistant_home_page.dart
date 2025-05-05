@@ -28,7 +28,6 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
               child: Column(
                 children: [
                   Container(
-
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.only(
@@ -52,10 +51,12 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                           Row(
                             spacing: 12,
                             children: [
-                              CircleAvatar(radius: 28,
-                      backgroundColor: Colors.black.withValues(
-                        alpha: .1,
-                      ),),
+                              CircleAvatar(
+                                radius: 28,
+                                backgroundColor: Colors.black.withValues(
+                                  alpha: .1,
+                                ),
+                              ),
                               Spacer(),
                               CircleAvatar(
                                 radius: 28,
@@ -92,7 +93,8 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                               fontWeight: FontWeight.bold,
                               fontSize: 26,
                             ),
-                          ), Gap(4),
+                          ),
+                          Gap(4),
                           Text(
                             "What type of help you need!",
                             style: TextStyle(color: Colors.grey),
@@ -120,10 +122,11 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                   ),
                                 ),
                               ),
-                              CircleAvatar(radius: 28,
-                                backgroundColor: Colors.black.withValues(
-                                  alpha: .1,
-                                ),
+                              CircleAvatar(
+                                radius: 26,
+                                backgroundColor: Color.fromRGBO(27, 36, 49, 1),
+                                child: Icon(HugeIcons.strokeRoundedAudioWave01),
+
                               ),
                             ],
                           ),
