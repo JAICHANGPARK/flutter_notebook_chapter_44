@@ -43,7 +43,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                         ],
                       ),
                     ),
-                    padding: EdgeInsets.all(20),
+                    padding: EdgeInsets.symmetric(vertical: 28, horizontal: 20),
                     child: SafeArea(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -135,6 +135,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                       ),
                     ),
                   ),
+
                 ],
               ),
             ),
