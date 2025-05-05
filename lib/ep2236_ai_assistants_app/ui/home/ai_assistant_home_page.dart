@@ -147,12 +147,17 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                         Expanded(
                           child: Row(
                             children: [Expanded(child: Placeholder(),
-                    Expanded(child: Placeholder())],
+                            ),
+                              Expanded(child: Placeholder(),
+                              )
+                            ],
                           ),
                         ),
                         Expanded(
                           child: Row(
-                            children: [Expanded(child: Placeholder(),)],
+                            children: [Expanded(child: Placeholder()),
+                              Expanded(child: Placeholder())
+                            ],
                           ),
                         ),
                       ],
