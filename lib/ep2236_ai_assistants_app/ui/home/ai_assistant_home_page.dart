@@ -50,15 +50,30 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                         children: [
                           Row(
                             children: [
-                              CircleAvatar(),
+                              CircleAvatar(radius: 28),
                               Spacer(),
-                              CircleAvatar(),
-                              CircleAvatar(),
+                              CircleAvatar(radius: 28),
+                              CircleAvatar(radius: 28),
                             ],
                           ),
-                          Text("Hello Dream"),
-                          Text("What's on your mind?"),
-                          Text("What type of help you need!"),
+                          Text(
+                            "Hello Dream",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 20,
+                            ),
+                          ),
+                          Text(
+                            "What's on your mind?",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 20,
+                            ),
+                          ),
+                          Text(
+                            "What type of help you need!",
+                            style: TextStyle(color: Colors.grey),
+                          ),
                           Row(
                             children: [
                               Expanded(
