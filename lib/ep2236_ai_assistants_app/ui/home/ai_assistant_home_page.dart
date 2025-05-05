@@ -40,17 +40,26 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                 Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   spacing: 8,
-                  children: [Icon(HugeIcons.strokeRoundedCalendar01), Text("Today")],
+                  children: [
+                    Icon(HugeIcons.strokeRoundedCalendar01),
+                    Text("Today"),
+                  ],
                 ),
                 Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   spacing: 8,
-                  children: [Icon(HugeIcons.strokeRoundedBubbleChat), Text("Explore")],
+                  children: [
+                    Icon(HugeIcons.strokeRoundedBubbleChat),
+                    Text("Explore"),
+                  ],
                 ),
                 Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   spacing: 8,
-                  children: [Icon(HugeIcons.strokeRoundedUser), Text("Profile")],
+                  children: [
+                    Icon(HugeIcons.strokeRoundedUser),
+                    Text("Profile"),
+                  ],
                 ),
               ],
             ),
