@@ -43,18 +43,34 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                         ],
                       ),
                     ),
-                    child: Column(
-                      children: [
-                        Row(
-                          children: [
-                            CircleAvatar(),
-                            Spacer(),
-                            CircleAvatar(),
-                            CircleAvatar(),
-
-                          ],
-                        )
-                      ],
+                    padding: EdgeInsets.all(20),
+                    child: SafeArea(
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+                              CircleAvatar(),
+                              Spacer(),
+                              CircleAvatar(),
+                              CircleAvatar(),
+                            ],
+                          ),
+                          Text("Hello Dream"),
+                          Text("What's on your mind?"),
+                          Text("What type of help you need!"),
+                          Row(
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ],
