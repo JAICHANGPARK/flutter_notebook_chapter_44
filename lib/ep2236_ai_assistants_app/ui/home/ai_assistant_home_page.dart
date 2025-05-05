@@ -52,10 +52,17 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                             children: [
                               CircleAvatar(radius: 28),
                               Spacer(),
-                              CircleAvatar(radius: 28,
-                              backgroundColor: Colors.white.withValues(alpha: .2),),
-                              CircleAvatar(radius: 28,
-                                backgroundColor: Colors.white.withValues(alpha: .2),
+                              CircleAvatar(
+                                radius: 28,
+                                backgroundColor: Colors.white.withValues(
+                                  alpha: .2,
+                                ),
+                              ),
+                              CircleAvatar(
+                                radius: 28,
+                                backgroundColor: Colors.white.withValues(
+                                  alpha: .2,
+                                ),
                               ),
                             ],
                           ),
@@ -84,7 +91,13 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
                                   ),
-                                  child: TextField(),
+                                  child: TextField(
+                                    decoration: InputDecoration(
+                                      border: InputBorder.none,
+                                      prefixIcon: Icon(Icons.search),
+                                      hintText: "Search waht you want..",
+                                    ),
+                                  ),
                                 ),
                               ),
                               CircleAvatar(),
