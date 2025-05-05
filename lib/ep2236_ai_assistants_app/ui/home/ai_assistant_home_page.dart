@@ -125,6 +125,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                               CircleAvatar(
                                 radius: 26,
                                 backgroundColor: Color.fromRGBO(27, 36, 49, 1),
+                                foregroundColor: Colors.white,
                                 child: Icon(HugeIcons.strokeRoundedAudioWave01),
 
                               ),
