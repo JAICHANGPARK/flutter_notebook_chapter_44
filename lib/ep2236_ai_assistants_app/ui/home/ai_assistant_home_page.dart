@@ -120,7 +120,11 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                   ),
                                 ),
                               ),
-                              CircleAvatar(radius: 28),
+                              CircleAvatar(radius: 28,
+                                backgroundColor: Colors.black.withValues(
+                                  alpha: .1,
+                                ),
+                              ),
                             ],
                           ),
                         ],
