@@ -98,11 +98,14 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                       border: InputBorder.none,
                                       prefixIcon: Icon(Icons.search),
                                       hintText: "Search waht you want..",
+                                      contentPadding: EdgeInsets.symmetric(vertical: 12)
                                     ),
                                   ),
                                 ),
                               ),
-                              CircleAvatar(),
+                              CircleAvatar(
+                                radius: 28,
+                              ),
                             ],
                           ),
                         ],
