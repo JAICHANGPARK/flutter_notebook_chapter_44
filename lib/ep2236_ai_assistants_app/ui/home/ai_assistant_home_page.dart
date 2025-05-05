@@ -46,22 +46,24 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                     padding: EdgeInsets.all(20),
                     child: SafeArea(
                       child: Column(
+
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Row(
+                            spacing: 12,
                             children: [
                               CircleAvatar(radius: 28),
                               Spacer(),
                               CircleAvatar(
                                 radius: 28,
-                                backgroundColor: Colors.white.withValues(
-                                  alpha: .2,
+                                backgroundColor: Colors.black.withValues(
+                                  alpha: .1,
                                 ),
                               ),
                               CircleAvatar(
                                 radius: 28,
-                                backgroundColor: Colors.white.withValues(
-                                  alpha: .2,
+                                backgroundColor: Colors.black.withValues(
+                                  alpha: .1,
                                 ),
                               ),
                             ],
