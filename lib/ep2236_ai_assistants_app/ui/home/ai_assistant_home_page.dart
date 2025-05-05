@@ -28,7 +28,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
               child: Column(
                 children: [
                   Container(
-                    height: 320,
+
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.only(
@@ -52,7 +52,10 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                           Row(
                             spacing: 12,
                             children: [
-                              CircleAvatar(radius: 28),
+                              CircleAvatar(radius: 28,
+                      backgroundColor: Colors.black.withValues(
+                        alpha: .1,
+                      ),),
                               Spacer(),
                               CircleAvatar(
                                 radius: 28,
