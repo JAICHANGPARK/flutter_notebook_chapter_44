@@ -135,7 +135,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+                    padding: const EdgeInsets.only(left: 20, right: 20,top: 16),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -145,26 +145,31 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                     ),
                   ),
                   Expanded(
-                    child: Column(
-                      spacing: 16,
-                      children: [
-                        Expanded(
-                          child: Row( spacing: 16,
-                            children: [Expanded(child: Placeholder(),
+                    child: Padding(
+                      padding: const EdgeInsets.fromLTRB(20, 8, 20, 24),
+                      child: Column(
+                        spacing: 16,
+                        children: [
+                          Expanded(
+                            child: Row(
+                              spacing: 16,
+                              children: [
+                                Expanded(child: Placeholder()),
+                                Expanded(child: Placeholder()),
+                              ],
                             ),
-                              Expanded(child: Placeholder(),
-                              )
-                            ],
                           ),
-                        ),
-                        Expanded(
-                          child: Row( spacing: 16,
-                            children: [Expanded(child: Placeholder()),
-                              Expanded(child: Placeholder())
-                            ],
+                          Expanded(
+                            child: Row(
+                              spacing: 16,
+                              children: [
+                                Expanded(child: Placeholder()),
+                                Expanded(child: Placeholder()),
+                              ],
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 ],
