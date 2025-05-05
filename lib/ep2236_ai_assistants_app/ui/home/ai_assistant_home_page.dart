@@ -24,6 +24,11 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                   bottomRight: Radius.circular(42),
                 ),
               ),
+              child: Column(
+                children: [
+                  
+                ],
+              ),
             ),
           ),
           Container(
