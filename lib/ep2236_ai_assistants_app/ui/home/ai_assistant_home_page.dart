@@ -37,7 +37,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                       gradient: LinearGradient(
                         colors: [
                           Color.fromRGBO(255, 245, 235, 1),
-                          Color.fromRGBO(235, 244, 228, 1),
+                          Color.fromRGBO(253, 244, 228, 1),
                         ],
                       ),
                     ),
