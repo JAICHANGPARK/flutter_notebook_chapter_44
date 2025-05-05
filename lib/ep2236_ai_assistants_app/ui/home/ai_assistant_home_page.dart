@@ -58,7 +58,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                 radius: 28,
                                 backgroundColor: Colors.black.withValues(
                                   alpha: .1,
-                                ),
+                                ),foregroundColor: Colors.black,
                                 child: Icon(HugeIcons.strokeRoundedMessageQuestion),
                               ),
                               CircleAvatar(
