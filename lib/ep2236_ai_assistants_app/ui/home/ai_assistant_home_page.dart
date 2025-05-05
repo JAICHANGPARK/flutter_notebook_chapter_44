@@ -149,7 +149,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                       spacing: 16,
                       children: [
                         Expanded(
-                          child: Row(
+                          child: Row( spacing: 16,
                             children: [Expanded(child: Placeholder(),
                             ),
                               Expanded(child: Placeholder(),
@@ -158,7 +158,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                           ),
                         ),
                         Expanded(
-                          child: Row(
+                          child: Row( spacing: 16,
                             children: [Expanded(child: Placeholder()),
                               Expanded(child: Placeholder())
                             ],
