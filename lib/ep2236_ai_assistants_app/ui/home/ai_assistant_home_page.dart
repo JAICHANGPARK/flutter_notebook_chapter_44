@@ -65,8 +65,10 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
                                   ),
+                                  child: TextField(),
                                 ),
                               ),
+                              CircleAvatar(),
                             ],
                           ),
                         ],
