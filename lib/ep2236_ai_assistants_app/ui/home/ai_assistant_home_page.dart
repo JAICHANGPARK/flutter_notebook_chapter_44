@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class AiAssistantHomePage extends StatefulWidget {
@@ -73,24 +74,27 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                               ),
                             ],
                           ),
+                          Gap(24),
                           Text(
                             "Hello Dream",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 20,
+                              fontSize: 24,
                             ),
                           ),
+                          Gap(4),
                           Text(
                             "What's on your mind?",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 20,
+                              fontSize: 24,
                             ),
                           ),
                           Text(
                             "What type of help you need!",
                             style: TextStyle(color: Colors.grey),
                           ),
+                          Gap(16),
                           Row(
                             children: [
                               Expanded(
