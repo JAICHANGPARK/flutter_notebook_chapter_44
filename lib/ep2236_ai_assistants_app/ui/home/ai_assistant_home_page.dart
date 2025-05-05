@@ -127,7 +127,6 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                 backgroundColor: Color.fromRGBO(27, 36, 49, 1),
                                 foregroundColor: Colors.white,
                                 child: Icon(HugeIcons.strokeRoundedAudioWave01),
-
                               ),
                             ],
                           ),
@@ -135,7 +134,13 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                       ),
                     ),
                   ),
-
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text("Upcoming Task"),
+                      TextButton(onPressed: () {}, child: Text("See all")),
+                    ],
+                  ),
                 ],
               ),
             ),
