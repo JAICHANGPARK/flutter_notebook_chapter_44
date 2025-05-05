@@ -141,6 +141,23 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
+                  Expanded(
+                    child: Column(
+                      children: [
+                        Expanded(
+                          child: Row(
+                            children: [Expanded(child: Placeholder(),
+                    Expanded(child: Placeholder())],
+                          ),
+                        ),
+                        Expanded(
+                          child: Row(
+                            children: [Expanded(child: Placeholder(),)],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
