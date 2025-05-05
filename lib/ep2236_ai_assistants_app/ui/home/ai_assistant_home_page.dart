@@ -89,7 +89,9 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                               Expanded(
                                 child: Container(
                                   decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
+                                    shape: StadiumBorder(
+                                      side: BorderSide(color: Colors.grey),
+                                    ),
                                   ),
                                   child: TextField(
                                     decoration: InputDecoration(
