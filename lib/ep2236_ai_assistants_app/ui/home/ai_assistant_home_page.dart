@@ -134,12 +134,15 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                       ),
                     ),
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text("Upcoming Task"),
-                      TextButton(onPressed: () {}, child: Text("See all")),
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text("Upcoming Task"),
+                        TextButton(onPressed: () {}, child: Text("See all")),
+                      ],
+                    ),
                   ),
                   Expanded(
                     child: Column(
