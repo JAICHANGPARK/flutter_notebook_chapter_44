@@ -59,12 +59,14 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                 backgroundColor: Colors.black.withValues(
                                   alpha: .1,
                                 ),
+                                child: Icon(HugeIcons.strokeRoundedMessageQuestion),
                               ),
                               CircleAvatar(
                                 radius: 28,
                                 backgroundColor: Colors.black.withValues(
                                   alpha: .1,
                                 ),
+                                child: Icon(HugeIcons.strokeRoundedListSetting),
                               ),
                             ],
                           ),
