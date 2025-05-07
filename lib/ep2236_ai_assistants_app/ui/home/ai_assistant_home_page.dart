@@ -173,6 +173,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                 Expanded(
                                   child: Container(
                                     decoration: BoxDecoration(
+                                      
                                       borderRadius: BorderRadius.circular(12),
                                     ),
                                   ),
