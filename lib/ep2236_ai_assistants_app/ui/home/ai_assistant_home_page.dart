@@ -176,7 +176,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                       color: Color.fromRGBO(233, 227, 192, 1),
                                       borderRadius: BorderRadius.circular(12),
                                     ),
-                                    padding: EdgeInsets.all(24),
+                                    padding: EdgeInsets.all(20),
                                     child: Column(
                                       children: [
                                         Row(
