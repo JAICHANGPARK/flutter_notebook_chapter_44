@@ -173,7 +173,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                 Expanded(
                                   child: Container(
                                     decoration: BoxDecoration(
-                                      
+                                      color: Color.fromRGBO(233, 227, 192, 1),
                                       borderRadius: BorderRadius.circular(12),
                                     ),
                                   ),
