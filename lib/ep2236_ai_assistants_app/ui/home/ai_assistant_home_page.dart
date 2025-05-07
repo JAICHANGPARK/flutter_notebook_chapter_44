@@ -144,10 +144,13 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text("Upcoming Task", style: TextStyle(fontSize: 18)),
-                        TextButton(onPressed: () {}, child: Text("See all"),
-                        style: TextButton.styleFrom(
-                          foregroundColor: Colors.black
-                        )),
+                        TextButton(
+                          onPressed: () {},
+                          child: Text("See all"),
+                          style: TextButton.styleFrom(
+                            foregroundColor: Colors.black,
+                          ),
+                        ),
                       ],
                     ),
                   ),
