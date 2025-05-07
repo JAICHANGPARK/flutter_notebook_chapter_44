@@ -146,10 +146,10 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                         Text("Upcoming Task", style: TextStyle(fontSize: 18)),
                         TextButton(
                           onPressed: () {},
-                          child: Text("See all"),
                           style: TextButton.styleFrom(
                             foregroundColor: Colors.black,
                           ),
+                          child: Text("See all"),
                         ),
                       ],
                     ),
