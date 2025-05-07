@@ -179,6 +179,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                     padding: EdgeInsets.all(20),
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.start,
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
                                         Row(
                                           spacing: 8,
