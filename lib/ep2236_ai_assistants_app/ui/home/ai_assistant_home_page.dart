@@ -199,7 +199,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                 ),),
                                 Expanded(child:Container(
                                   decoration: BoxDecoration(
-                                    color: Color.fromRGBO(254, 225, 124, 1),
+                                    color: Color.fromRGBO(190, 200, 249, 1),
                                     borderRadius: BorderRadius.circular(12),
                                   ),
                                 ),),
