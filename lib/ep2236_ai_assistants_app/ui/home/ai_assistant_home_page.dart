@@ -178,32 +178,40 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                     ),
                                     padding: EdgeInsets.all(20),
                                     child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
                                       children: [
                                         Row(
                                           spacing: 8,
                                           children: [
                                             CircleAvatar(
                                               radius: 20,
-                                              backgroundColor: Colors.black.withValues(
-                                                alpha: .1,
-                                              ),
+                                              backgroundColor: Colors.black
+                                                  .withValues(alpha: .1),
                                               foregroundColor: Colors.black,
                                               child: Icon(
                                                 HugeIcons.strokeRoundedMic01,
                                               ),
                                             ),
-                                            Text("Voice")
+                                            Text("Voice"),
                                           ],
                                         ),
                                         Row(
-                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
                                           children: [
-                                            Text("Try voice\nrecognition"),
-                                            Icon(Icons.arrow_forward,)
+                                            Text(
+                                              "Try voice\nrecognition",
+                                              style: TextStyle(
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Icon(Icons.arrow_forward),
                                           ],
-                                        )
+                                        ),
                                       ],
                                     ),
                                   ),
