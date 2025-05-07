@@ -143,7 +143,13 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text("Upcoming Task", style: TextStyle(fontSize: 18)),
+                        Text(
+                          "Upcoming Task",
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
                         TextButton(
                           onPressed: () {},
                           style: TextButton.styleFrom(
@@ -164,7 +170,13 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                             child: Row(
                               spacing: 16,
                               children: [
-                                Expanded(child: Placeholder()),
+                                Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(12),
+                                    ),
+                                  ),
+                                ),
                                 Expanded(child: Placeholder()),
                               ],
                             ),
