@@ -322,6 +322,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                       color: Color.fromRGBO(190, 200, 249, 1),
                                       borderRadius: BorderRadius.circular(12),
                                     ),
+                                    padding: EdgeInsets.all(20),
                                     child: Column(
                                       crossAxisAlignment:
                                       CrossAxisAlignment.start,
@@ -348,7 +349,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                           MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text(
-                                              "Try voice\nrecognition",
+                                              "View All Our\nFeatures",
                                               style: TextStyle(
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold,
