@@ -178,6 +178,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                     ),
                                     padding: EdgeInsets.all(20),
                                     child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
                                         Row(
                                           spacing: 8,
@@ -196,6 +197,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                           ],
                                         ),
                                         Row(
+                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text("Try voice\nrecognition"),
                                             Icon(Icons.arrow_forward,)
