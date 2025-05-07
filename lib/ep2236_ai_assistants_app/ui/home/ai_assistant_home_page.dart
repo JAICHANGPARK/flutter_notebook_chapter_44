@@ -176,9 +176,11 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                       color: Color.fromRGBO(233, 227, 192, 1),
                                       borderRadius: BorderRadius.circular(12),
                                     ),
+                                    padding: EdgeInsets.all(24),
                                     child: Column(
                                       children: [
                                         Row(
+                                          spacing: 8,
                                           children: [
                                             CircleAvatar(
                                               radius: 20,
@@ -190,6 +192,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                                 HugeIcons.strokeRoundedMic01,
                                               ),
                                             ),
+                                            Text("Voice")
                                           ],
                                         )
                                       ],
