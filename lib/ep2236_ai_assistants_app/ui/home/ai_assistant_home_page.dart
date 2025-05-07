@@ -114,7 +114,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                     decoration: InputDecoration(
                                       border: InputBorder.none,
                                       prefixIcon: Icon(Icons.search),
-                                      hintText: "Search waht you want..",
+                                      hintText: "Search what you want..",
                                       contentPadding: EdgeInsets.symmetric(
                                         vertical: 12,
                                       ),
@@ -180,7 +180,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                       children: [
                                         Row(
                                           children: [
-                                            
+
                                           ],
                                         )
                                       ],
