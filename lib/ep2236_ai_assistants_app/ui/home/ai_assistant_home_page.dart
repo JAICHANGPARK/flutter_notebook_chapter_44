@@ -191,8 +191,18 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                             child: Row(
                               spacing: 16,
                               children: [
-                                Expanded(child: Placeholder()),
-                                Expanded(child: Placeholder()),
+                                Expanded(child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Color.fromRGBO(202, 225, 222, 1),
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
+                                ),),
+                                Expanded(child:Container(
+                                  decoration: BoxDecoration(
+                                    color: Color.fromRGBO(254, 225, 124, 1),
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
+                                ),),
                               ],
                             ),
                           ),
