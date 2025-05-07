@@ -194,6 +194,12 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                             ),
                                             Text("Voice")
                                           ],
+                                        ),
+                                        Row(
+                                          children: [
+                                            Text("Try voice\nrecognition"),
+                                            Icon(Icons.arrow_forward,)
+                                          ],
                                         )
                                       ],
                                     ),
