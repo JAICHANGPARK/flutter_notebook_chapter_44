@@ -13,6 +13,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: Color.fromRGBO(237, 230, 207, 1),
       body: Column(
         children: [
