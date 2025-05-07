@@ -135,12 +135,19 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(left: 20, right: 20,top: 16),
+                    padding: const EdgeInsets.only(
+                      left: 20,
+                      right: 20,
+                      top: 16,
+                    ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text("Upcoming Task"),
-                        TextButton(onPressed: () {}, child: Text("See all")),
+                        Text("Upcoming Task", style: TextStyle(fontSize: 18)),
+                        TextButton(onPressed: () {}, child: Text("See all"),
+                        style: TextButton.styleFrom(
+                          foregroundColor: Colors.black
+                        )),
                       ],
                     ),
                   ),
