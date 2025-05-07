@@ -225,9 +225,9 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                     padding: EdgeInsets.all(20),
                                     child: Column(
                                       crossAxisAlignment:
-                                      CrossAxisAlignment.start,
+                                          CrossAxisAlignment.start,
                                       mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
+                                          MainAxisAlignment.spaceBetween,
                                       children: [
                                         Row(
                                           spacing: 8,
@@ -238,7 +238,8 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                                   .withValues(alpha: .1),
                                               foregroundColor: Colors.black,
                                               child: Icon(
-                                                HugeIcons.strokeRoundedGooglePhotos,
+                                                HugeIcons
+                                                    .strokeRoundedGooglePhotos,
                                               ),
                                             ),
                                             Text("Image"),
@@ -246,7 +247,7 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                         ),
                                         Row(
                                           mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
+                                              MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text(
                                               "Search by\nvoice",
@@ -275,11 +276,12 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                       color: Color.fromRGBO(202, 225, 222, 1),
                                       borderRadius: BorderRadius.circular(12),
                                     ),
+                                    padding: EdgeInsets.all(20),
                                     child: Column(
                                       crossAxisAlignment:
-                                      CrossAxisAlignment.start,
+                                          CrossAxisAlignment.start,
                                       mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
+                                          MainAxisAlignment.spaceBetween,
                                       children: [
                                         Row(
                                           spacing: 8,
@@ -290,18 +292,18 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                                   .withValues(alpha: .1),
                                               foregroundColor: Colors.black,
                                               child: Icon(
-                                                HugeIcons.strokeRoundedMic01,
+                                                HugeIcons.strokeRoundedTimer01,
                                               ),
                                             ),
-                                            Text("Voice"),
+                                            Text("History"),
                                           ],
                                         ),
                                         Row(
                                           mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
+                                              MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text(
-                                              "Try voice\nrecognition",
+                                              "Recent Chat\nHistory",
                                               style: TextStyle(
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.bold,
