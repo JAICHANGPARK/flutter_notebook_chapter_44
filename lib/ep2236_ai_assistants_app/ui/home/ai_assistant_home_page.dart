@@ -180,7 +180,16 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                       children: [
                                         Row(
                                           children: [
-
+                                            CircleAvatar(
+                                              radius: 20,
+                                              backgroundColor: Colors.black.withValues(
+                                                alpha: .1,
+                                              ),
+                                              foregroundColor: Colors.black,
+                                              child: Icon(
+                                                HugeIcons.strokeRoundedMic01,
+                                              ),
+                                            ),
                                           ],
                                         )
                                       ],
