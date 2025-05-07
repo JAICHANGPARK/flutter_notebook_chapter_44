@@ -178,7 +178,12 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                     ),
                                   ),
                                 ),
-                                Expanded(child: Placeholder()),
+                                Expanded(child:  Container(
+                                  decoration: BoxDecoration(
+                                    color: Color.fromRGBO(254, 225, 124, 1),
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
+                                ),),
                               ],
                             ),
                           ),
