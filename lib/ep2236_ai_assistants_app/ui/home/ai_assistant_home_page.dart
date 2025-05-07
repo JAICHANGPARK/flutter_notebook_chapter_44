@@ -176,14 +176,25 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                                       color: Color.fromRGBO(233, 227, 192, 1),
                                       borderRadius: BorderRadius.circular(12),
                                     ),
+                                    child: Column(
+                                      children: [
+                                        Row(
+                                          children: [
+                                            
+                                          ],
+                                        )
+                                      ],
+                                    ),
                                   ),
                                 ),
-                                Expanded(child:  Container(
-                                  decoration: BoxDecoration(
-                                    color: Color.fromRGBO(254, 225, 124, 1),
-                                    borderRadius: BorderRadius.circular(12),
+                                Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: Color.fromRGBO(254, 225, 124, 1),
+                                      borderRadius: BorderRadius.circular(12),
+                                    ),
                                   ),
-                                ),),
+                                ),
                               ],
                             ),
                           ),
@@ -191,18 +202,22 @@ class _AiAssistantHomePageState extends State<AiAssistantHomePage> {
                             child: Row(
                               spacing: 16,
                               children: [
-                                Expanded(child: Container(
-                                  decoration: BoxDecoration(
-                                    color: Color.fromRGBO(202, 225, 222, 1),
-                                    borderRadius: BorderRadius.circular(12),
+                                Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: Color.fromRGBO(202, 225, 222, 1),
+                                      borderRadius: BorderRadius.circular(12),
+                                    ),
                                   ),
-                                ),),
-                                Expanded(child:Container(
-                                  decoration: BoxDecoration(
-                                    color: Color.fromRGBO(190, 200, 249, 1),
-                                    borderRadius: BorderRadius.circular(12),
+                                ),
+                                Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: Color.fromRGBO(190, 200, 249, 1),
+                                      borderRadius: BorderRadius.circular(12),
+                                    ),
                                   ),
-                                ),),
+                                ),
                               ],
                             ),
                           ),
