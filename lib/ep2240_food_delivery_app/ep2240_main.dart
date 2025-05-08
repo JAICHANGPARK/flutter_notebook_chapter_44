@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'ui/home/fd2_home_screen.dart';
+
 void main() {
   runApp(FoodDeliveryApp());
 }
