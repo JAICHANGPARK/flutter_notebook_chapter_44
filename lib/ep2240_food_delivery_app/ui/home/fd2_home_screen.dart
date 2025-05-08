@@ -78,7 +78,12 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       color: Colors.white,
                     ),
                     child: TextField(
-                      decoration: InputDecoration(border: InputBorder.none),
+                      decoration: InputDecoration(border: InputBorder.none
+
+                      ,
+                      prefixIcon: Icon(Icons.search),
+                        suffixIcon: Icon(Icons.tune)
+                      ),
                     ),
                   ),
                 ],
