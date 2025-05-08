@@ -19,6 +19,19 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
             child: Column(children: []),
           ),
           Expanded(child: Placeholder()),
+          Container(
+            height: 82,
+            decoration: BoxDecoration(
+              color: Colors.white,
+
+            ),
+            padding: EdgeInsets.all(12),
+            child: Row(
+              children: [
+                
+              ],
+            ),
+          )
         ],
       ),
     );
