@@ -20,6 +20,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
             padding: EdgeInsets.only(left: 16, right: 16, bottom: 16, top: 24),
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
                     children: [
