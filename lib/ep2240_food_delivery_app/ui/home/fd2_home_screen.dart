@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class Fd2HomeScreen extends StatefulWidget {
@@ -61,6 +62,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       ),
                     ],
                   ),
+                  Gap(24),
                   Text(
                     "What you'd like",
                     style: TextStyle(
@@ -69,6 +71,16 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                     ),
                   ),
                   Text("to eat for today?"),
+                  Gap(12),
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.white,
+                    ),
+                    child: TextField(
+                      decoration: ,
+                    ),
+                  ),
                 ],
               ),
             ),
