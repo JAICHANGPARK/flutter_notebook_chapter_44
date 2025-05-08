@@ -23,9 +23,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                 children: [
                   Row(
                     children: [
-                      CircleAvatar(
-                        radius: 26,
-                      ),
+                      CircleAvatar(radius: 26),
                       Expanded(
                         child: Column(
                           children: [
@@ -56,11 +54,20 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                         backgroundColor: Colors.white,
                         foregroundColor: Colors.green,
                         child: Badge(
+                          backgroundColor: Colors.green,
                           child: Icon(HugeIcons.strokeRoundedNotification01),
                         ),
                       ),
                     ],
                   ),
+                  Text(
+                    "What you'd like",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  Text("to eat for today?"),
                 ],
               ),
             ),
