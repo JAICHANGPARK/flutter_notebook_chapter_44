@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  
+  runApp(FoodDeliveryApp());
 }
 
 class FoodDeliveryApp extends StatelessWidget {
