@@ -36,6 +36,9 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                 ),
                               ],
                             ),
+                            Text("Seoul, South Korea",style: TextStyle(
+                              color: Colors.white,
+                            ),),
                           ],
                         ),
                       ),
