@@ -27,8 +27,13 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                         child: Column(
                           children: [
                             Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Text("Delivery location"),
+                                Text(
+                                  "Delivery location",
+                                  style: TextStyle(color: Colors.white),
+                                ),
                                 Icon(
                                   Icons.arrow_drop_down,
                                   size: 12,
@@ -36,9 +41,10 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                 ),
                               ],
                             ),
-                            Text("Seoul, South Korea",style: TextStyle(
-                              color: Colors.white,
-                            ),),
+                            Text(
+                              "Seoul, South Korea",
+                              style: TextStyle(color: Colors.white),
+                            ),
                           ],
                         ),
                       ),
