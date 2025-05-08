@@ -83,6 +83,8 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                         prefixIcon: Icon(Icons.search),
                         suffixIcon: Icon(Icons.tune),
                         contentPadding: EdgeInsets.symmetric(vertical: 12),
+                        hintText: "Search menu, restaurant or craving",
+                        hintStyle: TextStyle(color: Colors.grey),
                       ),
                     ),
                   ),
