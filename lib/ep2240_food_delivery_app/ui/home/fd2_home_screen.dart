@@ -68,9 +68,16 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                     style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
+                      fontSize: 28,
                     ),
                   ),
-                  Text("to eat for today?"),
+                  Text("to eat for today?",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 32,
+                    ),
+                  ),
                   Gap(12),
                   Container(
                     decoration: ShapeDecoration(
