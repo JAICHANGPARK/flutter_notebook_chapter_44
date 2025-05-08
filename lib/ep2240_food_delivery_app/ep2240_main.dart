@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-
+void main() {
+  
+}
 
 class FoodDeliveryApp extends StatelessWidget {
   const FoodDeliveryApp({super.key});
