@@ -81,6 +81,8 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       decoration: InputDecoration(
                         border: InputBorder.none,
                         prefixIcon: Icon(Icons.search),
+                        prefixIconColor: Colors.grey,
+                        suffixIconColor: Colors.grey,
                         suffixIcon: Icon(Icons.tune),
                         contentPadding: EdgeInsets.symmetric(vertical: 12),
                         hintText: "Search menu, restaurant or craving",
