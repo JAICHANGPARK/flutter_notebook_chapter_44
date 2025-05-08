@@ -12,26 +12,46 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-
             decoration: BoxDecoration(color: Colors.green),
-            child: Column(children: []),
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      CircleAvatar(),
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Row(
+                              children: [
+                                Text("Delivery location"),
+                                Icon(
+                                  Icons.arrow_drop_down,
+                                  size: 12,
+                                  color: Colors.white,
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                      CircleAvatar(),
+                    ],
+                  ),
+                ],
+              ),
+            ),
           ),
           Expanded(child: Placeholder()),
           Container(
             height: 82,
-            decoration: BoxDecoration(
-              color: Colors.white,
-
-            ),
+            decoration: BoxDecoration(color: Colors.white),
             padding: EdgeInsets.all(12),
-            child: Row(
-              children: [
-                
-              ],
-            ),
-          )
+            child: Row(children: []),
+          ),
         ],
       ),
     );
