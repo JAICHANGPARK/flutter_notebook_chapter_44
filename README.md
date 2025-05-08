@@ -6,7 +6,7 @@
 - Ahmad Faizien for OnPoint Studio
 - https://dribbble.com/shots/25996278-Eatzy-Food-Delivery-App
 
-<img src="https://cdn.dribbble.com/userupload/43163885/file/original-ef865c92806b03c1390b4f21dec8894f.jpg?resize=1905x1429&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/43224297/file/original-d076c7f65ade5346c73f4bedf86931af.jpg?resize=1905x1429&vertical=center">
 
 
 ## EP2236-2239
