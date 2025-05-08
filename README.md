@@ -2,8 +2,8 @@
 
 ## EP2240
 
-- Arobix AI - Chat GPT Powered AI Assistant
-- Mainul Islam Arafat for Arobix Design
+- Eatzy - Food Delivery App
+- Ahmad Faizien for OnPoint Studio
 - https://dribbble.com/shots/25977498-Arobix-AI-Chat-GPT-Powered-AI-Assistant
 
 <img src="https://cdn.dribbble.com/userupload/43163885/file/original-ef865c92806b03c1390b4f21dec8894f.jpg?resize=1905x1429&vertical=center">
