@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 class Fd2HomeScreen extends StatefulWidget {
   const Fd2HomeScreen({super.key});
 
@@ -13,7 +11,16 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      body: Column(
+        children: [
+          Container(
 
+            decoration: BoxDecoration(color: Colors.green),
+            child: Column(children: []),
+          ),
+          Expanded(child: Placeholder()),
+        ],
+      ),
     );
   }
 }
