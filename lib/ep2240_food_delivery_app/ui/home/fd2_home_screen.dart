@@ -75,7 +75,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                     style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
-                      fontSize: 32,
+                      fontSize: 28,
                     ),
                   ),
                   Gap(12),
