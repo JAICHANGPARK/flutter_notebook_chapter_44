@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class Fd2HomeScreen extends StatefulWidget {
   const Fd2HomeScreen({super.key});
@@ -22,7 +23,9 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                 children: [
                   Row(
                     children: [
-                      CircleAvatar(),
+                      CircleAvatar(
+                        radius: 26,
+                      ),
                       Expanded(
                         child: Column(
                           children: [
@@ -48,7 +51,14 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                           ],
                         ),
                       ),
-                      CircleAvatar(),
+                      CircleAvatar(
+                        radius: 26,
+                        backgroundColor: Colors.white,
+                        foregroundColor: Colors.green,
+                        child: Badge(
+                          child: Icon(HugeIcons.strokeRoundedNotification01),
+                        ),
+                      ),
                     ],
                   ),
                 ],
