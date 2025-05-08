@@ -12,6 +12,8 @@ class Fd2HomeScreen extends StatefulWidget {
 class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+
+    );
   }
 }
