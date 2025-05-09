@@ -10,9 +10,6 @@ class Fd2HomeScreen extends StatefulWidget {
 }
 
 class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
-
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -63,9 +60,9 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       CircleAvatar(
                         radius: 26,
                         backgroundColor: Colors.white,
-                        foregroundColor:  Color.fromRGBO(42, 109, 62, 1),
+                        foregroundColor: Color.fromRGBO(42, 109, 62, 1),
                         child: Badge(
-                          backgroundColor:  Color.fromRGBO(42, 109, 62, 1),
+                          backgroundColor: Color.fromRGBO(42, 109, 62, 1),
                           child: Icon(HugeIcons.strokeRoundedNotification01),
                         ),
                       ),
@@ -116,15 +113,23 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
             height: 82,
             decoration: BoxDecoration(color: Colors.white),
             padding: EdgeInsets.all(12),
-            child: Row(children: [
-              Container(
-                decoration: ShapeDecoration(
-                  color:  Color.fromRGBO(42, 109, 62, 1),
-                  shape: StadiumBorder(),
+            child: Row(
+              children: [
+                Container(
+                  decoration: ShapeDecoration(
+                    color: Color.fromRGBO(42, 109, 62, 1),
+                    shape: StadiumBorder(),
+                  ),
+                  child: Row(
+                    spacing: 8,
+                    children: [
+                      Icon(HugeIcons.strokeRoundedHome01, color: Colors.white),
+                      Text("Home", style: TextStyle(color: Colors.white)),
+                    ],
+                  ),
                 ),
-              )
-
-            ]),
+              ],
+            ),
           ),
         ],
       ),
