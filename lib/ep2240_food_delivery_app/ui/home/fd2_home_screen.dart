@@ -111,27 +111,27 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
             ),
           ),
           Gap(16),
-          Expanded(child: SingleChildScrollView(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              spacing: 12,
-              children: [
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  spacing: 12,
-                  children: [
-                    Text("Categories"),
-                    Container(
-                      height: 42,
-                      color: Colors.blue,
-                    )
-                  ],
-                )
-
-                
-              ],
+          Expanded(
+            child: SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                spacing: 12,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(left: 16,),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 12,
+                      children: [
+                        Text("Categories"),
+                        Container(height: 52, color: Colors.blue),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
-          )),
+          ),
           Container(
             height: 82,
             decoration: BoxDecoration(color: Colors.white),
@@ -222,7 +222,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       children: [
                         Icon(
                           HugeIcons.strokeRoundedShoppingBag01,
-                          color:pageIndex == 2 ? Colors.white : Colors.grey,
+                          color: pageIndex == 2 ? Colors.white : Colors.grey,
                         ),
                         if (pageIndex == 2)
                           Text(
@@ -243,9 +243,9 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                   child: Container(
                     decoration: ShapeDecoration(
                       color:
-                      pageIndex == 3
-                          ? Color.fromRGBO(42, 109, 62, 1)
-                          : Colors.transparent,
+                          pageIndex == 3
+                              ? Color.fromRGBO(42, 109, 62, 1)
+                              : Colors.transparent,
                       shape: StadiumBorder(),
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 18, vertical: 8),
@@ -254,7 +254,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       children: [
                         Icon(
                           HugeIcons.strokeRoundedBubbleChat,
-                          color:pageIndex ==3 ? Colors.white : Colors.grey,
+                          color: pageIndex == 3 ? Colors.white : Colors.grey,
                         ),
                         if (pageIndex == 3)
                           Text(
@@ -274,9 +274,9 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                   child: Container(
                     decoration: ShapeDecoration(
                       color:
-                      pageIndex == 4
-                          ? Color.fromRGBO(42, 109, 62, 1)
-                          : Colors.transparent,
+                          pageIndex == 4
+                              ? Color.fromRGBO(42, 109, 62, 1)
+                              : Colors.transparent,
                       shape: StadiumBorder(),
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 18, vertical: 8),
@@ -285,7 +285,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       children: [
                         Icon(
                           HugeIcons.strokeRoundedAddToList,
-                          color:pageIndex == 4 ? Colors.white : Colors.grey,
+                          color: pageIndex == 4 ? Colors.white : Colors.grey,
                         ),
                         if (pageIndex == 4)
                           Text(
