@@ -137,8 +137,13 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                     ),
                   ),
                   Container(
-                    height: 320,
-                    child: Placeholder(),
+                    height: 280,
+                    child: Row(
+                      children: [
+                        Expanded(child: Placeholder()),
+                        
+                      ],
+                    )
                   )
                 ],
               ),
