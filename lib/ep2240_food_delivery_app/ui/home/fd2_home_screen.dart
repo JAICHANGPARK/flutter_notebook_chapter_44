@@ -118,15 +118,16 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
               children: [
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
+                  spacing: 12,
                   children: [
-
+                    Text("Categories"),
+                    Container(
+                      height: 42,
+                      color: Colors.blue,
+                    )
                   ],
                 )
-                Text("Categories"),
-                Container(
-                  height: 42,
-                  color: Colors.blue,
-                )
+
                 
               ],
             ),
