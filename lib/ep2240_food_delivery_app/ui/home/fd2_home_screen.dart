@@ -112,7 +112,13 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
           ),
           Expanded(child: SingleChildScrollView(
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                Text("Categories"),
+                Container(
+                  height: 42,
+                  color: Colors.blue,
+                )
                 
               ],
             ),
