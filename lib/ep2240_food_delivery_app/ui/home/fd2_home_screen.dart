@@ -159,8 +159,8 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                           child: Stack(
                             children: [
                               Positioned(
-                                left: 8,
-                                right: 0,
+                                left: 0,
+                                right: 8,
                                 top: 0,
                                 bottom: 0,
                                 child: Container(color: Colors.blue),
