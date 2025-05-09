@@ -125,7 +125,11 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       children: [
                         Text(
                           "Categories",
-                          style: TextStyle(fontWeight: FontWeight.bold),
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+
+                            fontSize: 18,
+                          ),
                         ),
                         Container(height: 52, color: Colors.blue),
                       ],
