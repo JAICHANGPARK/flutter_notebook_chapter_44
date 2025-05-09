@@ -132,6 +132,23 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                     ],
                   ),
                 ),
+                Container(
+                  decoration: ShapeDecoration(
+                    color: Color.fromRGBO(42, 109, 62, 1),
+                    shape: StadiumBorder(),
+                  ),
+                  padding: EdgeInsets.symmetric(horizontal: 18, vertical: 8),
+                  child: Row(
+                    spacing: 8,
+                    children: [
+                      Icon(HugeIcons.strokeRoundedCoupon01, color: Colors.white),
+                      Text(
+                        "Home",
+                        style: TextStyle(color: Colors.white, fontSize: 15),
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
