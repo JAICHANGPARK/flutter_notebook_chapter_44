@@ -10,6 +10,9 @@ class Fd2HomeScreen extends StatefulWidget {
 }
 
 class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
+
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -113,7 +116,15 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
             height: 82,
             decoration: BoxDecoration(color: Colors.white),
             padding: EdgeInsets.all(12),
-            child: Row(children: []),
+            child: Row(children: [
+              Container(
+                decoration: ShapeDecoration(
+                  color:  Color.fromRGBO(42, 109, 62, 1),
+                  shape: StadiumBorder(),
+                ),
+              )
+
+            ]),
           ),
         ],
       ),
