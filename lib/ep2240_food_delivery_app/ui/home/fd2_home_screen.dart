@@ -125,7 +125,8 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                   },
                   child: Container(
                     decoration: ShapeDecoration(
-                      color: Color.fromRGBO(42, 109, 62, 1),
+                      color: pageIndex == 0 ? Color.fromRGBO(42, 109, 62, 1):
+                      Colors.transparent,
                       shape: StadiumBorder(),
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 18, vertical: 8),
@@ -136,6 +137,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                           HugeIcons.strokeRoundedHome01,
                           color: Colors.white,
                         ),
+                        if(pageIndex == 0)
                         Text(
                           "Home",
                           style: TextStyle(color: Colors.white, fontSize: 15),
@@ -166,6 +168,11 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                   ),
                 ),
                 InkWell(
+                  onTap: (){
+                    setState(() {
+                      pageIndex = 2;
+                    });
+                  },
                   child: Container(
                     decoration: ShapeDecoration(
                       color:
