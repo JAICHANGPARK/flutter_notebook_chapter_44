@@ -116,6 +116,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
             decoration: BoxDecoration(color: Colors.white),
             padding: EdgeInsets.all(12),
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 InkWell(
                   onTap: () {
