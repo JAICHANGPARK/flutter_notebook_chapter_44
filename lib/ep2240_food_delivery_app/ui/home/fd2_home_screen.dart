@@ -139,8 +139,12 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                             itemCount: 10,
                             itemBuilder: (context, index) {
                               return Container(
+                                margin: EdgeInsets.only(
+                                  right: 12
+                                ),
                                 decoration: ShapeDecoration(
-                                  color: Color.fromRGBO(42, 109, 62, 1),
+                                  color: index == 0 ? Color.fromRGBO(42, 109, 62, 1):
+                                  Colors.white,
                                   shape: StadiumBorder(),
                                 ),
                                 padding: EdgeInsets.symmetric(
