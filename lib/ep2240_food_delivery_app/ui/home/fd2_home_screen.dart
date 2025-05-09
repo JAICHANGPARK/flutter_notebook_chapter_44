@@ -118,12 +118,15 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                 spacing: 12,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(left: 16,),
+                    padding: const EdgeInsets.only(left: 16),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       spacing: 12,
                       children: [
-                        Text("Categories"),
+                        Text(
+                          "Categories",
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
                         Container(height: 52, color: Colors.blue),
                       ],
                     ),
