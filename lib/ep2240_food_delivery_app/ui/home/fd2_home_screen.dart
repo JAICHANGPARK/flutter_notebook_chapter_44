@@ -110,9 +110,11 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
               ),
             ),
           ),
+          Gap(16),
           Expanded(child: SingleChildScrollView(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
+              spacing: 12,
               children: [
                 Text("Categories"),
                 Container(
