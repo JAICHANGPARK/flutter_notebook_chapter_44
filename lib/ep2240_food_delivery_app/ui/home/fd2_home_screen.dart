@@ -139,9 +139,10 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                   Container(
                     height: 280,
                     child: Row(
+                      spacing: 16,
                       children: [
                         Expanded(child: Placeholder()),
-                        
+                        Expanded(child: Placeholder()),
                       ],
                     )
                   )
