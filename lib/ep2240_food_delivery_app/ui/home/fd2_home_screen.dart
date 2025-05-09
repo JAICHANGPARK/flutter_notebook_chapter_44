@@ -170,6 +170,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       ],
                     ),
                   ),
+                  Gap(8),
                   Padding(
                     padding: const EdgeInsets.only(left: 16),
                     child: Column(
@@ -177,10 +178,9 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       spacing: 12,
                       children: [
                         Text(
-                          "Categories",
+                          "#SpecialForYou",
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
-
                             fontSize: 18,
                           ),
                         ),
