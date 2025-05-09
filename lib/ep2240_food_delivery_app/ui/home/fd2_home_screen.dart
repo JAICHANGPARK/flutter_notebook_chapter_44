@@ -157,6 +157,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                     spacing: 8,
                     children: [
                       Icon(HugeIcons.strokeRoundedCoupon01, color: Colors.grey),
+                      if(pageIndex == 1)
                       Text(
                         "Home",
                         style: TextStyle(color: Colors.white, fontSize: 15),
@@ -176,7 +177,8 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                   child: Row(
                     spacing: 8,
                     children: [
-                      Icon(HugeIcons.strokeRoundedCoupon01, color: Colors.grey),
+                      Icon(HugeIcons.strokeRoundedShoppingBag01, color: Colors.grey),
+                      if(pageIndex == 2)
                       Text(
                         "Home",
                         style: TextStyle(color: Colors.white, fontSize: 15),
