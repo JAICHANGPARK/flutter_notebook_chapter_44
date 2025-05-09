@@ -119,14 +119,16 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                   decoration: ShapeDecoration(
                     color: Color.fromRGBO(42, 109, 62, 1),
                     shape: StadiumBorder(),
-
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 20, vertical: 8),
                   child: Row(
                     spacing: 8,
                     children: [
                       Icon(HugeIcons.strokeRoundedHome01, color: Colors.white),
-                      Text("Home", style: TextStyle(color: Colors.white)),
+                      Text(
+                        "Home",
+                        style: TextStyle(color: Colors.white, fontSize: 15),
+                      ),
                     ],
                   ),
                 ),
