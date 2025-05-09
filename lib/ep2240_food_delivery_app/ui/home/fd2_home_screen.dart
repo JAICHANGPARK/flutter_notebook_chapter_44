@@ -17,7 +17,10 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            decoration: BoxDecoration(color: Color.fromRGBO(42, 109, 62, 1)),
+            decoration: BoxDecoration(
+              color: Color.fromRGBO(42, 109, 62, 1),
+              borderRadius: BorderRadius.only(bottomLeft: Radius.circular(32)),
+            ),
             padding: EdgeInsets.only(left: 16, right: 16, bottom: 24, top: 24),
             child: SafeArea(
               child: Column(
