@@ -85,7 +85,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       fontSize: 28,
                     ),
                   ),
-                  Gap(12),
+                  Gap(16),
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
