@@ -132,7 +132,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                           ),
                         ),
                         Container(
-                          height: 52,
+                          height: 46,
                           color: Colors.blue,
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
@@ -141,7 +141,6 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                               return Container(
                                 decoration: ShapeDecoration(
                                   color: Color.fromRGBO(42, 109, 62, 1),
-
                                   shape: StadiumBorder(),
                                 ),
                                 padding: EdgeInsets.symmetric(
@@ -152,7 +151,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                   spacing: 8,
                                   children: [
                                     Text(
-                                      "🍔 Popular",
+                                      "🍔  Popular",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 15,
