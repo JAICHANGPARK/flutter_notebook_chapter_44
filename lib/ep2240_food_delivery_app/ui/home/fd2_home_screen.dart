@@ -60,9 +60,9 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       CircleAvatar(
                         radius: 26,
                         backgroundColor: Colors.white,
-                        foregroundColor: Colors.green,
+                        foregroundColor:  Color.fromRGBO(42, 109, 62, 1),
                         child: Badge(
-                          backgroundColor: Colors.green,
+                          backgroundColor:  Color.fromRGBO(42, 109, 62, 1),
                           child: Icon(HugeIcons.strokeRoundedNotification01),
                         ),
                       ),
