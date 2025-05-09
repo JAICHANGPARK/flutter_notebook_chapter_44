@@ -17,7 +17,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            decoration: BoxDecoration(),
+            decoration: BoxDecoration(color: Color.fromRGBO(42, 109, 62, 1)),
             padding: EdgeInsets.only(left: 16, right: 16, bottom: 16, top: 24),
             child: SafeArea(
               child: Column(
@@ -71,7 +71,8 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       fontSize: 28,
                     ),
                   ),
-                  Text("to eat for today?",
+                  Text(
+                    "to eat for today?",
                     style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
