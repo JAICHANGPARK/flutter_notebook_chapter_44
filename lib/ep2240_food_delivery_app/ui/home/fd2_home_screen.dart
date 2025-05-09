@@ -118,7 +118,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
             child: Row(
               children: [
                 InkWell(
-                  onTap: (){
+                  onTap: () {
                     setState(() {
                       pageIndex = 0;
                     });
@@ -132,7 +132,10 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                     child: Row(
                       spacing: 8,
                       children: [
-                        Icon(HugeIcons.strokeRoundedHome01, color: Colors.white),
+                        Icon(
+                          HugeIcons.strokeRoundedHome01,
+                          color: Colors.white,
+                        ),
                         Text(
                           "Home",
                           style: TextStyle(color: Colors.white, fontSize: 15),
@@ -143,7 +146,10 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                 ),
                 Container(
                   decoration: ShapeDecoration(
-                    color: Color.fromRGBO(42, 109, 62, 1),
+                    color:
+                        pageIndex == 1
+                            ? Color.fromRGBO(42, 109, 62, 1)
+                            : Colors.transparent,
                     shape: StadiumBorder(),
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 18, vertical: 8),
