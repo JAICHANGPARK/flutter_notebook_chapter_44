@@ -116,6 +116,12 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               spacing: 12,
               children: [
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+
+                  ],
+                )
                 Text("Categories"),
                 Container(
                   height: 42,
