@@ -131,7 +131,14 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                             fontSize: 18,
                           ),
                         ),
-                        Container(height: 52, color: Colors.blue),
+                        Container(
+                          height: 52,
+                          color: Colors.blue,
+                          child: ListView.builder(
+
+                            itemBuilder: (context, index) {},
+                          ),
+                        ),
                       ],
                     ),
                   ),
@@ -170,7 +177,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       ],
                     ),
                   ),
-                  Gap(8),
+                  Gap(4),
                   Padding(
                     padding: const EdgeInsets.only(left: 16),
                     child: Column(
@@ -184,7 +191,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                             fontSize: 18,
                           ),
                         ),
-                        Container(height: 52, color: Colors.blue),
+                        Container(height: 120, color: Colors.blue),
                       ],
                     ),
                   ),
