@@ -138,24 +138,26 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                             scrollDirection: Axis.horizontal,
                             itemCount: 10,
                             itemBuilder: (context, index) {
-                              return  Container(
+                              return Container(
                                 decoration: ShapeDecoration(
-                                  color:
-
-                                     Color.fromRGBO(42, 109, 62, 1)
+                                  color: Color.fromRGBO(42, 109, 62, 1),
 
                                   shape: StadiumBorder(),
                                 ),
-                                padding: EdgeInsets.symmetric(horizontal: 18, vertical: 8),
+                                padding: EdgeInsets.symmetric(
+                                  horizontal: 18,
+                                  vertical: 8,
+                                ),
                                 child: Row(
                                   spacing: 8,
                                   children: [
-
-
-                                      Text(
-                                        "Home",
-                                        style: TextStyle(color: Colors.white, fontSize: 15),
+                                    Text(
+                                      "🍔 Popular",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 15,
                                       ),
+                                    ),
                                   ],
                                 ),
                               );
