@@ -110,7 +110,13 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
               ),
             ),
           ),
-          Expanded(child: Placeholder()),
+          Expanded(child: SingleChildScrollView(
+            child: Column(
+              children: [
+                
+              ],
+            ),
+          )),
           Container(
             height: 82,
             decoration: BoxDecoration(color: Colors.white),
