@@ -132,7 +132,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                           ),
                         ),
                         Container(
-                          height: 46,
+                          height: 42,
                           // color: Colors.blue,
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
@@ -161,7 +161,6 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                             index == 0
                                                 ? Colors.white
                                                 : Colors.grey,
-                                        fontSize: 15,
                                       ),
                                     ),
                                   ],
