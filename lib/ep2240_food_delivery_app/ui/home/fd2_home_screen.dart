@@ -149,12 +149,13 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                   ),
                 ),
                 InkWell(
-                  onTap: (){
+                  onTap: () {
                     setState(() {
                       pageIndex = 1;
                     });
                   },
-                  child: Container(
+                  child: AnimatedContainer(
+                    duration: Duration(milliseconds: 240),
                     decoration: ShapeDecoration(
                       color:
                           pageIndex == 1
@@ -166,7 +167,10 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                     child: Row(
                       spacing: 8,
                       children: [
-                        Icon(HugeIcons.strokeRoundedCoupon01, color: Colors.grey),
+                        Icon(
+                          HugeIcons.strokeRoundedCoupon01,
+                          color: pageIndex == 1 ? Colors.white : Colors.grey,
+                        ),
                         if (pageIndex == 1)
                           Text(
                             "Home",
