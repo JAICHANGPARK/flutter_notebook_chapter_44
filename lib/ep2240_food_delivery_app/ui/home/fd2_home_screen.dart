@@ -211,6 +211,69 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                     ),
                   ),
                 ),
+
+                InkWell(
+                  onTap: () {
+                    setState(() {
+                      pageIndex = 3;
+                    });
+                  },
+                  child: Container(
+                    decoration: ShapeDecoration(
+                      color:
+                      pageIndex == 3
+                          ? Color.fromRGBO(42, 109, 62, 1)
+                          : Colors.transparent,
+                      shape: StadiumBorder(),
+                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 18, vertical: 8),
+                    child: Row(
+                      spacing: 8,
+                      children: [
+                        Icon(
+                          HugeIcons.strokeRoundedBubbleChat,
+                          color:pageIndex ==3 ? Colors.white : Colors.grey,
+                        ),
+                        if (pageIndex == 3)
+                          Text(
+                            "Home",
+                            style: TextStyle(color: Colors.white, fontSize: 15),
+                          ),
+                      ],
+                    ),
+                  ),
+                ),
+                InkWell(
+                  onTap: () {
+                    setState(() {
+                      pageIndex = 4;
+                    });
+                  },
+                  child: Container(
+                    decoration: ShapeDecoration(
+                      color:
+                      pageIndex == 4
+                          ? Color.fromRGBO(42, 109, 62, 1)
+                          : Colors.transparent,
+                      shape: StadiumBorder(),
+                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 18, vertical: 8),
+                    child: Row(
+                      spacing: 8,
+                      children: [
+                        Icon(
+                          HugeIcons.strokeRoundedAddToList,
+                          color:pageIndex == 4 ? Colors.white : Colors.grey,
+                        ),
+                        if (pageIndex == 4)
+                          Text(
+                            "Home",
+                            style: TextStyle(color: Colors.white, fontSize: 15),
+                          ),
+                      ],
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
