@@ -132,7 +132,6 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                           ),
                         ),
                         Container(height: 52, color: Colors.blue),
-
                       ],
                     ),
                   ),
@@ -142,16 +141,24 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                     child: Row(
                       spacing: 16,
                       children: [
-                        Expanded(child: Stack(
-                          children: [Positioned(child: Container(
-                            color: Colors.blue,
+                        Expanded(
+                          child: Stack(
+                            children: [
+                              Positioned(
+                                left: 8,
 
-                          ))],
-                        )),
+                                right: 0,
+                                top: 0,
+                                bottom: 0,
+                                child: Container(color: Colors.blue),
+                              ),
+                            ],
+                          ),
+                        ),
                         Expanded(child: Placeholder()),
                       ],
-                    )
-                  )
+                    ),
+                  ),
                 ],
               ),
             ),
