@@ -148,25 +148,32 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                     ),
                   ),
                 ),
-                Container(
-                  decoration: ShapeDecoration(
-                    color:
-                        pageIndex == 1
-                            ? Color.fromRGBO(42, 109, 62, 1)
-                            : Colors.transparent,
-                    shape: StadiumBorder(),
-                  ),
-                  padding: EdgeInsets.symmetric(horizontal: 18, vertical: 8),
-                  child: Row(
-                    spacing: 8,
-                    children: [
-                      Icon(HugeIcons.strokeRoundedCoupon01, color: Colors.grey),
-                      if (pageIndex == 1)
-                        Text(
-                          "Home",
-                          style: TextStyle(color: Colors.white, fontSize: 15),
-                        ),
-                    ],
+                InkWell(
+                  onTap: (){
+                    setState(() {
+                      pageIndex = 1;
+                    });
+                  },
+                  child: Container(
+                    decoration: ShapeDecoration(
+                      color:
+                          pageIndex == 1
+                              ? Color.fromRGBO(42, 109, 62, 1)
+                              : Colors.transparent,
+                      shape: StadiumBorder(),
+                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 18, vertical: 8),
+                    child: Row(
+                      spacing: 8,
+                      children: [
+                        Icon(HugeIcons.strokeRoundedCoupon01, color: Colors.grey),
+                        if (pageIndex == 1)
+                          Text(
+                            "Home",
+                            style: TextStyle(color: Colors.white, fontSize: 15),
+                          ),
+                      ],
+                    ),
                   ),
                 ),
                 InkWell(
