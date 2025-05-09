@@ -146,7 +146,6 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                             children: [
                               Positioned(
                                 left: 8,
-
                                 right: 0,
                                 top: 0,
                                 bottom: 0,
@@ -168,6 +167,24 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                             ],
                           ),
                         ),
+                      ],
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 16),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 12,
+                      children: [
+                        Text(
+                          "Categories",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+
+                            fontSize: 18,
+                          ),
+                        ),
+                        Container(height: 52, color: Colors.blue),
                       ],
                     ),
                   ),
