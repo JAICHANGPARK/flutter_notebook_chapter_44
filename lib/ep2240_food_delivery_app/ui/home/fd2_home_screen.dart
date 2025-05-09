@@ -200,7 +200,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                       children: [
                         Icon(
                           HugeIcons.strokeRoundedShoppingBag01,
-                          color: Colors.grey,
+                          color:pageIndex == 2 ? Colors.white : Colors.grey,
                         ),
                         if (pageIndex == 2)
                           Text(
