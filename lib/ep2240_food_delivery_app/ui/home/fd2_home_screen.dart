@@ -133,18 +133,18 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                         ),
                         Container(
                           height: 46,
-                          color: Colors.blue,
+                          // color: Colors.blue,
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
                             itemCount: 10,
                             itemBuilder: (context, index) {
                               return Container(
-                                margin: EdgeInsets.only(
-                                  right: 12
-                                ),
+                                margin: EdgeInsets.only(right: 12),
                                 decoration: ShapeDecoration(
-                                  color: index == 0 ? Color.fromRGBO(42, 109, 62, 1):
-                                  Colors.white,
+                                  color:
+                                      index == 0
+                                          ? Color.fromRGBO(42, 109, 62, 1)
+                                          : Colors.white,
                                   shape: StadiumBorder(),
                                 ),
                                 padding: EdgeInsets.symmetric(
@@ -157,7 +157,10 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                     Text(
                                       "🍔  Popular",
                                       style: TextStyle(
-                                        color: Colors.white,
+                                        color:
+                                            index == 0
+                                                ? Colors.white
+                                                : Colors.grey,
                                         fontSize: 15,
                                       ),
                                     ),
