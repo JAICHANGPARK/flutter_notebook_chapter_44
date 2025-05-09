@@ -19,7 +19,10 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
           Container(
             decoration: BoxDecoration(
               color: Color.fromRGBO(42, 109, 62, 1),
-              borderRadius: BorderRadius.only(bottomLeft: Radius.circular(32)),
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(32),
+                bottomRight: Radius.circular(32),
+              ),
             ),
             padding: EdgeInsets.only(left: 16, right: 16, bottom: 24, top: 24),
             child: SafeArea(
