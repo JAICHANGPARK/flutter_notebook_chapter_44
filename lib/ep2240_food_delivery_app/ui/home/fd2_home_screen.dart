@@ -10,6 +10,8 @@ class Fd2HomeScreen extends StatefulWidget {
 }
 
 class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
+  int pageIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -141,7 +143,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                   child: Row(
                     spacing: 8,
                     children: [
-                      Icon(HugeIcons.strokeRoundedCoupon01, color: Colors.white),
+                      Icon(HugeIcons.strokeRoundedCoupon01, color: Colors.grey),
                       Text(
                         "Home",
                         style: TextStyle(color: Colors.white, fontSize: 15),
