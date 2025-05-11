@@ -190,6 +190,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                   color: Colors.blue,
                                   padding: EdgeInsets.all(12),
                                   child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Expanded(
                                         child: Image.network(
@@ -199,9 +200,14 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                       Text("Cheeeeeese Burger"),
                                       Row(
                                         children: [
-                                          Icon(Icons.star),
+                                          Icon(Icons.star,color: Colors.orange,),
                                           Text('4.9 reviews '),
                                           Text("1.2 km")
+                                        ],
+                                      ),
+                                      Row(
+                                        children: [
+                                          Text("US \$1.00")
                                         ],
                                       )
                                     ],
