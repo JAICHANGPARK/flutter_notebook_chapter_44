@@ -205,7 +205,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                       Text(
                                         "Cheeeeeese Burger",
                                         style: TextStyle(
-                                          fontWeight: FontWeight.bold,
+                                        fontWeight: FontWeight.bold,
                                           fontSize: 16,
                                         ),
                                       ),
@@ -217,15 +217,30 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                             color: Colors.orange,
                                             size: 18,
                                           ),
-                                          Text('4.9 reviews '),
-                                          Text("1.2 km"),
+                                          Text('4.9 reviews ',
+                                            style: TextStyle(
+                                              // fontWeight: FontWeight.bold,
+                                              fontSize: 13,
+                                              color: Colors.grey,
+                                            ),),
+                                          Text("1.2 km",
+                                            style: TextStyle(
+                                              // fontWeight: FontWeight.bold,
+                                              fontSize: 13,
+                                              color: Colors.grey,
+                                            ),),
                                         ],
                                       ),
                                       Row(
                                         mainAxisAlignment:
                                             MainAxisAlignment.spaceBetween,
                                         children: [
-                                          Text("US \$1.00"),
+                                          Text("US \$1.00",
+                                            style: TextStyle(
+                                              // fontWeight: FontWeight.bold,
+                                              fontSize: 15,
+                                              color: Colors.teal,
+                                            ),),
                                           Icon(Icons.favorite_border, size: 18),
                                         ],
                                       ),
