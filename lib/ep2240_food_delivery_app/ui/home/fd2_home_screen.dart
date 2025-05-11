@@ -248,6 +248,19 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                   ),
                                 ),
                               ),
+                              Positioned(
+                                  left: 0,
+                                  top: 12,
+                                  child: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.red,
+                                ),
+                                    child: Row(
+                                      children: [
+                                        Icon(Icons.percent,color: Colors.white,)
+                                      ],
+                                    ),
+                              ))
                             ],
                           ),
                         ),
