@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
@@ -182,12 +184,15 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                           child: Stack(
                             children: [
                               Positioned(
-                                left: 0,
+                                left: 2,
                                 top: 32,
-                                child: Container(
-                                  height: 8,
-                                  width: 8,
-                                  decoration: BoxDecoration(color: Colors.red),
+                                child: Transform.rotate(
+
+angle: pi/4,                                  child: Container(
+                                    height: 8,
+                                    width: 8,
+                                    decoration: BoxDecoration(color: Colors.red),
+                                  ),
                                 ),
                               ),
                               Positioned(
