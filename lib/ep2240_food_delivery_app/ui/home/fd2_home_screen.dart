@@ -187,7 +187,10 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                 top: 0,
                                 bottom: 0,
                                 child: Container(
-                                  color: Colors.blue,
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
                                   padding: EdgeInsets.all(12),
                                   child: Column(
                                     crossAxisAlignment:
@@ -203,6 +206,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                         "Cheeeeeese Burger",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
+                                          
                                         ),
                                       ),
                                       Row(
