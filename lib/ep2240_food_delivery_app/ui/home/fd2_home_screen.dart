@@ -190,32 +190,41 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                   color: Colors.blue,
                                   padding: EdgeInsets.all(12),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    spacing: 5,
                                     children: [
                                       Expanded(
                                         child: Image.network(
                                           "https://cdn.pixabay.com/photo/2023/02/01/01/07/cheeseburger-7759288_1280.png",
                                         ),
                                       ),
-                                      Text("Cheeeeeese Burger"),
+                                      Text(
+                                        "Cheeeeeese Burger",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
                                       Row(
                                         spacing: 4,
                                         children: [
-                                          Icon(Icons.star,color: Colors.orange,
-                                          size: 18,),
+                                          Icon(
+                                            Icons.star,
+                                            color: Colors.orange,
+                                            size: 18,
+                                          ),
                                           Text('4.9 reviews '),
-                                          Text("1.2 km")
+                                          Text("1.2 km"),
                                         ],
                                       ),
                                       Row(
-                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
                                         children: [
                                           Text("US \$1.00"),
-                                          Icon(Icons.favorite_border,
-                                            size: 18,),
-
+                                          Icon(Icons.favorite_border, size: 18),
                                         ],
-                                      )
+                                      ),
                                     ],
                                   ),
                                 ),
