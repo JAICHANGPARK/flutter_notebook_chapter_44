@@ -199,6 +199,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                       ),
                                       Text("Cheeeeeese Burger"),
                                       Row(
+                                        spacing: 4,
                                         children: [
                                           Icon(Icons.star,color: Colors.orange,
                                           size: 18,),
@@ -208,7 +209,10 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                       ),
                                       Row(
                                         children: [
-                                          Text("US \$1.00")
+                                          Text("US \$1.00"),
+                                          Icon(Icons.star,
+                                            size: 18,),
+
                                         ],
                                       )
                                     ],
