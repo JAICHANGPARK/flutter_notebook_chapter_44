@@ -237,8 +237,8 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                         children: [
                                           Text("US \$1.00",
                                             style: TextStyle(
-                                              // fontWeight: FontWeight.bold,
-                                              fontSize: 15,
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 16,
                                               color: Colors.teal,
                                             ),),
                                           Icon(Icons.favorite_border, size: 18),
