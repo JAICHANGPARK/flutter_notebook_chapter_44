@@ -184,8 +184,8 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                           child: Stack(
                             children: [
                               Positioned(
-                                left: 2,
-                                top: 32,
+                                left: 3,
+                                top: 35,
                                 child: Transform.rotate(
 
 angle: pi/4,                                  child: Container(
