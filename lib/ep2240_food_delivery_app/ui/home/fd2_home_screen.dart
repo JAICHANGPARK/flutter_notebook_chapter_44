@@ -208,9 +208,10 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                         ],
                                       ),
                                       Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                         children: [
                                           Text("US \$1.00"),
-                                          Icon(Icons.star,
+                                          Icon(Icons.favorite_border,
                                             size: 18,),
 
                                         ],
