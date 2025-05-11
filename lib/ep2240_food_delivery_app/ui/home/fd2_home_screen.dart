@@ -200,7 +200,8 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                       Text("Cheeeeeese Burger"),
                                       Row(
                                         children: [
-                                          Icon(Icons.star,color: Colors.orange,),
+                                          Icon(Icons.star,color: Colors.orange,
+                                          size: 18,),
                                           Text('4.9 reviews '),
                                           Text("1.2 km")
                                         ],
