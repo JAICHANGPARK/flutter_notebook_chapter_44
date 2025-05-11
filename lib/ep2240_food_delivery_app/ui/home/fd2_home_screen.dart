@@ -272,7 +272,7 @@ angle: pi/4,                                  child: Container(
                                 left: 0,
                                 top: 12,
                                 child: Container(
-                                  padding: EdgeInsets.all(3),
+                                  padding: EdgeInsets.symmetric(vertical: 4),
                                   decoration: BoxDecoration(
                                     color: Colors.red,
                                     borderRadius: BorderRadius.only(
