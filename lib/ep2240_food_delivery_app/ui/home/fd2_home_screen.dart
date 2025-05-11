@@ -182,6 +182,15 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                           child: Stack(
                             children: [
                               Positioned(
+                                left: 0,
+                                top: 32,
+                                child: Container(
+                                  height: 8,
+                                  width: 8,
+                                  decoration: BoxDecoration(color: Colors.red),
+                                ),
+                              ),
+                              Positioned(
                                 left: 8,
                                 right: 0,
                                 top: 0,
@@ -259,12 +268,13 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                 top: 12,
                                 child: Container(
                                   padding: EdgeInsets.all(3),
-                                  decoration: BoxDecoration(color: Colors.red,
-                                  borderRadius: BorderRadius.only(
-                                    topLeft: Radius.circular(4),
-                                    topRight: Radius.circular(4),
-                                    bottomRight: Radius.circular(4),
-                                  )
+                                  decoration: BoxDecoration(
+                                    color: Colors.red,
+                                    borderRadius: BorderRadius.only(
+                                      topLeft: Radius.circular(4),
+                                      topRight: Radius.circular(4),
+                                      bottomRight: Radius.circular(4),
+                                    ),
                                   ),
                                   child: Row(
                                     children: [
