@@ -252,12 +252,18 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                   left: 0,
                                   top: 12,
                                   child: Container(
+                                    padding: EdgeInsets.all(3),
                                 decoration: BoxDecoration(
                                   color: Colors.red,
                                 ),
                                     child: Row(
                                       children: [
-                                        Icon(Icons.percent,color: Colors.white,)
+                                        Gap(12),
+                                        Icon(Icons.percent,color: Colors.white,),
+                                        Text("10% OFF",style: TextStyle(
+                                          color: Colors.white
+                                        ),),
+                                        Gap(8),
                                       ],
                                     ),
                               ))
