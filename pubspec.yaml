@@ -16,7 +16,7 @@ dependencies:
   gap: ^3.0.1
   percent_indicator: ^4.2.5
   hugeicons: ^0.0.11
-  fl_chart: ^0.71.0
+  fl_chart: ^1.0.0
 
 
 dev_dependencies:
