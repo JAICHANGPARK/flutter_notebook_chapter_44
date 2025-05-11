@@ -188,6 +188,7 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                 bottom: 0,
                                 child: Container(
                                   color: Colors.blue,
+                                  padding: EdgeInsets.all(12),
                                   child: Column(
                                     children: [
                                       Expanded(
