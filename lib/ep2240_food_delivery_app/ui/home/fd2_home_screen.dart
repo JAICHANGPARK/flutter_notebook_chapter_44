@@ -195,6 +195,14 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                           "https://cdn.pixabay.com/photo/2023/02/01/01/07/cheeseburger-7759288_1280.png",
                                         ),
                                       ),
+                                      Text("Cheeeeeese Burger"),
+                                      Row(
+                                        children: [
+                                          Icon(Icons.star),
+                                          Text('4.9 reviews '),
+                                          Text("1.2 km")
+                                        ],
+                                      )
                                     ],
                                   ),
                                 ),
