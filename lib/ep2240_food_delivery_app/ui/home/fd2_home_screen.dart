@@ -186,7 +186,18 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                 right: 0,
                                 top: 0,
                                 bottom: 0,
-                                child: Container(color: Colors.blue),
+                                child: Container(
+                                  color: Colors.blue,
+                                  child: Column(
+                                    children: [
+                                      Expanded(
+                                        child: Image.network(
+                                          "https://cdn.pixabay.com/photo/2023/02/01/01/07/cheeseburger-7759288_1280.png",
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
                               ),
                             ],
                           ),
