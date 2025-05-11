@@ -12,7 +12,7 @@ class FoodDeliveryApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.light().copyWith(scaffoldBackgroundColor: Colors.white),
+      theme: ThemeData.light().copyWith(scaffoldBackgroundColor: Colors.grey[50]),
       home: Fd2HomeScreen(),
     );
   }
