@@ -33,15 +33,16 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                 children: [
                   Text(
                     "US \$2.99",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                   ),
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(42, 109, 62, 1),
                     ),
-                    padding: EdgeInsets.symmetric(horizontal: 15, vertical: 6),
+                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                     child: Row(
+                      spacing: 8,
                       children: [
                         Icon(Icons.shopping_basket_sharp, color: Colors.white),
                         Text(
