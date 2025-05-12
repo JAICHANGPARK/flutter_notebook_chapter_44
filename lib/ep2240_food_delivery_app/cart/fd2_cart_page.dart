@@ -35,6 +35,7 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(42, 109, 62, 1),
                     ),
+                    padding: EdgeInsets.symmetric(horizontal: 15, vertical: 6),
                     child: Row(
                       children: [
                         Icon(Icons.shopping_basket_sharp, color: Colors.white),
