@@ -36,7 +36,10 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                             ),
                           ],
                         ),
-                        Container(height: 380, child: Placeholder()),
+                        Container(height: 380, child: Image.network(
+                          "https://cdn.pixabay.com/photo/2023/02/01/01/07/cheeseburger-7759288_1280.png",
+                          fit: BoxFit.contain,
+                        ),),
                       ],
                     ),
                   ),
