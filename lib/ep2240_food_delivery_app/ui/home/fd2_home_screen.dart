@@ -402,7 +402,19 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                             fontSize: 18,
                           ),
                         ),
-                        Container(height: 120, color: Colors.blue),
+                        Container(
+                          height: 120,
+                          child: ListView.builder(
+                            scrollDirection: Axis.horizontal,
+                            itemBuilder: (context, index) {
+                              return Container(
+                                width: 260,
+                                margin: Edge,
+                                decoration: BoxDecoration(color: Colors.green,),
+                              );
+                            },
+                          ),
+                        ),
                       ],
                     ),
                   ),
