@@ -29,7 +29,8 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
             ),
             child: Row(
               children: [
-
+                  Text("US \$2.99"),
+                Container(decoration: ShapeDecoration(shape: shape),)
               ],
             ),
           )
