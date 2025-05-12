@@ -14,7 +14,25 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
       body: SafeArea(
         child: Column(
           children: [
-            Expanded(child: Placeholder()),
+            Expanded(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        child: Icon(Icons.keyboard_arrow_left),
+                      ),
+                      Expanded(child: Center(child: Text("Menu Details"))),
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        child: Icon(Icons.my_location),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
             Container(
               height: 80,
               decoration: BoxDecoration(
