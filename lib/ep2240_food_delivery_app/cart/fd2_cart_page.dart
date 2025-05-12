@@ -27,9 +27,14 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                   ),
                 ],
               ),
+              padding: EdgeInsets.symmetric(horizontal: 12),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text("US \$2.99"),
+                  Text(
+                    "US \$2.99",
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  ),
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
