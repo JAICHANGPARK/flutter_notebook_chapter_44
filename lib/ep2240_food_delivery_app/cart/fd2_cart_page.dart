@@ -21,9 +21,9 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
               color: Colors.white,
               boxShadow: [
                 BoxShadow(
-                  color: Colors.black.withValues(alpha: .1),
-                  spreadRadius: 9,
-                  blurRadius: 3
+                  color: Colors.black.withValues(alpha: .05),
+                  spreadRadius: 10,
+                  blurRadius: 5,
                 )
               ]
             ),
