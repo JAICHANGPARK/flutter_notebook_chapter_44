@@ -409,8 +409,8 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                             itemBuilder: (context, index) {
                               return Container(
                                 width: 260,
-                                margin: Edge,
-                                decoration: BoxDecoration(color: Colors.green,),
+                                margin: EdgeInsets.only(right: 12),
+                                decoration: BoxDecoration(color: Colors.green),
                               );
                             },
                           ),
