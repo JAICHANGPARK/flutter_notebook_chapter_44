@@ -187,11 +187,13 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                 left: 3,
                                 top: 35,
                                 child: Transform.rotate(
-
-angle: pi/4,                                  child: Container(
+                                  angle: pi / 4,
+                                  child: Container(
                                     height: 8,
                                     width: 8,
-                                    decoration: BoxDecoration(color: Colors.red),
+                                    decoration: BoxDecoration(
+                                      color: Colors.red,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -307,7 +309,6 @@ angle: pi/4,                                  child: Container(
                         Expanded(
                           child: Stack(
                             children: [
-
                               Positioned(
                                 left: 8,
                                 right: 0,
@@ -321,7 +322,7 @@ angle: pi/4,                                  child: Container(
                                   padding: EdgeInsets.all(12),
                                   child: Column(
                                     crossAxisAlignment:
-                                    CrossAxisAlignment.start,
+                                        CrossAxisAlignment.start,
                                     spacing: 5,
                                     children: [
                                       Expanded(
@@ -364,7 +365,7 @@ angle: pi/4,                                  child: Container(
                                       ),
                                       Row(
                                         mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
+                                            MainAxisAlignment.spaceBetween,
                                         children: [
                                           Text(
                                             "US \$1.00",
@@ -381,7 +382,6 @@ angle: pi/4,                                  child: Container(
                                   ),
                                 ),
                               ),
-
                             ],
                           ),
                         ),
