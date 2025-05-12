@@ -33,11 +33,11 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color: Colors.teal,
+                      color: Color.fromRGBO(42, 109, 62, 1),
                     ),
                     child: Row(
                       children: [
-                        Icon(Icons.shopping_basket_sharp,color: Colors.white,),
+                        Icon(Icons.shopping_basket_sharp, color: Colors.white),
                         Text(
                           "Add to Chart",
                           style: TextStyle(color: Colors.white),
