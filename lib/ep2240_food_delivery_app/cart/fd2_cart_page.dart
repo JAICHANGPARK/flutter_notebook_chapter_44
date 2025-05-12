@@ -14,7 +14,25 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
     return Scaffold(
       body: SafeArea(child: Column(
         children: [
-          
+          Expanded(child: Placeholder()),
+          Container(
+            height: 80,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withValues(alpha: .1),
+                  spreadRadius: 9,
+                  blurRadius: 3
+                )
+              ]
+            ),
+            child: Row(
+              children: [
+
+              ],
+            ),
+          )
         ],
       )),
     );
