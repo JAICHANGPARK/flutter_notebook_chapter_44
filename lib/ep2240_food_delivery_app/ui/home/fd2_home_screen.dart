@@ -202,71 +202,76 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                 right: 0,
                                 top: 0,
                                 bottom: 0,
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.white,
-                                    borderRadius: BorderRadius.circular(12),
-                                  ),
-                                  padding: EdgeInsets.all(12),
-                                  child: Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    spacing: 5,
-                                    children: [
-                                      Expanded(
-                                        child: Image.network(
-                                          "https://cdn.pixabay.com/photo/2023/02/01/01/07/cheeseburger-7759288_1280.png",
+                                child: InkWell(
+                                  onTap: (){
+                                    
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.circular(12),
+                                    ),
+                                    padding: EdgeInsets.all(12),
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      spacing: 5,
+                                      children: [
+                                        Expanded(
+                                          child: Image.network(
+                                            "https://cdn.pixabay.com/photo/2023/02/01/01/07/cheeseburger-7759288_1280.png",
+                                          ),
                                         ),
-                                      ),
-                                      Text(
-                                        "Cheeeeeese Burger",
-                                        style: TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 16,
+                                        Text(
+                                          "Cheeeeeese Burger",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 16,
+                                          ),
                                         ),
-                                      ),
-                                      Row(
-                                        spacing: 4,
-                                        children: [
-                                          Icon(
-                                            Icons.star,
-                                            color: Colors.orange,
-                                            size: 18,
-                                          ),
-                                          Text(
-                                            '4.9 reviews ',
-                                            style: TextStyle(
-                                              // fontWeight: FontWeight.bold,
-                                              fontSize: 13,
-                                              color: Colors.grey,
+                                        Row(
+                                          spacing: 4,
+                                          children: [
+                                            Icon(
+                                              Icons.star,
+                                              color: Colors.orange,
+                                              size: 18,
                                             ),
-                                          ),
-                                          Text(
-                                            "1.2 km",
-                                            style: TextStyle(
-                                              // fontWeight: FontWeight.bold,
-                                              fontSize: 13,
-                                              color: Colors.grey,
+                                            Text(
+                                              '4.9 reviews ',
+                                              style: TextStyle(
+                                                // fontWeight: FontWeight.bold,
+                                                fontSize: 13,
+                                                color: Colors.grey,
+                                              ),
                                             ),
-                                          ),
-                                        ],
-                                      ),
-                                      Row(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.spaceBetween,
-                                        children: [
-                                          Text(
-                                            "US \$1.00",
-                                            style: TextStyle(
-                                              fontWeight: FontWeight.bold,
-                                              fontSize: 16,
-                                              color: Colors.teal,
+                                            Text(
+                                              "1.2 km",
+                                              style: TextStyle(
+                                                // fontWeight: FontWeight.bold,
+                                                fontSize: 13,
+                                                color: Colors.grey,
+                                              ),
                                             ),
-                                          ),
-                                          Icon(Icons.favorite_border, size: 18),
-                                        ],
-                                      ),
-                                    ],
+                                          ],
+                                        ),
+                                        Row(
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            Text(
+                                              "US \$1.00",
+                                              style: TextStyle(
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: 16,
+                                                color: Colors.teal,
+                                              ),
+                                            ),
+                                            Icon(Icons.favorite_border, size: 18),
+                                          ],
+                                        ),
+                                      ],
+                                    ),
                                   ),
                                 ),
                               ),
