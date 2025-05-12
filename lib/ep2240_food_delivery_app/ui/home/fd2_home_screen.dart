@@ -203,8 +203,12 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                 top: 0,
                                 bottom: 0,
                                 child: InkWell(
-                                  onTap: (){
-                                    
+                                  onTap: () {
+                                    Navigator.of(context).push(
+                                      MaterialPageRoute(
+                                        builder: (context) => Fd2CartPage(),
+                                      ),
+                                    );
                                   },
                                   child: Container(
                                     decoration: BoxDecoration(
@@ -267,7 +271,10 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                                                 color: Colors.teal,
                                               ),
                                             ),
-                                            Icon(Icons.favorite_border, size: 18),
+                                            Icon(
+                                              Icons.favorite_border,
+                                              size: 18,
+                                            ),
                                           ],
                                         ),
                                       ],
