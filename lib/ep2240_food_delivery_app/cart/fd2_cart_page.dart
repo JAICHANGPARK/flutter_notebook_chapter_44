@@ -17,26 +17,29 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
             Expanded(
               child: Column(
                 children: [
-                  Column(
-                    children: [
-                      Row(
-                        children: [
-                          CircleAvatar(
-                            backgroundColor: Colors.white,
-                            child: Icon(Icons.keyboard_arrow_left),
-                          ),
-                          Expanded(child: Center(child: Text("Menu Details"))),
-                          CircleAvatar(
-                            backgroundColor: Colors.white,
-                            child: Icon(Icons.my_location),
-                          ),
-                        ],
-                      ),
-                      Container(
-                        height: 320,
-                        child: Placeholder(),
-                      )
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              child: Icon(Icons.keyboard_arrow_left),
+                            ),
+                            Expanded(child: Center(child: Text("Menu Details"))),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              child: Icon(Icons.my_location),
+                            ),
+                          ],
+                        ),
+                        Container(
+                          height: 320,
+                          child: Placeholder(),
+                        )
+                      ],
+                    ),
                   )
 
                 ],
