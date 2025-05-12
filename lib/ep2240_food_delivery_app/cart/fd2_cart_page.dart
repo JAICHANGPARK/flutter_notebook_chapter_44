@@ -11,6 +11,6 @@ class Fd2CartPage extends StatefulWidget {
 class _Fd2CartPageState extends State<Fd2CartPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
