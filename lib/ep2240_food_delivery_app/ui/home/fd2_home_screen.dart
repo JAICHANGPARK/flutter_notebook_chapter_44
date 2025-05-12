@@ -403,14 +403,17 @@ class _Fd2HomeScreenState extends State<Fd2HomeScreen> {
                           ),
                         ),
                         Container(
-                          height: 120,
+                          height: 160,
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
                             itemBuilder: (context, index) {
                               return Container(
                                 width: 260,
                                 margin: EdgeInsets.only(right: 12),
-                                decoration: BoxDecoration(color: Colors.green),
+                                decoration: BoxDecoration(
+                                  color: Colors.green,
+                                  borderRadius: BorderRadius.circular(16),
+                                ),
                               );
                             },
                           ),
