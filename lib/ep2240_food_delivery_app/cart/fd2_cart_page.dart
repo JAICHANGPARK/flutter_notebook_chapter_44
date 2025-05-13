@@ -163,6 +163,7 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                             ),
                                             Expanded(
                                               child: Column(
+                                                spacing: 4,
                                                 crossAxisAlignment:
                                                     CrossAxisAlignment.start,
                                                 children: [
