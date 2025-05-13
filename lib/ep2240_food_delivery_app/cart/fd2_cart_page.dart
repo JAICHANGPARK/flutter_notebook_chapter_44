@@ -56,8 +56,16 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                   ),
                   Expanded(child: Container(child: SingleChildScrollView(
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        
+                        Row(
+                          children: [
+                            Expanded(child: Column(children: [
+                              
+                            ],))
+                          ],
+                        )
+
                       ],
                     ),
                   ))),
