@@ -60,8 +60,17 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                       children: [
                         Row(
                           children: [
-                            Expanded(child: Column(children: [
-                              
+                            Expanded(child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text("Cheeeeeese Burger"),
+                                Row(
+                                  children: [
+                                    Icon(Icons.star, color: Colors.orange,),
+                                    Text("4.8 reviews 2.2 km")
+                                  ],
+                                )
+
                             ],))
                           ],
                         )
