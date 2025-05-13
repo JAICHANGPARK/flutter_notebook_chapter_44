@@ -142,44 +142,55 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                   fontSize: 16,
                                   fontWeight: FontWeight.bold,
                                 ),
-                              ),Gap(8),
+                              ),
+                              Gap(8),
                               Column(
-                                children:  List.generate(5, (idx){
-                                  return Padding(
-                                    padding: const EdgeInsets.only(bottom: 8),
-                                    child: Row(
-                                      spacing: 8,
-                                      children: [
-
-                                        Container(
-                                          height: 62,
-                                          width: 62,
-                                          decoration: BoxDecoration(
-                                            color: Colors.grey,
-                                          ),
+                                children:
+                                    List.generate(5, (idx) {
+                                      return Padding(
+                                        padding: const EdgeInsets.only(
+                                          bottom: 8,
                                         ),
-                                        Expanded(
-                                          child: Column(
-                                            crossAxisAlignment: CrossAxisAlignment.start,
-                                            children: [
-                                              Text("Extra Cheeeeeeese"),
-                                              Text("+US \$1.00")
-                                            ],
-                                          ),
+                                        child: Row(
+                                          spacing: 8,
+                                          children: [
+                                            Container(
+                                              height: 62,
+                                              width: 62,
+                                              decoration: BoxDecoration(
+                                                color: Colors.grey,
+                                              ),
+                                            ),
+                                            Expanded(
+                                              child: Column(
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.start,
+                                                children: [
+                                                  Text(
+                                                    "Extra Cheeeeeeese",
+                                                    style: TextStyle(
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                                  ),
+                                                  Text("+US \$1.00"),
+                                                ],
+                                              ),
+                                            ),
+                                            Container(
+                                              decoration: BoxDecoration(
+                                                color: Colors.teal,
+                                              ),
+                                              child: Icon(
+                                                Icons.check,
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ],
                                         ),
-                                        Container(
-                                          decoration: BoxDecoration(
-                                            color: Colors.teal,
-                                          ),
-                                          child: Icon(Icons.check,
-                                          color: Colors.white,),
-                                        )
-
-                                      ],
-                                    ),
-                                  );
-                                }).toList(),
-                              )
+                                      );
+                                    }).toList(),
+                              ),
                             ],
                           ),
                         ),
