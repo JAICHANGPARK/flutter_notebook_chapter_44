@@ -54,7 +54,13 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                       ],
                     ),
                   ),
-                  Expanded(child: Container(child: Placeholder())),
+                  Expanded(child: Container(child: SingleChildScrollView(
+                    child: Column(
+                      children: [
+                        
+                      ],
+                    ),
+                  ))),
                 ],
               ),
             ),
