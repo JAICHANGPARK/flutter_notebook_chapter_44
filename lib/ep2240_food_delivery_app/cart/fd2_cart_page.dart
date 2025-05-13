@@ -85,6 +85,15 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                       ],
                                     ),
                                   ),
+                                  Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(4),
+                                      border: Border.all(),
+
+                                    ),
+                                    child: Icon(Icons.remove, size: 12,),
+                                  ),
+                                  Text("2"),
                                 ],
                               ),
                             ],
