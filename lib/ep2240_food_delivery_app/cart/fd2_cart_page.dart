@@ -73,7 +73,7 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                         Text(
                                           "Cheeeeeese Burger",
                                           style: TextStyle(
-                                            fontSize: 24,
+                                            fontSize: 22,
                                             fontWeight: FontWeight.bold,
                                           ),
                                         ),
