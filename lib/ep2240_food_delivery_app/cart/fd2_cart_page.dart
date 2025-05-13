@@ -86,8 +86,10 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                     ),
                                   ),
                                   Row(
+                                    spacing: 8,
                                     children: [
                                       Container(
+                                        padding: EdgeInsets.all(2),
                                         decoration: BoxDecoration(
                                           borderRadius: BorderRadius.circular(4),
                                           border: Border.all(),
