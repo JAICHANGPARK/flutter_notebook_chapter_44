@@ -31,7 +31,10 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                               child: Center(
                                 child: Text(
                                   "Menu Details",
-                                  style: TextStyle(fontSize: 18),
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
                               ),
                             ),
