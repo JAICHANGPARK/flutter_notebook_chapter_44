@@ -55,27 +55,31 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                     ),
                   ),
                   Expanded(child: Container(child: SingleChildScrollView(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Row(
-                          children: [
-                            Expanded(child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text("Cheeeeeese Burger"),
-                                Row(
-                                  children: [
-                                    Icon(Icons.star, color: Colors.orange,),
-                                    Text("4.8 reviews 2.2 km")
-                                  ],
-                                )
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Expanded(child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text("Cheeeeeese Burger"),
+                                  Row(
+                                    children: [
+                                      Icon(Icons.star, color: Colors.orange,
+                                      size: 18,),
+                                      Text("4.8 reviews 2.2 km")
+                                    ],
+                                  )
 
-                            ],))
-                          ],
-                        )
+                              ],))
+                            ],
+                          )
 
-                      ],
+                        ],
+                      ),
                     ),
                   ))),
                 ],
