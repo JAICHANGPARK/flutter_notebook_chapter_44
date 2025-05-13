@@ -54,34 +54,45 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                       ],
                     ),
                   ),
-                  Expanded(child: Container(child: SingleChildScrollView(
-                    child: Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Row(
+                  Expanded(
+                    child: Container(
+                      child: SingleChildScrollView(
+                        child: Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Expanded(child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
+                              Row(
                                 children: [
-                                  Text("Cheeeeeese Burger"),
-                                  Row(
-                                    children: [
-                                      Icon(Icons.star, color: Colors.orange,
-                                      size: 18,),
-                                      Text("4.8 reviews 2.2 km")
-                                    ],
-                                  )
-
-                              ],))
+                                  Expanded(
+                                    child: Column(
+                                      spacing: 8,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text("Cheeeeeese Burger"),
+                                        Row(
+                                          spacing: 8,
+                                          children: [
+                                            Icon(
+                                              Icons.star,
+                                              color: Colors.orange,
+                                              size: 18,
+                                            ),
+                                            Text("4.8 reviews 2.2 km"),
+                                          ],
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ],
-                          )
-
-                        ],
+                          ),
+                        ),
                       ),
                     ),
-                  ))),
+                  ),
                 ],
               ),
             ),
