@@ -145,18 +145,21 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                               ),
                               Column(
                                 children:  List.generate(5, (idx){
-                                  return Row(
-                                    children: [
+                                  return Padding(
+                                    padding: const EdgeInsets.only(bottom: 8),
+                                    child: Row(
+                                      children: [
 
-                                      Container(
-                                        height: 42,
-                                        width: 42,
-                                        decoration: BoxDecoration(
-                                          color: Colors.grey,
-                                        ),
-                                      )
+                                        Container(
+                                          height: 72,
+                                          width: 72,
+                                          decoration: BoxDecoration(
+                                            color: Colors.grey,
+                                          ),
+                                        )
 
-                                    ],
+                                      ],
+                                    ),
                                   );
                                 }).toList(),
                               )
