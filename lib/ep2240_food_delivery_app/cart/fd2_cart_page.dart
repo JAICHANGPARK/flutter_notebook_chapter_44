@@ -11,6 +11,7 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[100],
       body: SafeArea(
         child: Column(
           children: [
@@ -56,6 +57,7 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                   ),
                   Expanded(
                     child: Container(
+                      color: Colors.white,
                       child: SingleChildScrollView(
                         child: Padding(
                           padding: const EdgeInsets.all(16.0),
