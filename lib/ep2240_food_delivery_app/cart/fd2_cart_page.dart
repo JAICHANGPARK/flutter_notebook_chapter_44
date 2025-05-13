@@ -148,6 +148,14 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                   return Row(
                                     children: [
 
+                                      Container(
+                                        height: 42,
+                                        width: 42,
+                                        decoration: BoxDecoration(
+                                          color: Colors.grey,
+                                        ),
+                                      )
+
                                     ],
                                   );
                                 }).toList(),
