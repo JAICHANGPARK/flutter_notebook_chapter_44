@@ -148,21 +148,24 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                   return Padding(
                                     padding: const EdgeInsets.only(bottom: 8),
                                     child: Row(
+                                      spacing: 8,
                                       children: [
 
                                         Container(
-                                          height: 72,
-                                          width: 72,
+                                          height: 62,
+                                          width: 62,
                                           decoration: BoxDecoration(
                                             color: Colors.grey,
                                           ),
                                         ),
-                                        Column(
-                                          crossAxisAlignment: CrossAxisAlignment.start,
-                                          children: [
-                                            Text("Extra Cheeeeeeese"),
-                                            Text("+US \$1.00")
-                                          ],
+                                        Expanded(
+                                          child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              Text("Extra Cheeeeeeese"),
+                                              Text("+US \$1.00")
+                                            ],
+                                          ),
                                         )
 
                                       ],
