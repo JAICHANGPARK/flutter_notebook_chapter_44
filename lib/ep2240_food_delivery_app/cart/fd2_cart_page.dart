@@ -28,7 +28,12 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                               child: Icon(Icons.keyboard_arrow_left),
                             ),
                             Expanded(
-                              child: Center(child: Text("Menu Details")),
+                              child: Center(
+                                child: Text(
+                                  "Menu Details",
+                                  style: TextStyle(fontSize: 18),
+                                ),
+                              ),
                             ),
                             CircleAvatar(
                               backgroundColor: Colors.white,
@@ -36,10 +41,13 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                             ),
                           ],
                         ),
-                        Container(height: 380, child: Image.network(
-                          "https://cdn.pixabay.com/photo/2023/02/01/01/07/cheeseburger-7759288_1280.png",
-                          fit: BoxFit.contain,
-                        ),),
+                        Container(
+                          height: 380,
+                          child: Image.network(
+                            "https://cdn.pixabay.com/photo/2023/02/01/01/07/cheeseburger-7759288_1280.png",
+                            fit: BoxFit.contain,
+                          ),
+                        ),
                       ],
                     ),
                   ),
