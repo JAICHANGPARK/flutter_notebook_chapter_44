@@ -142,7 +142,7 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                   fontSize: 16,
                                   fontWeight: FontWeight.bold,
                                 ),
-                              ),
+                              ),Gap(8),
                               Column(
                                 children:  List.generate(5, (idx){
                                   return Padding(
@@ -156,6 +156,13 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                           decoration: BoxDecoration(
                                             color: Colors.grey,
                                           ),
+                                        ),
+                                        Column(
+                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          children: [
+                                            Text("Extra Cheeeeeeese"),
+                                            Text("+US \$1.00")
+                                          ],
                                         )
 
                                       ],
