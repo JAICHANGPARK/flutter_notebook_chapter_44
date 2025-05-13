@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class Fd2CartPage extends StatefulWidget {
   const Fd2CartPage({super.key});
@@ -121,6 +122,7 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                   ),
                                 ],
                               ),
+                              Gap(20),
                               Text(
                                 "Description",
                                 style: TextStyle(
@@ -128,6 +130,7 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
+                              Gap(6),
                               Text(
                                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                                 maxLines: 4,
