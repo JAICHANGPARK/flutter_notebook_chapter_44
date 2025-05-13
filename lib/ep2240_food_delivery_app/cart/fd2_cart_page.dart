@@ -70,7 +70,13 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
                                       children: [
-                                        Text("Cheeeeeese Burger"),
+                                        Text(
+                                          "Cheeeeeese Burger",
+                                          style: TextStyle(
+                                            fontSize: 24,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
                                         Row(
                                           spacing: 8,
                                           children: [
@@ -91,24 +97,26 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                       Container(
                                         padding: EdgeInsets.all(2),
                                         decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.circular(4),
+                                          borderRadius: BorderRadius.circular(
+                                            4,
+                                          ),
                                           border: Border.all(),
-
                                         ),
-                                        child: Icon(Icons.remove, size: 12,),
+                                        child: Icon(Icons.remove, size: 12),
                                       ),
                                       Text("2"),
-                                      Container( padding: EdgeInsets.all(2),
+                                      Container(
+                                        padding: EdgeInsets.all(2),
                                         decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.circular(4),
+                                          borderRadius: BorderRadius.circular(
+                                            4,
+                                          ),
                                           border: Border.all(),
-
                                         ),
-                                        child: Icon(Icons.add, size: 12,),
+                                        child: Icon(Icons.add, size: 12),
                                       ),
                                     ],
-                                  )
-
+                                  ),
                                 ],
                               ),
                             ],
