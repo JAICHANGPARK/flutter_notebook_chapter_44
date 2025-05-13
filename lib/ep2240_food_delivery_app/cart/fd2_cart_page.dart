@@ -166,6 +166,13 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                               Text("+US \$1.00")
                                             ],
                                           ),
+                                        ),
+                                        Container(
+                                          decoration: BoxDecoration(
+                                            color: Colors.teal,
+                                          ),
+                                          child: Icon(Icons.check,
+                                          color: Colors.white,),
                                         )
 
                                       ],
