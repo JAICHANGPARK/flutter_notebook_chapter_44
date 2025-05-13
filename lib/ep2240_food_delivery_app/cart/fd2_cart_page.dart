@@ -143,6 +143,15 @@ class _Fd2CartPageState extends State<Fd2CartPage> {
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
+                              Column(
+                                children:  List.generate(5, (idx){
+                                  return Row(
+                                    children: [
+
+                                    ],
+                                  );
+                                }).toList(),
+                              )
                             ],
                           ),
                         ),
