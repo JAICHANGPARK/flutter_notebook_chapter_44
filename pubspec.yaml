@@ -17,6 +17,7 @@ dependencies:
   percent_indicator: ^4.2.5
   hugeicons: ^0.0.11
   fl_chart: ^1.0.0
+  smooth_page_indicator: ^1.2.1
 
 
 dev_dependencies:
