@@ -25,6 +25,12 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
               right: 0,
               child: Container(
                 height: 82,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.only(
+                    
+                  )
+                ),
               ))
 
         ],
