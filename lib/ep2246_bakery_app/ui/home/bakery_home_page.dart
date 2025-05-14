@@ -38,8 +38,23 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                     color: Colors.white
                   ),
                 ),
-                SmoothPageIndicator(controller: pageController, count: 4)
-
+                SmoothPageIndicator(controller: pageController, count: 4),
+                Row(
+                  children: [
+                    Text("Categories"),
+                    TextButton(onPressed: () {}, child: Text("See all")),
+                  ],
+                ),
+                Container(
+                  height: 100,
+                  child: Placeholder(),
+                ),
+                Row(
+                  children: [
+                    Text("Categories"),
+                    TextButton(onPressed: () {}, child: Text("See all")),
+                  ],
+                ),
               ],
             ),
           ),
