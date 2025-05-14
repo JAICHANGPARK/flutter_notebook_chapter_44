@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class BakeryHomePage extends StatefulWidget {
   const BakeryHomePage({super.key});
@@ -9,6 +10,9 @@ class BakeryHomePage extends StatefulWidget {
 }
 
 class _BakeryHomePageState extends State<BakeryHomePage> {
+  PageController pageController = PageController(
+
+  );
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,7 +31,11 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                     TextButton(onPressed: () {}, child: Text("See all")),
                   ],
                 ),
-                
+                Container(
+                  height: 180,
+                ),
+                SmoothPageIndicator(controller: pageController, count: 4)
+
               ],
             ),
           ),
