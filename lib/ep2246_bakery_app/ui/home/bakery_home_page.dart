@@ -19,6 +19,12 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
 
           ],)),
 
+          Positioned(
+              bottom: 0,
+              left: 0,
+              right: 0,
+              child: Container())
+
         ],
       ),
     );
