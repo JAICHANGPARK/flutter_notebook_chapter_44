@@ -48,21 +48,21 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(HugeIcons.strokeRoundedHome01),
-                      Text("Home"),
+                      Icon(HugeIcons.strokeRoundedSettings01),
+                      Text("Setting"),
                     ],
                   ),
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(HugeIcons.strokeRoundedHome01),
-                      Text("Home"),
+                      Icon(HugeIcons.strokeRoundedNotification01),
+                      Text("Notification"),
                     ],
                   ),
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(HugeIcons.strokeRoundedHome01),
+                      Icon(HugeIcons.strokeRoundedUser),
                       Text("Profile"),
                     ],
                   ),
