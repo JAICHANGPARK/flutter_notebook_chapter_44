@@ -42,7 +42,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(HugeIcons.strokeRoundedHome01),
-                      Text("Home"),
+                      Text("Activity"),
                     ],
                   ),
                   Column(
