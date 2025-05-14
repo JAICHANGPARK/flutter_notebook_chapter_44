@@ -11,6 +11,6 @@ class BakeryHomePage extends StatefulWidget {
 class _BakeryHomePageState extends State<BakeryHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
