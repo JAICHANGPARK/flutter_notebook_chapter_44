@@ -51,7 +51,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                 ),
                 Row(
                   children: [
-                    Text("Categories"),
+                    Text("Special Breads"),
                     TextButton(onPressed: () {}, child: Text("See all")),
                   ],
                 ),
