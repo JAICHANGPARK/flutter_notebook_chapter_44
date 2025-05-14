@@ -11,6 +11,16 @@ class BakeryHomePage extends StatefulWidget {
 class _BakeryHomePageState extends State<BakeryHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Stack(
+
+        children: [
+          Positioned.fill(child: Column(children: [
+
+          ],)),
+
+        ],
+      ),
+    );
   }
 }
