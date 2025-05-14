@@ -30,6 +30,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                 ),
               ),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -41,7 +42,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(HugeIcons.strokeRoundedHome01),
+                      Icon(HugeIcons.strokeRoundedChart),
                       Text("Activity"),
                     ],
                   ),
