@@ -14,7 +14,16 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned.fill(child: Column(children: [])),
+          Positioned.fill(
+            child: Column(
+              children: [
+                Container(
+                  height: 240,
+                  decoration: BoxDecoration(color: Colors.brown),
+                ),
+              ],
+            ),
+          ),
 
           Positioned(
             bottom: 0,
@@ -67,7 +76,6 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                       Text("Profile"),
                     ],
                   ),
-
                 ],
               ),
             ),
