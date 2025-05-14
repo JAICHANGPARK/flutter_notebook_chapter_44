@@ -16,6 +16,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[200],
       body: Stack(
         children: [
           Positioned.fill(
@@ -33,6 +34,9 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                 ),
                 Container(
                   height: 180,
+                  decoration: BoxDecoration(
+                    color: Colors.white
+                  ),
                 ),
                 SmoothPageIndicator(controller: pageController, count: 4)
 
