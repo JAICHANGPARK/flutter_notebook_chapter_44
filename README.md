@@ -3,7 +3,7 @@
 ## EP2246
 
 - Bakery Delicious Mobile App Design 🎂
-- Ahmad Faizien for OnPoint Studio
+- UIX Maruf Hossen
 - https://dribbble.com/shots/26015909-Bakery-Delicious-Mobile-App-Design
 
 <img src="https://cdn.dribbble.com/userupload/43224297/file/original-d076c7f65ade5346c73f4bedf86931af.jpg?resize=1905x1429&vertical=center">
