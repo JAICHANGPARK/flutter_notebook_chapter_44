@@ -24,9 +24,15 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(
-                  topRight: Radius.circular(16),
-                  topLeft: Radius.circular(16),
+                  topRight: Radius.circular(24),
+                  topLeft: Radius.circular(24),
                 ),
+
+              ),
+              child: Row(
+                children: [
+                  
+                ],
               ),
             ),
           ),
