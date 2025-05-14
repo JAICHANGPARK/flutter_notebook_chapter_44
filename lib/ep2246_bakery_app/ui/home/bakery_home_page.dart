@@ -55,6 +55,10 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                     TextButton(onPressed: () {}, child: Text("See all")),
                   ],
                 ),
+                Container(
+                  height: 200,
+                  child: Placeholder(),
+                )
               ],
             ),
           ),
