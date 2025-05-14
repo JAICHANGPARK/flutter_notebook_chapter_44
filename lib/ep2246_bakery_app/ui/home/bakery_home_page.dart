@@ -23,7 +23,9 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
               bottom: 0,
               left: 0,
               right: 0,
-              child: Container())
+              child: Container(
+                height: 82,
+              ))
 
         ],
       ),
