@@ -21,6 +21,12 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                   height: 240,
                   decoration: BoxDecoration(color: Colors.brown),
                 ),
+                Row(
+                  children: [
+                    Text("Special Offers"),
+                    TextButton(onPressed: () {}, child: Text("See all")),
+                  ],
+                ),
               ],
             ),
           ),
