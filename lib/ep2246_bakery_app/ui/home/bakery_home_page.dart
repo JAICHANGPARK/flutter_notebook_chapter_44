@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class BakeryHomePage extends StatefulWidget {
   const BakeryHomePage({super.key});
@@ -27,11 +28,45 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                   topRight: Radius.circular(24),
                   topLeft: Radius.circular(24),
                 ),
-
               ),
               child: Row(
                 children: [
-                  
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(HugeIcons.strokeRoundedHome01),
+                      Text("Home"),
+                    ],
+                  ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(HugeIcons.strokeRoundedHome01),
+                      Text("Home"),
+                    ],
+                  ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(HugeIcons.strokeRoundedHome01),
+                      Text("Home"),
+                    ],
+                  ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(HugeIcons.strokeRoundedHome01),
+                      Text("Home"),
+                    ],
+                  ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(HugeIcons.strokeRoundedHome01),
+                      Text("Profile"),
+                    ],
+                  ),
+
                 ],
               ),
             ),
