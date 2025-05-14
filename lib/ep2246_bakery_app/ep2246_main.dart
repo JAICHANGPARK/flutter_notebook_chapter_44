@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'ui/home/bakery_home_page.dart';
+
 
 void main() {
   runApp(BakeryApp());
@@ -10,6 +12,8 @@ class BakeryApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      home: BakeryHomePage(),
+    );
   }
 }
