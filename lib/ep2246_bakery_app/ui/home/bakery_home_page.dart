@@ -109,7 +109,11 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text("Special Breads"),
+                              Text("Special Breads",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),),
                               TextButton(
                                 onPressed: () {},
                                 child: Text("See all"),
