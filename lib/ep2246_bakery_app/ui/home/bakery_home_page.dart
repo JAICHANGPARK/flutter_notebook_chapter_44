@@ -73,7 +73,6 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                           padding: const EdgeInsets.symmetric(horizontal: 16),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-
                             children: [
                               Text(
                                 "Categories",
@@ -89,7 +88,20 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                             ],
                           ),
                         ),
-                        Container(height: 100, child: Placeholder()),
+                        Container(
+                          height: 100,
+                          child: ListView.builder(
+                            scrollDirection: Axis.horizontal,
+                            itemBuilder: (context, index) {
+                              return Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  children: [CircleAvatar(radius: 32)],
+                                ),
+                              );
+                            },
+                          ),
+                        ),
                         Row(
                           children: [
                             Text("Special Breads"),
