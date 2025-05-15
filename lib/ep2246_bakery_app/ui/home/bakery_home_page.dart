@@ -20,6 +20,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
         children: [
           Positioned.fill(
             child: Column(
+              spacing: 12,
               children: [
                 Container(
                   height: 240,
