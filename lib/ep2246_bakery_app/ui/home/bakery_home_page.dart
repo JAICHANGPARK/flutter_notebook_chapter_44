@@ -128,7 +128,11 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                         Container(
                           height: 200,
                           child: ListView.builder(
-                            itemBuilder: (context, index) {},
+                            itemBuilder: (context, index) {
+                              return Container(
+                                decoration: BoxDecoration(color: Colors.blue),
+                              );
+                            },
                           ),
                         ),
                       ],
