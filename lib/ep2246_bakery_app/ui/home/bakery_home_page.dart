@@ -55,7 +55,10 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                         Container(
                           height: 180,
                           margin: EdgeInsets.symmetric(horizontal: 16),
-                          decoration: BoxDecoration(color: Colors.white),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(12),
+                          ),
                         ),
                         Align(
                           alignment: Alignment.center,
