@@ -107,6 +107,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 16),
                           child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("Special Breads"),
                               TextButton(
