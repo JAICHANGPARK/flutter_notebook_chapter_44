@@ -132,6 +132,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                             scrollDirection: Axis.horizontal,
                             itemBuilder: (context, index) {
                               return Container(
+                                margin: EdgeInsets.only(right: 16),
                                 width: 240,
                                 decoration: BoxDecoration(color: Colors.blue),
                               );
