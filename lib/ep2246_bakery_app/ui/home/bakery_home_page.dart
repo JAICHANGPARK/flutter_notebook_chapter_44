@@ -96,7 +96,8 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                               return Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Column(
-                                  children: [CircleAvatar(radius: 32)],
+                                  children: [CircleAvatar(radius: 32,),
+                                  Text("Cookies")],
                                 ),
                               );
                             },
