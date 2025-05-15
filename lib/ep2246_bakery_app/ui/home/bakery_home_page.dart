@@ -10,9 +10,8 @@ class BakeryHomePage extends StatefulWidget {
 }
 
 class _BakeryHomePageState extends State<BakeryHomePage> {
-  PageController pageController = PageController(
+  PageController pageController = PageController();
 
-  );
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,16 +31,21 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
 
                     children: [
-                      Text("Special Offers"),
+                      Text(
+                        "Special Offers",
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
                 ),
                 Container(
                   height: 180,
-                  decoration: BoxDecoration(
-                    color: Colors.white
-                  ),
+                  margin: EdgeInsets.symmetric(horizontal: 16,vertical: 8),
+                  decoration: BoxDecoration(color: Colors.white),
                 ),
                 SmoothPageIndicator(controller: pageController, count: 4),
                 Row(
@@ -50,20 +54,14 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                     TextButton(onPressed: () {}, child: Text("See all")),
                   ],
                 ),
-                Container(
-                  height: 100,
-                  child: Placeholder(),
-                ),
+                Container(height: 100, child: Placeholder()),
                 Row(
                   children: [
                     Text("Special Breads"),
                     TextButton(onPressed: () {}, child: Text("See all")),
                   ],
                 ),
-                Container(
-                  height: 200,
-                  child: Placeholder(),
-                )
+                Container(height: 200, child: Placeholder()),
               ],
             ),
           ),
