@@ -97,8 +97,10 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                 padding: const EdgeInsets.all(8.0),
                                 child: Column(
                                   spacing: 12,
-                                  children: [CircleAvatar(radius: 32,),
-                                  Text("Cookies")],
+                                  children: [
+                                    CircleAvatar(radius: 32),
+                                    Text("Cookies"),
+                                  ],
                                 ),
                               );
                             },
@@ -109,11 +111,13 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text("Special Breads",
+                              Text(
+                                "Special Breads",
                                 style: TextStyle(
                                   fontSize: 18,
                                   fontWeight: FontWeight.bold,
-                                ),),
+                                ),
+                              ),
                               TextButton(
                                 onPressed: () {},
                                 child: Text("See all"),
@@ -121,7 +125,12 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                             ],
                           ),
                         ),
-                        Container(height: 200, child: Placeholder()),
+                        Container(
+                          height: 200,
+                          child: ListView.builder(
+                            itemBuilder: (context, index) {},
+                          ),
+                        ),
                       ],
                     ),
                   ),
