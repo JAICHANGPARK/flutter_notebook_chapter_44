@@ -133,12 +133,15 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                             itemBuilder: (context, index) {
                               return Container(
                                 margin: EdgeInsets.only(right: 16),
-                                width: 240,
+                                width: 210,
                                 decoration: BoxDecoration(color: Colors.blue),
                               );
                             },
                           ),
                         ),
+                        Container(
+                          height: 200,
+                        )
                       ],
                     ),
                   ),
