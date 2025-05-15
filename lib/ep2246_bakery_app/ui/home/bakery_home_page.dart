@@ -28,47 +28,48 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                 ),
                 Expanded(child: SingleChildScrollView(child: Column(
                   spacing: 12,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
 
+                        children: [
+                          Text(
+                            "Special Offers",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          TextButton(onPressed: () {}, child: Text("See all")),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      height: 180,
+                      margin: EdgeInsets.symmetric(horizontal: 16),
+                      decoration: BoxDecoration(color: Colors.white),
+                    ),
+                    SmoothPageIndicator(controller: pageController, count: 4),
+                    Row(
+                      children: [
+                        Text("Categories"),
+                        TextButton(onPressed: () {}, child: Text("See all")),
+                      ],
+                    ),
+                    Container(height: 100, child: Placeholder()),
+                    Row(
+                      children: [
+                        Text("Special Breads"),
+                        TextButton(onPressed: () {}, child: Text("See all")),
+                      ],
+                    ),
+                    Container(height: 200, child: Placeholder()),
                   ],
                 ),))
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 16),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
 
-                    children: [
-                      Text(
-                        "Special Offers",
-                        style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      TextButton(onPressed: () {}, child: Text("See all")),
-                    ],
-                  ),
-                ),
-                Container(
-                  height: 180,
-                  margin: EdgeInsets.symmetric(horizontal: 16),
-                  decoration: BoxDecoration(color: Colors.white),
-                ),
-                SmoothPageIndicator(controller: pageController, count: 4),
-                Row(
-                  children: [
-                    Text("Categories"),
-                    TextButton(onPressed: () {}, child: Text("See all")),
-                  ],
-                ),
-                Container(height: 100, child: Placeholder()),
-                Row(
-                  children: [
-                    Text("Special Breads"),
-                    TextButton(onPressed: () {}, child: Text("See all")),
-                  ],
-                ),
-                Container(height: 200, child: Placeholder()),
               ],
             ),
           ),
