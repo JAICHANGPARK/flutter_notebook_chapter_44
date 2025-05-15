@@ -104,14 +104,17 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                             },
                           ),
                         ),
-                        Row(
-                          children: [
-                            Text("Special Breads"),
-                            TextButton(
-                              onPressed: () {},
-                              child: Text("See all"),
-                            ),
-                          ],
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          child: Row(
+                            children: [
+                              Text("Special Breads"),
+                              TextButton(
+                                onPressed: () {},
+                                child: Text("See all"),
+                              ),
+                            ],
+                          ),
                         ),
                         Container(height: 200, child: Placeholder()),
                       ],
