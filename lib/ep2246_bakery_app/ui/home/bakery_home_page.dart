@@ -89,13 +89,14 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                           ),
                         ),
                         Container(
-                          height: 100,
+                          height: 120,
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
                             itemBuilder: (context, index) {
                               return Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Column(
+                                  spacing: 12,
                                   children: [CircleAvatar(radius: 32,),
                                   Text("Cookies")],
                                 ),
