@@ -26,63 +26,81 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                   height: 240,
                   decoration: BoxDecoration(color: Colors.brown),
                 ),
-                Expanded(child: SingleChildScrollView(child: Column(
-                  spacing: 12,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-
-                        children: [
-                          Text(
-                            "Special Offers",
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                          TextButton(onPressed: () {}, child: Text("See all")),
-                        ],
-                      ),
-                    ),
-                    Container(
-                      height: 180,
-                      margin: EdgeInsets.symmetric(horizontal: 16),
-                      decoration: BoxDecoration(color: Colors.white),
-                    ),
-                    Align(
-                        alignment: Alignment.center,
-                        child: SmoothPageIndicator(controller: pageController, count: 4)),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-
-                        children: [
-                          Text(
-                            "Categories",
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                          TextButton(onPressed: () {}, child: Text("See all")),
-                        ],
-                      ),
-                    ),
-                    Container(height: 100, child: Placeholder()),
-                    Row(
+                Expanded(
+                  child: SingleChildScrollView(
+                    child: Column(
+                      spacing: 12,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Special Breads"),
-                        TextButton(onPressed: () {}, child: Text("See all")),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
+                            children: [
+                              Text(
+                                "Special Offers",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              TextButton(
+                                onPressed: () {},
+                                child: Text("See all"),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          height: 180,
+                          margin: EdgeInsets.symmetric(horizontal: 16),
+                          decoration: BoxDecoration(color: Colors.white),
+                        ),
+                        Align(
+                          alignment: Alignment.center,
+                          child: SmoothPageIndicator(
+                            controller: pageController,
+                            count: 4,
+
+                            effect: WormEffect(dotWidth: 12, dotHeight: 12),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
+                            children: [
+                              Text(
+                                "Categories",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              TextButton(
+                                onPressed: () {},
+                                child: Text("See all"),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(height: 100, child: Placeholder()),
+                        Row(
+                          children: [
+                            Text("Special Breads"),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text("See all"),
+                            ),
+                          ],
+                        ),
+                        Container(height: 200, child: Placeholder()),
                       ],
                     ),
-                    Container(height: 200, child: Placeholder()),
-                  ],
-                ),))
-
+                  ),
+                ),
               ],
             ),
           ),
