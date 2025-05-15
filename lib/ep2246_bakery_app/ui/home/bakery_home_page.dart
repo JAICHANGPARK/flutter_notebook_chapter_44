@@ -26,6 +26,12 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                   height: 240,
                   decoration: BoxDecoration(color: Colors.brown),
                 ),
+                Expanded(child: SingleChildScrollView(child: Column(
+                  spacing: 12,
+                  children: [
+
+                  ],
+                ),))
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   child: Row(
@@ -45,7 +51,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                 ),
                 Container(
                   height: 180,
-                  margin: EdgeInsets.symmetric(horizontal: 16,vertical: 8),
+                  margin: EdgeInsets.symmetric(horizontal: 16),
                   decoration: BoxDecoration(color: Colors.white),
                 ),
                 SmoothPageIndicator(controller: pageController, count: 4),
