@@ -127,7 +127,9 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                         ),
                         Container(
                           height: 200,
+                          padding: EdgeInsets.only(left: 16),
                           child: ListView.builder(
+                            scrollDirection: Axis.horizontal,
                             itemBuilder: (context, index) {
                               return Container(
                                 width: 240,
