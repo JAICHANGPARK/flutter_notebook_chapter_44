@@ -52,7 +52,9 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                       margin: EdgeInsets.symmetric(horizontal: 16),
                       decoration: BoxDecoration(color: Colors.white),
                     ),
-                    SmoothPageIndicator(controller: pageController, count: 4),
+                    Align(
+                        alignment: Alignment.center,
+                        child: SmoothPageIndicator(controller: pageController, count: 4)),
                     Row(
                       children: [
                         Text("Categories"),
