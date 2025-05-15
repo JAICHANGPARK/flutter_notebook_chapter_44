@@ -55,11 +55,22 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                     Align(
                         alignment: Alignment.center,
                         child: SmoothPageIndicator(controller: pageController, count: 4)),
-                    Row(
-                      children: [
-                        Text("Categories"),
-                        TextButton(onPressed: () {}, child: Text("See all")),
-                      ],
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
+                        children: [
+                          Text(
+                            "Categories",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          TextButton(onPressed: () {}, child: Text("See all")),
+                        ],
+                      ),
                     ),
                     Container(height: 100, child: Placeholder()),
                     Row(
