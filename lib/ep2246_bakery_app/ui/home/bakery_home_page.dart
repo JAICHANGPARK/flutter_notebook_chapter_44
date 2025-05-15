@@ -89,7 +89,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                           ),
                         ),
                         Container(
-                          height: 100,
+                          height: 92,
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
                             itemBuilder: (context, index) {
