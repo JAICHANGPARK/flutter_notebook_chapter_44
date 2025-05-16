@@ -93,6 +93,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                     color: Colors.white,
                                     borderRadius: BorderRadius.circular(8),
                                   ),
+                                  padding: EdgeInsets.symmetric(horizontal: 12),
                                   child: TextField(
                                     decoration: InputDecoration(
                                       hintText: "Search",
