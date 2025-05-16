@@ -27,6 +27,22 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                   decoration: BoxDecoration(
                     color: Color.fromRGBO(130, 73, 19, 1),
                   ),
+                  child: Column(
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(child: Column(children: [
+                            Text("Location"),
+                            Row(
+                              children: [
+                                
+                              ],
+                            )
+                          ],))
+                        ],
+                      )
+                    ],
+                  ),
                 ),
                 Expanded(
                   child: SingleChildScrollView(
