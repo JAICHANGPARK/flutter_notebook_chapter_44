@@ -29,7 +29,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                     borderRadius: BorderRadius.only(
                       bottomRight: Radius.circular(24),
                       bottomLeft: Radius.circular(24),
-                    )
+                    ),
                   ),
                   child: SafeArea(
                     child: Padding(
@@ -91,12 +91,13 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                 child: Container(
                                   decoration: BoxDecoration(
                                     color: Colors.white,
-                                    borderRadius: BorderRadius.circular(8)
+                                    borderRadius: BorderRadius.circular(8),
                                   ),
                                   child: TextField(
                                     decoration: InputDecoration(
                                       hintText: "Search",
-                                      icon: Icon(Icons.search)
+                                      icon: Icon(Icons.search),
+                                      border: InputBorder.none,
                                     ),
                                   ),
                                 ),
