@@ -93,7 +93,11 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                     color: Colors.white,
                                     borderRadius: BorderRadius.circular(8)
                                   ),
-                                  child: TextField(),
+                                  child: TextField(
+                                    decoration: InputDecoration(
+                                      hintText: "Search",
+                                    ),
+                                  ),
                                 ),
                               ),
                               Container(
