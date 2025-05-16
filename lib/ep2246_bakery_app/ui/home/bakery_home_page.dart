@@ -58,6 +58,12 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(12),
+
+                          ),
+                          child: Column(
+                            children: [
+
+                            ],
                           ),
                         ),
                         Align(
