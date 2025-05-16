@@ -16,6 +16,9 @@ class _BakeryCategoriesPageState extends State<BakeryCategoriesPage> {
       appBar: AppBar(centerTitle: true, title: Text("Categories")),
       body: Stack(
         children: [
+          Positioned(child: GridView.builder(
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2), itemBuilder: itemBuilder)),
           Positioned(
             bottom: 0,
             left: 0,
