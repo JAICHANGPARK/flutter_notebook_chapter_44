@@ -70,7 +70,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   mainAxisAlignment:
-                                      MainAxisAlignment.spaceAround,
+                                      MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text(
                                       "Up to 30% offer!",
@@ -79,10 +79,13 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                         fontSize: 24,
                                       ),
                                     ),
-                                    Text("Enjoy our big offer of\nevery day"),
+                                    Text("Enjoy our big offer of\nevery day",style: TextStyle(
+                                      fontSize: 16,
+                                    ),),
                                     Container(
                                       decoration: BoxDecoration(
                                         color: Color.fromRGBO(130, 73, 19, 1),
+                                        borderRadius: BorderRadius.circular(12),
                                       ),
                                       padding: EdgeInsets.symmetric(
                                         horizontal: 20,
