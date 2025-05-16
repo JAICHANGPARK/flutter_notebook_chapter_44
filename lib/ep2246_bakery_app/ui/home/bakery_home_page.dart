@@ -28,38 +28,41 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                     color: Color.fromRGBO(130, 73, 19, 1),
                   ),
                   child: SafeArea(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Row(
-                          children: [
-                            Expanded(
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text("Location"),
-                                  Row(
-                                    children: [
-                                      Icon(Icons.location_on_outlined),
-                                      Text("Nagoya, Japan"),
-                                      Icon(Icons.keyboard_arrow_down_outlined),
-                                    ],
-                                  ),
-                                ],
+                    child: Padding(
+                      padding: const EdgeInsets.all(24.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text("Location"),
+                                    Row(
+                                      children: [
+                                        Icon(Icons.location_on_outlined),
+                                        Text("Nagoya, Japan"),
+                                        Icon(Icons.keyboard_arrow_down_outlined),
+                                      ],
+                                    ),
+                                  ],
+                                ),
                               ),
-                            ),
-                            Container(
-                              decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.circular(6),
-                              ),
-                              child: Badge(
-                                child: Icon(Icons.notifications_none),
-                              ),
-                            )
-                          ],
-                        ),
-                      ],
+                              Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(6),
+                                ),
+                                child: Badge(
+                                  child: Icon(Icons.notifications_none),
+                                ),
+                              )
+                            ],
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ),
