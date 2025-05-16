@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/bakery_bottom_bar_widget.dart';
+
 class BakeryCategoriesPage extends StatefulWidget {
   const BakeryCategoriesPage({super.key});
 
