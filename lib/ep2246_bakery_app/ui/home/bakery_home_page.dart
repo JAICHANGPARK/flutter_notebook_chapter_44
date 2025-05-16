@@ -23,7 +23,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
               spacing: 12,
               children: [
                 Container(
-                  height: 240,
+                  height: 200,
                   decoration: BoxDecoration(
                     color: Color.fromRGBO(130, 73, 19, 1),
                   ),
@@ -78,6 +78,23 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                               ),
                             ],
                           ),
+                          Row(
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  child: TextField(),
+                                ),
+                              ),
+                              Container(
+                                padding: EdgeInsets.all(12),
+                                decoration: BoxDecoration(
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(6),
+                                ),
+                                child: Icon(Icons.tune)
+                              ),
+                            ],
+                          )
                         ],
                       ),
                     ),
