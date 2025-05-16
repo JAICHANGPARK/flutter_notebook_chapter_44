@@ -35,6 +35,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                           children: [
                             Expanded(
                               child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text("Location"),
                                   Row(
@@ -47,6 +48,12 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                 ],
                               ),
                             ),
+                            Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(6),
+                              ),
+                            )
                           ],
                         ),
                       ],
