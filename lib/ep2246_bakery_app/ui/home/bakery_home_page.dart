@@ -132,11 +132,12 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                         ),
                         Container(
                           height: 120,
+              
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
                             itemBuilder: (context, index) {
                               return Padding(
-                                padding: const EdgeInsets.all(8.0),
+                                padding: const EdgeInsets.only(right: 12),
                                 child: Column(
                                   spacing: 12,
                                   children: [
