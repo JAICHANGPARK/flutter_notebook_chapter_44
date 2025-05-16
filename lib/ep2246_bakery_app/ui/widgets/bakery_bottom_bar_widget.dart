@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 
 class BakeryBottomBarWidget extends StatelessWidget {
