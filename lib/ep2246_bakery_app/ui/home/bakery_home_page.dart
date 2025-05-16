@@ -53,6 +53,9 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                 color: Colors.white,
                                 borderRadius: BorderRadius.circular(6),
                               ),
+                              child: Badge(
+                                child: Icon(Icons.notifications_none),
+                              ),
                             )
                           ],
                         ),
