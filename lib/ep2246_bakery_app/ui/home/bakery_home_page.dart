@@ -61,18 +61,25 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(12),
                           ),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                          child: Stack(
+
                             children: [
-                              Text("Up to 30% offer!"),
-                              Text("Enjoy our big offer of\nevery day"),
-                              Container(
-                                decoration: BoxDecoration(
-                                  color: Color.fromRGBO(130, 73, 19, 1),
-                                ),
-                                child: Text(
-                                  "Shop Now",
-                                  style: TextStyle(color: Colors.white),
+                              Positioned.fill(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text("Up to 30% offer!"),
+                                    Text("Enjoy our big offer of\nevery day"),
+                                    Container(
+                                      decoration: BoxDecoration(
+                                        color: Color.fromRGBO(130, 73, 19, 1),
+                                      ),
+                                      child: Text(
+                                        "Shop Now",
+                                        style: TextStyle(color: Colors.white),
+                                      ),
+                                    ),
+                                  ],
                                 ),
                               ),
                             ],
