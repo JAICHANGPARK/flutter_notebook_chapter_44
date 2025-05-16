@@ -40,8 +40,13 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Text("Location"),
+                                    Text(
+                                      "Location",
+                                      style: TextStyle(color: Colors.white,
+                                      ),
+                                    ),
                                     Row(
+                                      spacing: 4,
                                       children: [
                                         Icon(
                                           Icons.location_on_outlined,
