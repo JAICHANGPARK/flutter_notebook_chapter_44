@@ -218,7 +218,12 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                               ),
                               TextButton(
                                 onPressed: () {
-                                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=>BakeryCategoriesPage()));
+                                  Navigator.of(context).push(
+                                    MaterialPageRoute(
+                                      builder:
+                                          (context) => BakeryCategoriesPage(),
+                                    ),
+                                  );
                                 },
                                 child: Text("See all"),
                               ),
