@@ -22,14 +22,24 @@ class _BakeryCategoriesPageState extends State<BakeryCategoriesPage> {
               child: GridView.builder(
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
-
                   crossAxisSpacing: 12,
-                  mainAxisSpacing: 12
+                  mainAxisSpacing: 12,
                 ),
                 itemBuilder: (context, index) {
                   return Column(
                     spacing: 6,
-                    children: [Expanded(child: Placeholder()), Text("Bread")],
+                    children: [
+                      Expanded(
+                        child: Image.network(
+                          "https://cdn.pixabay.com/photo/2024/01/27/10/24/bread-8535650_1280.jpg",
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                      Text(
+                        "Bread",
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                    ],
                   );
                 },
               ),
