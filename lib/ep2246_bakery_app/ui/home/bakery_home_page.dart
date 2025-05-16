@@ -37,7 +37,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                           Row(
                             children: [
                               Expanded(
-                                child: Column(
+                                child: Column(spacing: 5,
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
@@ -54,7 +54,8 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                         ),
                                         Text(
                                           "Nagoya, Japan",
-                                          style: TextStyle(color: Colors.white),
+                                          style: TextStyle(color: Colors.white,
+                                          fontSize: 16,),
                                         ),
                                         Icon(
                                           Icons.keyboard_arrow_down_outlined,
