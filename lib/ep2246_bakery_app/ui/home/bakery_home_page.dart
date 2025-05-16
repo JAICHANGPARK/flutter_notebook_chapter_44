@@ -76,12 +76,17 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                       "Up to 30% offer!",
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
+                                        fontSize: 24,
                                       ),
                                     ),
                                     Text("Enjoy our big offer of\nevery day"),
                                     Container(
                                       decoration: BoxDecoration(
                                         color: Color.fromRGBO(130, 73, 19, 1),
+                                      ),
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: 12,
+                                        vertical: 4,
                                       ),
                                       child: Text(
                                         "Shop Now",
