@@ -31,6 +31,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                     child: Padding(
                       padding: const EdgeInsets.all(24.0),
                       child: Column(
+                        spacing: 20,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Row(
