@@ -10,6 +10,8 @@ class BakeryCategoriesPage extends StatefulWidget {
 class _BakeryCategoriesPageState extends State<BakeryCategoriesPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(centerTitle: true, title: Text("Categories")),
+    );
   }
 }
