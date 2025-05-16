@@ -96,6 +96,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                   child: TextField(
                                     decoration: InputDecoration(
                                       hintText: "Search",
+                                      icon: Icon(Icons.search)
                                     ),
                                   ),
                                 ),
