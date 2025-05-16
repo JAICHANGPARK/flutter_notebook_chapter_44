@@ -44,14 +44,20 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                     Row(
                                       children: [
                                         Icon(Icons.location_on_outlined),
-                                        Text("Nagoya, Japan"),
-                                        Icon(Icons.keyboard_arrow_down_outlined),
+                                        Text(
+                                          "Nagoya, Japan",
+                                          style: TextStyle(color: Colors.white),
+                                        ),
+                                        Icon(
+                                          Icons.keyboard_arrow_down_outlined,
+                                        ),
                                       ],
                                     ),
                                   ],
                                 ),
                               ),
                               Container(
+                                padding: EdgeInsets.all(12),
                                 decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(6),
@@ -59,7 +65,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                 child: Badge(
                                   child: Icon(Icons.notifications_none),
                                 ),
-                              )
+                              ),
                             ],
                           ),
                         ],
