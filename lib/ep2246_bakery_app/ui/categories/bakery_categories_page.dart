@@ -18,7 +18,13 @@ class _BakeryCategoriesPageState extends State<BakeryCategoriesPage> {
         children: [
           Positioned(child: GridView.builder(
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2), itemBuilder: itemBuilder)),
+                  crossAxisCount: 2), itemBuilder: (context, index){
+                return Column(
+                  children: [
+
+                  ],
+                );
+          })),
           Positioned(
             bottom: 0,
             left: 0,
