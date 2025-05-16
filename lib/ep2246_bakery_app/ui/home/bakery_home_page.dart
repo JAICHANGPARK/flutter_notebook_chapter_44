@@ -37,13 +37,13 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                           Row(
                             children: [
                               Expanded(
-                                child: Column(spacing: 5,
+                                child: Column(
+                                  spacing: 5,
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
                                       "Location",
-                                      style: TextStyle(color: Colors.white,
-                                      ),
+                                      style: TextStyle(color: Colors.white),
                                     ),
                                     Row(
                                       spacing: 4,
@@ -54,8 +54,10 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                         ),
                                         Text(
                                           "Nagoya, Japan",
-                                          style: TextStyle(color: Colors.white,
-                                          fontSize: 16,),
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontSize: 16,
+                                          ),
                                         ),
                                         Icon(
                                           Icons.keyboard_arrow_down_outlined,
@@ -83,7 +85,10 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                             children: [
                               Expanded(
                                 child: Container(
-                                  decoration: BoxDecoration(),
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(8)
+                                  ),
                                   child: TextField(),
                                 ),
                               ),
@@ -93,10 +98,10 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(6),
                                 ),
-                                child: Icon(Icons.tune)
+                                child: Icon(Icons.tune),
                               ),
                             ],
-                          )
+                          ),
                         ],
                       ),
                     ),
