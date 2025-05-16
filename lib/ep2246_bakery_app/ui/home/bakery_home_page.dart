@@ -27,7 +27,8 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                   decoration: BoxDecoration(
                     color: Color.fromRGBO(130, 73, 19, 1),
                     borderRadius: BorderRadius.only(
-                      
+                      bottomRight: Radius.circular(24),
+                      bottomLeft: Radius.circular(24),
                     )
                   ),
                   child: SafeArea(
