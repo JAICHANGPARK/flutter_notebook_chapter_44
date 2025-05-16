@@ -23,6 +23,7 @@ class _BakeryCategoriesPageState extends State<BakeryCategoriesPage> {
               ),
               itemBuilder: (context, index) {
                 return Column(
+                  spacing: 6,
                   children: [Expanded(child: Placeholder()), Text("Bread")],
                 );
               },
