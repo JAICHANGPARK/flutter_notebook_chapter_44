@@ -23,9 +23,12 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
               spacing: 12,
               children: [
                 Container(
-                  height: 200,
+                  // height: 200,
                   decoration: BoxDecoration(
                     color: Color.fromRGBO(130, 73, 19, 1),
+                    borderRadius: BorderRadius.only(
+                      
+                    )
                   ),
                   child: SafeArea(
                     child: Padding(
