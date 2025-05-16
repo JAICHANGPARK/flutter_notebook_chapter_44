@@ -30,9 +30,12 @@ class _BakeryCategoriesPageState extends State<BakeryCategoriesPage> {
                     spacing: 6,
                     children: [
                       Expanded(
-                        child: Image.network(
-                          "https://cdn.pixabay.com/photo/2024/01/27/10/24/bread-8535650_1280.jpg",
-                          fit: BoxFit.cover,
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(12),
+                          child: Image.network(
+                            "https://cdn.pixabay.com/photo/2024/01/27/10/24/bread-8535650_1280.jpg",
+                            fit: BoxFit.cover,
+                          ),
                         ),
                       ),
                       Text(
