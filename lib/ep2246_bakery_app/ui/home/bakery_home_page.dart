@@ -63,6 +63,13 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
+                              Text("Up to 30% offer!"),
+                              Text("Enjoy our big offer of\nevery day"),
+                              Container(
+                                decoration: BoxDecoration(
+                                  color:
+                                ),
+                              )
 
                             ],
                           ),
