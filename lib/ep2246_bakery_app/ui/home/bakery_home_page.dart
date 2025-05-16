@@ -85,8 +85,8 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                         color: Color.fromRGBO(130, 73, 19, 1),
                                       ),
                                       padding: EdgeInsets.symmetric(
-                                        horizontal: 12,
-                                        vertical: 4,
+                                        horizontal: 20,
+                                        vertical: 8,
                                       ),
                                       child: Text(
                                         "Shop Now",
