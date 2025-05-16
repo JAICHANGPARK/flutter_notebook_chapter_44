@@ -62,7 +62,6 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: Stack(
-
                             children: [
                               Positioned.fill(
                                 left: 16,
@@ -70,8 +69,15 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                 bottom: 16,
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceAround,
                                   children: [
-                                    Text("Up to 30% offer!"),
+                                    Text(
+                                      "Up to 30% offer!",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
                                     Text("Enjoy our big offer of\nevery day"),
                                     Container(
                                       decoration: BoxDecoration(
