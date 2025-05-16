@@ -41,7 +41,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                               Text(
                                 "Special Offers",
                                 style: TextStyle(
-                                  fontSize: 18,
+                                  fontSize: 20,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
