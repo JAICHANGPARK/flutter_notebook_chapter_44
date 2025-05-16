@@ -79,9 +79,11 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                             ],
                           ),
                           Row(
+                            spacing: 12,
                             children: [
                               Expanded(
                                 child: Container(
+                                  decoration: BoxDecoration(),
                                   child: TextField(),
                                 ),
                               ),
