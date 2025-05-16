@@ -31,16 +31,22 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                     children: [
                       Row(
                         children: [
-                          Expanded(child: Column(children: [
-                            Text("Location"),
-                            Row(
+                          Expanded(
+                            child: Column(
                               children: [
-                                
+                                Text("Location"),
+                                Row(
+                                  children: [
+                                    Icon(Icons.location_on_outlined),
+                                    Text("Nagoya, Japan"),
+                                    Icon(Icons.keyboard_arrow_down_outlined),
+                                  ],
+                                ),
                               ],
-                            )
-                          ],))
+                            ),
+                          ),
                         ],
-                      )
+                      ),
                     ],
                   ),
                 ),
