@@ -79,9 +79,10 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                         fontSize: 24,
                                       ),
                                     ),
-                                    Text("Enjoy our big offer of\nevery day",style: TextStyle(
-                                      fontSize: 16,
-                                    ),),
+                                    Text(
+                                      "Enjoy our big offer of\nevery day",
+                                      style: TextStyle(fontSize: 16),
+                                    ),
                                     Container(
                                       decoration: BoxDecoration(
                                         color: Color.fromRGBO(130, 73, 19, 1),
@@ -132,9 +133,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                         ),
                         Container(
                           height: 120,
-              padding: EdgeInsets.only(
-                left: 16
-              ),
+                          padding: EdgeInsets.only(left: 16),
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
                             itemBuilder: (context, index) {
