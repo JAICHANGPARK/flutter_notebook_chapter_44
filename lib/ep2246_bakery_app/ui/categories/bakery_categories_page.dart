@@ -17,19 +17,22 @@ class _BakeryCategoriesPageState extends State<BakeryCategoriesPage> {
       body: Stack(
         children: [
           Positioned(
-            child: GridView.builder(
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 2,
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: GridView.builder(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
 
-                crossAxisSpacing: 12,
-                mainAxisSpacing: 12
+                  crossAxisSpacing: 12,
+                  mainAxisSpacing: 12
+                ),
+                itemBuilder: (context, index) {
+                  return Column(
+                    spacing: 6,
+                    children: [Expanded(child: Placeholder()), Text("Bread")],
+                  );
+                },
               ),
-              itemBuilder: (context, index) {
-                return Column(
-                  spacing: 6,
-                  children: [Expanded(child: Placeholder()), Text("Bread")],
-                );
-              },
             ),
           ),
           Positioned(
