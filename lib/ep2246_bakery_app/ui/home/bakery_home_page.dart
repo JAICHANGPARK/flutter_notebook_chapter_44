@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
+import '../categories/bakery_categories_page.dart';
+
 class BakeryHomePage extends StatefulWidget {
   const BakeryHomePage({super.key});
 
@@ -215,7 +217,9 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                 ),
                               ),
                               TextButton(
-                                onPressed: () {},
+                                onPressed: () {
+                                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=>BakeryCategoriesPage()));
+                                },
                                 child: Text("See all"),
                               ),
                             ],
