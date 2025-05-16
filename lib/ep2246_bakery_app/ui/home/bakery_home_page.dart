@@ -24,7 +24,9 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
               children: [
                 Container(
                   height: 240,
-                  decoration: BoxDecoration(color: Colors.brown),
+                  decoration: BoxDecoration(color:
+                  Color.fromRGBO(130, 73, 19, 1),
+                  ),
                 ),
                 Expanded(
                   child: SingleChildScrollView(
@@ -67,7 +69,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                               Text("Enjoy our big offer of\nevery day"),
                               Container(
                                 decoration: BoxDecoration(
-                                  color:
+                                    color:
                                 ),
                               )
 
