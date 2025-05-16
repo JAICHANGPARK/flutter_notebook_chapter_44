@@ -61,6 +61,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
 
                           ),
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
 
                             ],
