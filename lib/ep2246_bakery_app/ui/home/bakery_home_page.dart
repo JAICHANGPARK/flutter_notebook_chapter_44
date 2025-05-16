@@ -65,6 +65,9 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
 
                             children: [
                               Positioned.fill(
+                                left: 16,
+                                top: 16,
+                                bottom: 16,
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
