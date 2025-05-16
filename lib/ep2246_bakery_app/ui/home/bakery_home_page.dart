@@ -43,13 +43,17 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                     Text("Location"),
                                     Row(
                                       children: [
-                                        Icon(Icons.location_on_outlined),
+                                        Icon(
+                                          Icons.location_on_outlined,
+                                          color: Colors.white,
+                                        ),
                                         Text(
                                           "Nagoya, Japan",
                                           style: TextStyle(color: Colors.white),
                                         ),
                                         Icon(
                                           Icons.keyboard_arrow_down_outlined,
+                                          color: Colors.white,
                                         ),
                                       ],
                                     ),
