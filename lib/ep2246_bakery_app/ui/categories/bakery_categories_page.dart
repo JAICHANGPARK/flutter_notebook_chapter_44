@@ -14,7 +14,12 @@ class _BakeryCategoriesPageState extends State<BakeryCategoriesPage> {
       appBar: AppBar(centerTitle: true, title: Text("Categories")),
       body: Stack(
         children: [
-
+          Positioned(
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: BakeryBottomBarWidget(),
+          ),
         ],
       ),
     );
