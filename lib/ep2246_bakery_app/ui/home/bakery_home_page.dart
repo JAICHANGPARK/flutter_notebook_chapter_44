@@ -24,8 +24,8 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
               children: [
                 Container(
                   height: 240,
-                  decoration: BoxDecoration(color:
-                  Color.fromRGBO(130, 73, 19, 1),
+                  decoration: BoxDecoration(
+                    color: Color.fromRGBO(130, 73, 19, 1),
                   ),
                 ),
                 Expanded(
@@ -60,7 +60,6 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(12),
-
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -69,10 +68,9 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                               Text("Enjoy our big offer of\nevery day"),
                               Container(
                                 decoration: BoxDecoration(
-                                    color:
+                                  color: Color.fromRGBO(130, 73, 19, 1),
                                 ),
-                              )
-
+                              ),
                             ],
                           ),
                         ),
@@ -155,9 +153,7 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                             },
                           ),
                         ),
-                        Container(
-                          height: 200,
-                        )
+                        Container(height: 200),
                       ],
                     ),
                   ),
