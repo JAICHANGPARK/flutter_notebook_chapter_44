@@ -70,6 +70,10 @@ class _BakeryHomePageState extends State<BakeryHomePage> {
                                 decoration: BoxDecoration(
                                   color: Color.fromRGBO(130, 73, 19, 1),
                                 ),
+                                child: Text(
+                                  "Shop Now",
+                                  style: TextStyle(color: Colors.white),
+                                ),
                               ),
                             ],
                           ),
