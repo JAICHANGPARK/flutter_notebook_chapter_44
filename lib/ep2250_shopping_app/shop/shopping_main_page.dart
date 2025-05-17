@@ -19,13 +19,23 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
               top: 42,
               left: 24,
               right: 24,
+              bottom: 24
             ),
             decoration: BoxDecoration(color: Color.fromRGBO(244, 246, 248, 1)),
             child: Row(
               children: [
                 Expanded(child: Container(
-                  child: TextField(),
-                ))
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.white,
+                  ),
+                  child: TextField(
+
+                  ),
+                )),
+                CircleAvatar(
+                  backgroundColor: Colors.white,
+                ),
               ],
             ),
           ),
