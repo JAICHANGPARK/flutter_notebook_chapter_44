@@ -16,13 +16,14 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
         children: [
           Container(
             padding: EdgeInsets.only(
-              top: 42,
+              top: 72,
               left: 24,
               right: 24,
               bottom: 24
             ),
             decoration: BoxDecoration(color: Color.fromRGBO(244, 246, 248, 1)),
             child: Row(
+              spacing: 12,
               children: [
                 Expanded(child: Container(
                   decoration: ShapeDecoration(
@@ -34,6 +35,7 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                   ),
                 )),
                 CircleAvatar(
+                  radius: 24,
                   backgroundColor: Colors.white,
                 ),
               ],
