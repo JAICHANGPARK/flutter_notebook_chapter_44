@@ -45,7 +45,7 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
               child: Column(
                 children: [
                   Container(
-                    height: 160,
+                    height: 150,
                     margin: EdgeInsets.symmetric(horizontal: 16, vertical: 24),
                     child: Row(
                       spacing: 12,
@@ -83,7 +83,7 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                           ),
                         ),
                         Container(
-                          height: 210,
+                          height: 200,
                           child: Column(
                             spacing: 16,
                             children: [
@@ -115,11 +115,19 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                                 child: Row(
                                   children: List.generate(
                                     5,
-                                    (idx) => Expanded(
+                                        (idx) => Expanded(
                                       child: Column(
-                                        spacing: 12,
+                                        spacing: 8,
                                         children: [
-                                          Expanded(child: Placeholder()),
+                                          Expanded(
+                                            child: Stack(
+                                              children: [
+                                                CircleAvatar(
+                                                  radius: 32,
+                                                ),
+                                              ],
+                                            ),
+                                          ),
                                           Text("Title"),
                                         ],
                                       ),
