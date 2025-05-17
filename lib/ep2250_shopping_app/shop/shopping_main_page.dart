@@ -40,108 +40,130 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
               ],
             ),
           ),
-          Expanded(child: SingleChildScrollView(child: Column(children: [
-            Container(
-              height: 160,
-              margin: EdgeInsets.symmetric(horizontal: 16, vertical: 24),
-              child: Row(
-                spacing: 12,
-                children: [
-                  Expanded(
-                    child: Container(
-                      decoration: BoxDecoration(
-                        color: Color.fromRGBO(244, 246, 248, 1),
-                        borderRadius: BorderRadius.circular(16),
-                      ),
-                    ),
-                  ),
-                  Expanded(
-                    child: Container(
-                      decoration: BoxDecoration(
-                        color: Color.fromRGBO(244, 246, 248, 1),
-                        borderRadius: BorderRadius.circular(16),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(16.0),
+          Expanded(
+            child: SingleChildScrollView(
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                spacing: 12,
                 children: [
-                  Text(
-                    "Shop in XPay app",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
-                  ),
                   Container(
-                    height: 240,
-                    child: Column(
-                      spacing: 16,
+                    height: 160,
+                    margin: EdgeInsets.symmetric(horizontal: 16, vertical: 24),
+                    child: Row(
+                      spacing: 12,
                       children: [
                         Expanded(
-                          child: Row(
-                            children: List.generate(
-                              5,
-                                  (idx) => Expanded(
-                                child: Column(
-                                  spacing: 12,
-                                  children: [
-                                    Expanded(child: Placeholder()),
-                                    Text("Title"),
-                                  ],
-                                ),
-                              ),
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Color.fromRGBO(244, 246, 248, 1),
+                              borderRadius: BorderRadius.circular(16),
                             ),
                           ),
                         ),
                         Expanded(
-                          child: Row(
-                            children: List.generate(
-                              5,
-                                  (idx) => Expanded(
-                                child: Column(
-                                  spacing: 12,
-                                  children: [
-                                    Expanded(child: Placeholder()),
-                                    Text("Title"),
-                                  ],
-                                ),
-                              ),
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Color.fromRGBO(244, 246, 248, 1),
+                              borderRadius: BorderRadius.circular(16),
                             ),
                           ),
                         ),
                       ],
                     ),
                   ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: Row(
-                children: [
-                  Text(
-                    'Featured Brands',
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 12,
+                      children: [
+                        Text(
+                          "Shop in XPay app",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                          ),
+                        ),
+                        Container(
+                          height: 240,
+                          child: Column(
+                            spacing: 16,
+                            children: [
+                              Expanded(
+                                child: Row(
+                                  children: List.generate(
+                                    5,
+                                    (idx) => Expanded(
+                                      child: Column(
+                                        spacing: 12,
+                                        children: [
+                                          Expanded(child: Placeholder()),
+                                          Text("Title"),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Row(
+                                  children: List.generate(
+                                    5,
+                                    (idx) => Expanded(
+                                      child: Column(
+                                        spacing: 12,
+                                        children: [
+                                          Expanded(child: Placeholder()),
+                                          Text("Title"),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
-                  Spacer(),
-                  TextButton(onPressed: () {}, child: Text("See all")),
-                  Icon(Icons.chevron_right),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Row(
+                      children: [
+                        Text(
+                          'Featured Brands',
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        Spacer(),
+                        TextButton(onPressed: () {}, child: Text("See all")),
+                        Icon(Icons.chevron_right),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    height: 240,
+                    padding: EdgeInsets.only(left: 16, top: 12),
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Container(
+                          width: 180,
+                          margin: EdgeInsets.only(right: 12),
+                          decoration: BoxDecoration(
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                        );
+                      },
+
+                      scrollDirection: Axis.horizontal,
+                    ),
+                  ),
                 ],
               ),
             ),
-            Container(
-              height: 240,
-              padding: EdgeInsets.only(
-                left: 16
-              ),
-              child: Placeholder(),
-            )
-          ],),)),
-
+          ),
         ],
       ),
     );
