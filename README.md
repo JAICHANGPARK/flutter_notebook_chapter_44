@@ -2,8 +2,8 @@
 
 ## EP2250
 
-- Bakery Delicious Mobile App Design 🎂
-- UIX Maruf Hossen
+- BNPL Online Shopping App
+- Musemind Mobile for Musemind
 - https://dribbble.com/shots/26035539-BNPL-Online-Shopping-App
 
 <img src="https://cdn.dribbble.com/userupload/43286890/file/original-bce9e81086fd4e3daa97b1ddda2aef1e.png?resize=1905x1429&vertical=center">
