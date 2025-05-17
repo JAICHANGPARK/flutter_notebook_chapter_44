@@ -65,42 +65,58 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
               ],
             ),
           ),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            spacing: 12,
-            children: [
-              Text(
-                "Shop in XPay app",
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
-              ),
-              Container(
-                height: 240,
-                child: Column(
-                  spacing: 16,
-                  children: [
-                    Expanded(child: Row(
-                      children: List.generate(5, (idx)=> Expanded(
-                        child: Column(
-                          spacing: 12,
-                          children: [
-                          Expanded(child: Placeholder()),
-                          Text("Title")
-                        ],),
-                      ))
-                    )),
-                    Expanded(child: Row(
-                        children: List.generate(5, (idx)=> Expanded(
-                          child: Column(
-                            spacing: 12,children: [
-                            Expanded(child: Placeholder()),
-                            Text("Title")
-                          ],),
-                        ))
-                    )),
-                  ],
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              spacing: 12,
+              children: [
+                Text(
+                  "Shop in XPay app",
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                 ),
-              ),
-            ],
+                Container(
+                  height: 240,
+                  child: Column(
+                    spacing: 16,
+                    children: [
+                      Expanded(
+                        child: Row(
+                          children: List.generate(
+                            5,
+                            (idx) => Expanded(
+                              child: Column(
+                                spacing: 12,
+                                children: [
+                                  Expanded(child: Placeholder()),
+                                  Text("Title"),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                        child: Row(
+                          children: List.generate(
+                            5,
+                            (idx) => Expanded(
+                              child: Column(
+                                spacing: 12,
+                                children: [
+                                  Expanded(child: Placeholder()),
+                                  Text("Title"),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
           ),
         ],
       ),
