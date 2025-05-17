@@ -83,7 +83,7 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                           ),
                         ),
                         Container(
-                          height: 220,
+                          height: 210,
                           child: Column(
                             spacing: 16,
                             children: [
@@ -92,21 +92,20 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                                   children: List.generate(
                                     5,
                                     (idx) => Expanded(
-                                      child: Padding(
-                                        padding: const EdgeInsets.only(right: 12),
-                                        child: Column(
-                                          spacing: 8,
-                                          children: [
-                                            Expanded(child: Stack(
-                                              children: [Positioned.fill(
-                                                child: CircleAvatar(
+                                      child: Column(
+                                        spacing: 8,
+                                        children: [
+                                          Expanded(
+                                            child: Stack(
+                                              children: [
+                                                CircleAvatar(
                                                   radius: 32,
                                                 ),
-                                              )],
-                                            )),
-                                            Text("Title"),
-                                          ],
-                                        ),
+                                              ],
+                                            ),
+                                          ),
+                                          Text("Title"),
+                                        ],
                                       ),
                                     ),
                                   ),
