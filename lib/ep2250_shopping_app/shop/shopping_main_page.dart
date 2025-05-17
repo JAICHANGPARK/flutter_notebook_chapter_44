@@ -78,12 +78,21 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                 child: Column(
                   children: [
                     Expanded(child: Row(
-                      children: List.generate(5, (idx)=> Column(children: [
-                        Expanded(child: Placeholder()),
-                        Text("Title")
-                      ],))
+                      children: List.generate(5, (idx)=> Expanded(
+                        child: Column(children: [
+                          Expanded(child: Placeholder()),
+                          Text("Title")
+                        ],),
+                      ))
                     )),
-                    Expanded(child: Placeholder()),
+                    Expanded(child: Row(
+                        children: List.generate(5, (idx)=> Expanded(
+                          child: Column(children: [
+                            Expanded(child: Placeholder()),
+                            Text("Title")
+                          ],),
+                        ))
+                    )),
                   ],
                 ),
               ),
