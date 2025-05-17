@@ -15,6 +15,11 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
+            padding: EdgeInsets.only(
+              top: 42,
+              left: 24,
+              right: 24,
+            ),
             decoration: BoxDecoration(color: Color.fromRGBO(244, 246, 248, 1)),
             child: Row(
               children: [
