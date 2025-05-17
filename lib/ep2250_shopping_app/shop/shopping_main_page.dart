@@ -92,16 +92,21 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                                   children: List.generate(
                                     5,
                                     (idx) => Expanded(
-                                      child: Column(
-                                        spacing: 8,
-                                        children: [
-                                          Expanded(child: Stack(
-                                            children: [CircleAvatar(
-                                              radius: 32,
-                                            )],
-                                          )),
-                                          Text("Title"),
-                                        ],
+                                      child: Padding(
+                                        padding: const EdgeInsets.only(right: 12),
+                                        child: Column(
+                                          spacing: 8,
+                                          children: [
+                                            Expanded(child: Stack(
+                                              children: [Positioned.fill(
+                                                child: CircleAvatar(
+                                                  radius: 32,
+                                                ),
+                                              )],
+                                            )),
+                                            Text("Title"),
+                                          ],
+                                        ),
                                       ),
                                     ),
                                   ),
