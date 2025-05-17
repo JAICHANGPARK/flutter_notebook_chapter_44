@@ -14,7 +14,10 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
       backgroundColor: Colors.white,
       bottomNavigationBar: SizedBox(
         height: 80,
-        child: BottomNavigationBar(items: [
+
+        child: BottomNavigationBar(
+          type: BottomNavigationBarType.fixed,
+          items: [
           BottomNavigationBarItem(icon: Icon(Icons.shopping_bag_outlined),label: "Shop"),
           BottomNavigationBarItem(icon: Icon(Icons.receipt),label: "Payments"),
           BottomNavigationBarItem(icon: Icon(Icons.favorite_border),label: "Saved"),
