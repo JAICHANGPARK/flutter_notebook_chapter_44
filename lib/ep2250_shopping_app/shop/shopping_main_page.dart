@@ -41,8 +41,8 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
             ),
           ),
           Container(
-            height: 180,
-            margin: EdgeInsets.symmetric(horizontal: 16,vertical: 24),
+            height: 160,
+            margin: EdgeInsets.symmetric(horizontal: 16, vertical: 24),
             child: Row(
               spacing: 12,
               children: [
@@ -52,7 +52,6 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                       color: Color.fromRGBO(244, 246, 248, 1),
                       borderRadius: BorderRadius.circular(16),
                     ),
-
                   ),
                 ),
                 Expanded(
@@ -61,11 +60,20 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                       color: Color.fromRGBO(244, 246, 248, 1),
                       borderRadius: BorderRadius.circular(16),
                     ),
-
                   ),
                 ),
               ],
             ),
+          ),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            spacing: 12,
+            children: [
+              Text(
+                "Shop in XPay app",
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+            ],
           ),
         ],
       ),
