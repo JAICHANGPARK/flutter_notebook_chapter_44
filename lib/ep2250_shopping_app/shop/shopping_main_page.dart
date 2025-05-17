@@ -71,7 +71,16 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
             children: [
               Text(
                 "Shop in XPay app",
-                style: TextStyle(fontWeight: FontWeight.bold),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+              ),
+              Container(
+                height: 180,
+                child: Column(
+                  children: [
+                    Expanded(child: Placeholder()),
+                    Expanded(child: Placeholder()),
+                  ],
+                ),
               ),
             ],
           ),
