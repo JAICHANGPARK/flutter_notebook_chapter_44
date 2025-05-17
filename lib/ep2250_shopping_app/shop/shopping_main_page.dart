@@ -118,6 +118,17 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
               ],
             ),
           ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Row(
+              children: [
+                Text('Featured Brands'),
+                Spacer(),
+                TextButton(onPressed: (){}, child: Text("See all")),
+                Icon(Icons.chevron_right, )
+              ],
+            ),
+          )
         ],
       ),
     );
