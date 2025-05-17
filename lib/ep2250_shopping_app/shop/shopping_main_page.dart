@@ -83,7 +83,7 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                           ),
                         ),
                         Container(
-                          height: 240,
+                          height: 220,
                           child: Column(
                             spacing: 16,
                             children: [
@@ -93,9 +93,13 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                                     5,
                                     (idx) => Expanded(
                                       child: Column(
-                                        spacing: 12,
+                                        spacing: 8,
                                         children: [
-                                          Expanded(child: Placeholder()),
+                                          Expanded(child: Stack(
+                                            children: [CircleAvatar(
+                                              radius: 32,
+                                            )],
+                                          )),
                                           Text("Title"),
                                         ],
                                       ),
