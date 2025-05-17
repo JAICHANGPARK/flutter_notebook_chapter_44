@@ -16,7 +16,13 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
         children: [
           Container(
             decoration: BoxDecoration(color: Color.fromRGBO(244, 246, 248, 1)),
-            
+            child: Row(
+              children: [
+                Expanded(child: Container(
+                  child: TextField(),
+                ))
+              ],
+            ),
           ),
         ],
       ),
