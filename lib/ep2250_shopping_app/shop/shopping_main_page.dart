@@ -31,7 +31,9 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                     color: Colors.white,
                   ),
                   child: TextField(
-
+                    decoration: InputDecoration(
+                      border: InputBorder.none,
+                    ),
                   ),
                 )),
                 CircleAvatar(
