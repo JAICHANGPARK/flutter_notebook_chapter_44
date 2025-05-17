@@ -122,13 +122,16 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Row(
               children: [
-                Text('Featured Brands'),
+                Text(
+                  'Featured Brands',
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
                 Spacer(),
-                TextButton(onPressed: (){}, child: Text("See all")),
-                Icon(Icons.chevron_right, )
+                TextButton(onPressed: () {}, child: Text("See all")),
+                Icon(Icons.chevron_right),
               ],
             ),
-          )
+          ),
         ],
       ),
     );
