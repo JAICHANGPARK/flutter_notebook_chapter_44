@@ -40,6 +40,9 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
               ],
             ),
           ),
+          Expanded(child: SingleChildScrollView(child: Column(children: [
+
+          ],),)),
           Container(
             height: 160,
             margin: EdgeInsets.symmetric(horizontal: 16, vertical: 24),
@@ -132,6 +135,10 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
               ],
             ),
           ),
+          Container(
+            height: 240,
+            child: Placeholder(),
+          )
         ],
       ),
     );
