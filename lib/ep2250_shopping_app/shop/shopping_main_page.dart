@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class ShoppingMainPage extends StatefulWidget {
   const ShoppingMainPage({super.key});
 
@@ -11,6 +10,16 @@ class ShoppingMainPage extends StatefulWidget {
 class _ShoppingMainPageState extends State<ShoppingMainPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            decoration: BoxDecoration(color: Color.fromRGBO(244, 246, 248, 1)),
+            
+          ),
+        ],
+      ),
+    );
   }
 }
