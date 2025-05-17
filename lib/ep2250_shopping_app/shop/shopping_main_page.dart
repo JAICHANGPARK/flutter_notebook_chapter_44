@@ -26,6 +26,7 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                       shape: StadiumBorder(),
                       color: Colors.white,
                     ),
+                    padding: EdgeInsets.symmetric(horizontal: 12),
                     child: TextField(
                       decoration: InputDecoration(
                         border: InputBorder.none,
@@ -35,6 +36,33 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                   ),
                 ),
                 CircleAvatar(radius: 24, backgroundColor: Colors.white),
+              ],
+            ),
+          ),
+          Container(
+            height: 180,
+            margin: EdgeInsets.symmetric(horizontal: 16,vertical: 24),
+            child: Row(
+              spacing: 12,
+              children: [
+                Expanded(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Color.fromRGBO(244, 246, 248, 1),
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+
+                  ),
+                ),
+                Expanded(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Color.fromRGBO(244, 246, 248, 1),
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+
+                  ),
+                ),
               ],
             ),
           ),
