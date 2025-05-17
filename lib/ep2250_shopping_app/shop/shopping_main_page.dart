@@ -74,12 +74,15 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
               ),
               Container(
-                height: 200,
+                height: 240,
                 child: Column(
+                  spacing: 16,
                   children: [
                     Expanded(child: Row(
                       children: List.generate(5, (idx)=> Expanded(
-                        child: Column(children: [
+                        child: Column(
+                          spacing: 12,
+                          children: [
                           Expanded(child: Placeholder()),
                           Text("Title")
                         ],),
@@ -87,7 +90,8 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
                     )),
                     Expanded(child: Row(
                         children: List.generate(5, (idx)=> Expanded(
-                          child: Column(children: [
+                          child: Column(
+                            spacing: 12,children: [
                             Expanded(child: Placeholder()),
                             Text("Title")
                           ],),
