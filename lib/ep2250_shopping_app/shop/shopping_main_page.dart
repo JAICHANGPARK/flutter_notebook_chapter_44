@@ -15,31 +15,26 @@ class _ShoppingMainPageState extends State<ShoppingMainPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            padding: EdgeInsets.only(
-              top: 72,
-              left: 24,
-              right: 24,
-              bottom: 24
-            ),
+            padding: EdgeInsets.only(top: 72, left: 24, right: 24, bottom: 24),
             decoration: BoxDecoration(color: Color.fromRGBO(244, 246, 248, 1)),
             child: Row(
               spacing: 12,
               children: [
-                Expanded(child: Container(
-                  decoration: ShapeDecoration(
-                    shape: StadiumBorder(),
-                    color: Colors.white,
-                  ),
-                  child: TextField(
-                    decoration: InputDecoration(
-                      border: InputBorder.none,
+                Expanded(
+                  child: Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.white,
+                    ),
+                    child: TextField(
+                      decoration: InputDecoration(
+                        border: InputBorder.none,
+                        hintText: "Search for brands or products",
+                      ),
                     ),
                   ),
-                )),
-                CircleAvatar(
-                  radius: 24,
-                  backgroundColor: Colors.white,
                 ),
+                CircleAvatar(radius: 24, backgroundColor: Colors.white),
               ],
             ),
           ),
