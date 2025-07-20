@@ -8,7 +8,6 @@
 
 <img src="https://cdn.dribbble.com/userupload/43349022/file/original-afb145b72eeb13db20d151602191c9ad.png?resize=1905x1489&vertical=center">
 
-
 ## EP2246-2249
 
 - Bakery Delicious Mobile App Design 🎂
