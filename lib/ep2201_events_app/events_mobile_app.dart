@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'ui/events_app_home_page.dart';
 
 class EventsMobileApp extends StatelessWidget {
